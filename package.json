@@ -1,0 +1,41 @@
+{
+  "name": "persian-videos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Persian motion-graphics videos made with Claude Code in the cloud, from a phone (NFP-Alvana kit, phone edition)",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render",
+    "lint": "tsc --noEmit",
+    "setup": "bash scripts/cloud-setup.sh",
+    "doctor": "node tools/cloud-doctor.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.528",
+    "@remotion/noise": "4.0.528",
+    "@remotion/paths": "4.0.528",
+    "@react-three/fiber": "9.8.1",
+    "@remotion/tailwind-v4": "4.0.528",
+    "@remotion/three": "4.0.528",
+    "d3-geo": "^3.1.1",
+    "postprocessing": "6.39.5",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.528",
+    "tailwindcss": "4.0.0",
+    "three": "0.186.1",
+    "topojson-client": "^3.1.0",
+    "undici": "^6.21.0"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.1",
+    "@types/react": "19.2.7",
+    "@types/three": "^0.186.0",
+    "@types/topojson-client": "^3.1.5",
+    "@types/web": "0.0.166",
+    "typescript": "5.9.3"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

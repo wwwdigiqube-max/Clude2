@@ -1,0 +1,128 @@
+[
+ {
+  "id": "holo_on",
+  "text": "a sci-fi hologram materialising, a soft rising digital shimmer with a crisp electric sparkle",
+  "dur": 0.9,
+  "infl": 0.5
+ },
+ {
+  "id": "beep",
+  "text": "a short clean futuristic interface beep",
+  "dur": 0.5,
+  "infl": 0.7
+ },
+ {
+  "id": "blips",
+  "text": "a quick sequence of soft digital data blips",
+  "dur": 0.8,
+  "infl": 0.6
+ },
+ {
+  "id": "glitch",
+  "text": "a short digital glitch burst, electronic stutter",
+  "dur": 0.5,
+  "infl": 0.6
+ },
+ {
+  "id": "toggle",
+  "text": "a solid futuristic toggle switch click with a small power hum",
+  "dur": 0.6,
+  "infl": 0.6
+ },
+ {
+  "id": "ping",
+  "text": "a radar sonar ping, clean and resonant",
+  "dur": 1,
+  "infl": 0.6
+ },
+ {
+  "id": "counter",
+  "text": "a fast digital number counter ticking up",
+  "dur": 1,
+  "infl": 0.6
+ },
+ {
+  "id": "scan",
+  "text": "a sci-fi scanning sweep sound, smooth",
+  "dur": 0.8,
+  "infl": 0.5
+ },
+ {
+  "id": "boom",
+  "text": "a deep cinematic sub boom impact",
+  "dur": 1.2,
+  "infl": 0.6
+ },
+ {
+  "id": "tick",
+  "text": "a crisp mechanical clock tick",
+  "dur": 0.5,
+  "infl": 0.7
+ },
+ {
+  "id": "alert",
+  "text": "a soft warning alert tone, two notes",
+  "dur": 0.7,
+  "infl": 0.6
+ },
+ {
+  "id": "whoosh",
+  "text": "a fast clean cinematic whoosh swipe, airy, short",
+  "dur": 0.6,
+  "infl": 0.6
+ },
+ {
+  "id": "impact",
+  "text": "a punchy cinematic impact hit with a short deep sub drop, tight and clean",
+  "dur": 0.9,
+  "infl": 0.6
+ },
+ {
+  "id": "rewind",
+  "text": "a VHS tape rewinding fast, warbling squeaky reverse whirr",
+  "dur": 1.6,
+  "infl": 0.6
+ },
+ {
+  "id": "launch",
+  "text": "a rocket launch rumble rising quickly, distant and powerful",
+  "dur": 1.8,
+  "infl": 0.5
+ },
+ {
+  "id": "lock",
+  "text": "a sci-fi target lock-on: fast rising beeps ending in a bright confirm tone",
+  "dur": 0.9,
+  "infl": 0.6
+ },
+ {
+  "id": "thud",
+  "text": "a heavy mechanical counter landing with a deep wooden thud",
+  "dur": 0.6,
+  "infl": 0.6
+ },
+ {
+  "id": "warp",
+  "text": "a deep sci-fi gravity warp, a low bending wobble that sinks",
+  "dur": 1.3,
+  "infl": 0.5
+ },
+ {
+  "id": "error",
+  "text": "a short low digital error buzz, two pulses",
+  "dur": 0.6,
+  "infl": 0.6
+ },
+ {
+  "id": "drop",
+  "text": "a whoosh falling down in pitch ending in a soft low thump",
+  "dur": 0.8,
+  "infl": 0.5
+ },
+ {
+  "id": "flyby",
+  "text": "a fast futuristic fly-by swoosh with doppler, smooth",
+  "dur": 1.2,
+  "infl": 0.5
+ }
+]

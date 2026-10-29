@@ -1,0 +1,164 @@
+[
+ {
+  "id": "drop_plop",
+  "text": "a single heavy water drop falling into a still dark lake, deep resonant plop with a short crisp splash, cinematic, close mic",
+  "dur": 1.4,
+  "infl": 0.6
+ },
+ {
+  "id": "rise_water",
+  "text": "a person slowly rising out of calm water, water streaming off the shoulders, gentle trickling splash",
+  "dur": 1.6,
+  "infl": 0.5
+ },
+ {
+  "id": "drips",
+  "text": "a few small droplets falling into a quiet pond, delicate plinks",
+  "dur": 1.2,
+  "infl": 0.5
+ },
+ {
+  "id": "plunge",
+  "text": "camera plunging underwater, a muffled bubbly whoosh fading into deep silence",
+  "dur": 1.2,
+  "infl": 0.5
+ },
+ {
+  "id": "key_stomp",
+  "text": "one heavy laptop key pressed hard, a crisp plastic click with a tiny thud",
+  "dur": 0.5,
+  "infl": 0.6
+ },
+ {
+  "id": "screen_on",
+  "text": "a laptop screen waking up, a soft electronic swell and a short bright chime",
+  "dur": 1.2,
+  "infl": 0.5
+ },
+ {
+  "id": "card_out",
+  "text": "a sleek glass user interface card flying out of a screen toward the camera, airy digital whoosh ending in a soft pop",
+  "dur": 0.8,
+  "infl": 0.5
+ },
+ {
+  "id": "typing",
+  "text": "fast light typing on a laptop keyboard, about fifteen quick keystrokes",
+  "dur": 1,
+  "infl": 0.6
+ },
+ {
+  "id": "send",
+  "text": "a modern chat app send button, a clean click with a short upward swoosh",
+  "dur": 0.6,
+  "infl": 0.6
+ },
+ {
+  "id": "photos_fly",
+  "text": "several photographs flicked through the air and pinned to a wall one after another, quick paper flutters and small thumbtack taps",
+  "dur": 1.4,
+  "infl": 0.5
+ },
+ {
+  "id": "tiny_run",
+  "text": "tiny cartoon footsteps running fast on a wooden floor, light and quick",
+  "dur": 0.9,
+  "infl": 0.5
+ },
+ {
+  "id": "flop",
+  "text": "a small body flopping onto a soft sofa cushion, a soft muffled thump",
+  "dur": 0.6,
+  "infl": 0.6
+ },
+ {
+  "id": "crumple",
+  "text": "a sheet of paper crumpled quickly into a ball",
+  "dur": 0.7,
+  "infl": 0.6
+ },
+ {
+  "id": "bin_toss",
+  "text": "a paper ball tossed into a metal wastebasket, a quick swish and a soft metallic clank",
+  "dur": 0.8,
+  "infl": 0.6
+ },
+ {
+  "id": "odometer",
+  "text": "a mechanical odometer counter rolling its digits fast, rapid fine clicking",
+  "dur": 1.4,
+  "infl": 0.5
+ },
+ {
+  "id": "bulbs_on",
+  "text": "a rapid cascade of big theatre light bulbs switching on one after another, many relay clacks in quick succession and a warm electrical hum swelling",
+  "dur": 1.6,
+  "infl": 0.5
+ },
+ {
+  "id": "flash_out",
+  "text": "a bright cinematic flash, a rising airy swell that bursts into a white-out",
+  "dur": 0.7,
+  "infl": 0.5
+ },
+ {
+  "id": "rewind",
+  "text": "a VHS tape rewinding fast, high mechanical whir with tape chatter, then a clunk stop",
+  "dur": 1.4,
+  "infl": 0.5
+ },
+ {
+  "id": "pen_draw",
+  "text": "a technical pen drawing fast on paper, quick scratchy strokes",
+  "dur": 1.5,
+  "infl": 0.5
+ },
+ {
+  "id": "ruler",
+  "text": "a steel ruler sliding across a sheet of paper and stopping",
+  "dur": 0.6,
+  "infl": 0.6
+ },
+ {
+  "id": "paper_swap",
+  "text": "a sheet of paper swapped quickly on a desk, one sharp paper swish",
+  "dur": 0.5,
+  "infl": 0.6
+ },
+ {
+  "id": "stamp",
+  "text": "a heavy rubber stamp slammed onto paper on a wooden desk, a deep solid thump",
+  "dur": 0.6,
+  "infl": 0.7
+ },
+ {
+  "id": "burn",
+  "text": "a sheet of paper catching fire and burning up fast, crackling whoosh",
+  "dur": 0.9,
+  "infl": 0.5
+ },
+ {
+  "id": "zoom_out",
+  "text": "a deep smooth whoosh pulling far away, cinematic zoom out",
+  "dur": 0.9,
+  "infl": 0.5
+ },
+ {
+  "id": "implode",
+  "text": "glowing digital energy imploding into a single point, a reverse whoosh ending in a tiny bright ping",
+  "dur": 0.9,
+  "infl": 0.5
+ },
+ {
+  "id": "loupe",
+  "text": "a glass magnifying loupe set down on paper, a small soft glassy tap",
+  "dur": 0.5,
+  "infl": 0.6
+ },
+ {
+  "id": "film_cut",
+  "text": "a fast film splice cut, a short punchy whoosh with a click",
+  "dur": 0.5,
+  "infl": 0.6
+ }
+]

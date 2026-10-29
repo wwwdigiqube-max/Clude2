@@ -1,0 +1,6 @@
+[
+  { "id": "m1", "text": "instrumental cinematic suspense underscore music: warm fingerpicked acoustic guitar melody over a low cello drone and a soft ticking pulse, americana farm at golden hour, calm but uneasy, 88 BPM, no vocals", "dur": 26, "infl": 0.45 },
+  { "id": "m2", "text": "instrumental tense cinematic underscore music: light pizzicato strings and guitar plucks over a low cello ostinato, steady pulse, building into a rising string crescendo, suspense, 88 BPM, no vocals", "dur": 19, "infl": 0.45 },
+  { "id": "m3", "text": "instrumental warm determined cinematic underscore music: acoustic guitar and cello with a steady soft rhythm, cautious hope at sunset, americana, 88 BPM, no vocals", "dur": 14, "infl": 0.45 },
+  { "id": "m4", "text": "instrumental dark eerie suspense underscore music: sparse soft piano notes over a deep low drone, slow, quiet, unresolved tension, horror mystery, no vocals", "dur": 14, "infl": 0.45 }
+]

@@ -1,0 +1,65 @@
+{
+  "vo": "public/v02/vo_pan.wav",
+  "voJson": "src/v02/vo.json",
+  "length": 34.42,
+  "music": [
+    ["public/v02/music.mp3", "0", 0.05, "E:11+0.08", 0.04]
+  ],
+  "musicKeys": [
+    [0, 0.14], ["S:4-0.05", 0.14], ["S:6-0.3", 0.14], ["S:6", 0.075], ["S:9-0.45", 0.075], ["S:9-0.38", 0.2],
+    ["S:10", 0.175], ["W:10:هوم-0.35", 0.11], ["S:11-1.1", 0.14], ["E:11", 0.23], ["E:11+0.08", 0.23]
+  ],
+  "sfx": [
+    ["public/v02/sfx/pushin.wav", 0.24, 0.5, 0.068],
+    ["public/v02/sfx/flick.wav", "W:1:الو-0.03", 0.45, 0.086],
+    ["public/v02/sfx/maskpop.wav", "W:1:الو-0.04", 0.4, 0.026],
+    ["public/v02/sfx/flick.wav", "W:1:الو+0.14", 0.22, 0.086],
+    ["public/v02/sfx/flick.wav", "W:1:الو+0.37", 0.16, 0.086],
+    ["public/v02/sfx/maskpop.wav", "W:2:خوابش", 0.18, 0.026],
+    ["public/v02/sfx/neckcreak.wav", "S:3-0.3", 0.6, 0.279],
+    ["public/v02/sfx/eyeglow.wav", "S:3+0.25", 0.45, 0.492],
+
+    ["public/v02/sfx/blink.wav", "S:4-0.01", 0.3, 0.166],
+    ["public/v02/sfx/tick.wav", 9.0, 0.45, 0],
+    ["public/v02/sfx/tick.wav", 10.0, 0.4, 0],
+    ["public/v02/sfx/tick.wav", 11.0, 0.4, 0],
+    ["public/v02/sfx/tick.wav", 12.0, 0.4, 0],
+    ["public/v02/sfx/tick.wav", 13.0, 0.4, 0],
+    ["public/v02/sfx/clockspin.wav", "W:5:کدومش+0.7", 0.5, 0.722],
+    ["public/v02/sfx/flick.wav", "W:5:کدومش+0.04", 0.25, 0.086],
+    ["public/v02/sfx/spot.wav", "W:5:بُردن-0.02", 0.55, 0.051],
+    ["public/v02/sfx/tick.wav", "W:5:بُردن", 0.3, 0],
+    ["public/v02/sfx/spot.wav", "W:5:نباختن-0.02", 0.55, 0.051],
+    ["public/v02/sfx/maskpop.wav", "W:6:بُردن-0.03", 0.35, 0.026],
+    ["public/v02/sfx/eyeglow.wav", "W:8:فرقی+0.4", 0.4, 0.492],
+    ["public/v02/sfx/breath.wav", "S:9-0.65", 0.4, 0.211],
+
+    ["public/v02/sfx/reveal.wav", "S:9-0.38", 0.9, 2.373],
+    ["public/v02/sfx/cards.wav", "S:9+0.15", 0.4, 0.517],
+    ["public/v02/sfx/cards.wav", "W:9:قانوناش+0.49", 0.6, 0.517],
+    ["public/v02/sfx/flip.wav", "W:9:عوض+0.29", 0.8, 0.363],
+    ["public/v02/sfx/maskpop.wav", 26.21, 0.2, 0.026],
+    ["public/v02/sfx/maskpop.wav", 26.36, 0.2, 0.026],
+    ["public/v02/sfx/maskpop.wav", 26.51, 0.2, 0.026],
+    ["public/v02/sfx/cards.wav", "W:10:قانون‌ها+0.48", 0.35, 0.517],
+    ["public/v02/sfx/shadowhand.wav", "W:10:یکی", 0.7, 0.196],
+    ["public/v02/sfx/maskpop.wav", "W:10:دیگه-0.02", 0.45, 0.026],
+    ["public/v02/sfx/cardscratch.wav", "W:10:می‌نویسه+0.5", 0.55, 0.506],
+    ["public/v02/sfx/blink.wav", "W:10:هوم-0.02", 0.5, 0.166],
+    ["public/v02/sfx/eyeglow.wav", "W:11:حالا+0.45", 0.3, 0.492],
+    ["public/v02/sfx/pushin.wav", "W:11:قصه+0.07", 0.3, 0.068],
+    ["public/v02/sfx/flicker.wav", "W:11:قصه+0.38", 0.5, 0.364],
+    ["public/v02/sfx/interference.wav", "E:11-0.14", 0.55, 0.397],
+    ["public/v02/sfx/static.wav", "E:11+0.67", 0.85, 0.591],
+    ["public/v02/sfx/crtoff.wav", "E:11+0.545", 0.6, 0.003]
+  ],
+  "beds": [
+    ["public/v02/sfx/room.wav", 0, "S:6-0.06", 0.5],
+    ["public/v02/sfx/sand.wav", "S:9-0.38", "W:10:هوم-0.3", 0.35],
+    ["public/v02/sfx/scratch.wav", "S:11-1.1", "E:11+0.08", 0.55]
+  ],
+  "musicBase": 0.5,
+  "musicLift": 0.0,
+  "sfxGain": 0.4,
+  "voGain": 1.0
+}

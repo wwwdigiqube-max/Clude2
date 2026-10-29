@@ -1,0 +1,15 @@
+{
+  "positive_global_styles": [
+    "dark surreal horror underscore", "electronic theremin lead instrument with slow glissando (an instrument, not a voice)", "bowed musical saw",
+    "deep sub-bass drone", "vintage 1930s horror film soundtrack", "minimal and unsettling", "slow 60 BPM", "instrumental only"
+  ],
+  "negative_global_styles": ["vocals", "singing", "humming", "vocal ooh", "choir", "lyrics", "EDM", "drum kit", "trap", "happy", "pop", "rock guitar", "fade out"],
+  "sections": [
+    { "section_name": "Masks in the dark", "positive_local_styles": ["theremin melody enters immediately with slow pitch bends", "deep sub drone", "sparse", "minor key", "eerie"], "negative_local_styles": ["silence", "fade in", "percussion", "voice"], "duration_ms": 8700, "lines": [] },
+    { "section_name": "The table and the clock", "positive_local_styles": ["low bowed strings join", "soft ticking clock pulse, one tick per second", "growing tension", "theremin continues"], "negative_local_styles": ["drums", "release", "voice"], "duration_ms": 7900, "lines": [] },
+    { "section_name": "Win or not lose", "positive_local_styles": ["music thins to a single held dissonant low string note and the drone", "suspended breath", "very quiet"], "negative_local_styles": ["melody", "percussion", "voice"], "duration_ms": 4100, "lines": [] },
+    { "section_name": "The hourglass reveal", "positive_local_styles": ["huge deep cinematic boom on the first beat", "swelling dark low strings and the theremin lead return", "slow menacing waltz feel", "the biggest moment"], "negative_local_styles": ["happy", "fast drums", "voice"], "duration_ms": 9000, "lines": [] },
+    { "section_name": "Let me tell you a story", "positive_local_styles": ["a detuned music box plays a slow creepy motif over the drone", "rising tension", "full intensity, no fade"], "negative_local_styles": ["final cadence", "fade out", "resolution", "voice"], "duration_ms": 4700, "lines": [] },
+    { "section_name": "Still rising", "positive_local_styles": ["the same music box and drone keep rising, unresolved", "full intensity"], "negative_local_styles": ["fade out", "ending", "silence"], "duration_ms": 3600, "lines": [] }
+  ]
+}

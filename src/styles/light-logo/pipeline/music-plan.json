@@ -1,0 +1,115 @@
+{
+  "positive_global_styles": [
+    "epic hybrid trailer electronic music",
+    "128 BPM steady tempo",
+    "very high energy",
+    "aggressive punchy drums",
+    "huge cinematic impacts and booms",
+    "distorted heavy sub bass",
+    "dark futuristic synths",
+    "artificial intelligence technology theme",
+    "polished modern film trailer mix"
+  ],
+  "negative_global_styles": [
+    "vocals",
+    "singing",
+    "lyrics",
+    "choir",
+    "lo-fi",
+    "acoustic guitar",
+    "piano ballad",
+    "cheesy",
+    "comedic",
+    "jazz",
+    "slow tempo",
+    "soft"
+  ],
+  "sections": [
+    {
+      "section_name": "Ignition",
+      "positive_local_styles": [
+        "dark pulsing sub",
+        "fast rising riser",
+        "reverse cymbal swell",
+        "ticking tension",
+        "ends with a huge whoosh into the drop"
+      ],
+      "negative_local_styles": [
+        "drums",
+        "melody",
+        "silence"
+      ],
+      "duration_ms": 3750,
+      "lines": []
+    },
+    {
+      "section_name": "Drop",
+      "positive_local_styles": [
+        "massive drop on the first beat with a huge boom",
+        "hard four on the floor kick",
+        "fast sixteenth hi-hats",
+        "distorted growling bass",
+        "aggressive synth stabs",
+        "driving and relentless",
+        "rising synth arpeggio in the last bar",
+        "ends with a giant cinematic impact hit"
+      ],
+      "negative_local_styles": [
+        "calm",
+        "sparse",
+        "ambient"
+      ],
+      "duration_ms": 5625,
+      "lines": []
+    },
+    {
+      "section_name": "Core breath",
+      "positive_local_styles": [
+        "half time",
+        "deep boom tail",
+        "glassy futuristic pad",
+        "heartbeat sub pulse",
+        "suspense"
+      ],
+      "negative_local_styles": [
+        "full drums",
+        "hi-hats"
+      ],
+      "duration_ms": 3750,
+      "lines": []
+    },
+    {
+      "section_name": "Build",
+      "positive_local_styles": [
+        "accelerating snare roll",
+        "rising riser",
+        "glitch stutters",
+        "tension peaking",
+        "short silence right before the end"
+      ],
+      "negative_local_styles": [
+        "drop",
+        "calm"
+      ],
+      "duration_ms": 3750,
+      "lines": []
+    },
+    {
+      "section_name": "Final hit",
+      "positive_local_styles": [
+        "biggest impact of the track on the first beat",
+        "massive boom with distorted brass stab",
+        "sub drop",
+        "epic and triumphant",
+        "then a long cinematic reverb tail ringing out",
+        "low rumble fading"
+      ],
+      "negative_local_styles": [
+        "drums groove",
+        "new melody"
+      ],
+      "duration_ms": 5625,
+      "lines": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "vo": "public/my-doc/vo.wav",
+  "voJson": "src/my-doc/vo.json",
+  "music": [["public/my-doc/m1.wav", 0, 1.5, "S:4+2", 3], ["public/my-doc/m2.wav", "S:4-1.5", 3, "end", 3]],
+  "sfx": [
+    ["public/my-doc/sfx/shimmer.wav", "W:3:پر", 0.35, 0.4],
+    ["public/my-doc/sfx/swell.wav", "W:3:خورشید", 0.5, 1.0],
+    ["public/my-doc/sfx/whoosh.wav", "S:5-0.3", 0.3, 0.35],
+    ["public/my-doc/sfx/bloom.wav", "W:5:شروع", 0.5, 0.6]
+  ],
+  "beds": [["public/my-doc/sfx/night-city.wav", "S:1", "E:4", 0.3]],
+  "musicBase": 0.12, "musicLift": 0.15, "sfxGain": 0.4, "voGain": 1.0
+}

@@ -1,0 +1,98 @@
+{
+  "positive_global_styles": [
+    "modern premium tech commercial music",
+    "120 BPM steady tempo",
+    "punchy crisp drums",
+    "deep clean sub bass",
+    "glossy modern synths",
+    "inspiring creator-economy promo",
+    "polished cinematic sound design"
+  ],
+  "negative_global_styles": ["vocals", "singing", "lyrics", "choir", "lo-fi", "acoustic guitar", "country", "dubstep wobble", "cheesy", "comedic"],
+  "sections": [
+    {
+      "section_name": "Feed hook",
+      "positive_local_styles": ["immediate start with energy on the first beat", "tight rhythmic synth pulse", "fast hi-hats", "short heavy impact hit at 3.2 seconds", "scrolling, restless, curious"],
+      "negative_local_styles": ["slow fade in", "silence at start", "ambient"],
+      "duration_ms": 7550,
+      "lines": []
+    },
+    {
+      "section_name": "Social proof groove",
+      "positive_local_styles": ["confident bouncy groove", "plucky synth hook", "warm bass", "light claps", "upbeat and modern", "leaves room for a voice-over"],
+      "negative_local_styles": ["huge drop", "dense", "aggressive"],
+      "duration_ms": 14100,
+      "lines": []
+    },
+    {
+      "section_name": "Tools maze",
+      "positive_local_styles": ["playful tension", "ticking percussion", "pizzicato-like synth plucks", "slightly chaotic then focused", "filter slowly opening"],
+      "negative_local_styles": ["big drums", "drop"],
+      "duration_ms": 9850,
+      "lines": []
+    },
+    {
+      "section_name": "30 days build",
+      "positive_local_styles": ["building riser", "snare roll building", "rising synth sweep", "growing intensity", "ends with a short hard stop into a half second of silence"],
+      "negative_local_styles": ["drop", "calm"],
+      "duration_ms": 5800,
+      "lines": []
+    },
+    {
+      "section_name": "Cinematic showcase drop",
+      "positive_local_styles": ["huge cinematic drop on the first beat", "epic hybrid trailer drums", "deep booms", "wide dark synth brass", "premium film trailer energy", "driving"],
+      "negative_local_styles": ["cute", "light", "sparse"],
+      "duration_ms": 12200,
+      "lines": []
+    },
+    {
+      "section_name": "Gift reveal",
+      "positive_local_styles": ["bright sparkling and joyful", "music box like bell arpeggio over a soft beat", "magical reveal", "airy", "light kick"],
+      "negative_local_styles": ["dark", "aggressive", "heavy"],
+      "duration_ms": 13500,
+      "lines": []
+    },
+    {
+      "section_name": "Demo tech groove",
+      "positive_local_styles": ["clean techy groove", "digital blips", "minimal house beat", "smart and focused", "steady and hypnotic", "leaves room for a voice-over"],
+      "negative_local_styles": ["epic", "huge drums", "dense"],
+      "duration_ms": 16300,
+      "lines": []
+    },
+    {
+      "section_name": "Automation loop",
+      "positive_local_styles": ["driving looping arpeggio", "machine-like rhythmic sequence", "building forward motion", "subtle risers"],
+      "negative_local_styles": ["calm", "sparse"],
+      "duration_ms": 8900,
+      "lines": []
+    },
+    {
+      "section_name": "Styles wall peak",
+      "positive_local_styles": ["energetic peak", "full punchy beat", "bright lead synth hook", "exciting and confident", "big but not cluttered"],
+      "negative_local_styles": ["slow", "ambient"],
+      "duration_ms": 10300,
+      "lines": []
+    },
+    {
+      "section_name": "Payoff lift",
+      "positive_local_styles": ["half-time lift", "wide warm pads", "anthemic chords", "sense of achievement", "drums lighter"],
+      "negative_local_styles": ["busy", "aggressive"],
+      "duration_ms": 5700,
+      "lines": []
+    },
+    {
+      "section_name": "Call to action",
+      "positive_local_styles": ["warm inviting groove", "soft steady beat", "hopeful chords", "clock-like ticking percussion near the end", "builds slightly towards the end"],
+      "negative_local_styles": ["epic", "aggressive", "abrupt"],
+      "duration_ms": 8100,
+      "lines": []
+    },
+    {
+      "section_name": "Logo sting",
+      "positive_local_styles": ["one big clean impact hit at the very start", "shimmering sustained resolve", "elegant premium logo sting", "long reverb tail"],
+      "negative_local_styles": ["drum groove", "abrupt ending"],
+      "duration_ms": 3700,
+      "lines": []
+    }
+  ]
+}

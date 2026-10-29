@@ -1,0 +1,63 @@
+{
+  "positive_global_styles": [
+    "cinematic electronic trailer music",
+    "modern tech commercial",
+    "128 BPM steady tempo",
+    "dark minimal sound design",
+    "deep sub bass",
+    "crisp punchy drums",
+    "premium motion graphics showreel"
+  ],
+  "negative_global_styles": ["vocals", "singing", "lyrics", "lo-fi", "acoustic guitar", "country", "orchestral strings swells", "cheesy"],
+  "sections": [
+    {
+      "section_name": "Night intro",
+      "positive_local_styles": ["quiet introspective night atmosphere", "soft felt piano motif", "warm analog pad", "subtle heartbeat-like pulse", "sparse", "mysterious"],
+      "negative_local_styles": ["drums", "loud", "busy"],
+      "duration_ms": 9600,
+      "lines": []
+    },
+    {
+      "section_name": "Tension build",
+      "positive_local_styles": ["building tension", "ticking clock percussion", "rising synth riser", "filter sweep opening", "growing intensity", "ends with a sudden hard stop into half a second of silence"],
+      "negative_local_styles": ["drop", "full drums"],
+      "duration_ms": 6440,
+      "lines": []
+    },
+    {
+      "section_name": "Drop",
+      "positive_local_styles": ["huge impactful drop on the first beat", "driving energetic beat", "deep 808 sub bass", "confident futuristic synth lead", "tight sidechained groove", "uplifting tech energy"],
+      "negative_local_styles": ["slow", "quiet", "ambient"],
+      "duration_ms": 20140,
+      "lines": []
+    },
+    {
+      "section_name": "Montage stutter",
+      "positive_local_styles": ["rhythmic glitch stutters", "sharp hits on every beat", "fast energetic chops", "tape stop effects", "high energy"],
+      "negative_local_styles": ["calm", "ambient"],
+      "duration_ms": 7220,
+      "lines": []
+    },
+    {
+      "section_name": "Wonder",
+      "positive_local_styles": ["energetic but airy and wondrous", "sparkling arpeggios", "steady beat", "shimmering pads", "sense of discovery"],
+      "negative_local_styles": ["aggressive", "dark"],
+      "duration_ms": 7600,
+      "lines": []
+    },
+    {
+      "section_name": "Breath",
+      "positive_local_styles": ["drums drop out", "suspended atmospheric pad", "reversed swell rising into a hit", "anticipation"],
+      "negative_local_styles": ["drums", "busy"],
+      "duration_ms": 3600,
+      "lines": []
+    },
+    {
+      "section_name": "Logo finale",
+      "positive_local_styles": ["one massive cinematic impact hit with deep boom at the very start", "shimmering sustained resolve", "elegant premium logo sting", "long reverb tail fading out"],
+      "negative_local_styles": ["drums groove", "busy", "abrupt ending"],
+      "duration_ms": 5300,
+      "lines": []
+    }
+  ]
+}

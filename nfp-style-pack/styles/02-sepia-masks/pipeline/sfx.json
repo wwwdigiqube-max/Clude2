@@ -1,0 +1,146 @@
+[
+ {
+  "id": "pushin",
+  "text": "a fast dark cinematic whoosh rushing toward the listener, airy with a low rumble, short",
+  "dur": 0.6,
+  "infl": 0.6
+ },
+ {
+  "id": "room",
+  "text": "vast empty stone hall ambience, distant low wind, faint deep rumble, eerie and still, no music",
+  "dur": 10,
+  "infl": 0.3
+ },
+ {
+  "id": "flick",
+  "text": "a quick cloth sleeve flick and a bony hand swish close to the microphone",
+  "dur": 0.5,
+  "infl": 0.6
+ },
+ {
+  "id": "maskpop",
+  "text": "a small hollow porcelain mask knock, light and dry, close",
+  "dur": 0.5,
+  "infl": 0.6
+ },
+ {
+  "id": "neckcreak",
+  "text": "a slow creepy creak of old wood and stiff bones as a head slowly lifts, close",
+  "dur": 1.6,
+  "infl": 0.5
+ },
+ {
+  "id": "eyeglow",
+  "text": "an eerie low shimmering hum swelling softly, like embers glowing to life",
+  "dur": 1.5,
+  "infl": 0.5
+ },
+ {
+  "id": "tick",
+  "text": "a single dry tick of a large old pendulum clock, close, in a big room",
+  "dur": 0.5,
+  "infl": 0.7
+ },
+ {
+  "id": "clockspin",
+  "text": "clock hands spinning fast with a rapid mechanical ratchet whirr, then stopping with a click",
+  "dur": 1.2,
+  "infl": 0.6
+ },
+ {
+  "id": "spot",
+  "text": "an old theatre spotlight switching on with a heavy electrical clunk and a short hum",
+  "dur": 0.8,
+  "infl": 0.6
+ },
+ {
+  "id": "cards",
+  "text": "a deck of playing cards riffled and fluttering through the air, papery flaps",
+  "dur": 1.2,
+  "infl": 0.5
+ },
+ {
+  "id": "reveal",
+  "text": "a huge deep cinematic boom impact with a dark reverse swell into it and a long low tail",
+  "dur": 2.5,
+  "infl": 0.6
+ },
+ {
+  "id": "flip",
+  "text": "a giant heavy wooden and glass object rotating fast with a deep whoosh, ending in a heavy thud",
+  "dur": 1.2,
+  "infl": 0.6
+ },
+ {
+  "id": "sand",
+  "text": "fine sand pouring steadily through a narrow glass neck, soft hiss, close",
+  "dur": 6,
+  "infl": 0.3
+ },
+ {
+  "id": "shadowhand",
+  "text": "a deep ominous whoosh of something enormous moving overhead, dark and slow",
+  "dur": 1.5,
+  "infl": 0.5
+ },
+ {
+  "id": "blink",
+  "text": "a soft wet eye blink with a tiny eerie glimmer, very close",
+  "dur": 0.5,
+  "infl": 0.6
+ },
+ {
+  "id": "scratch",
+  "text": "many dry bony fingers scratching and creeping on an old wooden floor, creepy, layered",
+  "dur": 4.5,
+  "infl": 0.4
+ },
+ {
+  "id": "flicker",
+  "text": "an old electric light flickering with buzzing crackles",
+  "dur": 1,
+  "infl": 0.6
+ },
+ {
+  "id": "static",
+  "text": "a loud burst of analog TV static noise with a sudden cut-in",
+  "dur": 1,
+  "infl": 0.6
+ },
+ {
+  "id": "interference",
+  "text": "rising analog video interference: crackling hum and wavering electronic noise building up",
+  "dur": 1.2,
+  "infl": 0.5
+ },
+ {
+  "id": "breath",
+  "text": "a slow deep raspy inhale in the dark, close, creepy",
+  "dur": 1,
+  "infl": 0.5
+ },
+ {
+  "id": "cards2",
+  "text": "loud close-up: a whole deck of playing cards thrown and fluttering fast around the microphone, many papery flaps and whooshes",
+  "dur": 1.5,
+  "infl": 0.7
+ },
+ {
+  "id": "sand2",
+  "text": "loud close-up of dry sand pouring through an hourglass neck, clear steady grainy hiss",
+  "dur": 5,
+  "infl": 0.6
+ },
+ {
+  "id": "cardscratch",
+  "text": "a sharp long fingernail scratching quickly in a zig-zag across a stiff paper card, with tiny crackling ember sparks, close",
+  "dur": 0.8,
+  "infl": 0.6
+ },
+ {
+  "id": "crtoff",
+  "text": "an old CRT television switching off: a short electric zap with a quick descending whine",
+  "dur": 0.5,
+  "infl": 0.7
+ }
+]

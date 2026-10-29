@@ -1,0 +1,15 @@
+{
+  "positive_global_styles": [
+    "1950s atomic age lounge jazz", "playful retro exotica", "mid-century educational film score", "vibraphone melody",
+    "walking upright bass", "brushed drums swing", "finger snaps", "118 BPM", "warm vintage tape recording", "whimsical and curious"
+  ],
+  "negative_global_styles": ["vocals", "singing", "lyrics", "choir", "modern EDM", "trap", "dubstep", "heavy distortion", "dark horror", "orchestral epic"],
+  "sections": [
+    { "section_name": "Opening", "positive_local_styles": ["catchy vibraphone motif enters immediately", "upright bass walking", "finger snaps on 2 and 4", "light and curious"], "negative_local_styles": ["slow intro", "silence"], "duration_ms": 7200, "lines": [] },
+    { "section_name": "Lab experiment", "positive_local_styles": ["theremin sci-fi swoops", "muted trumpet stabs", "bongos", "playful tension", "atomic laboratory mood"], "negative_local_styles": ["scary", "loud drums"], "duration_ms": 10300, "lines": [] },
+    { "section_name": "Garden and mail", "positive_local_styles": ["bouncy and sunny", "clarinet melody", "glockenspiel sparkles", "swing groove", "cheerful 1950s advertisement"], "negative_local_styles": ["sad", "minor key"], "duration_ms": 18000, "lines": [] },
+    { "section_name": "Big result", "positive_local_styles": ["building swing big band brass hits", "confident", "rising energy", "drum fills"], "negative_local_styles": ["calm", "ambient"], "duration_ms": 12900, "lines": [] },
+    { "section_name": "Calm truth", "positive_local_styles": ["soft vibraphone and bass only", "gentle", "reassuring"], "negative_local_styles": ["drums", "brass"], "duration_ms": 7300, "lines": [] },
+    { "section_name": "Tease", "positive_local_styles": ["curious unresolved ending on a suspended chord", "vibraphone and snaps", "leads back to the beginning"], "negative_local_styles": ["final cadence", "fade out", "big ending"], "duration_ms": 3200, "lines": [] }
+  ]
+}

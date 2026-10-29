@@ -1,0 +1,38 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/scripts/cloud-setup.sh",
+            "timeout": 900
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(npx remotion:*)",
+      "Bash(npx tsx:*)",
+      "Bash(node tools/:*)",
+      "Bash(node --env-file=.env tools/:*)",
+      "Bash(node src/styles/:*)",
+      "Bash(node node_modules/typescript/bin/tsc:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
+      "Bash(bash scripts/:*)",
+      "Bash(git status:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git fetch:*)",
+      "Bash(git checkout origin/main -- uploads/:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)"
+    ]
+  }
+}

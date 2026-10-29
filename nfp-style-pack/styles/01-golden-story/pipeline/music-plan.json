@@ -1,0 +1,17 @@
+{
+  "positive_global_styles": [
+    "cinematic suspense underscore", "warm americana farm atmosphere", "fingerpicked acoustic guitar", "solo cello", "low string drones",
+    "subtle soft percussion", "88 BPM", "mysterious and uneasy", "golden hour mood slowly turning dark", "instrumental"
+  ],
+  "negative_global_styles": ["vocals", "singing", "lyrics", "choir", "EDM", "trap", "dubstep", "happy pop", "comedy", "heavy distortion", "loud drums"],
+  "sections": [
+    { "section_name": "Water and power", "positive_local_styles": ["warm fingerpicked acoustic guitar motif from the first second", "soft low pad", "quiet clock-like tick", "calm but uneasy"], "negative_local_styles": ["silence", "slow fade in", "drums"], "duration_ms": 12000, "lines": [] },
+    { "section_name": "Generator noise", "positive_local_styles": ["low cello ostinato", "growing pulse", "soft heartbeat kick", "tension building"], "negative_local_styles": ["big drums", "release"], "duration_ms": 11800, "lines": [] },
+    { "section_name": "Animals", "positive_local_styles": ["light pizzicato strings", "guitar plucks", "slightly playful but still tense", "steady pulse"], "negative_local_styles": ["comedy", "cartoon"], "duration_ms": 10100, "lines": [] },
+    { "section_name": "Almost impossible", "positive_local_styles": ["stacked strings rising crescendo", "tension swell", "accent hit at the end"], "negative_local_styles": ["calm"], "duration_ms": 6800, "lines": [] },
+    { "section_name": "Preparing", "positive_local_styles": ["determined steady rhythm", "warm guitar and cello together", "hopeful but cautious", "sunset warmth"], "negative_local_styles": ["epic", "loud"], "duration_ms": 12100, "lines": [] },
+    { "section_name": "Something unknown", "positive_local_styles": ["music drops out to sparse soft piano notes", "low eerie drone", "very quiet", "suspense"], "negative_local_styles": ["drums", "melody"], "duration_ms": 4400, "lines": [] },
+    { "section_name": "Reveal", "positive_local_styles": ["deep cinematic boom hit at the start", "dissonant high strings rising", "dark tension"], "negative_local_styles": ["happy", "resolution"], "duration_ms": 3800, "lines": [] },
+    { "section_name": "Part two tail", "positive_local_styles": ["single low cello note ringing out", "eerie unresolved", "reverb tail"], "negative_local_styles": ["final cadence", "drums"], "duration_ms": 4000, "lines": [] }
+  ]
+}

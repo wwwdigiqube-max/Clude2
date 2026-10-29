@@ -1,0 +1,43 @@
+{
+  "positive_global_styles": [
+    "energetic modern electronic pop instrumental",
+    "120 BPM steady tempo",
+    "catchy memorable bright synth lead melody",
+    "uplifting, exciting and premium",
+    "punchy drums from the first beat",
+    "deep driving bass",
+    "clock ticking percussion layered in the groove",
+    "polished commercial teaser music"
+  ],
+  "negative_global_styles": ["vocals", "singing", "lyrics", "choir", "lo-fi", "acoustic guitar", "cheesy", "comedic", "dubstep growl", "horror", "ambient intro", "slow fade in"],
+  "sections": [
+    {
+      "section_name": "Hook",
+      "positive_local_styles": ["starts instantly with a big impact on beat one", "punchy four on the floor drums right away", "catchy bright synth melody hook", "energetic and confident"],
+      "negative_local_styles": ["silence", "slow intro", "drone"],
+      "duration_ms": 4000,
+      "lines": []
+    },
+    {
+      "section_name": "Build",
+      "positive_local_styles": ["drums keep driving", "melody climbs higher", "rising riser and building snare roll", "tension growing", "ends with a short stop before the drop"],
+      "negative_local_styles": ["calm", "breakdown"],
+      "duration_ms": 4000,
+      "lines": []
+    },
+    {
+      "section_name": "Drop",
+      "positive_local_styles": ["massive euphoric drop on the first beat", "full energetic drums and big bass", "the catchy lead melody returns bigger", "exciting and uplifting"],
+      "negative_local_styles": ["calm", "sparse"],
+      "duration_ms": 6000,
+      "lines": []
+    },
+    {
+      "section_name": "Outro",
+      "positive_local_styles": ["one big final hit", "short bright reverb tail", "a single clock tick at the very end"],
+      "negative_local_styles": ["new melody", "long fade"],
+      "duration_ms": 4000,
+      "lines": []
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "vo": "public/v01/vo.wav",
+  "voJson": "src/v01/vo.json",
+  "length": 64.85,
+  "music": [
+    ["public/v01/music/m1.mp3", "0", 0.3, "W:5:تازه+0.4", 1.0],
+    ["public/v01/music/m2.mp3", "W:5:تازه-0.4", 0.6, "W:8:پس", 0.8],
+    ["public/v01/music/m3.mp3", "W:8:پس-0.3", 0.5, "W:10:ولی+0.3", 1.2],
+    ["public/v01/music/m4.mp3", "W:10:ولی-0.2", 1.0, "end", 1.5]
+  ],
+  "sfx": [
+    ["public/v01/sfx/pour.wav", 0.6, 0.35, 0.256],
+    ["public/v01/sfx/whoosh.wav", "W:1:چون-0.07", 0.3, 0.065],
+    ["public/v01/sfx/powercut.wav", "W:2:قطع", 0.45, 0.068],
+    ["public/v01/sfx/drip.wav", "W:2:دیگه+0.63", 0.55, 0.063],
+    ["public/v01/sfx/drip.wav", "W:2:دیگه+1.38", 0.45, 0.063],
+    ["public/v01/sfx/tarp.wav", "W:3:الی+0.4", 0.35, 0.29],
+    ["public/v01/sfx/generator.wav", "W:3:بزرگ+1.0", 0.3, 1.965],
+    ["public/v01/sfx/whoosh.wav", "W:4:توی-0.1", 0.25, 0.065],
+    ["public/v01/sfx/ominous.wav", "W:4:لو", 0.5, 0.022],
+    ["public/v01/sfx/whoosh.wav", "W:5:تازه-0.1", 0.3, 0.065],
+    ["public/v01/sfx/hens.wav", "W:6:مرغ", 0.35, 0.971],
+    ["public/v01/sfx/cow.wav", "W:6:گاو", 0.3, 0.696],
+    ["public/v01/sfx/horse.wav", "W:6:اسب", 0.3, 0.158],
+    ["public/v01/sfx/bark.wav", "W:6:پارس", 0.45, 0.089],
+    ["public/v01/sfx/stamp.wav", "W:7:تقریباً", 0.45, 0.057],
+    ["public/v01/sfx/lock.wav", "W:8:قفل", 0.5, 0.1],
+    ["public/v01/sfx/whoosh.wav", "W:8:حیوون‌ها-0.07", 0.25, 0.065],
+    ["public/v01/sfx/pencil.wav", "W:8:حساب+0.6", 0.4, 1.356],
+    ["public/v01/sfx/ominous.wav", "W:10:خبر", 0.3, 0.022],
+    ["public/v01/sfx/boom.wav", "W:11:بود", 0.6, 0.034]
+  ],
+  "beds": [
+    ["public/v01/sfx/wind.wav", "W:4:توی-0.1", "W:5:تازه-0.1", 0.35],
+    ["public/v01/sfx/crickets.wav", "W:9:با-0.1", "W:11:یه", 0.4]
+  ],
+  "musicBase": 0.15,
+  "musicLift": 0.18,
+  "sfxGain": 0.3,
+  "voGain": 1.0
+}

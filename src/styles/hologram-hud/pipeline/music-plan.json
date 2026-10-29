@@ -1,0 +1,13 @@
+{
+  "positive_global_styles": ["minimal cinematic electronic", "science documentary", "precise ticking clock percussion", "analog synth pulses", "warm arpeggiator", "curious and intelligent", "118 BPM", "clean modern mix"],
+  "negative_global_styles": ["vocals", "singing", "lyrics", "choir", "EDM drop", "dubstep", "heavy metal", "cheesy"],
+  "sections": [
+    { "section_name": "Hook", "positive_local_styles": ["mysterious low synth pulse", "a ticking clock", "starts immediately"], "negative_local_styles": ["silence", "long intro"], "duration_ms": 3600, "lines": [] },
+    { "section_name": "How it works", "positive_local_styles": ["minimal sequencer", "soft kick", "curious"], "negative_local_styles": ["busy", "loud"], "duration_ms": 13000, "lines": [] },
+    { "section_name": "Relativity", "positive_local_styles": ["building arpeggios", "layers added", "wonder", "rising energy"], "negative_local_styles": ["calm", "ambient only"], "duration_ms": 15100, "lines": [] },
+    { "section_name": "Stakes", "positive_local_styles": ["tension peak", "swelling synth", "urgent pulse"], "negative_local_styles": ["relaxed"], "duration_ms": 7200, "lines": [] },
+    { "section_name": "1977", "positive_local_styles": ["retro 1970s analog synth", "suspense", "quieter, sparse"], "negative_local_styles": ["full drums"], "duration_ms": 9700, "lines": [] },
+    { "section_name": "Proof", "positive_local_styles": ["rising reveal", "uplifting", "full arpeggio and drums"], "negative_local_styles": ["sad"], "duration_ms": 5800, "lines": [] },
+    { "section_name": "Resolve", "positive_local_styles": ["returns to the opening pulse and ticking clock", "ends unresolved, ready to loop"], "negative_local_styles": ["big ending", "fade out"], "duration_ms": 4800, "lines": [] }
+  ]
+}

@@ -1,0 +1,19 @@
+[
+  { "id": "pour", "text": "water pouring from a kitchen faucet into a large plastic jug, close and gentle", "dur": 2.0, "infl": 0.5 },
+  { "id": "powercut", "text": "electrical power cut: a heavy relay clunk followed by a dying electric hum fading out", "dur": 1.5, "infl": 0.6 },
+  { "id": "drip", "text": "a single water drop falling into an empty metal sink, quiet, close", "dur": 0.6, "infl": 0.6 },
+  { "id": "tarp", "text": "a canvas tarp pulled quickly off a machine, cloth whoosh", "dur": 0.8, "infl": 0.6 },
+  { "id": "generator", "text": "small gasoline generator idling, low mechanical rumble, steady", "dur": 3.0, "infl": 0.4 },
+  { "id": "wind", "text": "quiet evening wind over open farm fields, distant birds, calm ambience", "dur": 6.0, "infl": 0.3 },
+  { "id": "ominous", "text": "deep low ominous cinematic hit, short dark tail", "dur": 1.2, "infl": 0.6 },
+  { "id": "whoosh", "text": "a fast soft clean whoosh swipe, airy, short", "dur": 0.5, "infl": 0.6 },
+  { "id": "hens", "text": "a few hens clucking in a farmyard, short", "dur": 1.5, "infl": 0.5 },
+  { "id": "cow", "text": "a single cow mooing, slightly distant, outdoors", "dur": 1.6, "infl": 0.5 },
+  { "id": "horse", "text": "a horse snorting and a short neigh, outdoors", "dur": 1.3, "infl": 0.5 },
+  { "id": "bark", "text": "a medium dog barking twice, outdoors, alert", "dur": 1.0, "infl": 0.6 },
+  { "id": "stamp", "text": "a heavy rubber stamp slammed onto paper on a wooden table", "dur": 0.5, "infl": 0.6 },
+  { "id": "lock", "text": "a heavy brass padlock clicking shut with a short metal chain rattle", "dur": 1.0, "infl": 0.6 },
+  { "id": "pencil", "text": "a pencil writing quickly on paper, ticking off a list", "dur": 1.5, "infl": 0.5 },
+  { "id": "crickets", "text": "night crickets in fields with a soft kerosene lantern flicker, calm ambience", "dur": 6.0, "infl": 0.3 },
+  { "id": "boom", "text": "deep cinematic low boom impact with a long dark reverb tail", "dur": 2.5, "infl": 0.6 }
+]
