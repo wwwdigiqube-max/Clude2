@@ -52,17 +52,17 @@ shot("روز ۱", "صبح، به‌جای سقف اتاقت، برگ‌هایی 
 shot("روز ۱", "هوا داغ و خیسه. بوی خاک و گیاه می‌ده. نه صدای ماشینی، نه صدای آدمی.", "نمای اول‌شخص رو به بالا: سایبان سرخس‌های غول‌آسا با نور و مه", "new",
      P("Shot D1c – looking straight up from the forest floor at a towering canopy of giant ferns and prehistoric trees, sunbeams through humid mist, dragonflies, no character visible, wide shot", "none"),
      cam="چرخش آروم دوربین", sfx="جنگل باستانی، رطوبت")
-shot("روز ۱", "کنارت یه چیزی از زمین تا بالای سرت رفته، شبیه تنه‌ی درخت.", "عکس اولی که ساختی (پسر کنار پای غول)", "reuse", src="shot01",
+shot("روز ۱", "کنارت یه چیزی از زمین تا بالای سرت رفته، شبیه تنه‌ی درخت.", "عکس اولی که ساختی (پسر کنار پای غول)", "reuse", src="عکس پای غول (پروژه‌ی تست)",
      cam="پن از پسر به سمت پا", sfx="سکوت ناگهانی جنگل")
 shot("روز ۱", "ولی درخت نیست. پنجه داره.", "کلیپی که خودت ساختی: پسر چشمش رو می‌ماله و یهو به پنجه نگاه می‌کنه", "reuse", src="clip-wake-lookup (آماده است)",
      cam="کات روی لحظه‌ی بالا نگاه کردن", sfx="ضربه‌ی بم کوتاه")
-shot("روز ۱", "پا آروم بلند میشه، یه قدم جلوتر می‌کوبه زمین، و زمین زیر تو می‌لرزه.", "عکس باز shot01 با لرزش شدید و گرد و خاک (کلیپ لازم نیست)", "code", src="shot01",
+shot("روز ۱", "پا آروم بلند میشه، یه قدم جلوتر می‌کوبه زمین، و زمین زیر تو می‌لرزه.", "عکس باز shot01 با لرزش شدید و گرد و خاک (کلیپ لازم نیست)", "code", src="عکس پای غول (پروژه‌ی تست)",
      cam="سایه‌ی پا روی زمین، لرزش شدید و ذرات خاک رو من می‌سازم؛ اعتبار Flow خرج نمیشه", sfx="قدم عظیم + لرزش")
-shot("روز ۱", "نفس نمی‌کشی تا صدای قدم‌ها دور بشه.", "صورت پسر، یخ‌زده", "crop", src="shot01", cam="زوم خیلی آروم، سکوت", sfx="قدم‌ها که دور میشن")
-shot("روز ۱", "گوشیت هنوز توی جیبته. آنتن نداره. اینترنت نداره.", "عکس گوشی که ساختی، با ویرایش «10 DAYS»", "reuse", src="shot02 (ویرایش‌شده)",
+shot("روز ۱", "نفس نمی‌کشی تا صدای قدم‌ها دور بشه.", "صورت پسر، یخ‌زده", "crop", src="عکس پای غول (پروژه‌ی تست)", cam="زوم خیلی آروم، سکوت", sfx="قدم‌ها که دور میشن")
+shot("روز ۱", "گوشیت هنوز توی جیبته. آنتن نداره. اینترنت نداره.", "عکس گوشی که ساختی، با ویرایش «10 DAYS»", "reuse", src="عکس گوشی قرمز (پروژه‌ی تست)",
      prompt="Edit this image: change the text on the phone screen to \"ASTEROID IMPACT IN 10 DAYS\" and below it \"3000 KM SOUTH\", clear and readable. Keep everything else exactly the same.",
      cam="پن آروم", sfx="بوق بی‌آنتن")
-shot("روز ۱", "ولی یه پیام روی صفحه‌ست. پیامی که دیشب نبود: «برخورد: ۱۰ روز دیگه. ۳۰۰۰ کیلومتر جنوب.»", "کلوزآپ صفحه", "crop", src="shot02",
+shot("روز ۱", "ولی یه پیام روی صفحه‌ست. پیامی که دیشب نبود: «برخورد: ۱۰ روز دیگه. ۳۰۰۰ کیلومتر جنوب.»", "کلوزآپ صفحه", "crop", src="عکس گوشی قرمز (پروژه‌ی تست)",
      cam="زوم روی صفحه؛ متن فارسی پیام رو من روی صفحه می‌ذارم", sfx="آژیر هشدار کوتاه")
 shot("روز ۱", "این برخورد رو از مستندهایی که همیشه می‌دیدی می‌شناسی. یه سنگ تقریباً ۱۰ کیلومتری، که می‌خوره جایی که امروز اسمش مکزیکه.", "خاطره: صفحه‌ی گوشی توی اتاق تاریک، شهاب‌سنگ عظیم نزدیک زمین", "new",
      "Shot D1d – a glowing phone screen in a dark bedroom showing a documentary illustration of a huge asteroid approaching planet Earth from space, the Gulf of Mexico visible on Earth, dramatic light; same art style as the reference image: detailed digital painting, muted colours, 16:9, no text, no watermark",
@@ -71,16 +71,16 @@ shot("روز ۱", "هر دایناسوری که امروز می‌بینی، ۱�
      P("Shot D1e – a wide river valley at midday, the young man small in the foreground seen from behind standing on a rise, in the distance peaceful herds of Triceratops and duck-billed Edmontosaurus grazing along the river, epic wide shot"),
      cam="پن عریض", sfx="صدای گله‌ها دور، باد")
 shot("روز ۱", "خودشون نمی‌دونن.", "زوم روی یه تریسراتوپس آروم", "crop", src="D1e", cam="زوم آروم", sfx="نفس آروم حیوون")
-shot("روز ۱", "تو می‌دونی.", "زوم روی صورت پسر (از عکس گوشی)", "crop", src="shot02", cam="زوم ضربه‌ای به چشم‌ها", sfx="ضربه‌ی بم")
-shot("روز ۱", "گوشی رو خاموش می‌کنی. ۲۲ درصد. از این به بعد، هر یه درصد، یه تصمیمه.", "دست و گوشی که خاموش میشه", "crop", src="shot02",
+shot("روز ۱", "تو می‌دونی.", "زوم روی صورت پسر (از عکس گوشی)", "crop", src="عکس گوشی قرمز (پروژه‌ی تست)", cam="زوم ضربه‌ای به چشم‌ها", sfx="ضربه‌ی بم")
+shot("روز ۱", "گوشی رو خاموش می‌کنی. ۲۲ درصد. از این به بعد، هر یه درصد، یه تصمیمه.", "دست و گوشی که خاموش میشه", "crop", src="عکس گوشی قرمز (پروژه‌ی تست)",
      cam="صفحه سیاه میشه؛ باتری ۲۲٪ رو من می‌کشم", sfx="بیپ خاموش شدن")
-shot("روز ۱", "عصر، صاحب اون پا رو می‌بینی. تی‌رکس. ۱۲ متر از سر تا دم. از پشت سرخس‌ها رد میشه و بو می‌کشه.", "عکس تی‌رکس که ساختی (پسر پشت سرخس)", "reuse", src="shot04 (ویرایش‌شده)",
+shot("روز ۱", "عصر، صاحب اون پا رو می‌بینی. تی‌رکس. ۱۲ متر از سر تا دم. از پشت سرخس‌ها رد میشه و بو می‌کشه.", "عکس تی‌رکس که ساختی (پسر پشت سرخس)", "reuse", src="عکس تی‌رکس و پسر پشت سرخس (پروژه‌ی تست)",
      prompt="Edit this image: add a long pale scar across the left side of the Tyrannosaurus rex's snout, and make the light warm late-afternoon. Keep everything else exactly the same.",
      cam="پن از تی‌رکس به پسر؛ برچسب «۱۲ متر»", sfx="قدم‌های سنگین، بو کشیدن")
 shot("روز ۱", "یه لحظه، فقط یه لحظه، سرش سمت تو برمی‌گرده.", "کلوزآپ سر تی‌رکس لای سرخس‌ها، چشمش مستقیم به دوربین", "new",
      f"Shot D1g – close-up of the head of {TREX} slowly turning toward the camera between giant fern leaves, one golden eye looking straight at the viewer, warm late-afternoon light, tense; {WORLD}; {STYLE}",
      cam="زوم خیلی آروم به چشم؛ موزیک قطع", sfx="یه نفس عمیق دایناسور")
-shot("روز ۱", "بعد میره.", "صورت ترسیده‌ی پسر", "crop", src="shot04", cam="ثابت؛ آزاد شدن نفس", sfx="قدم‌های دورشونده")
+shot("روز ۱", "بعد میره.", "صورت ترسیده‌ی پسر", "crop", src="عکس تی‌رکس و پسر پشت سرخس (پروژه‌ی تست)", cam="ثابت؛ آزاد شدن نفس", sfx="قدم‌های دورشونده")
 # ---- day 2 ----
 shot("روز ۲", "صبح، کنار ریشه‌ی درختی که زیرش خوابیدی، یه سوراخ کوچیک می‌بینی.", "پسر کنار ریشه‌ی درخت غول‌آسا قوز کرده، یه سوراخ کوچیک", "new",
      P("Shot D2a – early morning, the young man crouching next to the huge roots of a giant tree, peering curiously at a small round burrow hole between the roots, soft golden light, medium shot"),
@@ -160,7 +160,7 @@ shot("روز ۵", "پس جای لونه رو بالاتر از اون خط ان�
 def refs(s):
     pr = s["prompt"]
     if s["kind"] == "reuse":
-        return ["خود عکس " + s["src"].split(" ")[0] + " (ویرایش)"] if pr else []
+        return ["فقط خود " + s["src"] + " برای ویرایش"] if pr else []
     if s["kind"] in ("crop", "code"):
         return []
     if s["kind"] == "clip" and not pr:
