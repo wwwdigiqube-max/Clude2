@@ -129,3 +129,18 @@ Topic: [e.g. Zombie outbreak starts in 6 days and only YOU know]
 - https://air.io/en/monetization/youtube-monetization-policy-changes-2026-a-complete-dated-timeline
 - https://outlierkit.com/resources/faceless-youtube-channel-demonetized/
 - آموزش‌های پربازدید یوتیوب در همین موضوع: H8FAaKeCguA (Stickman with AI, 546K)، Fo3lreTdy0g (318K)، i_KlptBTdck (Long AI animation, consistent characters, Veo 3.1 + Flow)، EVR7W_9dqZ4 (Flow Storyboard Studio)
+
+## ۸. بررسی تقاضا (۲۰۲۶-۱۱-۰۶، ۲۵ نتیجه‌ی اول سرچ یوتیوب برای هر عبارت، فقط ویدیوهای بالای ۳ دقیقه)
+- **زامبی، قالب بقای روزبه‌روز:**
+  - میانه حدود ۳۰۰ تا ۴۷۰ هزار بازدید.
+  - کانال‌های کوچک آدمکی میلیونی شده‌اند: Nobody Gets In با ۳.۴ و ۱.۹ میلیون، Beanie Survives با ۲.۹ میلیون.
+  - نتیجه: تقاضا ثابت‌شده، رقابت زیاد.
+- **دایناسور:**
+  - موضوع خیلی پرتقاضاست: ۱۰ ویدیوی بالای یک میلیون، مثل Peekaboo Kidz و What If.
+  - ولی ویدیوی «بقا در دوران دایناسورها» به شکل قصه‌ی روزبه‌روز کم است و هنوز کسی در آن نترکیده.
+  - نتیجه: یک خلأ، یعنی فرصت، ولی امتحان‌نشده.
+- **آدم‌فضایی، قالب بقا:**
+  - میانه حدود ۰ تا ۸۸ هزار.
+  - موفق‌ها کانال‌های بزرگ‌اند (Infographics Show) یا مونتاژ فیلم.
+  - نتیجه: ضعیف‌ترین گزینه.
+- **روش تصمیم پیشنهادی:** برای هر موضوع یک Short چهل‌وپنج‌ثانیه‌ای با همان شخصیت. ۴۸ تا ۷۲ ساعت بعد بازدید و ماندگاری را مقایسه کن، بعد ویدیوی بلند را بساز.
