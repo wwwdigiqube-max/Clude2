@@ -47,6 +47,8 @@ h2{font-size:1.05rem;margin:24px 0 10px;color:var(--rust)}
 .copy{font:inherit;font-size:.8rem;border:1px solid var(--rust);color:var(--rust);background:transparent;border-radius:6px;padding:2px 10px;cursor:pointer}
 .copy.ok{border-color:var(--ok);color:var(--ok)}
 button:focus-visible,input:focus-visible{outline:2px solid var(--rust);outline-offset:2px}
+.refs{display:flex;flex-wrap:wrap;gap:6px;align-items:center;background:var(--rust-soft);border-radius:8px;padding:6px 10px}
+.chip{background:var(--surface);border:1px solid var(--rust);color:var(--ink);border-radius:999px;padding:0 10px;font-size:.82rem;font-weight:600}
 .note{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 14px;font-size:.9rem}
 .note ul{margin:4px 0;padding-inline-start:18px}
 </style>
@@ -57,7 +59,7 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--rust);outline-o
   <div class="note">
     <ul>
       <li>همه‌ی عکس‌ها <b>16:9</b>، در یک پروژه‌ی Flow.</li>
-      <li>رفرنس هر عکس: <b>عکس جنگل + برگه‌ی شخصیت</b>. برای فندق برگه‌ی فندق، برای تی‌رکس رفرنس تی‌رکس.</li>
+      <li>رفرنس‌های هر شات بالای کارتش نوشته شده (📎). فقط همون‌ها رو بده.</li>
       <li>✂️ و 🎨 عکس نمی‌خوان؛ کار تدوین منه. فقط 🖼 و 🎬 رو بساز.</li>
       <li>اسم هر فایل رو همون <b>Shot …</b> اول پرامپت بذار.</li>
     </ul>
@@ -107,6 +109,10 @@ function card(s){
     lab.append(cb, "ساختم"); h.append(lab);
   }
   c.append(h);
+  if (s.refs && s.refs.length) {
+    const rf = el("div","refs"); rf.append(el("span","lbl", s.kind==="clip" && s.prompt ? "📎 رفرنس عکس فریم اول:" : "📎 رفرنس:"));
+    s.refs.forEach(x => rf.append(el("span","chip",x))); c.append(rf);
+  }
   const r1 = el("p","row narr"); r1.append(el("span","lbl","🎙"), s.narr); c.append(r1);
   const r2 = el("p","row"); r2.append(el("span","lbl","👁"), s.see); c.append(r2);
   if (s.prompt) c.append(codeBlock(s.kind==="reuse" ? "پرامپت ویرایش (Nano Banana)" : "پرامپت عکس", s.prompt));

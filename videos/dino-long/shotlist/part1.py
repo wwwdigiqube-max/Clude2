@@ -156,6 +156,24 @@ shot("روز ۵", "روی همه‌شون یه خط گل خشک‌شده هست.
 shot("روز ۵", "پس جای لونه رو بالاتر از اون خط انتخاب می‌کنی. یه وجب بالاتر. فقط محض احتیاط.", "دیواره‌ی رسی با خط‌چین سطح سیل و فلش «یه وجب بالاتر»", "crop", src="D5b",
      cam="خط‌چین و فلش رو من می‌کشم (همین خط در روز ۱۰ دوباره دیده میشه)", sfx="تیک")
 
+# ---- references to attach in Flow (computed from the prompt) ----
+def refs(s):
+    pr = s["prompt"]
+    if s["kind"] == "reuse":
+        return ["خود عکس " + s["src"].split(" ")[0] + " (ویرایش)"]
+    if s["kind"] in ("crop", "code"):
+        return []
+    if s["kind"] == "clip" and not pr:
+        return ["فریم اول: " + s["src"]]
+    r = []
+    if CHAR in pr: r += ["عکس جنگل", "برگه‌ی شخصیت"]
+    else: r += ["عکس جنگل (فقط برای سبک)"]
+    if "Fandogh" in pr or "tiny furry mammal" in pr: r += ["برگه‌ی فندق"]
+    if TREX in pr: r += ["رفرنس تی‌رکس"]
+    return r
+for s in S:
+    s["refs"] = refs(s)
+
 # ---- numbering + timing (narration ≈ 2.2 words/s + pause) ----
 t = 0.0
 for i, s in enumerate(S, 1):
@@ -179,7 +197,7 @@ for rid, title, note, pr in PRE:
 L += ["## شات‌ها\n"]
 for s in S:
     L += [f"**شات {s['n']} · {s['part']} · {s['t']}** · {KIND[s['kind']]}" + (f" (از {s['src']})" if s['src'] else ""),
-          f"- 🎙 {s['narr']}", f"- 👁 {s['see']}"]
+          f"- 🎙 {s['narr']}", f"- 👁 {s['see']}"] + ([f"- 📎 رفرنس: {' + '.join(s['refs'])}"] if s['refs'] else [])
     if s["prompt"]:
         L += [f"- اسم فایل: `{s['prompt'].split(' – ')[0] if s['prompt'].startswith('Shot') else 'ویرایش ' + s['src']}`", "```", s["prompt"], "```"]
     if s["motion"]:
