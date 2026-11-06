@@ -13,3 +13,6 @@
 - **صدای تست‌شده:** Brian (`nPczCjzI2devNBz1zQrb`) روی eleven_v4 فارسی را خوب می‌خواند (STT حدود ۱).
 - **v01** (آدمک کدی زامبی، ۳۰ ثانیه): کاربر کنارش گذاشت. نیمه‌کاره در `src/v01`. فقط اگر خواست ادامه بده.
 - **قول داده‌شده:** اگر کاربر خواست، از روند ذخیره‌شده PDF بساز.
+- **Gemini API (ساخت عکس):** کاربر کلید را در تنظیمات محیط گذاشت (احتمالاً به‌صورت متغیر `GEMINI_API_KEY`، یا Network secret روی generativelanguage.googleapis.com). در جلسه‌ی تازه تست کن: `curl -H "x-goog-api-key: $GEMINI_API_KEY" https://generativelanguage.googleapis.com/v1beta/models?pageSize=1`. کلید را هرگز چاپ نکن.
+- **شخصیت ثابت کانال:** `uploads/dino-short/character-anchor.jpg` + برگه‌ی شخصیت مودار (کاربر ساخت؛ اگر در ریپو نیست، بخواه بفرستد). پرامپت‌ها در `videos/dino-short/prompts.md`.
+- **قدم بعد:** ویدیوی بلند دایناسور؛ قلاب = قاب نفس دایناسور (shot08).
