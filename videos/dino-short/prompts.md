@@ -19,7 +19,7 @@
 
 **قفل شخصیت** (در همه‌ی شات‌ها عیناً همین):
 ```
-the same original character from the reference image: a stick-figure young man about 20 years old, a plain round off-white head about one third of his total height with a thick black outline, small simple black oval eyes, thin expressive black eyebrows, a small mouth, messy dark-brown hair sticking out under a dark charcoal knit beanie with a small headlamp strapped on the front, a worn rust-orange hooded shell jacket left open over a dark grey t-shirt with a dark backpack strap across the chest, long thin black stick arms ending in simple black hands, long thin black stick legs, dark hiking boots, same proportions as the reference, not chibi, not cute
+the same original character from the reference image: a stick-figure young man about 20 years old, a plain round off-white head about one third of his total height with a thick black outline, small simple black oval eyes, thin expressive black eyebrows, a small mouth, messy dark-brown hair tufts clearly sticking out at the front and sides under a dark charcoal knit beanie with a small headlamp strapped on the front, a worn rust-orange hooded shell jacket left open over a dark grey t-shirt with a dark backpack strap across the chest, long thin black stick arms ending in simple black hands, long thin black stick legs, dark hiking boots, same proportions as the reference, not chibi, not cute
 ```
 
 **قفل سبک** (در همه‌ی شات‌ها عیناً همین):
@@ -59,65 +59,71 @@ Character turnaround sheet of the exact character from the reference image, same
 >
 > «هفت روز» و «گوشی» تخیل قصه‌اند.
 
-## ۳. شات‌ها: هر پرامپت = شرح شات + قفل شخصیت + قفل سبک
+## ۳. شات‌ها (پرامپت کامل و آماده‌ی کپی)
+
+> **رفرنس هر شات:** `character-anchor.jpg` + برگه‌ی شخصیت نهایی. قفل شخصیت و سبک داخل هر پرامپت گذاشته شده.
 
 **شات ۱ (0–3.5) · بیدار شدن، نمای باز از پایین**
 ```
-Shot 01 – the character waking up and sitting up on the mossy ground of a misty prehistoric fern jungle at sunrise, rubbing his eyes, a gigantic dinosaur foot planted right next to him filling half the frame, low-angle wide shot; [CHARACTER LOCK]; [STYLE LOCK]
+Shot 01 – the character waking up and sitting up on mossy ground in a misty prehistoric fern jungle at dawn, rubbing his eyes, a gigantic scaly dinosaur foot planted right next to him filling half the frame, low-angle wide shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, vertical 9:16, no watermark
 ```
 حرکت (اختیاری، Veo یا Omni، ۸ ثانیه): `slow push-in, the giant foot lifts and steps away, mist drifts, the character freezes`
 
 **شات ۲ (3.5–7.5) · گوشی، کلوزآپ**
 ```
-Shot 02 – close-up of the character's black mitten hand holding a cracked smartphone, the glowing red screen shows a warning triangle and the words "ASTEROID IMPACT IN 7 DAYS", his scared face with glasses reflecting the red light behind it, dark jungle background; [CHARACTER LOCK]; [STYLE LOCK]
+Shot 02 – close-up of the character holding a cracked smartphone in his black hand, the glowing red screen shows a warning triangle and the words "ASTEROID IMPACT IN 7 DAYS", his scared face with a sweat drop lit red by the screen, dark jungle background; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, vertical 9:16, no watermark
 ```
-حرکت: `the phone screen pulses red, slight hand tremble`
+حرکت (اختیاری، Veo یا Omni، ۸ ثانیه): `the phone screen pulses red, slight hand tremble`
 
 **شات ۳ (7.5–10.5) · آسمون، نمای خیلی باز**
 ```
-Shot 03 – the character tiny on a cliff edge seen from behind, looking up at a twilight sky where a bright glowing asteroid with a long tail hangs above a prehistoric landscape with volcanoes and long-necked dinosaurs in the distance, epic extreme wide shot; [CHARACTER LOCK]; [STYLE LOCK]
+Shot 03 – the character small on a cliff edge seen from behind, looking up at a twilight sky where a bright glowing asteroid with a long fiery tail hangs above a vast prehistoric landscape with smoking volcanoes and long-necked dinosaurs in the distance, epic extreme wide shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, vertical 9:16, no watermark
 ```
-حرکت: `slow tilt up toward the asteroid, its glow flickers`
+حرکت (اختیاری، Veo یا Omni، ۸ ثانیه): `slow tilt up toward the asteroid, its glow flickers`
+
 متن روی تصویر در تدوین: «۱۰ کیلومتر»
 
 **شات ۴ (10.5–14) · تی‌رکس، نمای متوسط**
 ```
-Shot 04 – the character hiding behind a huge fern, peeking out at a towering Tyrannosaurus rex walking through the jungle, he looks worried and small, medium shot; [CHARACTER LOCK]; [STYLE LOCK]
+Shot 04 – the character hiding behind a huge fern leaf, peeking out with a terrified face at a towering Tyrannosaurus rex walking through the jungle, the headlamp switched off, medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, vertical 9:16, no watermark
 ```
-حرکت: `the T. rex walks past heavily, ferns shake, the character ducks`
+حرکت (اختیاری، Veo یا Omni، ۸ ثانیه): `the T. rex walks past heavily, ferns shake, the character ducks`
+
 متن روی تصویر در تدوین: «روز ۱»
 
 **شات ۵ (14–18) · لانه‌ی زیرزمینی**
 ```
-Shot 05 – the character kneeling on the forest floor with his face close to a small burrow, a tiny furry early mammal peeks out of the hole, side cutaway view showing the cozy tunnel underground, curious expression, close-up; [CHARACTER LOCK]; [STYLE LOCK]
+Shot 05 – the character kneeling on the forest floor with his face close to a small burrow, a tiny furry early mammal peeks out of the hole, side cutaway view showing the tunnel going deep underground, his headlamp lighting the hole, curious expression, close-up; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, vertical 9:16, no watermark
 ```
-حرکت: `the little mammal sniffs and blinks, the character smiles slowly`
+حرکت (اختیاری، Veo یا Omni، ۸ ثانیه): `the little mammal sniffs and blinks, the character slowly realizes`
 
 **شات ۶ (18–20.5) · کندن**
 ```
-Shot 06 – the character digging a deep hole with a large flat stone, dirt flying, sweat drops, determined face, a half-finished tunnel entrance, dynamic medium shot from a low angle; [CHARACTER LOCK]; [STYLE LOCK]
+Shot 06 – the character digging a deep hole with a large flat stone, dirt flying, sweat drops, determined face, a half-finished tunnel entrance under tree roots, dynamic low-angle medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, vertical 9:16, no watermark
 ```
-حرکت: `fast digging motion, dirt flying toward the camera`
+حرکت (اختیاری، Veo یا Omni، ۸ ثانیه): `fast digging motion, dirt flying toward the camera`
+
 متن روی تصویر در تدوین: «روز ۲ … ۶»
 
 **شات ۷ (20.5–24) · آسمون روشن**
 ```
-Shot 07 – night scene, the character standing at the entrance of his finished burrow, the whole sky suddenly blazing bright white-orange as the asteroid streaks across, his long shadow stretched behind him, shocked face, wide shot; [CHARACTER LOCK]; [STYLE LOCK]
+Shot 07 – night, the character standing at the entrance of his finished burrow, the whole sky suddenly blazing bright white-orange as the asteroid streaks across, his long shadow stretched behind him, shocked face with open mouth, wide shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, vertical 9:16, no watermark
 ```
-حرکت: `the sky flashes brighter, the light sweeps across the ground, the character shields his eyes`
+حرکت (اختیاری، Veo یا Omni، ۸ ثانیه): `the sky flashes brighter, light sweeps across the ground, the character shields his eyes`
+
 متن روی تصویر در تدوین: «روز ۷»
 
 **شات ۸ (24–27.5) · چیزی پشت سرش**
 ```
-Shot 08 – close-up of the character frozen in fear with wide eyes, behind him in the darkness a huge dinosaur eye and steaming nostrils very close to his back, lit by the orange glow of the sky, tense dramatic composition; [CHARACTER LOCK]; [STYLE LOCK]
+Shot 08 – close-up of the character frozen in fear with wide eyes and a sweat drop, behind him in the darkness a huge reptilian dinosaur eye and steaming nostrils very close to his back, lit by the orange glow of the burning sky, tense dramatic composition; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, vertical 9:16, no watermark
 ```
-حرکت: `the giant eye blinks slowly, warm breath steam rolls over the character`
+حرکت (اختیاری، Veo یا Omni، ۸ ثانیه): `the giant eye blinks slowly, warm breath steam rolls over the character`
 
 **شات ۹ (27.5–30) · کارت آخر**
 همان شات ۸ را تار و تیره کن. متن درشت در تدوین: «ادامه‌اش رو می‌خوای؟» + «کامنت کن 🦖».
 
 ## ۴. نکته‌های Flow
 - عکس هر شات را **۲ تا ۳ نسخه** بساز و یکدست‌ترین را با برگه‌ی شخصیت انتخاب کن.
-- اگر کلاه یا عینک عوض شد، با ابزار ویرایش Nano Banana فقط همان را درست کن. کل تصویر را از نو نساز.
+- اگر کلاه، چراغ یا مو عوض شد، با ابزار ویرایش Nano Banana فقط همان را درست کن. کل تصویر را از نو نساز.
 - **ارزان:** فقط شات‌های ۱، ۷ و ۸ را متحرک کن. بقیه با زوم و پن در تدوین.
 - اسم فایل‌ها را Shot 01 … Shot 09 بگذار و در پوشه‌ی `uploads/dino-short/` گیت‌هاب آپلود کن، تا تدوین را من انجام بدهم: نریشن، زوم، افکت، متن فارسی و موزیک.
