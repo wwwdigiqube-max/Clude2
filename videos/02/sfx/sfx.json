@@ -1,0 +1,8 @@
+[
+ {"id":"stomp","text":"a single gigantic dinosaur footstep stomping on wet jungle ground, deep heavy thud with rumble and debris, close","dur":1.5,"infl":0.6},
+ {"id":"alert","text":"smartphone emergency alert alarm tone, harsh repeating beeps, short","dur":2,"infl":0.6},
+ {"id":"fireball","text":"huge meteor fireball roaring across the sky, deep rumbling whoosh building up, cinematic","dur":3,"infl":0.5},
+ {"id":"breath","text":"huge dinosaur breathing out slowly through its nostrils right behind you, deep wet snort and exhale, close, eerie","dur":2,"infl":0.6},
+ {"id":"dig","text":"digging dirt quickly with a flat stone, scraping soil and pebbles, three strokes","dur":1.5,"infl":0.6},
+ {"id":"jungle","text":"prehistoric jungle night ambience, insects, distant low dinosaur call, wind in leaves, no music","dur":8,"infl":0.4}
+]

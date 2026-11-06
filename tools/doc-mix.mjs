@@ -101,7 +101,10 @@ const outs = stems ? ["o1", "o2", "o3"].flatMap((o) => ["-map", `[${o}]`, "-ar",
 // the graph goes through a file (ffmpeg 7+: -/filter_complex <file>) — long plans overflow the command line otherwise
 const graph = out.replace(/\.wav$/, ".graph.txt");
 fs.writeFileSync(graph, parts.join(";\n"));
-execFileSync("ffmpeg", ["-nostdin", "-v", "error", "-y", ...inputs.flatMap((f) => ["-i", f]), "-/filter_complex", graph, ...outs], { stdio: "inherit" });
+// ffmpeg 6 (Ubuntu 24.04 cloud VM) only knows -filter_complex_script; ffmpeg 7+ prefers -/filter_complex
+const ffMajor = +(/ffmpeg version n?(\d+)/.exec(execFileSync("ffmpeg", ["-version"]).toString())?.[1] ?? 7);
+const graphOpt = ffMajor >= 7 ? "-/filter_complex" : "-filter_complex_script";
+execFileSync("ffmpeg", ["-nostdin", "-v", "error", "-y", ...inputs.flatMap((f) => ["-i", f]), graphOpt, graph, ...outs], { stdio: "inherit" });
 fs.rmSync(graph, { force: true });
 console.log(`mixed: ${MUSIC.length} music · ${SFX.length} effects · ${BEDS.length} beds → ${out}`);
 

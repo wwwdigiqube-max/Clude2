@@ -1,0 +1,17 @@
+{
+  "vo": "public/v02/vo.wav",
+  "voJson": "src/v02/vo.json",
+  "length": 33.5,
+  "music": [["public/v02/music.wav", 0, 1.5, 33.0, 0.6]],
+  "beds": [["public/v02/sfx/jungle.wav", 0, 24.6, 0.35]],
+  "sfx": [
+    ["public/v02/sfx/stomp.wav", 0.5, 0.9, 0.012],
+    ["public/v02/sfx/stomp.wav", 15.2, 0.6, 0.012],
+    ["public/v02/sfx/alert.wav", 5.4, 0.45, 0.923],
+    ["public/v02/sfx/fireball.wav", 10.6, 0.45, 0.881],
+    ["public/v02/sfx/dig.wav", 23.0, 0.6, 0.835],
+    ["public/v02/sfx/fireball.wav", 25.8, 0.75, 0.881],
+    ["public/v02/sfx/breath.wav", 31.6, 1.0, 0.771]
+  ],
+  "musicBase": 0.36, "musicLift": 0.5, "sfxGain": 0.3, "voGain": 1.0
+}
