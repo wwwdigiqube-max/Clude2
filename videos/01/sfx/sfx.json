@@ -1,0 +1,9 @@
+[
+ {"id":"groan","text":"a single zombie low hungry groan, raspy throat, close, dry, no music","dur":1.8,"infl":0.6},
+ {"id":"horde","text":"distant crowd of zombies groaning together, eerie, dry, no music","dur":3,"infl":0.5},
+ {"id":"ring","text":"loud old-school mobile phone ringtone, cheerful electronic melody, two rings, clean","dur":2.2,"infl":0.7},
+ {"id":"heart","text":"fast nervous heartbeat thumps, close, dry","dur":2,"infl":0.6},
+ {"id":"ladder","text":"quick footsteps climbing a metal ladder, clanky rungs, four steps","dur":1.2,"infl":0.6},
+ {"id":"slip","text":"cartoon slip and fall, body thud on pavement, short","dur":1,"infl":0.5},
+ {"id":"bottle","text":"plastic water bottle set down on concrete, single hollow tap","dur":0.5,"infl":0.6}
+]

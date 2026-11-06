@@ -31,15 +31,25 @@ for (const l of L) {
   if (!V[l.sp]) throw new Error(`no voice for speaker ${l.sp} in voices.json`);
   for (let k = 1; k <= takes; k++) if (!fs.existsSync(path.join(OUT, `${pad(l.n)}-${k}.mp3`))) jobs.push([l, k]);
 }
+let FORMAT = V.format ?? "mp3_44100_192"; // free plan: falls back to 128 kbps automatically
 async function tts([l, k]) {
   for (let a = 0; a < 4; a++) {
     try {
-      const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${V[l.sp]}/with-timestamps?output_format=mp3_44100_192`, {
+      const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${V[l.sp]}/with-timestamps?output_format=${FORMAT}`, {
         method: "POST",
         headers: { ...xi(), "Content-Type": "application/json" },
         body: JSON.stringify({ text: l.fa, model_id: model, language_code: lang }),
       });
-      if (!r.ok) throw new Error(r.status + " " + (await r.text()).slice(0, 160));
+      if (!r.ok) {
+        const t = await r.text();
+        if (r.status === 403 && /output format/i.test(t) && FORMAT !== "mp3_44100_128") {
+          FORMAT = "mp3_44100_128";
+          console.log("plan does not allow 192 kbps → using mp3_44100_128");
+          a--;
+          continue;
+        }
+        throw new Error(r.status + " " + t.slice(0, 160));
+      }
       const j = await r.json();
       fs.writeFileSync(path.join(OUT, `${pad(l.n)}-${k}.mp3`), Buffer.from(j.audio_base64, "base64"));
       fs.writeFileSync(path.join(OUT, `${pad(l.n)}-${k}.json`), JSON.stringify({ alignment: j.alignment }));
