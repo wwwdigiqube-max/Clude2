@@ -127,3 +127,40 @@ Shot 08 – close-up of the character frozen in fear with wide eyes and a sweat 
 - اگر کلاه، چراغ یا مو عوض شد، با ابزار ویرایش Nano Banana فقط همان را درست کن. کل تصویر را از نو نساز.
 - **ارزان:** فقط شات‌های ۱، ۷ و ۸ را متحرک کن. بقیه با زوم و پن در تدوین.
 - اسم فایل‌ها را Shot 01 … Shot 09 بگذار و در پوشه‌ی `uploads/dino-short/` گیت‌هاب آپلود کن، تا تدوین را من انجام بدهم: نریشن، زوم، افکت، متن فارسی و موزیک.
+
+## ۵. حرکت در Flow (عکس‌ها ساخته شد: `uploads/dino-short/shot01–08.jpg`، همه 16:9)
+
+- **قالب:** عکس‌ها 16:9 هستند. Short باید عمودی باشد.
+  - کلیپ‌ها را هم **16:9** بساز (همان نسبت عکس).
+  - در تدوین، Claude برش عمودی 9:16 می‌زند و روی تصویر پن می‌کند. این خودش حرکت دوربین می‌شود.
+  - پس اتفاق اصلی هر کلیپ باید در **یک‌سوم وسط** کادر بماند.
+- **حالت:** Frames to Video / image-to-video، عکس همان شات = فریم اول، ۸ ثانیه، مدل **Fast** (نه Quality).
+  - هر شات ۲ نسخه بساز. ۴ شات × ۲ = ۸ کلیپ، حدود ۱۶۰ تا ۲۴۰ اعتبار از ۱۰۰۰.
+- **اتفاق اصلی در ۴ ثانیه‌ی اول بیفتد،** چون از هر کلیپ فقط ۳ تا ۴ ثانیه استفاده می‌شود.
+- **صدای کلیپ مهم نیست.** نریشن و افکت را در تدوین می‌گذاریم.
+- **فقط این ۴ شات متحرک می‌شوند:** ۱، ۴، ۷، ۸.
+  - ۲، ۳، ۵ و ۶ با پن، زوم و افکت در تدوین (نور گوشی می‌تپد، ذرات خاک، لرزش).
+
+**شات ۱ · پا بلند می‌شود** (قلاب سه ثانیه‌ی اول؛ مهم‌ترین)
+```
+The giant dinosaur foot slowly lifts off the ground with mud and moss dripping from its claws, then stomps down hard one step further away; the ground shakes, dust and leaves jump into the air. The young man sitting on the ground freezes mid-yawn, drops his hand from his eye and stares up in shock. Mist drifts through the sunbeams. Slow subtle camera push-in. Keep the art style, colours and character exactly as in the image. No dialogue, no text.
+```
+
+**شات ۴ · تی‌رکس رد می‌شود**
+```
+The Tyrannosaurus rex walks slowly forward through the jungle with heavy steps, turning its head and sniffing the air, ferns swaying around its legs. In the foreground the young man ducks lower behind the fern leaf, eyes wide, holding his breath. Water drips from the leaves. Static camera with a small shake on each footstep. Keep the art style and character exactly as in the image. No dialogue, no text.
+```
+
+**شات ۷ · آسمان روشن می‌شود**
+```
+The asteroid streaks across the sky leaving a long burning trail, the whole sky glows brighter and brighter from orange to blinding white, the light sweeps across the ground and the young man's long shadow swings behind him. He raises his arm to shield his eyes and stumbles one step back toward the burrow entrance. Dry branches tremble in a hot wind. Slow camera pull-back. Keep the art style and character exactly as in the image. No dialogue, no text.
+```
+
+**شات ۸ · نفس پشت سرش**
+```
+The huge dinosaur slowly breathes out, warm steam rolling from its nostrils over the young man's beanie, its golden eye moves toward him and blinks once. The young man stays completely frozen; only his eyes slowly slide to the side and a sweat drop runs down his face. Glowing embers float in the orange air. Very slow camera push-in toward his face. Keep the art style and character exactly as in the image. No dialogue, no text.
+```
+
+**اگر کلیپ خراب شد:**
+- شخصیت عوض شد ← جمله‌ی `Keep the character exactly as in the image` را اول پرامپت بیاور.
+- حرکت زیادی شد ← `subtle, slow movement` اضافه کن.
