@@ -6,19 +6,36 @@
 
 ## ۱. طراحی شخصیت (یک بار، برای کل کانال)
 
+> **نسخه ۲ (بعد از بازخورد کاربر):** نسخه‌ی اول (کلاه فیروزه‌ای و عینک) بچگانه درآمد و کنار گذاشته شد.
+> مخاطب ۱۵ سال به بالاست. مرجع ظاهر: تامبنیل‌های Melvin Wont Die، Nobody Gets In، survive_stick، sam.storyie، alfarar_1 و iconic-farsi.
+> - **ویژگی‌های مشترک سبک بزرگسال:**
+>   - سر گرد سفید فقط حدود یک‌سوم قد
+>   - پاهای بلند و باریک خطی
+>   - چشم‌های کوچک ساده با ابروهای نازک و پرحس
+>   - لباس واقعی با چین و سایه (جلیقه‌ی پفی، هودی، کوله)
+>   - صحنه‌های تاریک با نور سینمایی نارنجی و آبی
+>   - رنگ‌های کدر
+> - **عمداً کلاه قرمز نه:** تقریباً همه‌ی این کانال‌ها دارندش. نشانه‌ی ما: **چراغ‌پیشانی روی کلاه‌بافت تیره + کاپشن نارنجی‌زنگاری**. چراغ‌پیشانی در شب‌ها خودش نور سینمایی می‌سازد.
+
 **قفل شخصیت** (در همه‌ی شات‌ها عیناً همین):
 ```
-the same original stick-figure character from the reference image: a large round off-white head with a thick black outline, big expressive cartoon eyes, round thin black glasses, a small messy dark-brown hair tuft under a turquoise bucket hat, thin black stick arms and legs, black mitten hands, small dark boots, an olive-green utility vest with two chest pockets over a thin black stick body, same proportions as the reference
+the same original character from the reference image: a stick-figure young man about 20 years old, a plain round off-white head about one third of his total height with a thick black outline, small simple black oval eyes, thin expressive black eyebrows, a small mouth, messy dark-brown hair sticking out under a dark charcoal knit beanie with a small headlamp strapped on the front, a worn rust-orange hooded shell jacket left open over a dark grey t-shirt with a dark backpack strap across the chest, long thin black stick arms ending in simple black hands, long thin black stick legs, dark hiking boots, same proportions as the reference, not chibi, not cute
 ```
 
 **قفل سبک** (در همه‌ی شات‌ها عیناً همین):
 ```
-detailed hand-painted 2D cartoon illustration, bold clean black outlines, rich cinematic lighting and atmosphere, painterly textured backgrounds, vertical 9:16 composition, no watermark
+in the style of a dark, gritty animated survival story for teens and adults: detailed digital painting, clean black outlines on the character, realistic painterly backgrounds with depth, muted desaturated colours, dramatic cinematic lighting with strong warm orange and cold blue light, soft shadows on the character from the scene's light, vertical 9:16 composition, no watermark
 ```
 
-**پرامپت برگه‌ی شخصیت** (نسبت 16:9، ۲ تا ۴ نسخه بساز و بهترین را نگه دار):
+**قدم ۱-الف · عکس «لنگر سبک»** (اول این را بساز؛ 9:16، ۳ تا ۴ نسخه):
 ```
-Character turnaround sheet for an original cartoon YouTube mascot on a plain light-grey background. Top row: four full-body views of the same character (front, three-quarter, side, back). Bottom row: five head close-ups with different expressions (scared, curious, determined, shocked, relieved). The character: a large round off-white head with a thick black outline, big expressive cartoon eyes, round thin black glasses, a small messy dark-brown hair tuft under a turquoise bucket hat, thin black stick arms and legs, black mitten hands, small dark boots, an olive-green utility vest with two chest pockets over a thin black stick body. Detailed hand-painted 2D cartoon style, bold clean black outlines, soft even studio light, no text.
+A stick-figure young man about 20 years old standing alone in a dark misty prehistoric jungle at night, giant ferns and the silhouette of a huge dinosaur in the fog behind him, the beam of his headlamp cutting through the mist, he looks over his shoulder with a worried face and a sweat drop. [CHARACTER LOCK]. [STYLE LOCK]
+```
+(جای [CHARACTER LOCK] و [STYLE LOCK] متن دو قفل بالا را بگذار.)
+
+**قدم ۱-ب · برگه‌ی شخصیت** (عکس لنگر را رفرنس بده؛ نسبت 16:9):
+```
+Character turnaround sheet of the exact character from the reference image, same art style, same proportions, plain dark-grey background with soft dramatic light. Top row: four full-body views (front, three-quarter, side, back). Bottom row: five head close-ups with expressions (scared with sweat drop, suspicious, determined, shocked with open mouth, exhausted). The character: [CHARACTER LOCK]. Detailed digital painting, muted colours, clean black outlines, not chibi, not cute, no text.
 ```
 
 ## ۲. نریشن (حدود ۶۰ کلمه، ۲۶ تا ۲۸ ثانیه)
