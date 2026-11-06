@@ -54,10 +54,10 @@ shot("روز ۱", "هوا داغ و خیسه. بوی خاک و گیاه می‌�
      cam="چرخش آروم دوربین", sfx="جنگل باستانی، رطوبت")
 shot("روز ۱", "کنارت یه چیزی از زمین تا بالای سرت رفته، شبیه تنه‌ی درخت.", "عکس اولی که ساختی (پسر کنار پای غول)", "reuse", src="shot01",
      cam="پن از پسر به سمت پا", sfx="سکوت ناگهانی جنگل")
-shot("روز ۱", "ولی درخت نیست. پنجه داره.", "زوم روی پنجه‌ها", "crop", src="shot01", cam="زوم ضربه‌ای روی پنجه", sfx="ضربه‌ی بم کوتاه")
-shot("روز ۱", "پا آروم بلند میشه، یه قدم جلوتر می‌کوبه زمین، و زمین زیر تو می‌لرزه.", "پا بلند میشه و می‌کوبه", "clip", src="shot01",
-     motion="The giant dinosaur foot slowly lifts off the ground with mud and moss dripping from its claws, then stomps down hard one step further away; the ground shakes, dust and leaves jump. The young man freezes. Slow subtle camera push-in. Keep the art style and character exactly as in the image. No dialogue, no text.",
-     cam="لرزش شدید روی کوبیدن", sfx="قدم عظیم + لرزش")
+shot("روز ۱", "ولی درخت نیست. پنجه داره.", "کلیپی که خودت ساختی: پسر چشمش رو می‌ماله و یهو به پنجه نگاه می‌کنه", "reuse", src="clip-wake-lookup (آماده است)",
+     cam="کات روی لحظه‌ی بالا نگاه کردن", sfx="ضربه‌ی بم کوتاه")
+shot("روز ۱", "پا آروم بلند میشه، یه قدم جلوتر می‌کوبه زمین، و زمین زیر تو می‌لرزه.", "عکس باز shot01 با لرزش شدید و گرد و خاک (کلیپ لازم نیست)", "code", src="shot01",
+     cam="سایه‌ی پا روی زمین، لرزش شدید و ذرات خاک رو من می‌سازم؛ اعتبار Flow خرج نمیشه", sfx="قدم عظیم + لرزش")
 shot("روز ۱", "نفس نمی‌کشی تا صدای قدم‌ها دور بشه.", "صورت پسر، یخ‌زده", "crop", src="shot01", cam="زوم خیلی آروم، سکوت", sfx="قدم‌ها که دور میشن")
 shot("روز ۱", "گوشیت هنوز توی جیبته. آنتن نداره. اینترنت نداره.", "عکس گوشی که ساختی، با ویرایش «10 DAYS»", "reuse", src="shot02 (ویرایش‌شده)",
      prompt="Edit this image: change the text on the phone screen to \"ASTEROID IMPACT IN 10 DAYS\" and below it \"3000 KM SOUTH\", clear and readable. Keep everything else exactly the same.",
@@ -160,7 +160,7 @@ shot("روز ۵", "پس جای لونه رو بالاتر از اون خط ان�
 def refs(s):
     pr = s["prompt"]
     if s["kind"] == "reuse":
-        return ["خود عکس " + s["src"].split(" ")[0] + " (ویرایش)"]
+        return ["خود عکس " + s["src"].split(" ")[0] + " (ویرایش)"] if pr else []
     if s["kind"] in ("crop", "code"):
         return []
     if s["kind"] == "clip" and not pr:

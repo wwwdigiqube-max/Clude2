@@ -167,22 +167,20 @@
    "sfx": "سکوت ناگهانی جنگل",
    "motion": "",
    "src": "shot01",
-   "refs": [
-    "خود عکس shot01 (ویرایش)"
-   ],
+   "refs": [],
    "n": 10,
    "t": "0:45"
   },
   {
    "part": "روز ۱",
    "narr": "ولی درخت نیست. پنجه داره.",
-   "see": "زوم روی پنجه‌ها",
-   "kind": "crop",
+   "see": "کلیپی که خودت ساختی: پسر چشمش رو می‌ماله و یهو به پنجه نگاه می‌کنه",
+   "kind": "reuse",
    "prompt": "",
-   "cam": "زوم ضربه‌ای روی پنجه",
+   "cam": "کات روی لحظه‌ی بالا نگاه کردن",
    "sfx": "ضربه‌ی بم کوتاه",
    "motion": "",
-   "src": "shot01",
+   "src": "clip-wake-lookup (آماده است)",
    "refs": [],
    "n": 11,
    "t": "0:51"
@@ -190,16 +188,14 @@
   {
    "part": "روز ۱",
    "narr": "پا آروم بلند میشه، یه قدم جلوتر می‌کوبه زمین، و زمین زیر تو می‌لرزه.",
-   "see": "پا بلند میشه و می‌کوبه",
-   "kind": "clip",
+   "see": "عکس باز shot01 با لرزش شدید و گرد و خاک (کلیپ لازم نیست)",
+   "kind": "code",
    "prompt": "",
-   "cam": "لرزش شدید روی کوبیدن",
+   "cam": "سایه‌ی پا روی زمین، لرزش شدید و ذرات خاک رو من می‌سازم؛ اعتبار Flow خرج نمیشه",
    "sfx": "قدم عظیم + لرزش",
-   "motion": "The giant dinosaur foot slowly lifts off the ground with mud and moss dripping from its claws, then stomps down hard one step further away; the ground shakes, dust and leaves jump. The young man freezes. Slow subtle camera push-in. Keep the art style and character exactly as in the image. No dialogue, no text.",
+   "motion": "",
    "src": "shot01",
-   "refs": [
-    "فریم اول: shot01"
-   ],
+   "refs": [],
    "n": 12,
    "t": "0:54"
   },
