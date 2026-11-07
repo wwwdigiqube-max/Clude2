@@ -146,11 +146,11 @@ shot("روز ۵", "سنگ ۳۰۰۰ کیلومتر دورتر می‌خوره. و
      cam="کارت «روز ۵»؛ رنگ خاطره/پیش‌بینی، نقشه‌ی ۳۰۰۰ کیلومتر رو من می‌سازم", sfx="ووش‌های دور، غرش آسمان")
 shot("روز ۵", "روی زمین، جایی برای قایم شدن نیست. زیر زمین شاید باشه.", "دوربین از آسمون میره پایین زیر خاک", "code", src="D5a",
      cam="تیلت به پایین و ترنزیشن به سیاهی خاک", sfx="سکوت")
-shot("روز ۵", "یه دیواره‌ی رسی کنار رود پیدا می‌کنی. ولی قبل از کندن، به تنه‌ی درخت‌ها نگاه می‌کنی.", "پسر جلوی دیواره‌ی رسی کنار رود، بیل استخونی روی شونه", "new",
-     P("Shot D5b – the young man standing in front of a tall clay riverbank wall, the flat bone shovel resting on his shoulder, looking around thoughtfully, trees along the bank, afternoon light, medium wide shot"),
-     cam="پن", sfx="رود")
-shot("روز ۵", "روی همه‌شون یه خط گل خشک‌شده هست. تا اینجا آب بالا اومده. سیل.", "کلوزآپ تنه‌ی درخت با خط گل خشک؛ دست پسر روی خط", "new",
-     P("Shot D5c – close-up of several tree trunks along the river with a clear horizontal line of dried mud showing an old flood level, the young man's black hand touching the mud line, realization"),
+shot("روز ۵", "یه دیواره‌ی رسی کنار رود پیدا می‌کنی. ولی قبل از کندن، به تنه‌ی درخت‌ها نگاه می‌کنی.", "همون رود گل‌آلود روز ۳؛ یه دیواره‌ی رسی کم‌ارتفاع درست کنار آب؛ پسر با استخون کتف پهن روی شونه", "new",
+     P("Shot D5b – afternoon on the bank of the same wide, muddy brown river from the river reference image: a low, steep clay riverbank about as tall as a man rises just above the water, tree roots hanging from its top edge. The young man stands in front of the clay bank resting the flat, paddle-shaped dinosaur shoulder-blade bone from the bone reference image on his shoulder like a shovel, looking at the bank thoughtfully. Behind him, several tree trunks along the river show a clear pale band of dried mud at knee height. Misty jungle, medium wide shot"),
+     cam="پن از رود به دیواره", sfx="رود")
+shot("روز ۵", "روی همه‌شون یه خط گل خشک‌شده هست. تا اینجا آب بالا اومده. سیل.", "کلوزآپ سه تنه‌ی درخت کنار همون رود؛ روی همه یه نوار افقی گل خشک هم‌ارتفاع؛ دست سیاه پسر روی خط", "new",
+     P("Shot D5c – close-up of three tree trunks standing on the muddy riverbank, each with the same clear horizontal band of dried pale-brown mud with stuck twigs and dry grass at exactly the same height on every trunk (an old flood line, not a cut in the bark); the young man's simple solid black hand touches the mud line on the nearest trunk; the same wide muddy brown river from the river reference image flows behind; soft daylight"),
      cam="زوم روی خط", sfx="ضربه‌ی کوتاه")
 shot("روز ۵", "پس جای لونه رو بالاتر از اون خط انتخاب می‌کنی. یه وجب بالاتر. فقط محض احتیاط.", "دیواره‌ی رسی با خط‌چین سطح سیل و فلش «یه وجب بالاتر»", "crop", src="D5b",
      cam="خط‌چین و فلش رو من می‌کشم (همین خط در روز ۱۰ دوباره دیده میشه)", sfx="تیک")
@@ -167,8 +167,11 @@ def refs(s):
     r = []
     night = any(k in pr for k in ("at night", "night,", "dark underground", "inside a dark", "burning", "tunnel"))
     style = "عکس سبک شب: شات ۱ (تونل)" if night else "عکس سبک روز: شات ۲۴ (کنار ریشه)"
-    if CHAR in pr: r += ["برگه‌ی شخصیت", style]
-    else: r += [style + " (فقط برای سبک)"]
+    if "river reference" in pr: style = None  # the river image already carries the day style
+    if CHAR in pr: r += ["برگه‌ی شخصیت"] + ([style] if style else [])
+    elif style: r += [style + " (فقط برای سبک)"]
+    if "river reference" in pr: r += ["عکس رود: شات ۳۲ (رسیدن به رود)"]
+    if "bone reference" in pr: r += ["عکس استخون (شات ۴۴ اصلاح‌شده)"]
     if "Fandogh" in pr or "tiny furry mammal" in pr: r += ["برگه‌ی فندق"]
     if TREX in pr: r += ["رفرنس تی‌رکس"]
     return r

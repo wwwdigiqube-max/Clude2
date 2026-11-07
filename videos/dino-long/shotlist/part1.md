@@ -445,22 +445,22 @@ Shot D5a – vision of the near future: a night sky full of thousands of glowing
 
 **شات 47 · روز ۵ · 4:59** · 🖼 عکس تازه
 - 🎙 یه دیواره‌ی رسی کنار رود پیدا می‌کنی. ولی قبل از کندن، به تنه‌ی درخت‌ها نگاه می‌کنی.
-- 👁 پسر جلوی دیواره‌ی رسی کنار رود، بیل استخونی روی شونه
-- 📎 رفرنس: برگه‌ی شخصیت + عکس سبک روز: شات ۲۴ (کنار ریشه)
+- 👁 همون رود گل‌آلود روز ۳؛ یه دیواره‌ی رسی کم‌ارتفاع درست کنار آب؛ پسر با استخون کتف پهن روی شونه
+- 📎 رفرنس: برگه‌ی شخصیت + عکس رود: شات ۳۲ (رسیدن به رود) + عکس استخون (شات ۴۴ اصلاح‌شده)
 - اسم فایل: `Shot D5b`
 ```
-Shot D5b – the young man standing in front of a tall clay riverbank wall, the flat bone shovel resting on his shoulder, looking around thoughtfully, trees along the bank, afternoon light, medium wide shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark
+Shot D5b – afternoon on the bank of the same wide, muddy brown river from the river reference image: a low, steep clay riverbank about as tall as a man rises just above the water, tree roots hanging from its top edge. The young man stands in front of the clay bank resting the flat, paddle-shaped dinosaur shoulder-blade bone from the bone reference image on his shoulder like a shovel, looking at the bank thoughtfully. Behind him, several tree trunks along the river show a clear pale band of dried mud at knee height. Misty jungle, medium wide shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark
 ```
-- 🎥 پن
+- 🎥 پن از رود به دیواره
 - 🔊 رود
 
 **شات 48 · روز ۵ · 5:06** · 🖼 عکس تازه
 - 🎙 روی همه‌شون یه خط گل خشک‌شده هست. تا اینجا آب بالا اومده. سیل.
-- 👁 کلوزآپ تنه‌ی درخت با خط گل خشک؛ دست پسر روی خط
-- 📎 رفرنس: برگه‌ی شخصیت + عکس سبک روز: شات ۲۴ (کنار ریشه)
+- 👁 کلوزآپ سه تنه‌ی درخت کنار همون رود؛ روی همه یه نوار افقی گل خشک هم‌ارتفاع؛ دست سیاه پسر روی خط
+- 📎 رفرنس: برگه‌ی شخصیت + عکس رود: شات ۳۲ (رسیدن به رود)
 - اسم فایل: `Shot D5c`
 ```
-Shot D5c – close-up of several tree trunks along the river with a clear horizontal line of dried mud showing an old flood level, the young man's black hand touching the mud line, realization; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark
+Shot D5c – close-up of three tree trunks standing on the muddy riverbank, each with the same clear horizontal band of dried pale-brown mud with stuck twigs and dry grass at exactly the same height on every trunk (an old flood line, not a cut in the bark); the young man's simple solid black hand touches the mud line on the nearest trunk; the same wide muddy brown river from the river reference image flows behind; soft daylight; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark
 ```
 - 🎥 زوم روی خط
 - 🔊 ضربه‌ی کوتاه
