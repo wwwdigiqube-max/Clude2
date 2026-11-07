@@ -9,17 +9,18 @@ STYLE = ("dark gritty animated survival story style for teens and adults, detail
 FANDOGH = ("Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, "
            "pointed whiskered pink nose, small round ears, long thin tail)")
 TREX = ("the same Tyrannosaurus rex from the T. rex reference image (dark grey-green scaly skin, a long pale scar across the left side of its snout, golden eyes)")
-RAPTOR = ("a small feathered raptor dinosaur the size of a large dog, standing only as tall as the young man's chest (dark brown and grey feathers, long stiff tail, a curved sickle claw on each foot, "
-          "narrow toothy snout, glowing yellow eyes)")
-RAPTOR_REF = "the same feathered raptor from the raptor reference image"
+RAPTOR = ("a small feathered raptor dinosaur only knee-high to the young man (coyote-sized, its head no bigger than his hand; dark brown and grey feathers, "
+          "long stiff feathered tail, slender scaly bird-like legs with a curved sickle claw on each foot, narrow toothy snout, glowing yellow eyes)")
+RAPTOR_REF = "the same small feathered raptor from the raptor reference image"
 WORLD = "Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods"
 BANK = "the same low clay riverbank beside the same wide muddy brown river from the bank reference image"
 TUNNEL = "the same narrow clay tunnel from the tunnel reference image"
+EARTH = "the same earthen tunnel and small round earth entrance hole from the earth-tunnel reference image"
 HOLE = "a small round entrance hole barely big enough for one person to crawl through on hands and knees (about as wide as the young man's shoulders)"
 
 PRE = [
- ("R3", "رفرنس شکارچی پردار (یک بار، قبل از روز ۸)", "رفرنس: عکس سبک شب (شات ۱، تونل)",
-  "Reference image of one small feathered raptor dinosaur the size of a large dog, full side view on a dark forest floor at night: dark brown and grey feathers, long stiff tail, a curved sickle claw on each foot, narrow toothy snout, glowing yellow eyes, lean and dangerous. Same art style as the reference image: detailed digital painting, clean dark outlines, muted colours, dramatic moonlight, 16:9, no text."),
+ ("R3", "رفرنس شکارچی با مقیاس (نسخه‌ی ۲، کوچیک)", "رفرنس: برگه‌ی شخصیت + رفرنس شکارچی قبلی (برای ظاهر) + شات ۱ (سبک شب)",
+  "Reference image for scale: one small feathered raptor dinosaur standing next to the young man from the character reference, side view on a dark forest floor at night. The raptor is only knee-high to him: its back reaches his knee and its head is no bigger than his hand, a coyote-sized animal with dark brown and grey feathers, a long stiff feathered tail, slender scaly bird-like legs with a curved sickle claw on each foot, a narrow toothy snout and glowing yellow eyes, the same look as the raptor in the reference image but much smaller. Same art style as the reference images: detailed digital painting, clean dark outlines, muted colours, moonlight, 16:9, no text."),
 ]
 
 S = []
@@ -47,7 +48,7 @@ shot("روز ۶", "و تونلی که اون‌قدر بره تو، که حدا�
 shot("روز ۶", "امیدواری خاک جلوی گرما رو بگیره. شاید حیوون‌های زیرزمینی همین‌طوری از اون روز جون سالم به در بردن.", "همون برش عرضی، فلش‌های گرما که به خاک می‌خورن", "code", src="D6c",
      cam="فلش‌های گرما از بالا که توی خاک متوقف میشن", sfx="هوهوی گرم")
 shot("روز ۶", "شب، برای اولین بار توی خونه‌ی خودت می‌خوابی.", "داخل تونل شب؛ پسر جمع شده خوابیده، از ورودی کوچیک ستاره‌ها دیده میشن", "new",
-     P("Shot D6d – night inside a narrow clay tunnel, the young man curled up asleep on the earthen floor with his backpack as a pillow, headlamp off, through the small round entrance hole (about as wide as his shoulders) a few stars and moonlight are visible, calm and cozy, close shot", "char"),
+     P(f"Shot D6d – night inside {EARTH}, the young man curled up asleep on the earthen floor with his backpack as a pillow, headlamp off, through the small round entrance hole (about as wide as his shoulders) a few stars and moonlight are visible, calm and cozy, close shot", "char"),
      cam="پوش خیلی آروم", sfx="جیرجیرک، رود دور")
 shot("روز ۶", "قانون سوم: زیر زمین بمون.", "کارت قانون روی تصویر تونل", "crop", src="D6d", cam="کارت امضای «قانون سوم»", sfx="مهر/ضربه")
 # ---- day 7 ----
@@ -67,33 +68,33 @@ shot("روز ۷", "جواب نمیده. ولی گوش میده.", "کلوزآپ 
 shot("روز ۷", "وقتی خاموشش می‌کنی، ۱۱ درصد مونده. ده درصد رو خرج عکس‌ها کردی. ارزشش رو داشت.", "صفحه‌ی گوشی خاموش میشه", "code", src="D7d",
      cam="باتری ۲۲٪ ← ۱۱٪ رو من می‌کشم", sfx="بیپ خاموش")
 shot("روز ۷", "شب، وقتی بیدار میشی، توی جیب کاپشنت خوابیده.", "شب توی تونل؛ فندق توی جیب کاپشن نارنجی جمع شده خوابیده", "new",
-     P("Shot D7e – night inside the clay tunnel, close-up of the young man's rust-orange jacket pocket with Fandogh curled up asleep inside it, only its head and tail visible, faint moonlight, peaceful", "char", "fandogh"),
+     P(f"Shot D7e – night inside {EARTH} (earth walls and roots only, no rocks), close-up of the young man's rust-orange jacket pocket with Fandogh curled up asleep inside it, only its head and tail visible, faint moonlight, peaceful", "char", "fandogh"),
      cam="پوش خیلی آروم", sfx="نفس آروم")
 shot("روز ۷", "هفت روز توی دنیایی که هیچ‌کس رو نداشتی، و حالا یکی رو داری.", "همون، نمای کمی بازتر", "crop", src="D7e", cam="زوم به عقب، موزیک گرم", sfx="موزیک")
 # ---- day 8 ----
 shot("روز ۸", "نیمه‌شب. یه صدای خراش از دم ورودی. بو کشیدن.", "از داخل تونل به ورودی؛ سایه‌ی پنجه‌ها روی دهانه زیر نور ماه", "new",
-     P(f"Shot D8a – view from deep inside {TUNNEL} toward {HOLE} at night, moonlight outside, one small clawed foot of a dog-sized animal scratching at the edge of the hole, dirt falling, tense", "none"),
+     P(f"Shot D8a – view from inside {EARTH} toward the hole at night, moonlight outside, one slender scaly bird-like foot with a curved sickle claw of {RAPTOR_REF} scratching at the edge of the hole, dirt falling, tense", "none"),
      cam="کارت «روز ۸»؛ لرزش ریز", sfx="خراش، بو کشیدن")
 shot("روز ۸", "توی تاریکی، دو تا چشم زرد برق می‌زنه.", "دو تا چشم زرد درخشان توی تاریکی دهانه", "new",
-     P(f"Shot D8b – almost total darkness, {HOLE} barely visible, the head of a dog-sized feathered raptor filling the hole, two glowing yellow eyes staring in, its body not visible, terrifying", "none"),
+     P(f"Shot D8b – almost total darkness inside {EARTH}, the small head of {RAPTOR_REF} peeking in at the hole, filling only a small part of it, two glowing yellow eyes staring in, terrifying", "none"),
      cam="فلش ریز روی چشم‌ها", sfx="خرخر آروم")
-shot("روز ۸", "یه شکارچی پردار و چابک، هم‌قد یه سگ بزرگ. نه تی‌رکس؛ اون‌قدر کوچیک که سر و گردنش توی دهانه‌ی لونه جا میشه.", "شکارچی پردار سر و گردنش رو توی دهانه‌ی تونل فرو کرده", "clip",
-     P(f"Shot D8c – {RAPTOR_REF}, {RAPTOR}, pushing only its head and neck into {HOLE} at night, its body stays outside out of view, jaws open, feathers bristling, seen from inside the tunnel, moonlight behind it", "none"),
+shot("روز ۸", "یه شکارچی پردار و چابک، که قدش فقط تا زانوی توئه. نه تی‌رکس؛ اون‌قدر کوچیک که سر و گردنش توی دهانه‌ی لونه جا میشه.", "شکارچی پردار سر و گردنش رو توی دهانه‌ی تونل فرو کرده", "clip",
+     P(f"Shot D8c – {RAPTOR_REF}, {RAPTOR}, pushing only its small head and neck into the hole of {EARTH} at night, its body stays outside out of view, jaws open, feathers bristling, seen from inside the tunnel, moonlight behind it", "none"),
      motion="The feathered raptor shoves its head deeper into the tunnel entrance, snapping its jaws twice and hissing, dirt crumbling from the edges. Static camera with a small shake. Keep the art style exactly as in the image. No dialogue, no text.",
      cam="فقط کلیپ", sfx="هیس، دندون")
 shot("روز ۸", "هرچی کوچیکه، بی‌خطر نیست.", "زوم روی پنجه‌ی داسی", "crop", src="D8c", cam="زوم ضربه‌ای", sfx="ضربه‌ی بم")
 shot("روز ۸", "پنجه‌اش رو می‌کشه. ساعدت می‌سوزه.", "پسر عقب می‌کشه، آستین پاره و خراش روی ساعد؛ فندق توی جیب ترسیده", "new",
-     P("Shot D8d – inside the dark clay tunnel, the young man recoiling against the tunnel wall, his rust-orange sleeve torn with three thin red scratch marks on his forearm (not gory), wincing, Fandogh peeking terrified from his jacket pocket, in the background the small round entrance hole with the dog-sized raptor's head pulling back out of it, dramatic close shot", "char", "fandogh"),
+     P(f"Shot D8d – inside {EARTH}, the young man recoiling against the tunnel wall, his rust-orange sleeve torn with three thin red scratch marks on his forearm (not gory), wincing, Fandogh peeking terrified from his jacket pocket, in the background the small round earth entrance hole with the small head of the knee-high feathered raptor pulling back out of it, dramatic close shot", "char", "fandogh"),
      cam="لرزش، فلش قرمز ریز", sfx="خراش، آخ")
 shot("روز ۸", "چاقو نداری. آتیش نداری. فقط یه چیز داری که این دنیا تا حالا ندیده.", "صورت مصمم پسر", "crop", src="D8d", cam="زوم به صورت", sfx="سکوت")
 shot("روز ۸", "گوشی رو روشن می‌کنی. ۱۱ درصد.", "گوشی روشن میشه", "code", src="D8e", cam="باتری ۱۱٪", sfx="بیپ روشن")
 shot("روز ۸", "آلارم رو می‌زنی و نور چراغ‌قوه رو مستقیم می‌گیری توی صورتش.", "پسر گوشی رو بالا گرفته، نور شدید چراغ‌قوه توی صورت شکارچی", "clip",
-     P(f"Shot D8e – inside the tunnel at night, the young man holding his phone up toward the entrance, a blinding white flashlight beam through the small round entrance hole hitting the face of {RAPTOR_REF} in the opening, the raptor recoiling with eyes squeezed shut, dust in the beam, dramatic", "char"),
+     P(f"Shot D8e – inside {EARTH} at night, the young man holding his phone up toward the entrance, a blinding white flashlight beam through the small round hole hitting the face of {RAPTOR_REF} in the opening, the raptor recoiling with eyes squeezed shut, dust in the beam, dramatic", "char"),
      motion="The phone's flashlight blazes brighter and flickers, the raptor screeches, jerks its head back out of the entrance and vanishes into the night. Small camera shake. Keep the art style and character exactly as in the image. No dialogue, no text.",
      cam="فلش سفید روی کادر", sfx="آلارم گوشی، جیغ")
 shot("روز ۸", "صدایی که ۶۶ میلیون سال زود به دنیا اومده، توی لونه می‌پیچه. شکارچی جیغ می‌کشه و توی شب گم میشه.", "ادامه‌ی کلیپ: شکارچی فرار می‌کنه", "crop", src="D8e", cam="اکوی آلارم", sfx="آلارم که اکو میشه")
 shot("روز ۸", "ولی جرئت نمی‌کنی چراغ رو خاموش کنی. خون از دستت می‌چکه. فندق از جیبت بیرون میاد و کنار دستت می‌شینه.", "پسر به دیوار تونل تکیه داده، نور گوشی رو به ورودی، فندق کنار دستش", "new",
-     P("Shot D8f – inside the tunnel, the young man sitting with his back against the clay wall, exhausted, holding his phone with its flashlight pointed at the entrance, his scratched forearm resting on his knee, Fandogh sitting right next to his hand looking at the entrance too, the beam lighting floating dust, close shot", "char", "fandogh"),
+     P(f"Shot D8f – inside {EARTH}, the young man sitting with his back against the clay wall, exhausted, holding his phone with its flashlight pointed at the entrance, his scratched forearm resting on his knee, Fandogh sitting right next to his hand looking at the entrance too, the beam lighting floating dust, close shot", "char", "fandogh"),
      cam="تایم‌لپس: نور بیرون از سیاه به آبی سحر", sfx="سکوت، چکه")
 shot("روز ۸", "تا صبح، نور گوشی رو روی ورودی نگه می‌داری و هیچ‌کدومتون تکون نمی‌خورین.", "همون، نور سحر", "crop", src="D8f", cam="ادامه‌ی تایم‌لپس", sfx="پرنده‌ی سحر")
 shot("روز ۸", "وقتی آفتاب میزنه، خاموشش می‌کنی. ۳ درصد.", "گوشی خاموش میشه", "code", src="D8f", cam="باتری ۳٪", sfx="بیپ")
@@ -200,15 +201,16 @@ def refs(s):
     if CHAR in pr: r.append("برگه‌ی شخصیت")
     if FANDOGH in pr: r.append("برگه‌ی فندق")
     if TREX in pr: r.append("رفرنس تی‌رکس")
-    if "raptor reference" in pr: r.append("رفرنس شکارچی (R3)")
+    if "raptor reference" in pr: r.append("رفرنس شکارچی کوچیک (R3 نسخه‌ی ۲)")
     if "bone reference" in pr: r.append("عکس استخون: شات ۴۴")
     if "flood-line reference" in pr: r.append("عکس خط سیل: شات ۴۸")
     if "bank reference" in pr: r.append("عکس دیواره‌ی کنار رود: شات ۴۷")
-    if "tunnel reference" in pr: r.append("عکس تونل: شات ۱")
+    if "earth-tunnel reference" in pr: r.append("عکس تونل خاکی: شات ۶۵ (اصلاح‌شده)")
+    if "tunnel reference" in pr and "earth-tunnel reference" not in pr: r.append("عکس تونل: شات ۱")
     body = pr.split(";")[0].lower()
     night = any(k in body for k in ("night", "darkness", "ash", "burning", "inside", "dim ", "fire"))
     style = "عکس سبک شب: شات ۱ (تونل)" if night else "عکس سبک روز: شات ۲۴ (کنار ریشه)"
-    if "عکس تونل: شات ۱" in r: style = None
+    if "عکس تونل: شات ۱" in r or any("تونل خاکی" in x for x in r): style = None
     if style and len(r) < 3: r.append(style + ("" if CHAR in pr else " (فقط برای سبک)"))
     return r[:3]
 for s in S:
