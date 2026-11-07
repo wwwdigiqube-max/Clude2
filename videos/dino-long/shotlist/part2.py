@@ -42,7 +42,7 @@ shot("روز ۶", "ورودی کوچیک، که فقط خودت ازش رد بش
 shot("روز ۶", "رو به شمال، پشت به جایی که سنگ می‌خوره.", "قطب‌نمای گرافیکی روی تصویر ورودی", "code", src="D6b",
      cam="قطب‌نما و فلش «جنوب ← برخورد» رو من می‌کشم", sfx="تیک")
 shot("روز ۶", "و تونلی که اون‌قدر بره تو، که حداقل یه متر خاک بالای سرت باشه.", "برش عرضی کنار رود: تونل توی خاک، پسر داخلش، یه متر خاک بالای سرش، رود کنارش", "new",
-     P("Shot D6c – a side cross-section cutaway view of the riverbank: the muddy river low on one side, the clay bank with a narrow tunnel dug sideways into it well ABOVE the water surface and above a pale dried-mud flood line on the bank, the young man lying inside the dry tunnel, a thick layer of earth and roots above him, grass and trees on top, clear educational illustration", "char"),
+     P("Shot D6c – a side cross-section cutaway view of the riverbank: the muddy river low on one side, the clay bank with a narrow tunnel dug sideways into it well ABOVE the water surface and above a pale dried-mud flood line on the bank, the young man crawling along the low narrow passage, which ends deeper inside in a small round chamber just tall enough to sit up in, a thick layer of earth and roots above him, grass and trees on top, clear educational illustration", "char"),
      cam="برچسب «۱ متر» و خط سطح سیل رو من می‌ذارم", sfx="ووش ملایم")
 shot("روز ۶", "امیدواری خاک جلوی گرما رو بگیره. شاید حیوون‌های زیرزمینی همین‌طوری از اون روز جون سالم به در بردن.", "همون برش عرضی، فلش‌های گرما که به خاک می‌خورن", "code", src="D6c",
      cam="فلش‌های گرما از بالا که توی خاک متوقف میشن", sfx="هوهوی گرم")
