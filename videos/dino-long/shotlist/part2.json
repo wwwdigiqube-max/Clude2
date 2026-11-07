@@ -94,14 +94,15 @@
    "narr": "شب، برای اولین بار توی خونه‌ی خودت می‌خوابی.",
    "see": "داخل تونل شب؛ پسر جمع شده خوابیده، از ورودی کوچیک ستاره‌ها دیده میشن",
    "kind": "new",
-   "prompt": "Shot D6d – night inside the same earthen tunnel and small round earth entrance hole from the earth-tunnel reference image, the young man curled up asleep on the earthen floor with his backpack as a pillow, headlamp off, through the small round entrance hole (about as wide as his shoulders) a few stars and moonlight are visible, calm and cozy, close shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "prompt": "Shot D6d – night inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible), the young man curled up asleep on the earthen floor with his backpack as a pillow, headlamp off, through the small round entrance hole (about as wide as his shoulders) a few stars and moonlight are visible, calm and cozy, close shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
    "cam": "پوش خیلی آروم",
    "sfx": "جیرجیرک، رود دور",
    "motion": "",
    "src": "",
    "refs": [
     "برگه‌ی شخصیت",
-    "عکس تونل خاکی: شات ۶۵ (اصلاح‌شده)"
+    "عکس داخل تونل: شات ۱ (فقط برای فضای تونل)",
+    "عکس سبک شب: شات ۱ (تونل)"
    ],
    "n": 55,
    "t": "5:49"
@@ -222,9 +223,9 @@
   {
    "part": "روز ۷",
    "narr": "شب، وقتی بیدار میشی، توی جیب کاپشنت خوابیده.",
-   "see": "شب توی تونل؛ فندق توی جیب کاپشن نارنجی جمع شده خوابیده",
+   "see": "شب، ته تونل؛ پسر به پهلو خوابیده (صورتش پیداست)، فندق توی جیب کاپشنش جمع شده",
    "kind": "new",
-   "prompt": "Shot D7e – night inside the same earthen tunnel and small round earth entrance hole from the earth-tunnel reference image (earth walls and roots only, no rocks), close-up of the young man's rust-orange jacket pocket with Fandogh curled up asleep inside it, only its head and tail visible, faint moonlight, peaceful; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "prompt": "Shot D7e – night inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible), medium shot like the earth-tunnel reference: the young man lying on his side half awake with a soft smile, his face clearly visible, Fandogh curled up asleep inside the pocket of his rust-orange jacket with only its head and tail showing, faint moonlight, peaceful; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
    "cam": "پوش خیلی آروم",
    "sfx": "نفس آروم",
    "motion": "",
@@ -232,7 +233,7 @@
    "refs": [
     "برگه‌ی شخصیت",
     "برگه‌ی فندق",
-    "عکس تونل خاکی: شات ۶۵ (اصلاح‌شده)"
+    "عکس داخل تونل: شات ۱ (فقط برای فضای تونل)"
    ],
    "n": 63,
    "t": "6:28"
@@ -253,54 +254,69 @@
   },
   {
    "part": "روز ۸",
-   "narr": "نیمه‌شب. یه صدای خراش از دم ورودی. بو کشیدن.",
-   "see": "از داخل تونل به ورودی؛ سایه‌ی پنجه‌ها روی دهانه زیر نور ماه",
+   "narr": "نیمه‌شب. ته تونل بیدار میشی. یه صدای خراش از سمت ورودی. بو کشیدن.",
+   "see": "ته تونل، تاریک؛ پسر تازه بیدار شده و گوش میده، فندق توی جیبش گوش‌هاش رو تیز کرده",
    "kind": "new",
-   "prompt": "Shot D8a – view from inside the same earthen tunnel and small round earth entrance hole from the earth-tunnel reference image toward the hole at night, moonlight outside, one slender scaly bird-like foot with a curved sickle claw of the same small feathered raptor from the raptor reference image scratching at the edge of the hole, dirt falling, tense; Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
-   "cam": "کارت «روز ۸»؛ لرزش ریز",
-   "sfx": "خراش، بو کشیدن",
+   "prompt": "Shot D8a – night, deep inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible), almost dark, the young man just woken up, propped on one elbow, listening with wide eyes, his face clearly visible, Fandogh alert in his jacket pocket with ears up, the tunnel passage behind him disappearing into darkness, medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "cam": "کارت «روز ۸»؛ تصویر تقریباً ثابت، فقط صدا",
+   "sfx": "خراش و بو کشیدن از دور",
    "motion": "",
    "src": "",
    "refs": [
-    "رفرنس شکارچی کوچیک (R3 نسخه‌ی ۲)",
-    "عکس تونل خاکی: شات ۶۵ (اصلاح‌شده)"
+    "برگه‌ی شخصیت",
+    "برگه‌ی فندق",
+    "عکس داخل تونل: شات ۱ (فقط برای فضای تونل)"
    ],
    "n": 65,
    "t": "6:38"
   },
   {
    "part": "روز ۸",
+   "narr": "بعد صدای جلو اومدن. یه چیزی داره توی تونل میاد.",
+   "see": "همون، صورت پسر نزدیک‌تر",
+   "kind": "crop",
+   "prompt": "",
+   "cam": "زوم آروم به صورت",
+   "sfx": "خش‌خش نزدیک‌شونده",
+   "motion": "",
+   "src": "D8a",
+   "refs": [],
+   "n": 66,
+   "t": "6:45"
+  },
+  {
+   "part": "روز ۸",
    "narr": "توی تاریکی، دو تا چشم زرد برق می‌زنه.",
-   "see": "دو تا چشم زرد درخشان توی تاریکی دهانه",
+   "see": "ته راهروی تاریک تونل، نزدیک کف، دو تا چشم زرد کوچیک",
    "kind": "new",
-   "prompt": "Shot D8b – almost total darkness inside the same earthen tunnel and small round earth entrance hole from the earth-tunnel reference image, the small head of the same small feathered raptor from the raptor reference image peeking in at the hole, filling only a small part of it, two glowing yellow eyes staring in, terrifying; Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
-   "cam": "فلش ریز روی چشم‌ها",
+   "prompt": "Shot D8b – looking down the dark narrow earth passage of the tunnel from the chamber, total darkness except two small glowing yellow eyes low near the floor of the passage, belonging to the same small feathered raptor from the raptor reference image, close to the ground, approaching; Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "cam": "لرزش خیلی ریز",
    "sfx": "خرخر آروم",
    "motion": "",
    "src": "",
    "refs": [
     "رفرنس شکارچی کوچیک (R3 نسخه‌ی ۲)",
-    "عکس تونل خاکی: شات ۶۵ (اصلاح‌شده)"
+    "عکس سبک شب: شات ۱ (تونل) (فقط برای سبک)"
    ],
-   "n": 66,
-   "t": "6:43"
+   "n": 67,
+   "t": "6:50"
   },
   {
    "part": "روز ۸",
-   "narr": "یه شکارچی پردار و چابک، که قدش فقط تا زانوی توئه. نه تی‌رکس؛ اون‌قدر کوچیک که سر و گردنش توی دهانه‌ی لونه جا میشه.",
-   "see": "شکارچی پردار سر و گردنش رو توی دهانه‌ی تونل فرو کرده",
+   "narr": "یه شکارچی پردار و چابک، که قدش فقط تا زانوی توئه. نه تی‌رکس؛ اون‌قدر کوچیک که توی تونل تو جا میشه.",
+   "see": "شکارچی کوچیک توی راهروی تنگ تونل به سمت دوربین میاد",
    "kind": "clip",
-   "prompt": "Shot D8c – the same small feathered raptor from the raptor reference image, a small feathered raptor dinosaur only knee-high to the young man (coyote-sized, its head no bigger than his hand; dark brown and grey feathers, long stiff feathered tail, slender scaly bird-like legs with a curved sickle claw on each foot, narrow toothy snout, glowing yellow eyes), pushing only its small head and neck into the hole of the same earthen tunnel and small round earth entrance hole from the earth-tunnel reference image at night, its body stays outside out of view, jaws open, feathers bristling, seen from inside the tunnel, moonlight behind it; Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "prompt": "Shot D8c – the same small feathered raptor from the raptor reference image, a small feathered raptor dinosaur only knee-high to the young man (coyote-sized, its head no bigger than his hand; dark brown and grey feathers, long stiff feathered tail, slender scaly bird-like legs with a curved sickle claw on each foot, narrow toothy snout, glowing yellow eyes), creeping low through the narrow earth passage of the tunnel toward the camera, its body filling only the lower half of the passage, jaws slightly open, feathers bristling, lit faintly from behind by moonlight; Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
    "cam": "فقط کلیپ",
-   "sfx": "هیس، دندون",
-   "motion": "The feathered raptor shoves its head deeper into the tunnel entrance, snapping its jaws twice and hissing, dirt crumbling from the edges. Static camera with a small shake. Keep the art style exactly as in the image. No dialogue, no text.",
+   "sfx": "هیس، قدم‌های ریز",
+   "motion": "The small feathered raptor creeps forward through the narrow tunnel toward the camera, head low, then hisses and snaps once. Static camera. Keep the art style exactly as in the image. No dialogue, no text.",
    "src": "",
    "refs": [
     "رفرنس شکارچی کوچیک (R3 نسخه‌ی ۲)",
-    "عکس تونل خاکی: شات ۶۵ (اصلاح‌شده)"
+    "عکس سبک روز: شات ۲۴ (کنار ریشه) (فقط برای سبک)"
    ],
-   "n": 67,
-   "t": "6:47"
+   "n": 68,
+   "t": "6:54"
   },
   {
    "part": "روز ۸",
@@ -313,15 +329,15 @@
    "motion": "",
    "src": "D8c",
    "refs": [],
-   "n": 68,
-   "t": "6:59"
+   "n": 69,
+   "t": "7:04"
   },
   {
    "part": "روز ۸",
    "narr": "پنجه‌اش رو می‌کشه. ساعدت می‌سوزه.",
-   "see": "پسر عقب می‌کشه، آستین پاره و خراش روی ساعد؛ فندق توی جیب ترسیده",
+   "see": "پسر به دیوار اتاقک چسبیده، آستین پاره و خراش روی ساعد؛ شکارچی کوچیک جلوش؛ فندق توی جیب",
    "kind": "new",
-   "prompt": "Shot D8d – inside the same earthen tunnel and small round earth entrance hole from the earth-tunnel reference image, the young man recoiling against the tunnel wall, his rust-orange sleeve torn with three thin red scratch marks on his forearm (not gory), wincing, Fandogh peeking terrified from his jacket pocket, in the background the small round earth entrance hole with the small head of the knee-high feathered raptor pulling back out of it, dramatic close shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "prompt": "Shot D8d – inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible) at night, the young man pressed back against the earth wall, his face clearly visible and wincing, his rust-orange sleeve torn with three thin red scratch marks on his forearm (not gory), the same small feathered raptor from the raptor reference image crouched in front of him, only knee-high, Fandogh peeking terrified from his jacket pocket, dramatic medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
    "cam": "لرزش، فلش قرمز ریز",
    "sfx": "خراش، آخ",
    "motion": "",
@@ -329,10 +345,10 @@
    "refs": [
     "برگه‌ی شخصیت",
     "برگه‌ی فندق",
-    "عکس تونل خاکی: شات ۶۵ (اصلاح‌شده)"
+    "رفرنس شکارچی کوچیک (R3 نسخه‌ی ۲)"
    ],
-   "n": 69,
-   "t": "7:01"
+   "n": 70,
+   "t": "7:07"
   },
   {
    "part": "روز ۸",
@@ -345,8 +361,8 @@
    "motion": "",
    "src": "D8d",
    "refs": [],
-   "n": 70,
-   "t": "7:04"
+   "n": 71,
+   "t": "7:09"
   },
   {
    "part": "روز ۸",
@@ -359,31 +375,31 @@
    "motion": "",
    "src": "D8e",
    "refs": [],
-   "n": 71,
-   "t": "7:11"
+   "n": 72,
+   "t": "7:16"
   },
   {
    "part": "روز ۸",
    "narr": "آلارم رو می‌زنی و نور چراغ‌قوه رو مستقیم می‌گیری توی صورتش.",
-   "see": "پسر گوشی رو بالا گرفته، نور شدید چراغ‌قوه توی صورت شکارچی",
+   "see": "پسر گوشی رو جلو گرفته، نور شدید توی صورت شکارچی کوچیک توی تونل",
    "kind": "clip",
-   "prompt": "Shot D8e – inside the same earthen tunnel and small round earth entrance hole from the earth-tunnel reference image at night, the young man holding his phone up toward the entrance, a blinding white flashlight beam through the small round hole hitting the face of the same small feathered raptor from the raptor reference image in the opening, the raptor recoiling with eyes squeezed shut, dust in the beam, dramatic; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "prompt": "Shot D8e – inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible) at night, the young man holding his phone out toward the same small feathered raptor from the raptor reference image, a blinding white flashlight beam hitting its face in the narrow passage, the knee-high raptor recoiling with eyes squeezed shut, dust in the beam, medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
    "cam": "فلش سفید روی کادر",
    "sfx": "آلارم گوشی، جیغ",
-   "motion": "The phone's flashlight blazes brighter and flickers, the raptor screeches, jerks its head back out of the entrance and vanishes into the night. Small camera shake. Keep the art style and character exactly as in the image. No dialogue, no text.",
+   "motion": "The phone's flashlight blazes brighter and flickers, the small raptor screeches, spins around and scrambles away down the dark tunnel. Small camera shake. Keep the art style and character exactly as in the image. No dialogue, no text.",
    "src": "",
    "refs": [
     "برگه‌ی شخصیت",
     "رفرنس شکارچی کوچیک (R3 نسخه‌ی ۲)",
-    "عکس تونل خاکی: شات ۶۵ (اصلاح‌شده)"
+    "عکس داخل تونل: شات ۱ (فقط برای فضای تونل)"
    ],
-   "n": 72,
-   "t": "7:14"
+   "n": 73,
+   "t": "7:20"
   },
   {
    "part": "روز ۸",
    "narr": "صدایی که ۶۶ میلیون سال زود به دنیا اومده، توی لونه می‌پیچه. شکارچی جیغ می‌کشه و توی شب گم میشه.",
-   "see": "ادامه‌ی کلیپ: شکارچی فرار می‌کنه",
+   "see": "ادامه‌ی کلیپ: فرار شکارچی",
    "kind": "crop",
    "prompt": "",
    "cam": "اکوی آلارم",
@@ -391,30 +407,30 @@
    "motion": "",
    "src": "D8e",
    "refs": [],
-   "n": 73,
-   "t": "7:20"
+   "n": 74,
+   "t": "7:25"
   },
   {
    "part": "روز ۸",
    "narr": "ولی جرئت نمی‌کنی چراغ رو خاموش کنی. خون از دستت می‌چکه. فندق از جیبت بیرون میاد و کنار دستت می‌شینه.",
-   "see": "پسر به دیوار تونل تکیه داده، نور گوشی رو به ورودی، فندق کنار دستش",
+   "see": "پسر توی اتاقک به دیوار تکیه داده، نور گوشی رو به راهرو، فندق کنار دستش",
    "kind": "new",
-   "prompt": "Shot D8f – inside the same earthen tunnel and small round earth entrance hole from the earth-tunnel reference image, the young man sitting with his back against the clay wall, exhausted, holding his phone with its flashlight pointed at the entrance, his scratched forearm resting on his knee, Fandogh sitting right next to his hand looking at the entrance too, the beam lighting floating dust, close shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
-   "cam": "تایم‌لپس: نور بیرون از سیاه به آبی سحر",
+   "prompt": "Shot D8f – inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible), the young man sitting with his back against the earth wall, exhausted, his face visible, holding his phone with its flashlight pointed down the dark passage, his scratched forearm resting on his knee, Fandogh sitting right next to his hand looking down the passage too, dust floating in the beam, medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "cam": "تایم‌لپس نور از سیاه به آبی سحر",
    "sfx": "سکوت، چکه",
    "motion": "",
    "src": "",
    "refs": [
     "برگه‌ی شخصیت",
     "برگه‌ی فندق",
-    "عکس تونل خاکی: شات ۶۵ (اصلاح‌شده)"
+    "عکس داخل تونل: شات ۱ (فقط برای فضای تونل)"
    ],
-   "n": 74,
-   "t": "7:29"
+   "n": 75,
+   "t": "7:35"
   },
   {
    "part": "روز ۸",
-   "narr": "تا صبح، نور گوشی رو روی ورودی نگه می‌داری و هیچ‌کدومتون تکون نمی‌خورین.",
+   "narr": "تا صبح، نور گوشی رو روی تونل نگه می‌داری و هیچ‌کدومتون تکون نمی‌خورین.",
    "see": "همون، نور سحر",
    "kind": "crop",
    "prompt": "",
@@ -423,8 +439,8 @@
    "motion": "",
    "src": "D8f",
    "refs": [],
-   "n": 75,
-   "t": "7:39"
+   "n": 76,
+   "t": "7:44"
   },
   {
    "part": "روز ۸",
@@ -437,8 +453,8 @@
    "motion": "",
    "src": "D8f",
    "refs": [],
-   "n": 76,
-   "t": "7:45"
+   "n": 77,
+   "t": "7:51"
   },
   {
    "part": "روز ۹",
@@ -455,12 +471,12 @@
     "برگه‌ی فندق",
     "عکس دیواره‌ی کنار رود: شات ۴۷"
    ],
-   "n": 77,
-   "t": "7:49"
+   "n": 78,
+   "t": "7:54"
   },
   {
    "part": "روز ۹",
-   "narr": "با یه دست، آخرین ماهی‌ها رو خشک می‌کنی و ورودی رو با سنگ تنگ‌تر می‌کنی. فقط یه شکاف می‌مونه، برای هوا.",
+   "narr": "با یه دست، آخرین ماهی‌ها رو خشک می‌کنی و ورودی رو با سنگ تنگ‌تر می‌کنی. فقط یه شکاف می‌مونه، برای هوا. دیگه هیچ‌چیز نباید بتونه بیاد تو.",
    "see": "پسر با یه دست سنگ‌ها رو جلوی ورودی می‌چینه؛ ماهی‌ها روی سنگ",
    "kind": "new",
    "prompt": "Shot D9b – the same low clay riverbank beside the same wide muddy brown river from the bank reference image, the young man using one hand to stack flat grey stones in front of the burrow entrance until only a tall thin vertical slit about as wide as a hand remains, a few small fish drying on a flat rock nearby, late afternoon, medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
@@ -473,8 +489,8 @@
     "عکس دیواره‌ی کنار رود: شات ۴۷",
     "عکس سبک روز: شات ۲۴ (کنار ریشه)"
    ],
-   "n": 78,
-   "t": "7:52"
+   "n": 79,
+   "t": "7:57"
   },
   {
    "part": "روز ۹",
@@ -489,8 +505,8 @@
    "refs": [
     "فقط خود عکس گوشی قرمز (ویرایش ۱۰ روز) برای ویرایش"
    ],
-   "n": 79,
-   "t": "8:02"
+   "n": 80,
+   "t": "8:10"
   },
   {
    "part": "روز ۹",
@@ -503,8 +519,8 @@
    "motion": "",
    "src": "",
    "refs": [],
-   "n": 80,
-   "t": "8:08"
+   "n": 81,
+   "t": "8:16"
   },
   {
    "part": "روز ۹",
@@ -521,8 +537,8 @@
     "برگه‌ی فندق",
     "عکس دیواره‌ی کنار رود: شات ۴۷"
    ],
-   "n": 81,
-   "t": "8:10"
+   "n": 82,
+   "t": "8:18"
   },
   {
    "part": "روز ۹",
@@ -538,8 +554,8 @@
     "رفرنس تی‌رکس",
     "عکس سبک شب: شات ۱ (تونل) (فقط برای سبک)"
    ],
-   "n": 82,
-   "t": "8:15"
+   "n": 83,
+   "t": "8:23"
   },
   {
    "part": "روز ۹",
@@ -552,8 +568,8 @@
    "motion": "",
    "src": "D9c",
    "refs": [],
-   "n": 83,
-   "t": "8:20"
+   "n": 84,
+   "t": "8:28"
   },
   {
    "part": "روز ۱۰",
@@ -570,8 +586,8 @@
     "عکس دیواره‌ی کنار رود: شات ۴۷",
     "عکس سبک روز: شات ۲۴ (کنار ریشه)"
    ],
-   "n": 84,
-   "t": "8:24"
+   "n": 85,
+   "t": "8:32"
   },
   {
    "part": "روز ۱۰",
@@ -584,8 +600,8 @@
    "motion": "",
    "src": "D10a",
    "refs": [],
-   "n": 85,
-   "t": "8:33"
+   "n": 86,
+   "t": "8:41"
   },
   {
    "part": "روز ۱۰",
@@ -600,8 +616,8 @@
    "refs": [
     "عکس سبک روز: شات ۲۴ (کنار ریشه) (فقط برای سبک)"
    ],
-   "n": 86,
-   "t": "8:35"
+   "n": 87,
+   "t": "8:43"
   },
   {
    "part": "روز ۱۰",
@@ -614,8 +630,8 @@
    "motion": "",
    "src": "D10a",
    "refs": [],
-   "n": 87,
-   "t": "8:44"
+   "n": 88,
+   "t": "8:52"
   },
   {
    "part": "روز ۱۰",
@@ -630,8 +646,8 @@
    "refs": [
     "عکس سبک روز: شات ۲۴ (کنار ریشه) (فقط برای سبک)"
    ],
-   "n": 88,
-   "t": "8:53"
+   "n": 89,
+   "t": "9:01"
   },
   {
    "part": "روز ۱۰",
@@ -648,8 +664,8 @@
     "عکس خط سیل: شات ۴۸",
     "عکس دیواره‌ی کنار رود: شات ۴۷"
    ],
-   "n": 89,
-   "t": "9:04"
+   "n": 90,
+   "t": "9:12"
   },
   {
    "part": "روز ۱۰",
@@ -666,8 +682,8 @@
     "عکس دیواره‌ی کنار رود: شات ۴۷",
     "عکس سبک روز: شات ۲۴ (کنار ریشه)"
    ],
-   "n": 90,
-   "t": "9:11"
+   "n": 91,
+   "t": "9:19"
   },
   {
    "part": "روز ۱۰",
@@ -682,8 +698,8 @@
    "refs": [
     "عکس سبک روز: شات ۲۴ (کنار ریشه) (فقط برای سبک)"
    ],
-   "n": 91,
-   "t": "9:19"
+   "n": 92,
+   "t": "9:27"
   },
   {
    "part": "روز ۱۰",
@@ -700,8 +716,8 @@
     "عکس دیواره‌ی کنار رود: شات ۴۷",
     "عکس سبک روز: شات ۲۴ (کنار ریشه)"
    ],
-   "n": 92,
-   "t": "9:30"
+   "n": 93,
+   "t": "9:38"
   },
   {
    "part": "روز ۱۰",
@@ -714,8 +730,8 @@
    "motion": "",
    "src": "شات ۴۵ (آسمون پر از شهاب)",
    "refs": [],
-   "n": 93,
-   "t": "9:37"
+   "n": 94,
+   "t": "9:45"
   },
   {
    "part": "روز ۱۰",
@@ -728,8 +744,8 @@
    "motion": "",
    "src": "شات ۱ (تونل)",
    "refs": [],
-   "n": 94,
-   "t": "9:40"
+   "n": 95,
+   "t": "9:48"
   },
   {
    "part": "روز ۱۰",
@@ -742,8 +758,8 @@
    "motion": "",
    "src": "شات ۳ (جنگل در آتیش)",
    "refs": [],
-   "n": 95,
-   "t": "9:45"
+   "n": 96,
+   "t": "9:53"
   },
   {
    "part": "روز ۱۰",
@@ -756,8 +772,8 @@
    "motion": "",
    "src": "شات ۱",
    "refs": [],
-   "n": 96,
-   "t": "9:48"
+   "n": 97,
+   "t": "9:56"
   },
   {
    "part": "روز ۱۰",
@@ -772,8 +788,8 @@
    "refs": [
     "عکس تونل: شات ۱"
    ],
-   "n": 97,
-   "t": "9:53"
+   "n": 98,
+   "t": "10:01"
   },
   {
    "part": "روز ۱۰",
@@ -786,8 +802,8 @@
    "motion": "",
    "src": "شات ۴ (پوزه پشت شکاف)",
    "refs": [],
-   "n": 98,
-   "t": "10:00"
+   "n": 99,
+   "t": "10:08"
   },
   {
    "part": "روز ۱۰",
@@ -800,8 +816,8 @@
    "motion": "",
    "src": "کلیپ نفس تی‌رکس (شات ۴)",
    "refs": [],
-   "n": 99,
-   "t": "10:02"
+   "n": 100,
+   "t": "10:11"
   },
   {
    "part": "روز ۱۰",
@@ -817,8 +833,8 @@
     "رفرنس تی‌رکس",
     "عکس سبک شب: شات ۱ (تونل) (فقط برای سبک)"
    ],
-   "n": 100,
-   "t": "10:10"
+   "n": 101,
+   "t": "10:18"
   },
   {
    "part": "روز ۱۰",
@@ -831,8 +847,8 @@
    "motion": "",
    "src": "شات ۱",
    "refs": [],
-   "n": 101,
-   "t": "10:19"
+   "n": 102,
+   "t": "10:27"
   },
   {
    "part": "روز ۱۰",
@@ -845,8 +861,8 @@
    "motion": "",
    "src": "",
    "refs": [],
-   "n": 102,
-   "t": "10:25"
+   "n": 103,
+   "t": "10:33"
   },
   {
    "part": "روز ۱۰",
@@ -862,8 +878,8 @@
     "رفرنس تی‌رکس",
     "عکس سبک شب: شات ۱ (تونل) (فقط برای سبک)"
    ],
-   "n": 103,
-   "t": "10:28"
+   "n": 104,
+   "t": "10:36"
   },
   {
    "part": "بعد از پایان",
@@ -878,8 +894,8 @@
    "refs": [
     "عکس سبک شب: شات ۱ (تونل) (فقط برای سبک)"
    ],
-   "n": 104,
-   "t": "10:32"
+   "n": 105,
+   "t": "10:41"
   },
   {
    "part": "بعد از پایان",
@@ -896,8 +912,8 @@
     "برگه‌ی فندق",
     "عکس سبک شب: شات ۱ (تونل)"
    ],
-   "n": 105,
-   "t": "10:43"
+   "n": 106,
+   "t": "10:51"
   },
   {
    "part": "بعد از پایان",
@@ -913,8 +929,8 @@
     "برگه‌ی شخصیت",
     "عکس سبک شب: شات ۱ (تونل)"
    ],
-   "n": 106,
-   "t": "10:49"
+   "n": 107,
+   "t": "10:57"
   },
   {
    "part": "بعد از پایان",
@@ -927,8 +943,8 @@
    "motion": "",
    "src": "D11c",
    "refs": [],
-   "n": 107,
-   "t": "10:54"
+   "n": 108,
+   "t": "11:02"
   },
   {
    "part": "بعد از پایان",
@@ -941,8 +957,8 @@
    "motion": "",
    "src": "D11c",
    "refs": [],
-   "n": 108,
-   "t": "11:03"
+   "n": 109,
+   "t": "11:11"
   },
   {
    "part": "بعد از پایان",
@@ -959,8 +975,8 @@
     "برگه‌ی فندق",
     "عکس سبک شب: شات ۱ (تونل)"
    ],
-   "n": 109,
-   "t": "11:11"
+   "n": 110,
+   "t": "11:19"
   },
   {
    "part": "بعد از پایان",
@@ -975,8 +991,8 @@
    "refs": [
     "عکس سبک روز: شات ۲۴ (کنار ریشه) (فقط برای سبک)"
    ],
-   "n": 110,
-   "t": "11:18"
+   "n": 111,
+   "t": "11:26"
   },
   {
    "part": "بعد از پایان",
@@ -991,8 +1007,8 @@
    "refs": [
     "فقط خود شات ۱۶ (گوشی در اتاق) برای ویرایش"
    ],
-   "n": 111,
-   "t": "11:32"
+   "n": 112,
+   "t": "11:40"
   },
   {
    "part": "بعد از پایان",
@@ -1007,8 +1023,8 @@
    "refs": [
     "عکس سبک شب: شات ۱ (تونل) (فقط برای سبک)"
    ],
-   "n": 112,
-   "t": "11:40"
+   "n": 113,
+   "t": "11:48"
   },
   {
    "part": "بعد از پایان",
@@ -1021,8 +1037,8 @@
    "motion": "",
    "src": "D11c",
    "refs": [],
-   "n": 113,
-   "t": "11:46"
+   "n": 114,
+   "t": "11:54"
   },
   {
    "part": "بعد از پایان",
@@ -1035,10 +1051,10 @@
    "motion": "",
    "src": "D11d",
    "refs": [],
-   "n": 114,
-   "t": "11:53"
+   "n": 115,
+   "t": "12:02"
   }
  ],
- "total": 720.209090909091,
+ "total": 728.4363636363637,
  "start": 321.01818181818174
 }

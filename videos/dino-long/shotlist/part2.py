@@ -15,7 +15,7 @@ RAPTOR_REF = "the same small feathered raptor from the raptor reference image"
 WORLD = "Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods"
 BANK = "the same low clay riverbank beside the same wide muddy brown river from the bank reference image"
 TUNNEL = "the same narrow clay tunnel from the tunnel reference image"
-EARTH = "the same earthen tunnel and small round earth entrance hole from the earth-tunnel reference image"
+EARTH = "the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible)"
 HOLE = "a small round entrance hole barely big enough for one person to crawl through on hands and knees (about as wide as the young man's shoulders)"
 
 PRE = [
@@ -67,42 +67,43 @@ shot("روز ۷", "بعد گوشی رو روشن می‌کنی و عکس‌ها�
 shot("روز ۷", "جواب نمیده. ولی گوش میده.", "کلوزآپ صورت فندق با نور گوشی", "crop", src="D7d", cam="زوم به چشم‌های فندق", sfx="سکوت")
 shot("روز ۷", "وقتی خاموشش می‌کنی، ۱۱ درصد مونده. ده درصد رو خرج عکس‌ها کردی. ارزشش رو داشت.", "صفحه‌ی گوشی خاموش میشه", "code", src="D7d",
      cam="باتری ۲۲٪ ← ۱۱٪ رو من می‌کشم", sfx="بیپ خاموش")
-shot("روز ۷", "شب، وقتی بیدار میشی، توی جیب کاپشنت خوابیده.", "شب توی تونل؛ فندق توی جیب کاپشن نارنجی جمع شده خوابیده", "new",
-     P(f"Shot D7e – night inside {EARTH} (earth walls and roots only, no rocks), close-up of the young man's rust-orange jacket pocket with Fandogh curled up asleep inside it, only its head and tail visible, faint moonlight, peaceful", "char", "fandogh"),
+shot("روز ۷", "شب، وقتی بیدار میشی، توی جیب کاپشنت خوابیده.", "شب، ته تونل؛ پسر به پهلو خوابیده (صورتش پیداست)، فندق توی جیب کاپشنش جمع شده", "new",
+     P(f"Shot D7e – night inside {EARTH}, medium shot like the earth-tunnel reference: the young man lying on his side half awake with a soft smile, his face clearly visible, Fandogh curled up asleep inside the pocket of his rust-orange jacket with only its head and tail showing, faint moonlight, peaceful", "char", "fandogh"),
      cam="پوش خیلی آروم", sfx="نفس آروم")
 shot("روز ۷", "هفت روز توی دنیایی که هیچ‌کس رو نداشتی، و حالا یکی رو داری.", "همون، نمای کمی بازتر", "crop", src="D7e", cam="زوم به عقب، موزیک گرم", sfx="موزیک")
-# ---- day 8 ----
-shot("روز ۸", "نیمه‌شب. یه صدای خراش از دم ورودی. بو کشیدن.", "از داخل تونل به ورودی؛ سایه‌ی پنجه‌ها روی دهانه زیر نور ماه", "new",
-     P(f"Shot D8a – view from inside {EARTH} toward the hole at night, moonlight outside, one slender scaly bird-like foot with a curved sickle claw of {RAPTOR_REF} scratching at the edge of the hole, dirt falling, tense", "none"),
-     cam="کارت «روز ۸»؛ لرزش ریز", sfx="خراش، بو کشیدن")
-shot("روز ۸", "توی تاریکی، دو تا چشم زرد برق می‌زنه.", "دو تا چشم زرد درخشان توی تاریکی دهانه", "new",
-     P(f"Shot D8b – almost total darkness inside {EARTH}, the small head of {RAPTOR_REF} peeking in at the hole, filling only a small part of it, two glowing yellow eyes staring in, terrifying", "none"),
-     cam="فلش ریز روی چشم‌ها", sfx="خرخر آروم")
-shot("روز ۸", "یه شکارچی پردار و چابک، که قدش فقط تا زانوی توئه. نه تی‌رکس؛ اون‌قدر کوچیک که سر و گردنش توی دهانه‌ی لونه جا میشه.", "شکارچی پردار سر و گردنش رو توی دهانه‌ی تونل فرو کرده", "clip",
-     P(f"Shot D8c – {RAPTOR_REF}, {RAPTOR}, pushing only its small head and neck into the hole of {EARTH} at night, its body stays outside out of view, jaws open, feathers bristling, seen from inside the tunnel, moonlight behind it", "none"),
-     motion="The feathered raptor shoves its head deeper into the tunnel entrance, snapping its jaws twice and hissing, dirt crumbling from the edges. Static camera with a small shake. Keep the art style exactly as in the image. No dialogue, no text.",
-     cam="فقط کلیپ", sfx="هیس، دندون")
+# ---- day 8 (rewritten: he is deep in the chamber; the entrance is never shown; the knee-high raptor crawls in) ----
+shot("روز ۸", "نیمه‌شب. ته تونل بیدار میشی. یه صدای خراش از سمت ورودی. بو کشیدن.", "ته تونل، تاریک؛ پسر تازه بیدار شده و گوش میده، فندق توی جیبش گوش‌هاش رو تیز کرده", "new",
+     P(f"Shot D8a – night, deep inside {EARTH}, almost dark, the young man just woken up, propped on one elbow, listening with wide eyes, his face clearly visible, Fandogh alert in his jacket pocket with ears up, the tunnel passage behind him disappearing into darkness, medium shot", "char", "fandogh"),
+     cam="کارت «روز ۸»؛ تصویر تقریباً ثابت، فقط صدا", sfx="خراش و بو کشیدن از دور")
+shot("روز ۸", "بعد صدای جلو اومدن. یه چیزی داره توی تونل میاد.", "همون، صورت پسر نزدیک‌تر", "crop", src="D8a", cam="زوم آروم به صورت", sfx="خش‌خش نزدیک‌شونده")
+shot("روز ۸", "توی تاریکی، دو تا چشم زرد برق می‌زنه.", "ته راهروی تاریک تونل، نزدیک کف، دو تا چشم زرد کوچیک", "new",
+     P(f"Shot D8b – looking down the dark narrow earth passage of the tunnel from the chamber, total darkness except two small glowing yellow eyes low near the floor of the passage, belonging to {RAPTOR_REF}, close to the ground, approaching", "none"),
+     cam="لرزش خیلی ریز", sfx="خرخر آروم")
+shot("روز ۸", "یه شکارچی پردار و چابک، که قدش فقط تا زانوی توئه. نه تی‌رکس؛ اون‌قدر کوچیک که توی تونل تو جا میشه.", "شکارچی کوچیک توی راهروی تنگ تونل به سمت دوربین میاد", "clip",
+     P(f"Shot D8c – {RAPTOR_REF}, {RAPTOR}, creeping low through the narrow earth passage of the tunnel toward the camera, its body filling only the lower half of the passage, jaws slightly open, feathers bristling, lit faintly from behind by moonlight", "none"),
+     motion="The small feathered raptor creeps forward through the narrow tunnel toward the camera, head low, then hisses and snaps once. Static camera. Keep the art style exactly as in the image. No dialogue, no text.",
+     cam="فقط کلیپ", sfx="هیس، قدم‌های ریز")
 shot("روز ۸", "هرچی کوچیکه، بی‌خطر نیست.", "زوم روی پنجه‌ی داسی", "crop", src="D8c", cam="زوم ضربه‌ای", sfx="ضربه‌ی بم")
-shot("روز ۸", "پنجه‌اش رو می‌کشه. ساعدت می‌سوزه.", "پسر عقب می‌کشه، آستین پاره و خراش روی ساعد؛ فندق توی جیب ترسیده", "new",
-     P(f"Shot D8d – inside {EARTH}, the young man recoiling against the tunnel wall, his rust-orange sleeve torn with three thin red scratch marks on his forearm (not gory), wincing, Fandogh peeking terrified from his jacket pocket, in the background the small round earth entrance hole with the small head of the knee-high feathered raptor pulling back out of it, dramatic close shot", "char", "fandogh"),
+shot("روز ۸", "پنجه‌اش رو می‌کشه. ساعدت می‌سوزه.", "پسر به دیوار اتاقک چسبیده، آستین پاره و خراش روی ساعد؛ شکارچی کوچیک جلوش؛ فندق توی جیب", "new",
+     P(f"Shot D8d – inside {EARTH} at night, the young man pressed back against the earth wall, his face clearly visible and wincing, his rust-orange sleeve torn with three thin red scratch marks on his forearm (not gory), {RAPTOR_REF} crouched in front of him, only knee-high, Fandogh peeking terrified from his jacket pocket, dramatic medium shot", "char", "fandogh"),
      cam="لرزش، فلش قرمز ریز", sfx="خراش، آخ")
 shot("روز ۸", "چاقو نداری. آتیش نداری. فقط یه چیز داری که این دنیا تا حالا ندیده.", "صورت مصمم پسر", "crop", src="D8d", cam="زوم به صورت", sfx="سکوت")
 shot("روز ۸", "گوشی رو روشن می‌کنی. ۱۱ درصد.", "گوشی روشن میشه", "code", src="D8e", cam="باتری ۱۱٪", sfx="بیپ روشن")
-shot("روز ۸", "آلارم رو می‌زنی و نور چراغ‌قوه رو مستقیم می‌گیری توی صورتش.", "پسر گوشی رو بالا گرفته، نور شدید چراغ‌قوه توی صورت شکارچی", "clip",
-     P(f"Shot D8e – inside {EARTH} at night, the young man holding his phone up toward the entrance, a blinding white flashlight beam through the small round hole hitting the face of {RAPTOR_REF} in the opening, the raptor recoiling with eyes squeezed shut, dust in the beam, dramatic", "char"),
-     motion="The phone's flashlight blazes brighter and flickers, the raptor screeches, jerks its head back out of the entrance and vanishes into the night. Small camera shake. Keep the art style and character exactly as in the image. No dialogue, no text.",
+shot("روز ۸", "آلارم رو می‌زنی و نور چراغ‌قوه رو مستقیم می‌گیری توی صورتش.", "پسر گوشی رو جلو گرفته، نور شدید توی صورت شکارچی کوچیک توی تونل", "clip",
+     P(f"Shot D8e – inside {EARTH} at night, the young man holding his phone out toward {RAPTOR_REF}, a blinding white flashlight beam hitting its face in the narrow passage, the knee-high raptor recoiling with eyes squeezed shut, dust in the beam, medium shot", "char"),
+     motion="The phone's flashlight blazes brighter and flickers, the small raptor screeches, spins around and scrambles away down the dark tunnel. Small camera shake. Keep the art style and character exactly as in the image. No dialogue, no text.",
      cam="فلش سفید روی کادر", sfx="آلارم گوشی، جیغ")
-shot("روز ۸", "صدایی که ۶۶ میلیون سال زود به دنیا اومده، توی لونه می‌پیچه. شکارچی جیغ می‌کشه و توی شب گم میشه.", "ادامه‌ی کلیپ: شکارچی فرار می‌کنه", "crop", src="D8e", cam="اکوی آلارم", sfx="آلارم که اکو میشه")
-shot("روز ۸", "ولی جرئت نمی‌کنی چراغ رو خاموش کنی. خون از دستت می‌چکه. فندق از جیبت بیرون میاد و کنار دستت می‌شینه.", "پسر به دیوار تونل تکیه داده، نور گوشی رو به ورودی، فندق کنار دستش", "new",
-     P(f"Shot D8f – inside {EARTH}, the young man sitting with his back against the clay wall, exhausted, holding his phone with its flashlight pointed at the entrance, his scratched forearm resting on his knee, Fandogh sitting right next to his hand looking at the entrance too, the beam lighting floating dust, close shot", "char", "fandogh"),
-     cam="تایم‌لپس: نور بیرون از سیاه به آبی سحر", sfx="سکوت، چکه")
-shot("روز ۸", "تا صبح، نور گوشی رو روی ورودی نگه می‌داری و هیچ‌کدومتون تکون نمی‌خورین.", "همون، نور سحر", "crop", src="D8f", cam="ادامه‌ی تایم‌لپس", sfx="پرنده‌ی سحر")
+shot("روز ۸", "صدایی که ۶۶ میلیون سال زود به دنیا اومده، توی لونه می‌پیچه. شکارچی جیغ می‌کشه و توی شب گم میشه.", "ادامه‌ی کلیپ: فرار شکارچی", "crop", src="D8e", cam="اکوی آلارم", sfx="آلارم که اکو میشه")
+shot("روز ۸", "ولی جرئت نمی‌کنی چراغ رو خاموش کنی. خون از دستت می‌چکه. فندق از جیبت بیرون میاد و کنار دستت می‌شینه.", "پسر توی اتاقک به دیوار تکیه داده، نور گوشی رو به راهرو، فندق کنار دستش", "new",
+     P(f"Shot D8f – inside {EARTH}, the young man sitting with his back against the earth wall, exhausted, his face visible, holding his phone with its flashlight pointed down the dark passage, his scratched forearm resting on his knee, Fandogh sitting right next to his hand looking down the passage too, dust floating in the beam, medium shot", "char", "fandogh"),
+     cam="تایم‌لپس نور از سیاه به آبی سحر", sfx="سکوت، چکه")
+shot("روز ۸", "تا صبح، نور گوشی رو روی تونل نگه می‌داری و هیچ‌کدومتون تکون نمی‌خورین.", "همون، نور سحر", "crop", src="D8f", cam="ادامه‌ی تایم‌لپس", sfx="پرنده‌ی سحر")
 shot("روز ۸", "وقتی آفتاب میزنه، خاموشش می‌کنی. ۳ درصد.", "گوشی خاموش میشه", "code", src="D8f", cam="باتری ۳٪", sfx="بیپ")
 # ---- day 9 ----
 shot("روز ۹", "تب داری. زخم دستت داغه.", "پسر رنگ‌پریده و عرق‌کرده، ساعدش با تیکه‌ای از تی‌شرت بسته شده", "new",
      P(f"Shot D9a – daylight, the young man sitting at the burrow entrance on {BANK}, pale and sweating with fever, his forearm wrapped in a strip of grey cloth, Fandogh beside him, tired eyes, medium close shot", "char", "fandogh"),
      cam="کارت «روز ۹»؛ تاری ملایم کناره‌ها (تب)", sfx="ضربان آروم")
-shot("روز ۹", "با یه دست، آخرین ماهی‌ها رو خشک می‌کنی و ورودی رو با سنگ تنگ‌تر می‌کنی. فقط یه شکاف می‌مونه، برای هوا.", "پسر با یه دست سنگ‌ها رو جلوی ورودی می‌چینه؛ ماهی‌ها روی سنگ", "new",
+shot("روز ۹", "با یه دست، آخرین ماهی‌ها رو خشک می‌کنی و ورودی رو با سنگ تنگ‌تر می‌کنی. فقط یه شکاف می‌مونه، برای هوا. دیگه هیچ‌چیز نباید بتونه بیاد تو.", "پسر با یه دست سنگ‌ها رو جلوی ورودی می‌چینه؛ ماهی‌ها روی سنگ", "new",
      P(f"Shot D9b – {BANK}, the young man using one hand to stack flat grey stones in front of the burrow entrance until only a tall thin vertical slit about as wide as a hand remains, a few small fish drying on a flat rock nearby, late afternoon, medium shot", "char"),
      cam="زوم به شکاف", sfx="سنگ روی سنگ")
 shot("روز ۹", "گوشی رو یه بار دیگه روشن می‌کنی. پیام عوض شده: «برخورد: فردا.»", "عکس گوشی قرمز، این بار «فردا»", "reuse", src="عکس گوشی قرمز (ویرایش ۱۰ روز)",
@@ -205,7 +206,7 @@ def refs(s):
     if "bone reference" in pr: r.append("عکس استخون: شات ۴۴")
     if "flood-line reference" in pr: r.append("عکس خط سیل: شات ۴۸")
     if "bank reference" in pr: r.append("عکس دیواره‌ی کنار رود: شات ۴۷")
-    if "earth-tunnel reference" in pr: r.append("عکس تونل خاکی: شات ۶۵ (اصلاح‌شده)")
+    if "earth-tunnel reference" in pr: r.append("عکس داخل تونل: شات ۱ (فقط برای فضای تونل)")
     if "tunnel reference" in pr and "earth-tunnel reference" not in pr: r.append("عکس تونل: شات ۱")
     body = pr.split(";")[0].lower()
     night = any(k in body for k in ("night", "darkness", "ash", "burning", "inside", "dim ", "fire"))
