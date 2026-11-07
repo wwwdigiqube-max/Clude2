@@ -5,6 +5,12 @@
    "رفرنس شکارچی با مقیاس (نسخه‌ی ۲، کوچیک)",
    "رفرنس: برگه‌ی شخصیت + رفرنس شکارچی قبلی (برای ظاهر) + شات ۱ (سبک شب)",
    "Reference image for scale: one small feathered raptor dinosaur standing next to the young man from the character reference, side view on a dark forest floor at night. The raptor is only knee-high to him: its back reaches his knee and its head is no bigger than his hand, a coyote-sized animal with dark brown and grey feathers, a long stiff feathered tail, slender scaly bird-like legs with a curved sickle claw on each foot, a narrow toothy snout and glowing yellow eyes, the same look as the raptor in the reference image but much smaller. Same art style as the reference images: detailed digital painting, clean dark outlines, muted colours, moonlight, 16:9, no text."
+  ],
+  [
+   "R4",
+   "برگه‌ی مکان تونل (یک بار، مثل برگه‌ی شخصیت ولی برای لونه)",
+   "رفرنس: برش عرضی (شات ۵۲) + ورودی خاکی (شات ۵۱) + تونل شات ۱ (برای سبک)",
+   "Location design sheet for one underground burrow, same art style as the reference images (detailed digital painting, clean dark outlines, muted earthy colours), no people, no text. Large panel on top: a side cross-section of a low clay riverbank beside a muddy river: a small round entrance hole above the water and above a pale dried-mud flood line, a low narrow crawl passage about two body-lengths long sloping slightly upward into the bank, ending in a small round chamber just tall enough to sit up in, with a backpack on the floor, a thick layer of earth with roots and trees above. Three small panels below: (1) the entrance from outside in daylight, a shoulder-wide round hole in the clay bank with roots above; (2) the same entrance later blocked with stacked flat grey stones leaving only a tall thin vertical slit as wide as a hand; (3) the inside of the small earthen chamber at night, earth walls and hanging roots, the dark passage leading away, the entrance not visible."
   ]
  ],
  "shots": [
@@ -94,14 +100,14 @@
    "narr": "شب، برای اولین بار توی خونه‌ی خودت می‌خوابی.",
    "see": "داخل تونل شب؛ پسر جمع شده خوابیده، از ورودی کوچیک ستاره‌ها دیده میشن",
    "kind": "new",
-   "prompt": "Shot D6d – night inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible), the young man curled up asleep on the earthen floor with his backpack as a pillow, headlamp off, through the small round entrance hole (about as wide as his shoulders) a few stars and moonlight are visible, calm and cozy, close shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "prompt": "Shot D6d – night inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (the burrow location sheet: earth walls and roots, no rocks, the entrance not visible), the young man curled up asleep on the earthen floor with his backpack as a pillow, headlamp off, his face clearly visible, the dark passage behind him leading away (the entrance not visible), a faint blue glow far down the passage, calm and cozy, medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
    "cam": "پوش خیلی آروم",
    "sfx": "جیرجیرک، رود دور",
    "motion": "",
    "src": "",
    "refs": [
     "برگه‌ی شخصیت",
-    "عکس داخل تونل: شات ۱ (فقط برای فضای تونل)",
+    "برگه‌ی مکان تونل (R4)",
     "عکس سبک شب: شات ۱ (تونل)"
    ],
    "n": 55,
@@ -225,7 +231,7 @@
    "narr": "شب، وقتی بیدار میشی، توی جیب کاپشنت خوابیده.",
    "see": "شب، ته تونل؛ پسر به پهلو خوابیده (صورتش پیداست)، فندق توی جیب کاپشنش جمع شده",
    "kind": "new",
-   "prompt": "Shot D7e – night inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible), medium shot like the earth-tunnel reference: the young man lying on his side half awake with a soft smile, his face clearly visible, Fandogh curled up asleep inside the pocket of his rust-orange jacket with only its head and tail showing, faint moonlight, peaceful; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "prompt": "Shot D7e – night inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (the burrow location sheet: earth walls and roots, no rocks, the entrance not visible), medium shot like the earth-tunnel reference: the young man lying on his side half awake with a soft smile, his face clearly visible, Fandogh curled up asleep inside the pocket of his rust-orange jacket with only its head and tail showing, faint moonlight, peaceful; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
    "cam": "پوش خیلی آروم",
    "sfx": "نفس آروم",
    "motion": "",
@@ -233,7 +239,7 @@
    "refs": [
     "برگه‌ی شخصیت",
     "برگه‌ی فندق",
-    "عکس داخل تونل: شات ۱ (فقط برای فضای تونل)"
+    "برگه‌ی مکان تونل (R4)"
    ],
    "n": 63,
    "t": "6:28"
@@ -257,7 +263,7 @@
    "narr": "نیمه‌شب. ته تونل بیدار میشی. یه صدای خراش از سمت ورودی. بو کشیدن.",
    "see": "ته تونل، تاریک؛ پسر تازه بیدار شده و گوش میده، فندق توی جیبش گوش‌هاش رو تیز کرده",
    "kind": "new",
-   "prompt": "Shot D8a – night, deep inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible), almost dark, the young man just woken up, propped on one elbow, listening with wide eyes, his face clearly visible, Fandogh alert in his jacket pocket with ears up, the tunnel passage behind him disappearing into darkness, medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "prompt": "Shot D8a – night, deep inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (the burrow location sheet: earth walls and roots, no rocks, the entrance not visible), almost dark, the young man just woken up, propped on one elbow, listening with wide eyes, his face clearly visible, Fandogh alert in his jacket pocket with ears up, the tunnel passage behind him disappearing into darkness, medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
    "cam": "کارت «روز ۸»؛ تصویر تقریباً ثابت، فقط صدا",
    "sfx": "خراش و بو کشیدن از دور",
    "motion": "",
@@ -265,7 +271,7 @@
    "refs": [
     "برگه‌ی شخصیت",
     "برگه‌ی فندق",
-    "عکس داخل تونل: شات ۱ (فقط برای فضای تونل)"
+    "برگه‌ی مکان تونل (R4)"
    ],
    "n": 65,
    "t": "6:38"
@@ -337,7 +343,7 @@
    "narr": "پنجه‌اش رو می‌کشه. ساعدت می‌سوزه.",
    "see": "پسر به دیوار اتاقک چسبیده، آستین پاره و خراش روی ساعد؛ شکارچی کوچیک جلوش؛ فندق توی جیب",
    "kind": "new",
-   "prompt": "Shot D8d – inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible) at night, the young man pressed back against the earth wall, his face clearly visible and wincing, his rust-orange sleeve torn with three thin red scratch marks on his forearm (not gory), the same small feathered raptor from the raptor reference image crouched in front of him, only knee-high, Fandogh peeking terrified from his jacket pocket, dramatic medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "prompt": "Shot D8d – inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (the burrow location sheet: earth walls and roots, no rocks, the entrance not visible) at night, the young man pressed back against the earth wall, his face clearly visible and wincing, his rust-orange sleeve torn with three thin red scratch marks on his forearm (not gory), the same small feathered raptor from the raptor reference image crouched in front of him, only knee-high, Fandogh peeking terrified from his jacket pocket, dramatic medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
    "cam": "لرزش، فلش قرمز ریز",
    "sfx": "خراش، آخ",
    "motion": "",
@@ -383,7 +389,7 @@
    "narr": "آلارم رو می‌زنی و نور چراغ‌قوه رو مستقیم می‌گیری توی صورتش.",
    "see": "پسر گوشی رو جلو گرفته، نور شدید توی صورت شکارچی کوچیک توی تونل",
    "kind": "clip",
-   "prompt": "Shot D8e – inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible) at night, the young man holding his phone out toward the same small feathered raptor from the raptor reference image, a blinding white flashlight beam hitting its face in the narrow passage, the knee-high raptor recoiling with eyes squeezed shut, dust in the beam, medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "prompt": "Shot D8e – inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (the burrow location sheet: earth walls and roots, no rocks, the entrance not visible) at night, the young man holding his phone out toward the same small feathered raptor from the raptor reference image, a blinding white flashlight beam hitting its face in the narrow passage, the knee-high raptor recoiling with eyes squeezed shut, dust in the beam, medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
    "cam": "فلش سفید روی کادر",
    "sfx": "آلارم گوشی، جیغ",
    "motion": "The phone's flashlight blazes brighter and flickers, the small raptor screeches, spins around and scrambles away down the dark tunnel. Small camera shake. Keep the art style and character exactly as in the image. No dialogue, no text.",
@@ -391,7 +397,7 @@
    "refs": [
     "برگه‌ی شخصیت",
     "رفرنس شکارچی کوچیک (R3 نسخه‌ی ۲)",
-    "عکس داخل تونل: شات ۱ (فقط برای فضای تونل)"
+    "برگه‌ی مکان تونل (R4)"
    ],
    "n": 73,
    "t": "7:20"
@@ -415,7 +421,7 @@
    "narr": "ولی جرئت نمی‌کنی چراغ رو خاموش کنی. خون از دستت می‌چکه. فندق از جیبت بیرون میاد و کنار دستت می‌شینه.",
    "see": "پسر توی اتاقک به دیوار تکیه داده، نور گوشی رو به راهرو، فندق کنار دستش",
    "kind": "new",
-   "prompt": "Shot D8f – inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible), the young man sitting with his back against the earth wall, exhausted, his face visible, holding his phone with its flashlight pointed down the dark passage, his scratched forearm resting on his knee, Fandogh sitting right next to his hand looking down the passage too, dust floating in the beam, medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
+   "prompt": "Shot D8f – inside the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (the burrow location sheet: earth walls and roots, no rocks, the entrance not visible), the young man sitting with his back against the earth wall, exhausted, his face visible, holding his phone with its flashlight pointed down the dark passage, his scratched forearm resting on his knee, Fandogh sitting right next to his hand looking down the passage too, dust floating in the beam, medium shot; the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi); Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, pointed whiskered pink nose, small round ears, long thin tail); Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods; dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark",
    "cam": "تایم‌لپس نور از سیاه به آبی سحر",
    "sfx": "سکوت، چکه",
    "motion": "",
@@ -423,7 +429,7 @@
    "refs": [
     "برگه‌ی شخصیت",
     "برگه‌ی فندق",
-    "عکس داخل تونل: شات ۱ (فقط برای فضای تونل)"
+    "برگه‌ی مکان تونل (R4)"
    ],
    "n": 75,
    "t": "7:35"

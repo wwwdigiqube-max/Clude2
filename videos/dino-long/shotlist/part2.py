@@ -15,12 +15,15 @@ RAPTOR_REF = "the same small feathered raptor from the raptor reference image"
 WORLD = "Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods"
 BANK = "the same low clay riverbank beside the same wide muddy brown river from the bank reference image"
 TUNNEL = "the same narrow clay tunnel from the tunnel reference image"
-EARTH = "the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (earth walls and roots, no rocks, the entrance not visible)"
+EARTH = "the small earthen chamber at the deep end of the tunnel from the earth-tunnel reference image (the burrow location sheet: earth walls and roots, no rocks, the entrance not visible)"
 HOLE = "a small round entrance hole barely big enough for one person to crawl through on hands and knees (about as wide as the young man's shoulders)"
 
 PRE = [
  ("R3", "رفرنس شکارچی با مقیاس (نسخه‌ی ۲، کوچیک)", "رفرنس: برگه‌ی شخصیت + رفرنس شکارچی قبلی (برای ظاهر) + شات ۱ (سبک شب)",
   "Reference image for scale: one small feathered raptor dinosaur standing next to the young man from the character reference, side view on a dark forest floor at night. The raptor is only knee-high to him: its back reaches his knee and its head is no bigger than his hand, a coyote-sized animal with dark brown and grey feathers, a long stiff feathered tail, slender scaly bird-like legs with a curved sickle claw on each foot, a narrow toothy snout and glowing yellow eyes, the same look as the raptor in the reference image but much smaller. Same art style as the reference images: detailed digital painting, clean dark outlines, muted colours, moonlight, 16:9, no text."),
+ ("R4", "برگه‌ی مکان تونل (یک بار، مثل برگه‌ی شخصیت ولی برای لونه)", "رفرنس: برش عرضی (شات ۵۲) + ورودی خاکی (شات ۵۱) + تونل شات ۱ (برای سبک)",
+  "Location design sheet for one underground burrow, same art style as the reference images (detailed digital painting, clean dark outlines, muted earthy colours), no people, no text. Large panel on top: a side cross-section of a low clay riverbank beside a muddy river: a small round entrance hole above the water and above a pale dried-mud flood line, a low narrow crawl passage about two body-lengths long sloping slightly upward into the bank, ending in a small round chamber just tall enough to sit up in, with a backpack on the floor, a thick layer of earth with roots and trees above. Three small panels below: (1) the entrance from outside in daylight, a shoulder-wide round hole in the clay bank with roots above; (2) the same entrance later blocked with stacked flat grey stones leaving only a tall thin vertical slit as wide as a hand; (3) the inside of the small earthen chamber at night, earth walls and hanging roots, the dark passage leading away, the entrance not visible."),
+
 ]
 
 S = []
@@ -48,7 +51,7 @@ shot("روز ۶", "و تونلی که اون‌قدر بره تو، که حدا�
 shot("روز ۶", "امیدواری خاک جلوی گرما رو بگیره. شاید حیوون‌های زیرزمینی همین‌طوری از اون روز جون سالم به در بردن.", "همون برش عرضی، فلش‌های گرما که به خاک می‌خورن", "code", src="D6c",
      cam="فلش‌های گرما از بالا که توی خاک متوقف میشن", sfx="هوهوی گرم")
 shot("روز ۶", "شب، برای اولین بار توی خونه‌ی خودت می‌خوابی.", "داخل تونل شب؛ پسر جمع شده خوابیده، از ورودی کوچیک ستاره‌ها دیده میشن", "new",
-     P(f"Shot D6d – night inside {EARTH}, the young man curled up asleep on the earthen floor with his backpack as a pillow, headlamp off, through the small round entrance hole (about as wide as his shoulders) a few stars and moonlight are visible, calm and cozy, close shot", "char"),
+     P(f"Shot D6d – night inside {EARTH}, the young man curled up asleep on the earthen floor with his backpack as a pillow, headlamp off, his face clearly visible, the dark passage behind him leading away (the entrance not visible), a faint blue glow far down the passage, calm and cozy, medium shot", "char"),
      cam="پوش خیلی آروم", sfx="جیرجیرک، رود دور")
 shot("روز ۶", "قانون سوم: زیر زمین بمون.", "کارت قانون روی تصویر تونل", "crop", src="D6d", cam="کارت امضای «قانون سوم»", sfx="مهر/ضربه")
 # ---- day 7 ----
@@ -206,7 +209,7 @@ def refs(s):
     if "bone reference" in pr: r.append("عکس استخون: شات ۴۴")
     if "flood-line reference" in pr: r.append("عکس خط سیل: شات ۴۸")
     if "bank reference" in pr: r.append("عکس دیواره‌ی کنار رود: شات ۴۷")
-    if "earth-tunnel reference" in pr: r.append("عکس داخل تونل: شات ۱ (فقط برای فضای تونل)")
+    if "earth-tunnel reference" in pr: r.append("برگه‌ی مکان تونل (R4)")
     if "tunnel reference" in pr and "earth-tunnel reference" not in pr: r.append("عکس تونل: شات ۱")
     body = pr.split(";")[0].lower()
     night = any(k in body for k in ("night", "darkness", "ash", "burning", "inside", "dim ", "fire"))
