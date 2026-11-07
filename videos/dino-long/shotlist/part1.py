@@ -130,11 +130,10 @@ shot("روز ۴", "بعد یه صدای بم و سنگین از دور. صدای
      cam="لرزش خیلی ریز تصویر هم‌زمان با صدا", sfx="بوم بم تی‌رکس (زیر صدا)")
 shot("روز ۴", "گله رم می‌کنه. درخت‌ها می‌شکنن.", "گله در حال رم کردن، درخت‌های شکسته، گرد و خاک", "clip",
      P("Shot D4b – the herd of duck-billed Edmontosaurus panicking and stampeding through the forest toward the camera, trees snapping, dust clouds, chaos, dramatic low angle", "none"),
-     motion="The herd stampedes past the camera in panic, trees crack and fall, dust explodes into the air, the ground shakes violently. Handheld camera shake. Keep the art style exactly as in the image. No dialogue, no text.",
+     motion="The herd stampedes past in panic, trees crack, dust explodes into the air, the ground shakes violently; the young man throws himself flat behind the fallen log and covers his head. Handheld camera shake. Keep the art style exactly as in the image. No dialogue, no text.",
      cam="لرزش شدید", sfx="رم کردن، شکستن چوب")
-shot("روز ۴", "خودت رو پشت یه تنه‌ی افتاده پرت می‌کنی و چشمات رو می‌بندی.", "پسر پشت یه تنه‌ی افتاده، سرش رو گرفته", "new",
-     P("Shot D4c – the young man diving behind a large fallen tree trunk, covering his head with his arms, eyes shut, dust and leaves flying over him, giant legs blurred passing behind, close dynamic shot"),
-     cam="لرزش + تاری حرکت", sfx="قدم‌های عبوری، نفس‌نفس")
+shot("روز ۴", "خودت رو پشت یه تنه‌ی افتاده پرت می‌کنی و چشمات رو می‌بندی.", "برش از عکس رم کردن: پسر کنار تنه‌ی افتاده", "crop", src="D4b",
+     cam="زوم روی پسر، لرزش + تاری حرکت", sfx="قدم‌های عبوری، نفس‌نفس")
 shot("روز ۴", "وقتی گرد و خاک می‌شینه، یکی‌شون جا مونده. زیر دست‌وپای بقیه موند.", "گرد و خاک نشسته؛ یه اردک‌نوک بی‌حرکت افتاده، پسر کوچیک نزدیک میشه", "new",
      P("Shot D4d – the dust settling in shafts of light, one duck-billed dinosaur lying still on its side among broken trees, not graphic, no blood, the young man small and quiet walking toward it, somber wide shot"),
      cam="سکوت؛ پوش آروم", sfx="سکوت، پرنده‌ی تنها")
@@ -166,8 +165,10 @@ def refs(s):
     if s["kind"] == "clip" and not pr:
         return ["فریم اول: " + s["src"]]
     r = []
-    if CHAR in pr: r += ["عکس جنگل", "برگه‌ی شخصیت"]
-    else: r += ["عکس جنگل (فقط برای سبک)"]
+    night = any(k in pr for k in ("at night", "night,", "dark underground", "inside a dark", "burning", "tunnel"))
+    style = "عکس سبک شب: شات ۱ (تونل)" if night else "عکس سبک روز: شات ۲۴ (کنار ریشه)"
+    if CHAR in pr: r += ["برگه‌ی شخصیت", style]
+    else: r += [style + " (فقط برای سبک)"]
     if "Fandogh" in pr or "tiny furry mammal" in pr: r += ["برگه‌ی فندق"]
     if TREX in pr: r += ["رفرنس تی‌رکس"]
     return r

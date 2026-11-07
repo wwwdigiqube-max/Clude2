@@ -61,6 +61,7 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--rust);outline-o
     <ul>
       <li>همه‌ی عکس‌ها <b>16:9</b>، در یک پروژه‌ی Flow.</li>
       <li>رفرنس‌های هر شات بالای کارتش نوشته شده (📎). فقط همون‌ها رو بده.</li>
+      <li><b>عکس سبک:</b> دیگه عکس جنگل آبی رو نده. برای شات‌های روز، <b>شات ۲۴ (پسر کنار ریشه)</b>؛ برای شب و آتیش، <b>شات ۱ (تونل)</b>.</li>
       <li>✂️ و 🎨 عکس نمی‌خوان؛ کار تدوین منه. فقط 🖼 و 🎬 رو بساز.</li>
       <li>♻️ یعنی یکی از ۳ عکسی که <b>قبلاً توی پروژه‌ی تست</b> ساختی؛ چیزی نساز. اگه پرامپت ویرایش داشت، همون عکس رو ویرایش کن. اگه توی پروژه‌ی جدید نداریشون، از اینجا بگیر و آپلود کن:<br><a href="https://github.com/wwwdigiqube-max/Clude2/raw/main/uploads/dino-short/shot01.jpg">عکس پای غول</a> · <a href="https://github.com/wwwdigiqube-max/Clude2/raw/main/uploads/dino-short/shot02.jpg">عکس گوشی قرمز</a> · <a href="https://github.com/wwwdigiqube-max/Clude2/raw/main/uploads/dino-short/shot04.jpg">عکس تی‌رکس پشت سرخس</a></li>
       <li>اسم هر فایل رو همون <b>Shot …</b> اول پرامپت بذار.</li>
