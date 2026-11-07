@@ -9,12 +9,13 @@ STYLE = ("dark gritty animated survival story style for teens and adults, detail
 FANDOGH = ("Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, "
            "pointed whiskered pink nose, small round ears, long thin tail)")
 TREX = ("the same Tyrannosaurus rex from the T. rex reference image (dark grey-green scaly skin, a long pale scar across the left side of its snout, golden eyes)")
-RAPTOR = ("a small feathered raptor dinosaur the size of a large dog (dark brown and grey feathers, long stiff tail, a curved sickle claw on each foot, "
+RAPTOR = ("a small feathered raptor dinosaur the size of a large dog, standing only as tall as the young man's chest (dark brown and grey feathers, long stiff tail, a curved sickle claw on each foot, "
           "narrow toothy snout, glowing yellow eyes)")
 RAPTOR_REF = "the same feathered raptor from the raptor reference image"
 WORLD = "Late Cretaceous Hell Creek, Montana: ferns, conifers and early flowering trees, no long-necked sauropods"
 BANK = "the same low clay riverbank beside the same wide muddy brown river from the bank reference image"
 TUNNEL = "the same narrow clay tunnel from the tunnel reference image"
+HOLE = "a small round entrance hole barely big enough for one person to crawl through on hands and knees (about as wide as the young man's shoulders)"
 
 PRE = [
  ("R3", "رفرنس شکارچی پردار (یک بار، قبل از روز ۸)", "رفرنس: عکس سبک شب (شات ۱، تونل)",
@@ -41,12 +42,12 @@ shot("روز ۶", "ورودی کوچیک، که فقط خودت ازش رد بش
 shot("روز ۶", "رو به شمال، پشت به جایی که سنگ می‌خوره.", "قطب‌نمای گرافیکی روی تصویر ورودی", "code", src="D6b",
      cam="قطب‌نما و فلش «جنوب ← برخورد» رو من می‌کشم", sfx="تیک")
 shot("روز ۶", "و تونلی که اون‌قدر بره تو، که حداقل یه متر خاک بالای سرت باشه.", "برش عرضی کنار رود: تونل توی خاک، پسر داخلش، یه متر خاک بالای سرش، رود کنارش", "new",
-     P("Shot D6c – a side cross-section cutaway view of the riverbank: the muddy river on one side, the clay bank with a narrow tunnel dug sideways into it, the young man lying inside the tunnel, a thick layer of earth and roots above him, grass and trees on top, a small entrance just above the water line, clear educational illustration", "char"),
+     P("Shot D6c – a side cross-section cutaway view of the riverbank: the muddy river low on one side, the clay bank with a narrow tunnel dug sideways into it well ABOVE the water surface and above a pale dried-mud flood line on the bank, the young man lying inside the dry tunnel, a thick layer of earth and roots above him, grass and trees on top, clear educational illustration", "char"),
      cam="برچسب «۱ متر» و خط سطح سیل رو من می‌ذارم", sfx="ووش ملایم")
 shot("روز ۶", "امیدواری خاک جلوی گرما رو بگیره. شاید حیوون‌های زیرزمینی همین‌طوری از اون روز جون سالم به در بردن.", "همون برش عرضی، فلش‌های گرما که به خاک می‌خورن", "code", src="D6c",
      cam="فلش‌های گرما از بالا که توی خاک متوقف میشن", sfx="هوهوی گرم")
 shot("روز ۶", "شب، برای اولین بار توی خونه‌ی خودت می‌خوابی.", "داخل تونل شب؛ پسر جمع شده خوابیده، از ورودی کوچیک ستاره‌ها دیده میشن", "new",
-     P("Shot D6d – night inside a narrow clay tunnel, the young man curled up asleep on the earthen floor with his backpack as a pillow, headlamp off, through the small round entrance a few stars and moonlight are visible, calm and cozy, close shot", "char"),
+     P("Shot D6d – night inside a narrow clay tunnel, the young man curled up asleep on the earthen floor with his backpack as a pillow, headlamp off, through the small round entrance hole (about as wide as his shoulders) a few stars and moonlight are visible, calm and cozy, close shot", "char"),
      cam="پوش خیلی آروم", sfx="جیرجیرک، رود دور")
 shot("روز ۶", "قانون سوم: زیر زمین بمون.", "کارت قانون روی تصویر تونل", "crop", src="D6d", cam="کارت امضای «قانون سوم»", sfx="مهر/ضربه")
 # ---- day 7 ----
@@ -71,23 +72,23 @@ shot("روز ۷", "شب، وقتی بیدار میشی، توی جیب کاپش�
 shot("روز ۷", "هفت روز توی دنیایی که هیچ‌کس رو نداشتی، و حالا یکی رو داری.", "همون، نمای کمی بازتر", "crop", src="D7e", cam="زوم به عقب، موزیک گرم", sfx="موزیک")
 # ---- day 8 ----
 shot("روز ۸", "نیمه‌شب. یه صدای خراش از دم ورودی. بو کشیدن.", "از داخل تونل به ورودی؛ سایه‌ی پنجه‌ها روی دهانه زیر نور ماه", "new",
-     P(f"Shot D8a – view from deep inside {TUNNEL} toward its small round entrance at night, moonlight outside, the dark shadow of clawed feet scratching at the edge of the opening, dirt falling, tense", "none"),
+     P(f"Shot D8a – view from deep inside {TUNNEL} toward {HOLE} at night, moonlight outside, one small clawed foot of a dog-sized animal scratching at the edge of the hole, dirt falling, tense", "none"),
      cam="کارت «روز ۸»؛ لرزش ریز", sfx="خراش، بو کشیدن")
 shot("روز ۸", "توی تاریکی، دو تا چشم زرد برق می‌زنه.", "دو تا چشم زرد درخشان توی تاریکی دهانه", "new",
-     P(f"Shot D8b – almost total darkness, the small round tunnel entrance barely visible, two glowing yellow eyes staring in from outside, a hint of feathers, terrifying", "none"),
+     P(f"Shot D8b – almost total darkness, {HOLE} barely visible, the head of a dog-sized feathered raptor filling the hole, two glowing yellow eyes staring in, its body not visible, terrifying", "none"),
      cam="فلش ریز روی چشم‌ها", sfx="خرخر آروم")
 shot("روز ۸", "یه شکارچی پردار و چابک، هم‌قد یه سگ بزرگ. نه تی‌رکس؛ اون‌قدر کوچیک که سر و گردنش توی دهانه‌ی لونه جا میشه.", "شکارچی پردار سر و گردنش رو توی دهانه‌ی تونل فرو کرده", "clip",
-     P(f"Shot D8c – {RAPTOR_REF}, {RAPTOR}, pushing its head and long neck into the small round entrance of the clay tunnel at night, jaws open, feathers bristling, seen from inside the tunnel, moonlight behind it", "none"),
+     P(f"Shot D8c – {RAPTOR_REF}, {RAPTOR}, pushing only its head and neck into {HOLE} at night, its body stays outside out of view, jaws open, feathers bristling, seen from inside the tunnel, moonlight behind it", "none"),
      motion="The feathered raptor shoves its head deeper into the tunnel entrance, snapping its jaws twice and hissing, dirt crumbling from the edges. Static camera with a small shake. Keep the art style exactly as in the image. No dialogue, no text.",
      cam="فقط کلیپ", sfx="هیس، دندون")
 shot("روز ۸", "هرچی کوچیکه، بی‌خطر نیست.", "زوم روی پنجه‌ی داسی", "crop", src="D8c", cam="زوم ضربه‌ای", sfx="ضربه‌ی بم")
 shot("روز ۸", "پنجه‌اش رو می‌کشه. ساعدت می‌سوزه.", "پسر عقب می‌کشه، آستین پاره و خراش روی ساعد؛ فندق توی جیب ترسیده", "new",
-     P("Shot D8d – inside the dark clay tunnel, the young man recoiling against the tunnel wall, his rust-orange sleeve torn with three thin red scratch marks on his forearm (not gory), wincing, Fandogh peeking terrified from his jacket pocket, a clawed foot at the edge of the frame, dramatic close shot", "char", "fandogh"),
+     P("Shot D8d – inside the dark clay tunnel, the young man recoiling against the tunnel wall, his rust-orange sleeve torn with three thin red scratch marks on his forearm (not gory), wincing, Fandogh peeking terrified from his jacket pocket, in the background the small round entrance hole with the dog-sized raptor's head pulling back out of it, dramatic close shot", "char", "fandogh"),
      cam="لرزش، فلش قرمز ریز", sfx="خراش، آخ")
 shot("روز ۸", "چاقو نداری. آتیش نداری. فقط یه چیز داری که این دنیا تا حالا ندیده.", "صورت مصمم پسر", "crop", src="D8d", cam="زوم به صورت", sfx="سکوت")
 shot("روز ۸", "گوشی رو روشن می‌کنی. ۱۱ درصد.", "گوشی روشن میشه", "code", src="D8e", cam="باتری ۱۱٪", sfx="بیپ روشن")
 shot("روز ۸", "آلارم رو می‌زنی و نور چراغ‌قوه رو مستقیم می‌گیری توی صورتش.", "پسر گوشی رو بالا گرفته، نور شدید چراغ‌قوه توی صورت شکارچی", "clip",
-     P(f"Shot D8e – inside the tunnel at night, the young man holding his phone up toward the entrance, a blinding white flashlight beam hitting the face of {RAPTOR_REF} in the opening, the raptor recoiling with eyes squeezed shut, dust in the beam, dramatic", "char"),
+     P(f"Shot D8e – inside the tunnel at night, the young man holding his phone up toward the entrance, a blinding white flashlight beam through the small round entrance hole hitting the face of {RAPTOR_REF} in the opening, the raptor recoiling with eyes squeezed shut, dust in the beam, dramatic", "char"),
      motion="The phone's flashlight blazes brighter and flickers, the raptor screeches, jerks its head back out of the entrance and vanishes into the night. Small camera shake. Keep the art style and character exactly as in the image. No dialogue, no text.",
      cam="فلش سفید روی کادر", sfx="آلارم گوشی، جیغ")
 shot("روز ۸", "صدایی که ۶۶ میلیون سال زود به دنیا اومده، توی لونه می‌پیچه. شکارچی جیغ می‌کشه و توی شب گم میشه.", "ادامه‌ی کلیپ: شکارچی فرار می‌کنه", "crop", src="D8e", cam="اکوی آلارم", sfx="آلارم که اکو میشه")
