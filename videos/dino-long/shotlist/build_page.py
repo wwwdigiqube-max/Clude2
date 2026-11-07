@@ -1,8 +1,9 @@
-import json, os, html
+import json, os, html, sys
 H = os.path.dirname(os.path.abspath(__file__))
-d = json.load(open(os.path.join(H, "part1.json")))
+PART = sys.argv[1] if len(sys.argv) > 1 else "1"
+d = json.load(open(os.path.join(H, f"part{PART}.json")))
 data = json.dumps(d, ensure_ascii=False).replace("</", "<\\/")
-page = r'''<title>شات‌های دایناسور · بخش ۱</title>
+page = r'''<title>شات‌های دایناسور · بخش __PFA__</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&family=JetBrains+Mono:wght@400&display=swap">
 <style>
@@ -54,8 +55,8 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--rust);outline-o
 .note ul{margin:4px 0;padding-inline-start:18px}
 </style>
 <div class="wrap">
-  <h1>شات‌های دایناسور · بخش ۱</h1>
-  <p class="sub">«۱۰ روز تا شهاب‌سنگی که دایناسورها رو نابود کرد»؛ از قلاب تا آخر روز ۵</p>
+  <h1>شات‌های دایناسور · بخش __PFA__</h1>
+  <p class="sub">«۱۰ روز تا شهاب‌سنگی که دایناسورها رو نابود کرد»؛ __RANGE__</p>
   <div class="stats" id="stats"></div>
   <div class="note">
     <ul>
@@ -79,8 +80,8 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--rust);outline-o
 const D = __DATA__;
 const KIND = {new:"🖼 عکس تازه", crop:"✂️ برش از عکس قبلی", clip:"🎬 کلیپ Flow", reuse:"♻️ عکس ساخته‌شده", code:"🎨 گرافیک تدوین"};
 const fa = s => String(s).replace(/\d/g, d => "۰۱۲۳۴۵۶۷۸۹"[d]);
-let done = {}; try { done = JSON.parse(localStorage.getItem("dino-p1-done") || "{}"); } catch (e) {}
-const save = () => { try { localStorage.setItem("dino-p1-done", JSON.stringify(done)); } catch (e) {} };
+let done = {}; try { done = JSON.parse(localStorage.getItem("dino-p__P__-done") || "{}"); } catch (e) {}
+const save = () => { try { localStorage.setItem("dino-p__P__-done", JSON.stringify(done)); } catch (e) {} };
 const el = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
 function codeBlock(cap, text){
   const box = el("div","code"); const h = el("div","cap"); h.append(el("span",null,cap));
@@ -94,7 +95,7 @@ function codeBlock(cap, text){
 }
 const makes = s => s.kind==="new" || s.kind==="clip" || (s.kind==="reuse" && s.prompt);
 function stats(){
-  const S = D.shots, n = S.length, m = Math.round(D.total/60);
+  const S = D.shots, n = S.length, m = Math.round((D.total-(D.start||0))/60);
   const items = [["شات", n], ["دقیقه", "~"+m], ["عکس تازه", S.filter(s=>s.kind==="new").length], ["کلیپ Flow", S.filter(s=>s.kind==="clip").length], ["رفرنس", D.pre.length]];
   const box = document.getElementById("stats"); box.textContent="";
   items.forEach(([k,v]) => { const s = el("div","stat"); const b = el("b",null,fa(v)); s.append(b, " "+k); box.append(s); });
@@ -128,7 +129,7 @@ function card(s){
 function render(f){
   const L = document.getElementById("list"); L.textContent="";
   if (f !== "clip") {
-    L.append(el("h2",null,"قدم صفر: دو رفرنس (یک بار برای کل کانال)"));
+    L.append(el("h2",null,"قدم صفر: رفرنس‌ها"));
     D.pre.forEach(([id,title,note,pr]) => {
       const c = el("article","card"+(done[id]?" done":"")); const h = el("div","head");
       h.append(el("span","num",id), el("span","kind new",title));
@@ -150,6 +151,6 @@ document.querySelectorAll(".bar button").forEach(b => b.addEventListener("click"
 }));
 stats(); render("all");
 </script>
-'''.replace("__DATA__", data)
-open(os.path.join(H, "part1.html"), "w").write(page)
+'''.replace("__DATA__", data).replace("__PFA__", "۱۲"[int(PART)-1]).replace("__P__", PART).replace("__RANGE__", "از قلاب تا آخر روز ۵" if PART=="1" else "از روز ۶ تا پایان")
+open(os.path.join(H, f"part{PART}.html"), "w").write(page)
 print("ok", len(page))

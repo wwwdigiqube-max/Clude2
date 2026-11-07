@@ -90,7 +90,7 @@ function codeBlock(cap, text){
 }
 const makes = s => s.kind==="new" || s.kind==="clip" || (s.kind==="reuse" && s.prompt);
 function stats(){
-  const S = D.shots, n = S.length, m = Math.round(D.total/60);
+  const S = D.shots, n = S.length, m = Math.round((D.total-(D.start||0))/60);
   const items = [["شات", n], ["دقیقه", "~"+m], ["عکس تازه", S.filter(s=>s.kind==="new").length], ["کلیپ Flow", S.filter(s=>s.kind==="clip").length], ["رفرنس", D.pre.length]];
   const box = document.getElementById("stats"); box.textContent="";
   items.forEach(([k,v]) => { const s = el("div","stat"); const b = el("b",null,fa(v)); s.append(b, " "+k); box.append(s); });
@@ -124,7 +124,7 @@ function card(s){
 function render(f){
   const L = document.getElementById("list"); L.textContent="";
   if (f !== "clip") {
-    L.append(el("h2",null,"قدم صفر: دو رفرنس (یک بار برای کل کانال)"));
+    L.append(el("h2",null,"قدم صفر: رفرنس‌ها"));
     D.pre.forEach(([id,title,note,pr]) => {
       const c = el("article","card"+(done[id]?" done":"")); const h = el("div","head");
       h.append(el("span","num",id), el("span","kind new",title));
