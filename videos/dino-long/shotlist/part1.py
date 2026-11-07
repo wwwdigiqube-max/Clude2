@@ -36,7 +36,7 @@ shot("قلاب", "بیرون، آسمون رنگ آتیشه.", "بیرون در 
      cam="پوش آروم، جرقه‌های رو تصویر", sfx="ترق‌تروق آتیش، باد داغ")
 shot("قلاب", "و دم ورودی، یه چیز خیلی بزرگ داره نفس می‌کشه.", "از داخل تونل به سمت ورودی: پشت شکاف سنگ‌ها، پوزه‌ی عظیم پولک‌دار با زخم، بخار نفس می‌آد تو", "clip",
      f"Shot H3 – view from inside a dark tunnel toward its entrance, a narrow gap between stacked stones, right behind the gap a gigantic scaly reptilian snout with flared nostrils fills the opening, {TREX}, warm breath steam drifting into the tunnel, red firelight behind; {WORLD}; {STYLE}",
-     motion="The huge snout behind the gap breathes slowly, nostrils flare, puffs of warm steam roll into the dark tunnel, dust swirls in the red light. Static camera, very slow push-in. Keep the art style exactly as in the image. No dialogue, no text.",
+     motion="The huge head stays completely still and outside, behind the stones; it does not move forward or enter. Only the nostrils flare slowly and a few thin, faint wisps of warm breath drift through the gap, then fade. The golden eye blinks once. Tiny embers float. Static camera, no zoom. Keep the art style exactly as in the image. No dialogue, no text.",
      cam="فقط حرکت خود کلیپ؛ موزیک قطع", sfx="نفس عظیم و خیس، نزدیک")
 shot("قلاب", "ده روز پیش، توی تخت خودت خوابیده بودی.", "کات به سیاهی ← کارت عنوان «۱۰ روز تا شهاب‌سنگی که دایناسورها رو نابود کرد»", "code",
      cam="کات به سیاهی روی «پیش»، عنوان با لرزش کوتاه", sfx="ضربه‌ی بم + سکوت")
