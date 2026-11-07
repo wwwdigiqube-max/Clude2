@@ -101,7 +101,7 @@ shot("روز ۹", "تب داری. زخم دستت داغه.", "پسر رنگ‌�
      P(f"Shot D9a – daylight, the young man sitting at the burrow entrance on {BANK}, pale and sweating with fever, his forearm wrapped in a strip of grey cloth, Fandogh beside him, tired eyes, medium close shot", "char", "fandogh"),
      cam="کارت «روز ۹»؛ تاری ملایم کناره‌ها (تب)", sfx="ضربان آروم")
 shot("روز ۹", "با یه دست، آخرین ماهی‌ها رو خشک می‌کنی و ورودی رو با سنگ تنگ‌تر می‌کنی. فقط یه شکاف می‌مونه، برای هوا.", "پسر با یه دست سنگ‌ها رو جلوی ورودی می‌چینه؛ ماهی‌ها روی سنگ", "new",
-     P(f"Shot D9b – {BANK}, the young man using one hand to stack flat grey stones in front of the burrow entrance until only a narrow vertical gap remains, a few small fish drying on a flat rock nearby, late afternoon, medium shot", "char"),
+     P(f"Shot D9b – {BANK}, the young man using one hand to stack flat grey stones in front of the burrow entrance until only a tall thin vertical slit about as wide as a hand remains, a few small fish drying on a flat rock nearby, late afternoon, medium shot", "char"),
      cam="زوم به شکاف", sfx="سنگ روی سنگ")
 shot("روز ۹", "گوشی رو یه بار دیگه روشن می‌کنی. پیام عوض شده: «برخورد: فردا.»", "عکس گوشی قرمز، این بار «فردا»", "reuse", src="عکس گوشی قرمز (ویرایش ۱۰ روز)",
      prompt="Edit this image: change the text on the phone screen to \"ASTEROID IMPACT: TOMORROW\", clear and readable, and make his face look more tired and pale. Keep everything else exactly the same.",
@@ -146,7 +146,7 @@ shot("روز ۱۰", "فندق رو توی جیبت محکم نگه می‌دار
 shot("روز ۱۰", "بیرون، اولین درخت‌ها آتیش می‌گیرن.", "عکس شات ۳ (جنگل در آتیش)", "reuse", src="شات ۳ (جنگل در آتیش)", cam="پوش آروم", sfx="آتیش")
 shot("روز ۱۰", "و بعد، بیرون تونل، صدای قدم میاد. سنگین. آروم. نزدیک.", "صورت پسر که گوش میده", "crop", src="شات ۱", cam="زوم به صورت", sfx="قدم سنگین")
 shot("روز ۱۰", "یه جثه‌ی غول‌پیکر بیرون لونه روی زمین می‌افته و سایه‌اش کامل ورودی رو می‌پوشونه.", "از داخل تونل: شکاف سنگی ورودی با یه سایه‌ی عظیم تاریک میشه", "new",
-     P(f"Shot D10h – view from inside {TUNNEL} toward the narrow stone gap at its entrance, the red firelight outside suddenly blocked by a huge dark shadow falling across the gap, dust shaking loose, ominous", "none"),
+     P(f"Shot D10h – view from inside {TUNNEL} toward the tall thin vertical slit between stacked stones at its entrance (only as wide as a hand), the red firelight outside suddenly blocked by a huge dark shadow falling across the slit, dust shaking loose, ominous", "none"),
      cam="لرزش ضربه‌ای روی افتادن", sfx="افتادن عظیم، لرزش")
 shot("روز ۱۰", "تی‌رکسِ روز اوله.", "عکس شات ۴ (پوزه با زخم پشت شکاف)", "reuse", src="شات ۴ (پوزه پشت شکاف)", cam="زوم روی زخم", sfx="سکوت")
 shot("روز ۱۰", "پوزه‌ی بزرگش درست پشت شکاف ورودیه و نفس‌های گرمش از لای سنگ‌ها توی تونل می‌پیچه.", "کلیپ نفس (نسخه‌ی آروم شات ۴)", "reuse", src="کلیپ نفس تی‌رکس (شات ۴)", cam="فقط کلیپ", sfx="نفس عظیم")
