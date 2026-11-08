@@ -30,8 +30,10 @@ S = []
 def shot(part, narr, see, kind, prompt="", cam="", sfx="", motion="", src=""):
     S.append(dict(part=part, narr=narr, see=see, kind=kind, prompt=prompt, cam=cam, sfx=sfx, motion=motion, src=src))
 
+WOUND = "only his right forearm is hurt: the right jacket sleeve is torn off below the elbow showing his thin solid black stick forearm, the left sleeve is intact, both hands simple solid black cartoon hands, no nose"
 def P(body, *who):
     locks = []
+    if "char" in who and any(t in body for t in ("Shot D8d", "Shot D8e", "Shot D8f", "Shot D9", "Shot D10", "Shot D11")): locks.append(WOUND)
     if "char" in who: locks.append(CHAR)
     if "fandogh" in who: locks.append(FANDOGH)
     return "; ".join([body] + locks + [WORLD, STYLE])
