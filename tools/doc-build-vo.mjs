@@ -26,7 +26,7 @@ const takeFile = (n, k) => path.join(dir, "vo", `${pad(n)}-${k}`);
 const PICK = {};
 for (const l of L) {
   if (l.take) { PICK[l.n] = l.take; continue; }
-  const ks = fs.readdirSync(path.join(dir, "vo")).filter((f) => f.startsWith(pad(l.n) + "-") && f.endsWith(".mp3")).map((f) => +f.slice(3, -4));
+  const ks = fs.readdirSync(path.join(dir, "vo")).filter((f) => f.startsWith(pad(l.n) + "-") && f.endsWith(".mp3")).map((f) => +f.slice(f.lastIndexOf("-") + 1, -4)); // works for line numbers of any width
   if (!ks.length) throw new Error(`no takes for line ${l.n}`);
   ks.sort((x, y) => (VER[`${pad(l.n)}-${y}`]?.score ?? 0) - (VER[`${pad(l.n)}-${x}`]?.score ?? 0) || (VER[`${pad(l.n)}-${x}`]?.dur ?? 0) - (VER[`${pad(l.n)}-${y}`]?.dur ?? 0));
   PICK[l.n] = ks[0];
