@@ -1,0 +1,9 @@
+{
+ "positive_global_styles": ["cinematic documentary underscore", "survival thriller", "orchestral hybrid", "subtle", "sits under narration", "no melody competing with voice"],
+ "negative_global_styles": ["vocals", "lyrics", "drums kit", "EDM", "rock", "loud", "busy"],
+ "sections": [
+  {"section_name": "Hook", "positive_local_styles": ["dark low drone", "deep sub rumble", "slow heartbeat pulse", "tense low strings", "ominous"], "negative_local_styles": ["piano melody", "bright"], "duration_ms": 16000, "lines": []},
+  {"section_name": "Flashback", "positive_local_styles": ["tension fades", "soft reverse swell", "airy pad", "gentle transition"], "negative_local_styles": ["percussion"], "duration_ms": 4500, "lines": []},
+  {"section_name": "Morning wonder", "positive_local_styles": ["soft sparse piano", "warm strings", "curious", "gentle wonder", "light mystery", "slow tempo"], "negative_local_styles": ["percussion", "dark drone"], "duration_ms": 12000, "lines": []}
+ ]
+}
