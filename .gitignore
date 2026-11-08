@@ -4,3 +4,4 @@ out
 *.part.mp4
 .remotion
 public/dino/vo.wav
+__pycache__/
