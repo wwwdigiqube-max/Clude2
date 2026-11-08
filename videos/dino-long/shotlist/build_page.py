@@ -77,7 +77,7 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--rust);outline-o
   <div id="list"></div>
 </div>
 <script>
-const D = __DATA__;
+const D = __DATA__; const PARTNO = "__P__";
 const KIND = {new:"🖼 عکس تازه", crop:"✂️ برش از عکس قبلی", clip:"🎬 کلیپ Flow", reuse:"♻️ عکس ساخته‌شده", code:"🎨 گرافیک تدوین"};
 const fa = s => String(s).replace(/\d/g, d => "۰۱۲۳۴۵۶۷۸۹"[d]);
 let done = {}; try { done = JSON.parse(localStorage.getItem("dino-p__P__-done") || "{}"); } catch (e) {}
@@ -96,7 +96,7 @@ function codeBlock(cap, text){
 const makes = s => s.kind==="new" || s.kind==="clip" || (s.kind==="reuse" && s.prompt);
 function stats(){
   const S = D.shots, n = S.length, m = Math.round((D.total-(D.start||0))/60);
-  const items = [["شات", n], ["دقیقه", "~"+m], ["عکس تازه", S.filter(s=>s.kind==="new").length], ["کلیپ Flow", S.filter(s=>s.kind==="clip").length], ["رفرنس", D.pre.length]];
+  const items = PARTNO==="3" ? [["کار باقی‌مونده", n]] : [["شات", n], ["دقیقه", "~"+m], ["عکس تازه", S.filter(s=>s.kind==="new").length], ["کلیپ Flow", S.filter(s=>s.kind==="clip").length], ["رفرنس", D.pre.length]];
   const box = document.getElementById("stats"); box.textContent="";
   items.forEach(([k,v]) => { const s = el("div","stat"); const b = el("b",null,fa(v)); s.append(b, " "+k); box.append(s); });
   const todo = S.filter(makes).concat(D.pre.map(p=>({n:p[0]})));
@@ -106,7 +106,7 @@ function stats(){
 function card(s){
   const c = el("article","card"+(done[s.n]?" done":""));
   const h = el("div","head");
-  h.append(el("span","num","شات "+fa(s.n)), el("span","part",`${s.part} · ${fa(s.t)}`), el("span","kind "+s.kind, KIND[s.kind] + (s.src ? ` · ${s.src}` : "")));
+  h.append(el("span","num","شات "+fa(s.n)), el("span","part", s.t ? `${s.part} · ${fa(s.t)}` : s.part), el("span","kind "+s.kind, KIND[s.kind] + (s.src ? ` · ${s.src}` : "")));
   if (makes(s)) {
     const lab = el("label","done-box"); const cb = el("input"); cb.type="checkbox"; cb.id="d"+s.n; cb.checked=!!done[s.n];
     cb.addEventListener("change",()=>{ done[s.n]=cb.checked; save(); c.classList.toggle("done",cb.checked); stats(); });
@@ -128,7 +128,7 @@ function card(s){
 }
 function render(f){
   const L = document.getElementById("list"); L.textContent="";
-  if (f !== "clip") {
+  if (f !== "clip" && D.pre.length) {
     L.append(el("h2",null,"قدم صفر: رفرنس‌ها"));
     D.pre.forEach(([id,title,note,pr]) => {
       const c = el("article","card"+(done[id]?" done":"")); const h = el("div","head");
@@ -151,6 +151,6 @@ document.querySelectorAll(".bar button").forEach(b => b.addEventListener("click"
 }));
 stats(); render("all");
 </script>
-'''.replace("__DATA__", data).replace("__PFA__", "۱۲"[int(PART)-1]).replace("__P__", PART).replace("__RANGE__", "از قلاب تا آخر روز ۵" if PART=="1" else "از روز ۶ تا پایان")
+'''.replace("__DATA__", data).replace("__PFA__", "۱۲۳"[int(PART)-1]).replace("__P__", PART).replace("__RANGE__", {"1":"از قلاب تا آخر روز ۵","2":"از روز ۶ تا پایان","3":"فقط کارهای باقی‌مونده، به ترتیب"}[PART])
 open(os.path.join(H, f"part{PART}.html"), "w").write(page)
 print("ok", len(page))
