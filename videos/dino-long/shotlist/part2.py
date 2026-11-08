@@ -3,7 +3,7 @@ import json, os
 HERE = os.path.dirname(__file__)
 CHAR = ("the same character from the reference images (stick-figure young man about 20, plain round off-white head about one third of his height, "
         "small black oval eyes, thin eyebrows, messy dark-brown hair tufts sticking out under a dark charcoal knit beanie with a headlamp, "
-        "open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi)")
+        "open worn rust-orange hooded jacket over a dark grey t-shirt, dark backpack, long thin black stick arms and legs, simple black hands, dark hiking boots, not chibi; stick-figure anatomy: the ONLY white part is the round head, the body under the clothes is a thin solid black stick figure, the neck is a short thin black stick, any exposed arm or leg is a thin solid black line never skin, no nose, no ears)")
 STYLE = ("dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the character, "
          "realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting, 16:9, no text, no watermark")
 FANDOGH = ("Fandogh, the same tiny early mammal from the Fandogh reference image (the size of a large mouse, soft warm-brown fur, big shiny black eyes, "
