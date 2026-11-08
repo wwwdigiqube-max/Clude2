@@ -196,6 +196,17 @@ shot("بعد از پایان", "یه خط رو روی دیوار پاک می‌�
 shot("بعد از پایان", "اگه می‌خوای بدونی بعد از تاریکی چی شد، توی کامنت فقط بنویس: فندق.", "کارت پایانی روی تصویر پسر و فندق", "code", src="D11d",
      cam="کارت «کامنت کن: فندق»", sfx="موزیک پایانی")
 
+# ---- finish plan: cut these to save time (reuse or edit-graphics instead) ----
+CUT = {
+ "Shot D10f": ("code", "گرافیک من: ماهی‌های ساحل (D10e) + کارت «تانیس، داکوتای شمالی»"),
+ "Shot D10h": ("crop", "شات ۱ (تونل) تیره‌شده: سایه رو من روی شکاف می‌اندازم"),
+ "Shot D11b": ("crop", "برش عرضی روز ۶ (D6c) خاکستری‌شده + خاکستر روی تصویر"),
+ "Shot D11e": ("reuse", "شات ۲۹ (فندق و سایه‌ی دایناسورها): برگشت به همون قاب"),
+}
+for x in S:
+    for tag, (kind, src) in CUT.items():
+        if x["prompt"].startswith(tag):
+            x["kind"], x["src"], x["prompt"], x["motion"] = kind, src, "", ""
 # ---- references (max 3, most specific first) ----
 def refs(s):
     pr = s["prompt"]
