@@ -60,7 +60,7 @@ const PhoneScreen: React.FC<{ w: number; h: number; lines: string[] }> = ({ w, h
   <div style={{ position: "absolute", left: 0.397 * w, top: 0.735 * h, width: 0.08 * w, height: 0.27 * h, transform: "translate(-50%,-50%) rotate(-26deg)",
     background: "radial-gradient(ellipse at 50% 40%, #d8261c 0%, #9c120c 70%, #6d0a06 100%)", borderRadius: 0.008 * w,
     boxShadow: `0 0 ${0.01 * w}px ${0.004 * w}px rgba(255,60,40,.6)`, direction: "rtl", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 0.002 * w }}>
-    <div style={{ fontSize: 0.022 * w, color: "#ffe14a", lineHeight: 1 }}>⚠</div>
+    <div style={{ fontSize: 0.022 * w, color: "#ffe14a", lineHeight: 1, opacity: lines.length ? 1 : 0.9 }}>⚠</div>
     {lines.map((l, i) => (
       <div key={i} style={{ fontFamily: FONT_NUM, fontSize: (i === 1 ? 0.0135 : 0.0105) * w, color: "#fff", lineHeight: 1.15, textAlign: "center", textShadow: "0 0 6px rgba(0,0,0,.5)" }}>{l}</div>
     ))}
@@ -185,6 +185,20 @@ const Msg: React.FC<{ k: number; lines: string[] }> = ({ k, lines }) => (
   </AbsoluteFill>
 );
 
+// phone message as a corner card (bottom-right), so the picture itself stays untouched
+const Notif: React.FC<{ k: number; lines: string[] }> = ({ k, lines }) => (
+  <div style={{ position: "absolute", right: 60, bottom: 70, direction: "rtl", display: "flex", alignItems: "center", gap: 22,
+    background: "rgba(24,6,5,.9)", border: "4px solid #ff5a4a", borderRadius: 22, padding: "14px 34px 20px 30px",
+    transform: `translateX(${(1 - k) * 120}px)`, opacity: k, boxShadow: "0 0 40px rgba(255,60,40,.45), 0 10px 0 rgba(0,0,0,.4)" }}>
+    <div style={{ fontSize: 70, color: "#ffd23a", lineHeight: 1 }}>⚠</div>
+    <div>
+      {lines.map((l, i) => (
+        <div key={i} style={{ fontFamily: FONT_NUM, fontSize: i ? 50 : 72, color: i ? "#ffc9bf" : "#fff", lineHeight: 1.25 }}>{l}</div>
+      ))}
+    </div>
+  </div>
+);
+
 const MapFx: React.FC<{ k: number; t: number }> = ({ k, t }) => {
   const dash = interpolate(t, [0.5, 2.2], [0, 1], clamp);
   return (
@@ -265,7 +279,6 @@ const Heat: React.FC<{ t: number; k: number }> = ({ t, k }) => (
       return <div key={i} style={{ position: "absolute", left: 360 + i * 300, top: y, opacity: k, fontSize: 110, color: "#ff6a2a", textShadow: "0 0 20px #ff3300" }}>↓</div>;
     })}
     <div style={{ position: "absolute", left: 0, right: 0, top: 370, borderTop: "6px dashed #ffb070", opacity: k01(t, 1.6) }} />
-    <div style={{ position: "absolute", left: 0, right: 0, top: 30, textAlign: "center", fontFamily: FONT_NUM, fontSize: 70, color: "#ffb070", direction: "rtl", opacity: k, textShadow: "0 5px 0 #000" }}>گرما ← خاک جلوشو می‌گیره؟</div>
   </>
 );
 
@@ -366,6 +379,7 @@ const ShotView: React.FC<{ shot: Shot; t: number }> = ({ shot, t }) => {
       case "battery": layers.push(<Battery key={i} k={k} t={lt} from={f.from} to={f.to} />); break;
       case "label": case "name": layers.push(<Label key={i} k={k} text={f.text} x={f.x ?? 0.5} y={f.y ?? 0.2} />); break;
       case "msg": layers.push(<Msg key={i} k={k} lines={f.lines} />); break;
+      case "notif": layers.push(<Notif key={i} k={k} lines={f.lines} />); break;
       case "map": layers.push(<MapFx key={i} k={k} t={lt} />); break;
       case "weights": layers.push(<Weights key={i} k={k} t={lt} />); break;
       case "chips": layers.push(<Chips key={i} t0={shot.s} now={now} items={f.items} />); break;
@@ -444,3 +458,5 @@ export const DinoLong: React.FC<{ times?: number[] }> = ({ times }) => {
 const LOOK: [number, number][] = [[1, 1.0], [4, 2], [8, 2.5], [15, 4], [16, 6], [21, 6], [26, 2.5], [30, 9], [31, 4], [36, 9], [44, 6], [52, 3],
   [53, 4], [60, 5], [73, 0.8], [78, 2], [80, 3], [88, 3], [93, 3], [99, 1.5], [105, 4], [108, 14], [111, 9], [115, 2]];
 export const DINO_LOOK = LOOK.map(([n, dt]) => SHOTS[n - 1].s + Math.min(dt, SHOTS[n - 1].e - SHOTS[n - 1].s - 0.1));
+// one frame per shot (60 % into it) for a full review pass
+export const DINO_ALL = SHOTS.map((s) => s.s + 0.6 * (s.e - s.s));

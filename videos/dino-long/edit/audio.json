@@ -193,6 +193,12 @@
    2.7
   ],
   [
+   "public/dino/sfx/lib-thud.wav",
+   52.12,
+   0.5,
+   0.05
+  ],
+  [
    "public/dino/sfx/heart.wav",
    62.81,
    0.7,

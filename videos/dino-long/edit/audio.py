@@ -22,7 +22,7 @@ fx("lib-boom", st(5) + 0.1, 0.6)
 # ---- day 1 ----
 bed("morning-birds", st(8), st(14), 0.35)
 fx("stomp", cue(12, "w:می‌کوبه"), 1.0); fx("quake-rumble", cue(12, "w:می‌کوبه") + 1.0, 0.4)
-fx("heart", st(13) + 0.3, 0.7); fx("stomp", st(13) + 1.6, 0.35)
+fx("lib-thud", st(11) + 0.05, 0.5); fx("heart", st(13) + 0.3, 0.7); fx("stomp", st(13) + 1.6, 0.35)
 fx("lib-notif", st(15) + 0.2, 0.6)
 fx("lib-whoosh", st(16) + 0.1, 0.5)
 fx("lib-click", st(20) + 0.6, 0.4) if os.path.exists(D + "lib-click.wav") else None
