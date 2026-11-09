@@ -5,7 +5,8 @@
 // <dir>/lines.json   [{ "n": 1, "sp": "A", "fa": "[warm] متنِ جمله", "check"?: "متن برای مقایسه", "gap"?: 0.5, "take"?: 2 }]
 //                    sp = speaker (A/B…) · [tags] steer the delivery (warm, curious, surprised, whispers…)
 //                    gap = pause after the line (s) · take = force a take after listening
-// <dir>/voices.json  { "A": "<voiceId>", "B": "<voiceId>", "model": "eleven_v4", "takes": 3, "lang": "fa" }
+// <dir>/voices.json  { "A": "<voiceId>", "B": "<voiceId>", "model": "eleven_v4", "takes": 3, "lang": "fa",
+//                      "settings"?: { "A": { "stability": 0.35 } } }   (lower stability = more expressive)
 // Writes <dir>/vo/<nn>-<k>.mp3 + .json (alignment) and <dir>/vo/verify.json ({ "<nn>-<k>": { score, heard, dur } }).
 // Usage: node --env-file=.env tools/doc-voices.mjs <dir> [--no-verify]
 import fs from "node:fs";
@@ -38,7 +39,7 @@ async function tts([l, k]) {
       const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${V[l.sp]}/with-timestamps?output_format=${FORMAT}`, {
         method: "POST",
         headers: { ...xi(), "Content-Type": "application/json" },
-        body: JSON.stringify({ text: l.fa, model_id: model, language_code: lang }),
+        body: JSON.stringify({ text: l.fa, model_id: model, language_code: lang, ...(V.settings?.[l.sp] ? { voice_settings: V.settings[l.sp] } : {}) }),
       });
       if (!r.ok) {
         const t = await r.text();

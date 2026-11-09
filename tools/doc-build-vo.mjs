@@ -1,5 +1,5 @@
 // Documentary style · step 2 of the voices: picks the best take of every line (STT score, then the tighter take;
-// `take` in lines.json overrides), trims it, gives each speaker ONE fixed gain so both voices sit at the same level
+// `take` in lines.json overrides; `gain` = extra dB for one quiet/loud take), trims it, gives each speaker ONE fixed gain so both voices sit at the same level
 // (no stretching, no dynamic loudnorm — they sound natural), lays the lines out with short pauses (a real
 // conversation: speaker change ≈ 0.45 s; a longer `gap` where the picture needs room), and writes:
 //   <out.wav>   the dialogue track          <vo.json>  { total, segs: [{ n, sp, start, end }], words: [{ w, s, e, line }] }
@@ -55,7 +55,9 @@ L.forEach((l, li) => {
     if (ch[i] === "]") inTag = false;
   }
   const a0 = Math.max(0, st[spoken[0]] - 0.06), b0 = en[spoken.at(-1)] + 0.22;
-  const pcm = execFileSync("ffmpeg", ["-v", "error", "-i", k + ".mp3", "-ss", a0.toFixed(3), "-to", b0.toFixed(3), "-af", `volume=${GAIN[l.sp]}dB,afade=t=in:d=0.02,afade=t=out:st=${(b0 - a0 - 0.08).toFixed(3)}:d=0.08` + (TEMPO !== 1 ? `,atempo=${TEMPO}` : ""), "-ar", String(SR), "-ac", "1", "-f", "s16le", "-"], { maxBuffer: 1 << 28 });
+  // seek on the INPUT side: with an output-side -ss the filters run on the original timeline, so the fade-out below
+  // (st = b0 − a0 − 0.08) landed a0 seconds early and cut the end of every line that has a pause/[sigh] before it
+  const pcm = execFileSync("ffmpeg", ["-v", "error", "-ss", a0.toFixed(3), "-t", (b0 - a0).toFixed(3), "-i", k + ".mp3", "-af", `volume=${(GAIN[l.sp] + (l.gain ?? 0)).toFixed(2)}dB,afade=t=in:d=0.02,afade=t=out:st=${(b0 - a0 - 0.08).toFixed(3)}:d=0.08` + (TEMPO !== 1 ? `,atempo=${TEMPO}` : ""), "-ar", String(SR), "-ac", "1", "-f", "s16le", "-"], { maxBuffer: 1 << 28 });
   const dur = pcm.length / 2 / SR;
   let w = "", ws = null, we = 0;
   inTag = false;

@@ -39,7 +39,7 @@
   - یا اگر کاربر ویس فرستاده، با همان کار کن.
   - در گزارش آخر بگو با کلید چه چیزهایی اضافه می‌شود.
 - **عکس:** تو در ابر عکس هوش مصنوعی نمی‌سازی. یکی از این‌ها را انتخاب کن:
-  - سبکی که تصویرش تماماً کد است: split-flap، light-logo، light-swarm، documentary، paper-blueprint، receipt-ui، pixel-collage، launch-reel و stick-toon.
+  - سبکی که تصویرش تماماً کد است: split-flap، light-logo، light-swarm، documentary، paper-blueprint، receipt-ui، pixel-collage، launch-reel و stick-toon. همچنین همه‌ی ۴۵ سبک Art Motion، به‌جز کلاژ خبری که عکس می‌خواهد. قصه در قاب، شعر و زبان‌های توضیحی سریع‌ترین راه‌اند (`styles/art-motion.md`).
   - اگر Network access روی Full است، عکس آزاد (PD یا CC0) از Wikimedia Commons بگیر و اعتبارش را بنویس.
   - اگر کاربر در claude.ai کانکتور ساخت عکس وصل کرده، از آن استفاده کن.
   - برای سبک‌هایی که عکس GPT می‌خواهند (hologram-hud، atomic-age، test-reel، satellite-explainer)، فقط اگر کاربر عکس داده.
@@ -94,17 +94,40 @@
 - هر چند ویدیو یک بار، اگر ریپو سنگین شد (بالای ۷۰۰MB)، به کاربر پیشنهاد بده ویدیوهای قدیمی را از گیت‌هاب دانلود کند و یک ریپوی تازه بسازد. تاریخچه‌ی git فایل‌های پاک‌شده را هم نگه می‌دارد.
 
 ## به‌روزرسانی کیت
-اگر کاربر zipهای تازه‌ی `NFP-Alvana-Mobile-*-of-*.zip` را در ریشه‌ی ریپو آپلود کرد و گفت «به‌روز کن»:
-1. همه‌ی zipها را در `/tmp/kit` باز کن، با `unzip` یا `python3 -m zipfile -e`. همه در یک پوشه‌ی `nfp-alvana-mobile/` باز می‌شوند.
-2. فقط این‌ها را جایگزین کن:
+اگر کاربر zipهای تازه‌ی `NFP-Alvana-Mobile-*-of-*.zip` را در ریشه‌ی ریپو آپلود کرد و گفت «به‌روز کن» یا «به نسخه‌ی ۲ آپدیت کن»:
+- **قانون:** کارهای کاربر دست نمی‌خورد. git پشتیبان توست: قبل از شروع، اگر چیزی commit نشده، اول commit کن.
+- **دست نزن به:** `videos/`، `uploads/`، ویدیوهای خود کاربر (`src/v01` و …)، و `.env`.
+
+1. **zipها:**
+   - `git pull origin main` (zipها تازه آپلود شده‌اند).
+   - `ls NFP-Alvana-Mobile-*-of-*.zip`. اگر یکی کم است، به کاربر بگو کدام را آپلود نکرده و صبر کن.
+   - `rm -rf /tmp/kit && mkdir -p /tmp/kit`، بعد هر zip را با `unzip -q -o` (یا `python3 -m zipfile -e`) در `/tmp/kit` باز کن. همه در `/tmp/kit/nfp-alvana-mobile/` باز می‌شوند. اسمش را N بگذار.
+   - نسخه‌ها را مقایسه کن: خط اول `N/nfp-kit-version.txt` و `./nfp-kit-version.txt`. اگر دومی نیست، پروژه نسخه‌ی ۱ است.
+2. **جایگزین کن (از N به ریپو، کل پوشه یا فایل):**
    - `.claude/`، `scripts/`، `tools/`
-   - `src/styles/`، `src/lib/`، `src/fonts.ts`، `src/Root.tsx`
-   - `public/`
-   - `package.json`، `remotion.config.ts`، `tsconfig.json`
-   - `CLAUDE.md`، `README.md`، `GUIDE-FA.md`
-3. اگر کاربر در `src/Root.tsx` ویدیوی خودش را ثبت کرده، آن خط‌ها را نگه دار و در فایل تازه دوباره اضافه کن.
-4. **دست نزن به:** `videos/`، `uploads/` و پوشه‌های ویدیوهای خود کاربر (`src/v01` و …).
-5. zipها را پاک کن، `bash scripts/cloud-setup.sh` را بزن، commit کن و روی main push کن.
+   - `src/styles/`، `src/lib/`، `src/art-starter/`، `src/fonts.ts`، `src/index.ts`، `src/index.css`
+   - `public/`: فقط **روی آن کپی کن** (`cp -a N/public/. public/`) و چیزی پاک نکن. صدا و عکس ویدیوهای کاربر در `public/v01` و … هستند.
+   - `package.json`، `remotion.config.ts`، `tsconfig.json`، `nfp-kit-version.txt`
+   - `CLAUDE.md`، `README.md`، `GUIDE-FA.md`، `GUIDE-V2-FA.md` (اگر در N هست)
+3. **`src/Root.tsx` با دقت:**
+   - فایل `N/src/Root.tsx` را بردار.
+   - import و `<Composition>`های خود کاربر را از نسخه‌ی قبلی پیدا کن (`git show HEAD:src/Root.tsx`) و عیناً در فایل تازه، زیر کامنت «your videos»، بگذار.
+   - `<ArtMotionCompositions />` فایل تازه بماند.
+4. **نصب و چک:**
+   - `bash scripts/cloud-setup.sh`
+   - `npx tsc --noEmit` باید بدون خطا باشد. اگر خطا در ویدیوی کاربر است، فقط ایمپورتش را درست کن.
+   - یک فریم از سبک تازه: `npx remotion still Art-Story out/update-check.png --frame=100`.
+   - اگر کاربر ویدیوی ثبت‌شده دارد، از یکی‌اش هم یک فریم بگیر.
+5. **ذخیره:**
+   - zipها را پاک کن: `git rm -q --cached NFP-Alvana-Mobile-*-of-*.zip ; rm -f NFP-Alvana-Mobile-*-of-*.zip`
+   - `git add -A && git commit -q -m "NFP-Alvana kit 2.0" && git push origin HEAD:main`. اگر رد شد، از راه PR (بخش git).
+   - فریم نمونه را با `node tools/deliver.mjs out/update-check.png --title "آپدیت کیت"` بفرست.
+6. **گزارش کوتاه به کاربر:**
+   - نسخه‌ی کیت حالا 2.0 است.
+   - ۴۵ سبک تازه آمده؛ کاتالوگ را از مدرس بگیرد.
+   - ویدیوها و فایل‌هایش سالم‌اند.
+   - یک پیام نمونه برای اولین ویدیو با سبک تازه.
+- **اگر کاربر خواست آپدیت برگردد:** commit آپدیت را با `git revert` برگردان، روی main push کن و `bash scripts/cloud-setup.sh` بزن. ویدیوهای ساخته‌شده بعد از آپدیت را نگه دار.
 
 ## اگر کاربر چیزی گفت که در گوشی ممکن نیست
 - **«استودیو رو باز کن» / پیش‌نمایش زنده:** در گوشی Studio نداریم. چند فریم ثابت یا یک پیش‌نمایش 720p کوتاه رندر کن و با `deliver` بفرست.

@@ -8,6 +8,7 @@
 //   "music": [["public/my-doc/m1.wav", "0", 1.5, "S:14+2.5", 3], …]          file, start, fade-in, end, fade-out
 //   "sfx":   [["public/my-doc/sfx/whoosh.wav", "W:16:خیلی+0.5", 0.35, 0.35], …]  file, when the peak lands, volume, peak offset in file
 //   "beds":  [["public/my-doc/sfx/wind.wav", "S:9", "E:13", 0.3], …]           file, start, end, volume
+//   "duck": { threshold, ratio, attack, release } (music under the voice; default 0.05 / 2.5 / 40 / 500), "musicEq": "equalizer=…" (optional),
 //   "musicBase": 0.12, "musicLift": 0.15, "sfxGain": 0.4, "voGain": 1.0,
 //   "musicKeys": [[0, 0.3], [0.6, 0.2], ["end-2", 0.2], ["end-1", 0.45]] }   optional: music gain curve (replaces base+lift)
 // Times: a number, or a cue string from vo.json: "S:n" line start · "E:n" line end · "W:n:word" word onset
@@ -71,8 +72,9 @@ if (MUSIC.length) {
     gain = String(K[0][1]);
     for (let i = 1; i < K.length; i++) gain += `+(${(K[i][1] - K[i - 1][1]).toFixed(4)})*clip((t-${K[i - 1][0].toFixed(3)})/${Math.max(0.01, K[i][0] - K[i - 1][0]).toFixed(3)},0,1)`;
   }
-  parts.push(`${MUSIC.map((_, i) => `[m${i}]`).join("")}amix=inputs=${MUSIC.length}:normalize=0:dropout_transition=0,volume='${gain}':eval=frame[mus]`);
-  parts.push(`[mus][sc]sidechaincompress=threshold=0.05:ratio=2.5:attack=40:release=500:makeup=1[mud]`);
+  const DK = { threshold: 0.05, ratio: 2.5, attack: 40, release: 500, ...(A.duck ?? {}) };
+  parts.push(`${MUSIC.map((_, i) => `[m${i}]`).join("")}amix=inputs=${MUSIC.length}:normalize=0:dropout_transition=0,volume='${gain}':eval=frame${A.musicEq ? "," + A.musicEq : ""}[mus]`);
+  parts.push(`[mus][sc]sidechaincompress=threshold=${DK.threshold}:ratio=${DK.ratio}:attack=${DK.attack}:release=${DK.release}:makeup=1[mud]`);
 } else parts.push(`anullsrc=r=48000:cl=stereo,atrim=0:${TOTAL}[mud]`, `[sc]anullsink`);
 const b0 = 1 + MUSIC.length;
 const uses = UFX.map((f) => SFX.filter(([g]) => g === f).length);

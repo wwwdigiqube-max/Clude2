@@ -14,10 +14,11 @@ import { SAT_FPS, SAT_FRAMES, SatelliteVideo } from "./styles/satellite-explaine
 import { COSMIC_FPS, COSMIC_FRAMES, COSMIC_LOOK, CosmicVideo } from "./styles/cosmic-web";
 import { FLAP_FPS, FLAP_FRAMES, FLAP_LOOK, FlapVideo } from "./styles/split-flap";
 import { LIGHTLOGO_FPS, LIGHTLOGO_FRAMES, LIGHTLOGO_LOOK, LightLogoVideo } from "./styles/light-logo";
+import { DESK_FPS, DESK_FRAMES, DESK_LOOK, DeskVideo } from "./styles/studio-desk";
+import { ArtMotionCompositions } from "./styles/art-motion";
 import { V01, V01_FPS, V01_FRAMES, V01_LOOK } from "./v01/Video";
 import { V02, V02_FPS, V02_FRAMES } from "./v02/Video";
 import { DinoLong, DINO_FPS, DINO_FRAMES, DINO_LOOK, DINO_ALL } from "./dino/Video";
-import { DESK_FPS, DESK_FRAMES, DESK_LOOK, DeskVideo } from "./styles/studio-desk";
 
 // Every video = one <Composition>. The style demos below are the reference films / starter templates (see STYLES.md).
 // They play silent: the films’ narration, music and effects are not shipped — each style’s pipeline/ folder says how to make yours.
@@ -54,13 +55,16 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="Style-SplitFlap-Look" component={FlapVideo} durationInFrames={FLAP_LOOK.length} fps={FLAP_FPS} width={1920} height={1080} defaultProps={{ times: FLAP_LOOK }} />
       <Composition id="Style-LightLogo" component={LightLogoVideo} durationInFrames={LIGHTLOGO_FRAMES} fps={LIGHTLOGO_FPS} width={1920} height={1080} />
       <Composition id="Style-LightLogo-Look" component={LightLogoVideo} durationInFrames={LIGHTLOGO_LOOK.length} fps={LIGHTLOGO_FPS} width={1920} height={1080} defaultProps={{ times: LIGHTLOGO_LOOK }} />
+      {/* v2 · Art Motion: 36 moving-painting styles (Art-<Style>) + 9 explainer grammars (Explainer-<Style>) + Art-Story / Art-Poem / Art-Journey.
+          Card: styles/art-motion.md. Your video: cp src/art-starter/StoryVideo.tsx src/v01/Video.tsx → import { V01 } from "./v01/Video"; <V01 /> */}
+      <ArtMotionCompositions />
+      {/* your videos: <Composition id="V01" component={Video01} durationInFrames={…} fps={30} width={1080} height={1920} /> */}
       <Composition id="V01" component={V01} durationInFrames={V01_FRAMES} fps={V01_FPS} width={1080} height={1920} />
       <Composition id="V01-Look" component={V01} durationInFrames={V01_LOOK.length} fps={V01_FPS} width={1080} height={1920} defaultProps={{ times: V01_LOOK }} />
       <Composition id="DinoLong" component={DinoLong} durationInFrames={DINO_FRAMES} fps={DINO_FPS} width={1920} height={1080} />
       <Composition id="DinoLong-Look" component={DinoLong} durationInFrames={DINO_LOOK.length} fps={DINO_FPS} width={1920} height={1080} defaultProps={{ times: DINO_LOOK }} />
       <Composition id="DinoLong-All" component={DinoLong} durationInFrames={DINO_ALL.length} fps={DINO_FPS} width={1920} height={1080} defaultProps={{ times: DINO_ALL }} />
       <Composition id="V02" component={V02} durationInFrames={V02_FRAMES} fps={V02_FPS} width={1920} height={1080} />
-      {/* your videos: <Composition id="V01" component={Video01} durationInFrames={…} fps={30} width={1080} height={1920} /> */}
     </>
   );
 };
