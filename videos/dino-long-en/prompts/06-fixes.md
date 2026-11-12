@@ -37,10 +37,40 @@ Dark gritty animated survival story style for teens and adults, detailed digital
 Palette: 60% mossy green, 30% golden morning light, 10% red berries and rust-orange jacket. Both are sharp and large enough to crop: his face in the left third, Pip and the berries in the right third. Exactly one person and one Pip. Clean image with blank unbranded surfaces and no lettering anywhere. Wide 16:9 composition.
 ```
 
+## ۰ · دور دوم (بعد از بازبینی عکس‌های درایو)
+
+### #130 · فقط خط سیل
+روی **عکس تازه‌ی 130** (همونی که استخونش درست شد). مدل نوار رو جابه‌جا نکرد، پس این بار فقط پاکش می‌کنیم.  
+**پیوست:** فقط عکس 130  
+
+```
+Edit the attached image.
+
+CHANGE: The clay bank around the tunnel entrance is plain brown clay like the rest of the bank, with no pale band of mud on it; the pale mud bands on the tree trunks stay.
+
+PRESERVE EXACTLY: the young man's, the bone's and every character's head, face, hair, clothing, pose and stick-figure anatomy; the place, the clay bank, the tunnel entrance, the river, the roots and every other object and its position; the camera angle, framing and lens; the light direction, colour and shadows; the colour grade, contrast and grain.
+
+Only the clay around the entrance differs. Everything else is 100% identical.
+```
+
+### #228 · زخم واضح‌تر
+روی **عکس تازه‌ی 228** (همون که فرستادی). زخم هنوز به چشم نمیاد.  
+**پیوست:** فقط عکس 228  
+
+```
+Edit the attached image.
+
+CHANGE: On the left side of the skeleton's snout bone there is now one long, clearly visible healed scar: a pale ivory groove, brighter than the bone around it, running in a straight diagonal line from just behind the nostril opening to just below the eye opening, like an old claw gash that healed long ago.
+
+PRESERVE EXACTLY: the black hands and their grip; the book, its worn corners and dark-green spine; the skeleton's pose, every other bone and the museum hall; the camera angle, framing and lens; the light direction, colour and shadows; the colour grade, contrast and grain.
+
+Only the visible scar differs. Everything else is 100% identical.
+```
+
 ## ۲ · ویرایش استخوان (شبیه استخوان سگ شده)
 **ابزار:** Nano Banana، روی **عکس اصلی** هر قاب.  
 **پیوست:** ۱) عکس همان قاب ۲) عکس `D4e` (استخوان درست)  
-**همین یک پرامپت برای همه‌ی این قاب‌ها:** 093 · 102 · 103 · 108 · 110 · 111 · 117 · 118 · 123 · 129 · و دو عکس قدیمی `D5b` و `D6b`
+**همین یک پرامپت برای همه‌ی این قاب‌ها:** 093 · 102 · 103 · 108 · 117 · 118 · و دو عکس قدیمی `D5b` و `D6b`
 
 ```
 Edit the first attached image. Use the second attached image only for the shape of the bone.
@@ -55,12 +85,12 @@ Only the shape of the bone differs. Everything else is 100% identical.
 ## ۳ · ویرایش استخوان + خط سیل
 خط سفید سیل از وسط در تونل رد شده. با همین یک ویرایش هر دو درست می‌شود.  
 **پیوست:** ۱) عکس همان قاب ۲) عکس `D4e`  
-**قاب‌ها:** 130 · 147
+**قاب‌ها:** فقط 147 (130 رو با بخش ۰ درست کن)
 
 ```
 Edit the first attached image. Use the second attached image only for the shape of the bone.
 
-CHANGE: The long pale bone is a dinosaur shoulder blade, shaped like the bone in the second attached image: one end widens into a broad, flat, thin paddle-shaped blade with a slightly ragged edge, and the other end narrows into one single thick rounded joint; it is as long as his arm. It sits in exactly the same place, at the same angle and in the same grip as the old bone. Also, the pale band of dried flood mud on the clay bank runs a hand below the bottom edge of the round tunnel entrance, so the whole entrance sits above the band.
+CHANGE: The long pale bone is a dinosaur shoulder blade, shaped like the bone in the second attached image: one end widens into a broad, flat, thin paddle-shaped blade with a slightly ragged edge, and the other end narrows into one single thick rounded joint; it is as long as his arm. It sits in exactly the same place, at the same angle and in the same grip as the old bone. Also, the clay bank around the tunnel entrance is plain brown clay like the rest of the bank, with no pale band of mud on it; the pale mud bands on the tree trunks stay.
 
 PRESERVE EXACTLY: every character's head, face, hair, clothing, pose and stick-figure anatomy; the place, the clay bank, the tunnel entrance, the river, the roots and every other object and its position; the camera angle, framing and lens; the light direction, colour and shadows; the colour grade, contrast and grain.
 

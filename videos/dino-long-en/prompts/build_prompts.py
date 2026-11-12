@@ -456,8 +456,12 @@ BONE_PRES = ("every character's head, face, hair, clothing, pose and stick-figur
 FIX = {}
 FIX["bone"] = ("Edit the first attached image. Use the second attached image only for the shape of the bone.\n\nCHANGE: " + BONE_CHANGE +
                "\n\nPRESERVE EXACTLY: " + BONE_PRES + "\n\nOnly the shape of the bone differs. Everything else is 100% identical.")
+FIX["band"] = ("Edit the attached image.\n\nCHANGE: The clay bank around the tunnel entrance is plain brown clay like the rest of the bank, with no pale band of mud on it; the pale mud bands on the tree trunks stay."
+               "\n\nPRESERVE EXACTLY: " + BONE_PRES.replace("every character's", "the young man's, the bone's and every character's") + "\n\nOnly the clay around the entrance differs. Everything else is 100% identical.")
+FIX["scar"] = ("Edit the attached image.\n\nCHANGE: On the left side of the skeleton's snout bone there is now one long, clearly visible healed scar: a pale ivory groove, brighter than the bone around it, running in a straight diagonal line from just behind the nostril opening to just below the eye opening, like an old claw gash that healed long ago."
+               "\n\nPRESERVE EXACTLY: the black hands and their grip; the book, its worn corners and dark-green spine; the skeleton's pose, every other bone and the museum hall; the camera angle, framing and lens; the light direction, colour and shadows; the colour grade, contrast and grain.\n\nOnly the visible scar differs. Everything else is 100% identical.")
 FIX["boneband"] = ("Edit the first attached image. Use the second attached image only for the shape of the bone.\n\nCHANGE: " + BONE_CHANGE +
-               " Also, the pale band of dried flood mud on the clay bank runs a hand below the bottom edge of the round tunnel entrance, so the whole entrance sits above the band."
+               " Also, the clay bank around the tunnel entrance is plain brown clay like the rest of the bank, with no pale band of mud on it; the pale mud bands on the tree trunks stay."
                "\n\nPRESERVE EXACTLY: " + BONE_PRES + "\n\nOnly the shape of the bone and the height of the mud band differ. Everything else is 100% identical.")
 
 # ---------- read shotlist for timing + text ----------
@@ -516,14 +520,21 @@ for n in (59, 62):
     kind, att, p = FR[n]
     G += [f"### #{n:03d} · NEW" + (" · M" if n == 62 else ""), f"**پیوست:** {' · '.join(att)}  ",
           "**تنظیمات:** " + ("۱۶:۹ · بالاترین رزولوشن (4K) — مادرِ برش‌ها" if n == 62 else "۱۶:۹ · 2K"), ""] + blk(p)
+G += ["## ۰ · دور دوم (بعد از بازبینی عکس‌های درایو)\n",
+      "### #130 · فقط خط سیل",
+      "روی **عکس تازه‌ی 130** (همونی که استخونش درست شد). مدل نوار رو جابه‌جا نکرد، پس این بار فقط پاکش می‌کنیم.  ",
+      "**پیوست:** فقط عکس 130  ", ""] + blk(FIX["band"]) + [
+      "### #228 · زخم واضح‌تر",
+      "روی **عکس تازه‌ی 228** (همون که فرستادی). زخم هنوز به چشم نمیاد.  ",
+      "**پیوست:** فقط عکس 228  ", ""] + blk(FIX["scar"])
 G += ["## ۲ · ویرایش استخوان (شبیه استخوان سگ شده)",
       "**ابزار:** Nano Banana، روی **عکس اصلی** هر قاب.  ",
       "**پیوست:** ۱) عکس همان قاب ۲) عکس `D4e` (استخوان درست)  ",
-      "**همین یک پرامپت برای همه‌ی این قاب‌ها:** 093 · 102 · 103 · 108 · 110 · 111 · 117 · 118 · 123 · 129 · و دو عکس قدیمی `D5b` و `D6b`\n"] + blk(FIX["bone"])
+      "**همین یک پرامپت برای همه‌ی این قاب‌ها:** 093 · 102 · 103 · 108 · 117 · 118 · و دو عکس قدیمی `D5b` و `D6b`\n"] + blk(FIX["bone"])
 G += ["## ۳ · ویرایش استخوان + خط سیل",
       "خط سفید سیل از وسط در تونل رد شده. با همین یک ویرایش هر دو درست می‌شود.  ",
       "**پیوست:** ۱) عکس همان قاب ۲) عکس `D4e`  ",
-      "**قاب‌ها:** 130 · 147\n"] + blk(FIX["boneband"])
+      "**قاب‌ها:** فقط 147 (130 رو با بخش ۰ درست کن)\n"] + blk(FIX["boneband"])
 G += ["## ۴ · ویرایش‌هایی که جا ماند یا روی عکس اشتباه زده شد\n"]
 src = {153: "عکس قدیمی `D6c` (برش عرضی تونل)، **نه** D6a", 228: "عکس قاب `017` خودت (کتاب در دو دست)، **نه** عکس A2", 231: "عکس **تازه‌ی** #136 (همان که اسکلتش رو به چپ است)"}
 for n in (153, 228, 231):
