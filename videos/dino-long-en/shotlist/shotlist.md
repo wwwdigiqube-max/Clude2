@@ -1,6 +1,6 @@
 # شات‌لیست STILLCUT · نسخه‌ی انگلیسی دایناسور (script-en-v4)
 
-**254 قاب · حدود 16:11.7** · میانگین هر قاب 3.8 ثانیه
+**254 قاب · حدود 16:15.2** · میانگین هر قاب 3.8 ثانیه
 
 **روش‌ها:** CROP 75 · OLD 63 · NEW 48 · TEXT 38 · CLIP 10 · EDIT 9 · REUSE 7 · CUT 4
 
@@ -341,12 +341,12 @@
   > In the dark, two yellow eyes.
 - **#161** · 9:28.4 · `CLIP D8c` — رپتور داخل تونل
   > A feathered hunter. Fast. Only as tall as your knee.
-- **#162** · 9:32.2 · `CROP←D8c` — نور چراغ‌پیشانی روی رپتور
-  > Your headlamp lights it up. It doesn't care.
-- **#163** · 9:35.3 · `OLD D8c` — رپتور نزدیک
+- **#162** · 9:32.2 · `OLD D8c` — رپتور نزدیک
   > Not a T. rex. Small enough to fit in your tunnel.
-- **#164** · 9:39.6 · `CROP←D8c` — کلوز رپتور
+- **#163** · 9:36.5 · `CROP←D8c` — کلوز رپتور
   > Small doesn't mean safe.
+- **#164** · 9:38.3 · `CROP←D8c` — نور چراغ‌پیشانی روی رپتور
+  > Your headlamp lights it up. It doesn't care.
 - **#165** · 9:41.4 · `OLD D8d` — پنجه، فلش قرمز
   > It lunges. Claws rip across your right forearm.
 - **#166** · 9:44.4 · `CROP←D8d` — کلوز صورت
@@ -400,7 +400,7 @@
 - **#189** · 11:24.2 · `CROP←D9b` — کنار در سنگی، گوشی قرمز در دست (باند روی ساعد)
   > You switch the phone on one more time. The message has changed.
 - **#190** · 11:28.8 · `TEXT` — کارت پیام: فردا · ۲٪
-  > "Impact: tomorrow." (2%)
+  > "Impact: tomorrow."
 - **#191** · 11:30.6 · `CROP←D9b` — کلوز صورت خسته کنار در سنگی
   > You switch it off.
 - **#192** · 11:32.4 · `OLD D9c` — بیرون تونل، آسمان پرستاره
@@ -496,38 +496,38 @@
 - **#236** · 14:45.7 · `TEXT` — گرافیک: زمستان برخورد
   > Scientists think this impact winter lasted months. Maybe years.
 - **#237** · 14:49.1 · `NEW` 🆕 — پسر با چوب سوزان از جنگل · _پیوست: شیت قهرمان_
-  > The world gave you one gift on its last day. Fire.
-- **#238** · 14:53.4 · `NEW` 🆕 — آتش کوچک جلوی شکاف، دود بیرون · _پیوست: شیت قهرمان · شیت لونه_
+  > The world gave you one gift on its last day. Fire. You carried an ember in from the burning forest.
+- **#238** · 14:56.8 · `NEW` 🆕 — آتش کوچک جلوی شکاف، دود بیرون · _پیوست: شیت قهرمان · شیت لونه_
   > You keep a small fire right at the gap, never deep inside. In a closed tunnel, smoke kills quietly.
-- **#239** · 15:00.7 · `NEW` 🆕 — پیپ کنار گردن، خواب · _پیوست: شیت قهرمان · شیت پیپ_
+- **#239** · 15:04.1 · `NEW` 🆕 — پیپ کنار گردن، خواب · _پیوست: شیت قهرمان · شیت پیپ_
   > And at night, Pip sleeps against your neck. Two small bodies, keeping each other warm.
-- **#240** · 15:06.4 · `CROP←D11c` — گوشی سیاه روی خاک
+- **#240** · 15:09.9 · `CROP←D11c` — گوشی سیاه روی خاک
   > The phone won't turn on anymore.
-- **#241** · 15:08.7 · `OLD D11c` — خط‌کشی روی دیوار با سنگ
+- **#241** · 15:12.2 · `OLD D11c` — خط‌کشی روی دیوار با سنگ
   > So you scratch lines on the tunnel wall with a sharp stone.
-- **#242** · 15:13.4 · `CROP←D11c` — فهرست موجودی روی دیوار
+- **#242** · 15:16.8 · `CROP←D11c` — فهرست موجودی روی دیوار
   > Inventory. Days after the end: 40. Still dark. Dried fish: 7. Running low. Dinosaurs left: zero. Friends: one. Mouse-sized.
-- **#243** · 15:20.7 · `TEXT` — سه کارت قانون
+- **#243** · 15:24.1 · `TEXT` — سه کارت قانون
   > You repeat the rules to yourself. Stay small. Stay near water. Stay underground.
-- **#244** · 15:25.7 · `OLD D11d` — پسر و پیپ دم ورودی خاکستری
+- **#244** · 15:29.1 · `OLD D11d` — پسر و پیپ دم ورودی خاکستری
   > And a new one, that no book ever taught you.
-- **#245** · 15:29.5 · `TEXT` — کارت قانون آخر (گرم)
+- **#245** · 15:33.0 · `TEXT` — کارت قانون آخر (گرم)
   > Stay small… but don't stay alone.
-- **#246** · 15:31.8 · `OLD D2e` — پیپ جلوی سایه‌ی دایناسورها
+- **#246** · 15:35.3 · `OLD D2e` — پیپ جلوی سایه‌ی دایناسورها
   > Small animals like Pip made it out of this darkness.
-- **#247** · 15:35.7 · `TEXT` — شاخه‌های نسل (گرافیک)
+- **#247** · 15:39.1 · `TEXT` — شاخه‌های نسل (گرافیک)
   > Millions of years later, from small mammals like him, came horses, whales, apes. And people.
-- **#248** · 15:41.4 · `OLD D11-phone` — گوشی در تخت، تصویر پیپ
+- **#248** · 15:44.9 · `OLD D11-phone` — گوشی در تخت، تصویر پیپ
   > Sixty-six million years later, one of Pip's great-great-great-grandchildren is watching this video.
-- **#249** · 15:46.0 · `OLD D11f` — پرنده روی شاخه‌ی خاکستری
+- **#249** · 15:49.5 · `OLD D11f` — پرنده روی شاخه‌ی خاکستری
   > And just then, from outside the tunnel, a sound. A bird, singing.
-- **#250** · 15:50.7 · `CROP←D11c` — دست خط می‌زند
+- **#250** · 15:54.1 · `CROP←D11c` — دست خط می‌زند
   > You cross out a line on the wall, and write it again.
-- **#251** · 15:55.3 · `TEXT` — بازنویسی روی دیوار
+- **#251** · 15:58.7 · `TEXT` — بازنویسی روی دیوار
   > Dinosaurs left: zero… except the birds.
-- **#252** · 15:57.6 · `CROP←D11d` — پسر و پیپ، کارت کامنت
+- **#252** · 16:01.0 · `CROP←D11d` — پسر و پیپ، کارت کامنت
   > On day one, what would you have done first? Tell me in the comments.
-- **#253** · 16:03.0 · `CROP←D11d` — پیپ روی شانه
+- **#253** · 16:06.4 · `CROP←D11d` — پیپ روی شانه
   > And if you want to know what you and Pip did after the dark, tell me that too.
-- **#254** · 16:09.9 · `TEXT` — کارت پایانی + شعار
+- **#254** · 16:13.4 · `TEXT` — کارت پایانی + شعار
   > Stay small. Stay alive.
