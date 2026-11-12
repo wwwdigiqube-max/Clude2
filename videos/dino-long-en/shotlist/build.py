@@ -257,7 +257,7 @@ f("You open your book to the cover. The museum skeleton.", "کتاب در دست
 f("And this time, you look closely. A long scar, healed into the bone of the snout.", "زوم به جمجمه‌ی جلد: زخم روی پوزه", "EDIT←#book")
 f("(pause)", "کلوز صورت، شوک آرام", "NEW", C)
 f("The same skeleton that stood behind you in that video. The one you joked in front of.", "سلفی موزه، اسکلت پشت سر", "REUSE←#museum")
-f("Sixty-six million years from now, it will stand in a museum.", "تالار موزه، اسکلت، خالی", "CROP←#museum")
+f("Sixty-six million years from now, it will stand in a museum.", "تالار موزه، اسکلت، خالی", "EDIT←#museum")
 f("And one day, you'll stand in front of it, laughing, with no idea you were here when it died.", "سلفی خندان", "REUSE←#selfie")
 f("Then the dark comes.", "دنیای خاکستری", "OLD D11a")
 f("Soot from fires all over the world, and dust from the impact, cover the whole sky.", "واید آسمان سیاه از دود", "NEW", "")

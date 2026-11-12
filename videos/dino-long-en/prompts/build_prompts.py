@@ -441,6 +441,11 @@ edit(228, 17, "عکس قاب #17 (اصلی)",
      "the two black hands and their grip; the book, its worn corners and dark-green spine; the rest of the cover painting, the skeleton's pose and the museum hall; the camera angle, framing and lens; the light direction, colour and shadows; the colour grade, contrast and grain.",
      "the visible scar")
 
+edit(231, 136, "عکس قاب #136 (اصلی، همون که ساختی)",
+     "The three young people are gone: the hall in front of the skeleton is empty, showing the polished stone floor and the long shadows of the ribs where they stood.",
+     "the skeleton, its pose, the skull and every bone; the plinth, the display cases, the skylights and the hall and every object and its position; the camera angle, framing and lens; the light direction, colour and shadows; the colour grade, contrast and grain.",
+     "the empty hall")
+
 # ---------- read shotlist for timing + text ----------
 rows = {}
 order = []
@@ -459,7 +464,7 @@ CH = [(1, "۱ · Ten Days", 11, 49), (2, "۲ · The Smallest Thing in the Forest
       (4, "۴ · Eleven Percent", 125, 151), (5, "۵ تا ۷ · The Thing in the Tunnel → Stay Small", 152, 254)]
 
 # sanity: every NEW/EDIT in the shotlist has a prompt (#112 moves CROP → EDIT)
-need = {n for n, r in rows.items() if r["method"].startswith(("NEW", "EDIT"))} | {112}
+need = {n for n, r in rows.items() if r["method"].startswith(("NEW", "EDIT"))} | {112, 231}
 miss, extra = need - FR.keys(), FR.keys() - need
 assert not miss and not extra, (sorted(miss), sorted(extra))
 

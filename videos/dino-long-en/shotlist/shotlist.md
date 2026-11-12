@@ -2,7 +2,7 @@
 
 **254 قاب · حدود 16:24.0** · میانگین هر قاب 3.9 ثانیه
 
-**روش‌ها:** CROP 74 · OLD 66 · NEW 50 · TEXT 38 · CLIP 11 · EDIT 8 · REUSE 7
+**روش‌ها:** CROP 73 · OLD 66 · NEW 50 · TEXT 38 · CLIP 11 · EDIT 9 · REUSE 7
 
 > OLD = عکس آماده‌ی ویدیوی فارسی · CLIP = کلیپ آماده · CROP/EDIT ← از عکس اصلی · NEW·M = عکس مادر (بالاترین کیفیت، برش‌ها از آن) · TEXT = گرافیک تدوین
 > اَسِت‌های تازه: @book (کتاب)، @museum (تالار موزه)، @mom (مادر)، @friends (دو دوست). شیت‌های قهرمان/پیپ/تی‌رکس/رپتور/لونه آماده‌اند.
@@ -483,7 +483,7 @@
   > (pause)
 - **#230** · 14:27.7 · `REUSE←#136` — سلفی موزه، اسکلت پشت سر
   > The same skeleton that stood behind you in that video. The one you joked in front of.
-- **#231** · 14:34.2 · `CROP←#136` — تالار موزه، اسکلت، خالی
+- **#231** · 14:34.2 · `EDIT←#136` — تالار موزه، اسکلت، خالی
   > Sixty-six million years from now, it will stand in a museum.
 - **#232** · 14:38.5 · `REUSE←#137` — سلفی خندان
   > And one day, you'll stand in front of it, laughing, with no idea you were here when it died.
