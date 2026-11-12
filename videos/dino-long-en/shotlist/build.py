@@ -134,7 +134,7 @@ f("You dig until it's too dark to see, then sleep in the mud by the hole.", "خ�
 f("Day six. Your hands are blistered. You're in as deep as your arms can reach.", "کندن در طلوع", "OLD D6a")
 f("Then the roof comes down on you.", "سقف روی او می‌ریزد (لحظه‌ی ریزش)", "NEW·M", C, key="collapse")
 f("You crawl out coughing dirt.", "بیرون خزیدن پر از خاک", "NEW", C)
-f("Everything you dug, gone.", "چاله‌ی ریخته‌شده، خالی", "CROP←#collapse")
+f("Everything you dug, gone.", "چاله‌ی ریخته‌شده، خالی", "EDIT←#collapse")
 f("Four days left. Eight days of digging.", "گرافیک: ۴ روز / ۸ روز کار", "TEXT")
 f("You sit in the mud and look at Pip's hole. It's tiny. It never collapses.", "پسر نشسته در گِل، به سوراخ کوچک پیپ نگاه می‌کند", "NEW·M", f"{C} · {P}", key="piphole")
 f("Because Pip doesn't dig a cave. Pip digs a tunnel exactly as wide as Pip, and one small nest at the end.", "کلوز: پیپ در دهانه‌ی سوراخ کوچکش", "CROP←#piphole")
