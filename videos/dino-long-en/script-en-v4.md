@@ -164,7 +164,9 @@ You crawl out coughing dirt.
 Everything you dug, gone.
 Four days left. Eight days of digging.
 
-You sit in the mud and look at Pip's hole. It's tiny. It never collapses.
+You sit in the mud. And there, in the bank next to your ruin, a tiny new hole.
+Pip followed you to the river.
+His hole is tiny. And it doesn't collapse.
 Because Pip doesn't dig a cave. Pip digs a tunnel exactly as wide as Pip, and one small nest at the end.
 So you stop digging a cave.
 You dig a tunnel exactly as wide as your shoulders. A quarter of the dirt. Four times as fast.
