@@ -80,10 +80,10 @@ f("Pip needs a few seeds and a hole to hide in.", "پیپ با دانه کنار
 f("And your book agrees.", "کتاب باز روی زانو، صبح", "NEW", f"{C} · {BOOK}")
 f("Scientists think that after the impact, almost no land animal heavier than about 25 kilograms survived.", "گرافیک «۲۵ کیلو» روی تصویر محو", "TEXT")
 f("You weigh 70.", "گرافیک «تو: ۷۰ کیلو»", "TEXT")
-f("So you'll have to think like Pip.", "پسر و پیپ رو در رو، چشم در چشم", "NEW", f"{C} · {P}")
+f("So you'll have to think like Pip.", "برش از #62: پسر و پیپ (به‌جای قاب روی شکم)", "CROP←#watchpip")
 f("Rule one: stay small.", "کارت قانون ۱", "TEXT")
 f("You eat half the sandwich. You save the rest.", "اینسرت: نصف ساندویچ در دست", "NEW", C)
-f("Then you watch what Pip eats.", "پسر دراز کشیده روی شکم، پیپ را تماشا می‌کند", "NEW·M", f"{C} · {P}", key="watchpip")
+f("Then you watch what Pip eats.", "پسر روی ریشه نشسته، پیپ را تماشا می‌کند", "NEW·M", f"{C} · {P}", key="watchpip")
 f("Small red berries, seeds from one kind of fern.", "پیپ توت قرمز می‌خورد (کلوز)", "CROP←#watchpip")
 f("That's no guarantee. Plenty of things a mouse can eat would kill you.", "کلوز صورت، تردید", "CROP←#watchpip")
 f("But he's a mammal, like you, and the sandwich won't last.", "پیپ و پسر کنار هم", "CROP←#watchpip")
@@ -120,11 +120,11 @@ f("Within an hour of the impact, burning debris falls back through the sky, all 
 f("Scientists still argue about how hot it got. In many places, hot enough to set forests on fire.", "آسمان پر شهاب، جنگل شعله‌ور", "OLD D5a")
 f("On the surface, there's nowhere to hide. Under a meter of soil, maybe.", "تیلت به پایین تا خاک", "CROP←D5a")
 f("Rule three: stay underground.", "کارت قانون ۳", "TEXT")
-f("You find a clay bank above the river and start digging.", "پسر با استخوان کنار دیواره‌ی رسی", "OLD D5b")
-f("Then you look at the trees.", "نگاه به بالا", "CROP←D5b")
-f("Every trunk has a band of dried mud on it. As high as your head.", "دست روی نوار گِل تنه", "OLD D5c")
-f("The river floods. Right up to here.", "زوم به خط گِل", "CROP←D5c")
-f("So you start again, higher up the bank. A hand above the line. The afternoon is gone.", "پسر بالاتر از خط گِل دوباره شروع می‌کند، غروب", "NEW", C)
+f("You find a clay bank above the river and start digging.", "پسر با استخوان‌بیل کنار دیواره‌ی رسی", "CROP←D6a")
+f("Then you look at the trees.", "✂️ حذف شد (خط سیل از سناریو برداشته شد)", "CUT")
+f("Every trunk has a band of dried mud on it. As high as your head.", "✂️ حذف شد (خط سیل از سناریو برداشته شد)", "CUT")
+f("The river floods. Right up to here.", "✂️ حذف شد (خط سیل از سناریو برداشته شد)", "CUT")
+f("So you start again, higher up the bank. A hand above the line. The afternoon is gone.", "✂️ حذف شد (خط سیل از سناریو برداشته شد)", "CUT")
 f("Now the math.", "پسر نشسته، خودکار و کتاب، حساب می‌کند", "NEW", f"{C} · {BOOK}")
 f("With a bone, in clay, a cave big enough to crouch in grows about 30 centimeters a day.", "گرافیک: ۳۰ سانت/روز", "TEXT")
 f("To get a meter of soil over your head, you have to go two and a half meters in.", "برش عرضی تونل + اندازه‌ها", "OLD D6c")
@@ -229,7 +229,7 @@ f("Your book said the shaking comes within minutes. It's right.", "کتاب با
 f("The ground starts to move. Not like a footstep. Like the whole world.", "زلزله، کنار رود", "OLD D10a")
 f("The river pulls back. Then it comes back, the wrong way.", "موج", "CLIP D10c-wave")
 f("A wall of water runs upstream and throws fish onto the bank.", "دیوار آب", "OLD D10c")
-f("It climbs to the mud line on the trees, and stops a hand below your door.", "آب یک وجب زیر در سنگی", "OLD D10d")
+f("It climbs up the bank, and stops a hand below your door.", "آب یک وجب زیر در سنگی", "OLD D10d")
 f("When it pulls back, you run down and grab every fish you can carry. Food for the dark.", "جمع کردن ماهی", "OLD D10e")
 f("—", "چک‌لیست: غذا ✓", "TEXT")
 f("The last thing on your list. The end of the world just handed it to you.", "مشت پر از ماهی", "CROP←D10e")
@@ -290,7 +290,7 @@ def dur(t):
 rows, t0 = [], 0.0
 for i, (text, see, meth, assets) in enumerate(F, 1):
     meth = re.sub(r"#([a-z0-9]+)", lambda m: "#" + str(KEYS[m.group(1)]), meth)
-    d = dur(text); rows.append((i, t0, t0 + d, text, see, meth, assets)); t0 += d
+    d = 0.0 if meth == "CUT" else dur(text); rows.append((i, t0, t0 + d, text, see, meth, assets)); t0 += d
 kinds = {}
 for r in rows:
     k = r[5].split("←")[0].split(" ")[0]

@@ -1,8 +1,8 @@
 # شات‌لیست STILLCUT · نسخه‌ی انگلیسی دایناسور (script-en-v4)
 
-**254 قاب · حدود 16:30.5** · میانگین هر قاب 3.9 ثانیه
+**254 قاب · حدود 16:11.7** · میانگین هر قاب 3.8 ثانیه
 
-**روش‌ها:** CROP 75 · OLD 65 · NEW 50 · TEXT 38 · CLIP 10 · EDIT 9 · REUSE 7
+**روش‌ها:** CROP 75 · OLD 63 · NEW 48 · TEXT 38 · CLIP 10 · EDIT 9 · REUSE 7 · CUT 4
 
 > OLD = عکس آماده‌ی ویدیوی فارسی · CLIP = کلیپ آماده · CROP/EDIT ← از عکس اصلی · NEW·M = عکس مادر (بالاترین کیفیت، برش‌ها از آن) · TEXT = گرافیک تدوین
 > اَسِت‌های تازه: @book (کتاب)، @museum (تالار موزه)، @mom (مادر)، @friends (دو دوست). شیت‌های قهرمان/پیپ/تی‌رکس/رپتور/لونه آماده‌اند.
@@ -129,13 +129,13 @@
   > Scientists think that after the impact, almost no land animal heavier than about 25 kilograms survived.
 - **#58** · 3:07.3 · `TEXT` — گرافیک «تو: ۷۰ کیلو»
   > You weigh 70.
-- **#59** · 3:09.1 · `NEW` 🆕 — پسر و پیپ رو در رو، چشم در چشم · _پیوست: شیت قهرمان · شیت پیپ_
+- **#59** · 3:09.1 · `CROP←#62` — برش از #62: پسر و پیپ (به‌جای قاب روی شکم)
   > So you'll have to think like Pip.
 - **#60** · 3:11.8 · `TEXT` — کارت قانون ۱
   > Rule one: stay small.
 - **#61** · 3:13.6 · `NEW` 🆕 — اینسرت: نصف ساندویچ در دست · _پیوست: شیت قهرمان_
   > You eat half the sandwich. You save the rest.
-- **#62** · 3:17.1 · `NEW·M` 🆕 — پسر دراز کشیده روی شکم، پیپ را تماشا می‌کند · _پیوست: شیت قهرمان · شیت پیپ_
+- **#62** · 3:17.1 · `NEW·M` 🆕 — پسر روی ریشه نشسته، پیپ را تماشا می‌کند · _پیوست: شیت قهرمان · شیت پیپ_
   > Then you watch what Pip eats.
 - **#63** · 3:19.4 · `CROP←#62` — پیپ توت قرمز می‌خورد (کلوز)
   > Small red berries, seeds from one kind of fern.
@@ -209,325 +209,325 @@
   > On the surface, there's nowhere to hide. Under a meter of soil, maybe.
 - **#97** · 5:29.7 · `TEXT` — کارت قانون ۳
   > Rule three: stay underground.
-- **#98** · 5:31.5 · `OLD D5b` — پسر با استخوان کنار دیواره‌ی رسی
+- **#98** · 5:31.5 · `CROP←D6a` — پسر با استخوان‌بیل کنار دیواره‌ی رسی
   > You find a clay bank above the river and start digging.
-- **#99** · 5:35.8 · `CROP←D5b` — نگاه به بالا
+- **#99** · 5:35.8 · `CUT` — ✂️ حذف شد (خط سیل از سناریو برداشته شد)
   > Then you look at the trees.
-- **#100** · 5:38.1 · `OLD D5c` — دست روی نوار گِل تنه
+- **#100** · 5:35.8 · `CUT` — ✂️ حذف شد (خط سیل از سناریو برداشته شد)
   > Every trunk has a band of dried mud on it. As high as your head.
-- **#101** · 5:43.8 · `CROP←D5c` — زوم به خط گِل
+- **#101** · 5:35.8 · `CUT` — ✂️ حذف شد (خط سیل از سناریو برداشته شد)
   > The river floods. Right up to here.
-- **#102** · 5:46.5 · `NEW` 🆕 — پسر بالاتر از خط گِل دوباره شروع می‌کند، غروب · _پیوست: شیت قهرمان_
+- **#102** · 5:35.8 · `CUT` — ✂️ حذف شد (خط سیل از سناریو برداشته شد)
   > So you start again, higher up the bank. A hand above the line. The afternoon is gone.
-- **#103** · 5:53.1 · `NEW` 🆕 — پسر نشسته، خودکار و کتاب، حساب می‌کند · _پیوست: شیت قهرمان · @book_
+- **#103** · 5:35.8 · `NEW` 🆕 — پسر نشسته، خودکار و کتاب، حساب می‌کند · _پیوست: شیت قهرمان · @book_
   > Now the math.
-- **#104** · 5:54.9 · `TEXT` — گرافیک: ۳۰ سانت/روز
+- **#104** · 5:37.6 · `TEXT` — گرافیک: ۳۰ سانت/روز
   > With a bone, in clay, a cave big enough to crouch in grows about 30 centimeters a day.
-- **#105** · 6:01.8 · `OLD D6c` — برش عرضی تونل + اندازه‌ها
+- **#105** · 5:44.5 · `OLD D6c` — برش عرضی تونل + اندازه‌ها
   > To get a meter of soil over your head, you have to go two and a half meters in.
-- **#106** · 6:09.1 · `TEXT` — گرافیک: ۸ روز کار
+- **#106** · 5:51.8 · `TEXT` — گرافیک: ۸ روز کار
   > That's eight days of work.
-- **#107** · 6:11.0 · `TEXT` — گرافیک: ۵ روز وقت · عقبی
+- **#107** · 5:53.7 · `TEXT` — گرافیک: ۵ روز وقت · عقبی
   > The asteroid hits on day ten. You have five.
-- **#108** · 6:14.5 · `NEW` 🆕 — خوابیده در گِل کنار چاله‌ی کوچک، شب · _پیوست: شیت قهرمان_
+- **#108** · 5:57.2 · `NEW` 🆕 — خوابیده در گِل کنار چاله‌ی کوچک، شب · _پیوست: شیت قهرمان_
   > You dig until it's too dark to see, then sleep in the mud by the hole.
-- **#109** · 6:20.6 · `OLD D6a` — کندن در طلوع
+- **#109** · 6:03.3 · `OLD D6a` — کندن در طلوع
   > Day six. Your hands are blistered. You're in as deep as your arms can reach.
-- **#110** · 6:26.4 · `NEW·M` 🆕 — سقف روی او می‌ریزد (لحظه‌ی ریزش) · _پیوست: شیت قهرمان_
+- **#110** · 6:09.1 · `NEW·M` 🆕 — سقف روی او می‌ریزد (لحظه‌ی ریزش) · _پیوست: شیت قهرمان_
   > Then the roof comes down on you.
-- **#111** · 6:29.1 · `NEW` 🆕 — بیرون خزیدن پر از خاک · _پیوست: شیت قهرمان_
+- **#111** · 6:11.8 · `NEW` 🆕 — بیرون خزیدن پر از خاک · _پیوست: شیت قهرمان_
   > You crawl out coughing dirt.
-- **#112** · 6:31.0 · `EDIT←#110` — چاله‌ی ریخته‌شده، خالی
+- **#112** · 6:13.7 · `EDIT←#110` — چاله‌ی ریخته‌شده، خالی
   > Everything you dug, gone.
-- **#113** · 6:32.8 · `TEXT` — گرافیک: ۴ روز / ۸ روز کار
+- **#113** · 6:15.5 · `TEXT` — گرافیک: ۴ روز / ۸ روز کار
   > Four days left. Eight days of digging.
-- **#114** · 6:35.5 · `NEW·M` 🆕 — پسر نشسته در گِل، سوراخ تازه‌ی پیپ در دیواره‌ی کنار رود · _پیوست: شیت قهرمان · شیت پیپ_
+- **#114** · 6:18.2 · `NEW·M` 🆕 — پسر نشسته در گِل، سوراخ تازه‌ی پیپ در دیواره‌ی کنار رود · _پیوست: شیت قهرمان · شیت پیپ_
   > You sit in the mud. And there, in the bank next to your ruin, a tiny new hole. Pip followed you to the river.
-- **#115** · 6:44.7 · `CROP←#114` — کلوز: پیپ در دهانه‌ی سوراخ کوچکش
+- **#115** · 6:27.4 · `CROP←#114` — کلوز: پیپ در دهانه‌ی سوراخ کوچکش
   > His hole is tiny. And it doesn't collapse. Because Pip doesn't dig a cave. Pip digs a tunnel exactly as wide as Pip, and one small nest at the end.
-- **#116** · 6:56.3 · `CROP←#114` — کلوز صورت، فکر
+- **#116** · 6:39.0 · `CROP←#114` — کلوز صورت، فکر
   > So you stop digging a cave.
-- **#117** · 6:58.6 · `NEW` 🆕 — ورودی تنگ به اندازه‌ی شانه، پسر داخل می‌خزد · _پیوست: شیت قهرمان · شیت لونه_
+- **#117** · 6:41.3 · `NEW` 🆕 — ورودی تنگ به اندازه‌ی شانه، پسر داخل می‌خزد · _پیوست: شیت قهرمان · شیت لونه_
   > You dig a tunnel exactly as wide as your shoulders. A quarter of the dirt. Four times as fast.
-- **#118** · 7:05.9 · `NEW` 🆕 — داخل تونل: سقف قوسی با چراغ‌پیشانی · _پیوست: شیت قهرمان · شیت لونه_
+- **#118** · 6:48.6 · `NEW` 🆕 — داخل تونل: سقف قوسی با چراغ‌پیشانی · _پیوست: شیت قهرمان · شیت لونه_
   > And you shape the roof into an arch,
-- **#119** · 7:09.0 · `TEXT` — گرافیک فلش وزن روی قوس
+- **#119** · 6:51.7 · `TEXT` — گرافیک فلش وزن روی قوس
   > because an arch pushes the weight into the walls instead of down on you.
-- **#120** · 7:14.4 · `OLD D6b` — ورودی کوچک گرد، پسر زانو زده
+- **#120** · 6:57.0 · `OLD D6b` — ورودی کوچک گرد، پسر زانو زده
   > The entrance faces north, away from where the asteroid will hit. Maybe it makes no difference. It feels right.
-- **#121** · 7:21.7 · `CROP←D6b` — پسر و پیپ کنار ورودی
+- **#121** · 7:04.4 · `CROP←D6b` — پسر و پیپ کنار ورودی
   > Stay small. Even when you dig.
-- **#122** · 7:24.0 · `TEXT` — چک‌لیست: پناهگاه ۲۵٪ · دوباره سر برنامه
+- **#122** · 7:06.7 · `TEXT` — چک‌لیست: پناهگاه ۲۵٪ · دوباره سر برنامه
   > —
-- **#123** · 7:26.0 · `NEW` 🆕 — شب: فقط پاهای او از دهانه‌ی تنگ بیرون است · _پیوست: شیت قهرمان · شیت لونه_
+- **#123** · 7:08.7 · `NEW` 🆕 — شب: فقط پاهای او از دهانه‌ی تنگ بیرون است · _پیوست: شیت قهرمان · شیت لونه_
   > By dark, the tunnel swallows you to the waist.
-- **#124** · 7:29.4 · `CROP←#123` — کلوز پوتین‌ها بیرون تونل، شب
+- **#124** · 7:12.1 · `CROP←#123` — کلوز پوتین‌ها بیرون تونل، شب
   > That night you sleep with your head underground and your boots outside. It's a start.
 
 ### ۴ · Eleven Percent
-- **#125** · 7:35.2 · `OLD D7a` — پیپ جلوی ورودی، پسر از داخل
+- **#125** · 7:17.9 · `OLD D7a` — پیپ جلوی ورودی، پسر از داخل
   > Day seven. Pip doesn't run anymore. He's waiting at the entrance in the morning.
-- **#126** · 7:40.6 · `OLD D7b` — دست، تکه‌ی شکلات برای پیپ
+- **#126** · 7:23.3 · `OLD D7b` — دست، تکه‌ی شکلات برای پیپ
   > You split your last chocolate with him, and you dig.
-- **#127** · 7:44.4 · `TEXT` — چک‌لیست: پناهگاه ۵۰٪
+- **#127** · 7:27.1 · `TEXT` — چک‌لیست: پناهگاه ۵۰٪
   > —
-- **#128** · 7:46.4 · `NEW` 🆕 — اینسرت: کف دست‌های زخمی روی خاک رس · _پیوست: شیت قهرمان_
+- **#128** · 7:29.1 · `NEW` 🆕 — اینسرت: کف دست‌های زخمی روی خاک رس · _پیوست: شیت قهرمان_
   > By noon, the blisters have burst. Your palms are raw and bleeding into the clay.
-- **#129** · 7:52.2 · `NEW` 🆕 — استخوان‌بیل روی زمین رها
+- **#129** · 7:34.9 · `NEW` 🆕 — استخوان‌بیل روی زمین رها
   > And you know a hand that breaks today digs nothing tomorrow.
-- **#130** · 7:56.4 · `NEW·M` 🆕 — پسر به دیواره تکیه داده، خسته · _پیوست: شیت قهرمان_
+- **#130** · 7:39.1 · `NEW·M` 🆕 — پسر به دیواره تکیه داده، خسته · _پیوست: شیت قهرمان_
   > So you stop. Even with three days left. Even if the end is coming anyway.
-- **#131** · 8:02.2 · `OLD D7c` — واید آرام کنار رود، پسر و پیپ
+- **#131** · 7:44.9 · `OLD D7c` — واید آرام کنار رود، پسر و پیپ
   > For one afternoon, you rest.
-- **#132** · 8:04.1 · `OLD D7d` — روی شانه: گوشی و پیپ
+- **#132** · 7:46.8 · `OLD D7d` — روی شانه: گوشی و پیپ
   > You switch the phone on. Just for a minute. The minute becomes an hour.
-- **#133** · 8:09.5 · `CROP←D1a` — عکس روی صفحه: اتاقش
+- **#133** · 7:52.2 · `CROP←D1a` — عکس روی صفحه: اتاقش
   > Photos. Your room.
-- **#134** · 8:11.3 · `NEW` 🆕 — عکس: مادر در آشپزخانه (روی صفحه‌ی گوشی) · _پیوست: @mom_
+- **#134** · 7:54.0 · `NEW` 🆕 — عکس: مادر در آشپزخانه (روی صفحه‌ی گوشی) · _پیوست: @mom_
   > Your mom in the kitchen.
-- **#135** · 8:13.2 · `NEW` 🆕 — عکس: دوستان جلوی مدرسه · _پیوست: شیت قهرمان · @friends_
+- **#135** · 7:55.9 · `NEW` 🆕 — عکس: دوستان جلوی مدرسه · _پیوست: شیت قهرمان · @friends_
   > Your friends outside school.
-- **#136** · 8:15.0 · `NEW·M` 🆕 — ویدیو: تالار موزه، اسکلت تی‌رکس (مادر) · _پیوست: شیت قهرمان · @friends · @museum_
+- **#136** · 7:57.7 · `NEW·M` 🆕 — ویدیو: تالار موزه، اسکلت تی‌رکس (مادر) · _پیوست: شیت قهرمان · @friends · @museum_
   > Then a video, from a few months ago. A class trip to a museum.
-- **#137** · 8:20.4 · `CROP←#136` — کلوز سلفی خندان، اسکلت پشت سر
+- **#137** · 8:03.1 · `CROP←#136` — کلوز سلفی خندان، اسکلت پشت سر
   > You, laughing at the camera, a giant skeleton behind you.
-- **#138** · 8:24.3 · `CROP←#136` — سلفی، دوستان می‌خندند
+- **#138** · 8:07.0 · `CROP←#136` — سلفی، دوستان می‌خندند
   > "If they ever sent me back to the dinosaurs? I'd survive. Easy."
-- **#139** · 8:28.9 · `CROP←#136` — دوستان خندان
+- **#139** · 8:11.6 · `CROP←#136` — دوستان خندان
   > Your friends laughing behind the phone.
-- **#140** · 8:31.2 · `CROP←D7d` — صفحه‌ی گوشی در دست، تاریک‌شدن
+- **#140** · 8:13.9 · `CROP←D7d` — صفحه‌ی گوشی در دست، تاریک‌شدن
   > (pause)
-- **#141** · 8:34.6 · `NEW` 🆕 — کلوز صورت، شکسته · _پیوست: شیت قهرمان_
+- **#141** · 8:17.3 · `NEW` 🆕 — کلوز صورت، شکسته · _پیوست: شیت قهرمان_
   > Why are you here? What happened?
-- **#142** · 8:36.9 · `EDIT←#141` — چشم‌های بسته
+- **#142** · 8:19.6 · `EDIT←#141` — چشم‌های بسته
   > Maybe you're still asleep. Maybe this is all a dream.
-- **#143** · 8:40.7 · `REUSE←#128` — نما از بالا: دست‌های زخمی کف‌باز
+- **#143** · 8:23.4 · `REUSE←#128` — نما از بالا: دست‌های زخمی کف‌باز
   > You look down at your hands.
-- **#144** · 8:43.0 · `CROP←#128` — کلوز دست زخمی
+- **#144** · 8:25.7 · `CROP←#128` — کلوز دست زخمی
   > The pain is real. It's not a dream.
-- **#145** · 8:46.1 · `CROP←D7c` — سکوت، نمای رود
+- **#145** · 8:28.8 · `CROP←D7c` — سکوت، نمای رود
   > (pause)
-- **#146** · 8:49.5 · `NEW` 🆕 — کلوز صورت مصمم، اشک · _پیوست: شیت قهرمان_
+- **#146** · 8:32.2 · `NEW` 🆕 — کلوز صورت مصمم، اشک · _پیوست: شیت قهرمان_
   > You always said you'd survive.
-- **#147** · 8:51.4 · `NEW` 🆕 — پسر برمی‌خیزد، استخوان‌بیل در دست (frame-right) · _پیوست: شیت قهرمان_
+- **#147** · 8:34.1 · `NEW` 🆕 — پسر برمی‌خیزد، استخوان‌بیل در دست (frame-right) · _پیوست: شیت قهرمان_
   > Now you have to prove it.
-- **#148** · 8:53.8 · `TEXT` — باتری ۱۱٪
+- **#148** · 8:36.4 · `TEXT` — باتری ۱۱٪
   > When you switch it off, it's at 11%. Ten percent, gone on home.
-- **#149** · 8:58.8 · `CROP←D7c` — پیپ و پسر، غروب
+- **#149** · 8:41.4 · `CROP←D7c` — پیپ و پسر، غروب
   > It was worth it.
-- **#150** · 9:00.6 · `OLD D7e` — پیپ در جیب
+- **#150** · 8:43.2 · `OLD D7e` — پیپ در جیب
   > That night, you fit all the way inside. You wake up, and Pip is asleep in your jacket pocket. Warm. Breathing.
-- **#151** · 9:08.6 · `CROP←D7e` — زوم‌اوت آرام
+- **#151** · 8:51.3 · `CROP←D7e` — زوم‌اوت آرام
   > Seven days in a world with no one. And now you have someone.
 
 ### ۵ · The Thing in the Tunnel
-- **#152** · 9:13.6 · `EDIT←D6a` — کندن، عرق، بازو لرزان
+- **#152** · 8:56.3 · `EDIT←D6a` — کندن، عرق، بازو لرزان
   > Day eight. You dig until your arms shake.
-- **#153** · 9:16.7 · `EDIT←D6c` — برش عرضی: تونل کامل با لانه‌ی ته
+- **#153** · 8:59.4 · `EDIT←D6c` — برش عرضی: تونل کامل با لانه‌ی ته
   > Two and a half meters. And at the very end, a nest, just big enough to sit up in.
-- **#154** · 9:24.0 · `TEXT` — چک‌لیست: تونل ✓ · در ☐
+- **#154** · 9:06.7 · `TEXT` — چک‌لیست: تونل ✓ · در ☐
   > —
-- **#155** · 9:26.0 · `OLD D6d` — خواب در لانه‌ی ته تونل
+- **#155** · 9:08.7 · `OLD D6d` — خواب در لانه‌ی ته تونل
   > A meter of soil over your head. That night, for the first time in eight days, nothing can step on you.
-- **#156** · 9:34.1 · `CROP←D6d` — کلوز: دیوار رس و چراغ خاموش
+- **#156** · 9:16.8 · `CROP←D6d` — کلوز: دیوار رس و چراغ خاموش
   > (pause)
-- **#157** · 9:37.5 · `OLD D8a` — ته تونل، بیدار و ترسیده
+- **#157** · 9:20.2 · `OLD D8a` — ته تونل، بیدار و ترسیده
   > At midnight, you wake.
-- **#158** · 9:39.3 · `CROP←D8a` — کلوز صورت، گوش به صدا
+- **#158** · 9:22.0 · `CROP←D8a` — کلوز صورت، گوش به صدا
   > Scratching at the entrance. Then sniffing.
-- **#159** · 9:41.6 · `CROP←D8b` — تونل تاریک رو به ورودی
+- **#159** · 9:24.3 · `CROP←D8b` — تونل تاریک رو به ورودی
   > Then something coming in.
-- **#160** · 9:43.4 · `OLD D8b` — دو چشم زرد
+- **#160** · 9:26.1 · `OLD D8b` — دو چشم زرد
   > In the dark, two yellow eyes.
-- **#161** · 9:45.7 · `CLIP D8c` — رپتور داخل تونل
+- **#161** · 9:28.4 · `CLIP D8c` — رپتور داخل تونل
   > A feathered hunter. Fast. Only as tall as your knee.
-- **#162** · 9:49.6 · `CROP←D8c` — نور چراغ‌پیشانی روی رپتور
+- **#162** · 9:32.2 · `CROP←D8c` — نور چراغ‌پیشانی روی رپتور
   > Your headlamp lights it up. It doesn't care.
-- **#163** · 9:52.6 · `OLD D8c` — رپتور نزدیک
+- **#163** · 9:35.3 · `OLD D8c` — رپتور نزدیک
   > Not a T. rex. Small enough to fit in your tunnel.
-- **#164** · 9:56.9 · `CROP←D8c` — کلوز رپتور
+- **#164** · 9:39.6 · `CROP←D8c` — کلوز رپتور
   > Small doesn't mean safe.
-- **#165** · 9:58.7 · `OLD D8d` — پنجه، فلش قرمز
+- **#165** · 9:41.4 · `OLD D8d` — پنجه، فلش قرمز
   > It lunges. Claws rip across your right forearm.
-- **#166** · 10:01.7 · `CROP←D8d` — کلوز صورت
+- **#166** · 9:44.4 · `CROP←D8d` — کلوز صورت
   > No knife. No fire. No room to swing a bone.
-- **#167** · 10:05.6 · `CROP←D8e` — گوشی در دست
+- **#167** · 9:48.3 · `CROP←D8e` — گوشی در دست
   > Just one thing this world has never seen.
-- **#168** · 10:08.7 · `TEXT` — باتری ۱۱٪
+- **#168** · 9:51.4 · `TEXT` — باتری ۱۱٪
   > You switch the phone on. 11%.
-- **#169** · 10:11.0 · `CLIP D8e` — نور در صورت رپتور
+- **#169** · 9:53.7 · `CLIP D8e` — نور در صورت رپتور
   > You hit the alarm and point the flashlight straight into its face.
-- **#170** · 10:15.6 · `OLD D8e` — واید نور در تونل
+- **#170** · 9:58.3 · `OLD D8e` — واید نور در تونل
   > A sound sixty-six million years too early fills the tunnel.
-- **#171** · 10:19.4 · `CROP←D8f` — تونل خالی، گرد و خاک
+- **#171** · 10:02.1 · `CROP←D8f` — تونل خالی، گرد و خاک
   > It shrieks, and it's gone.
-- **#172** · 10:21.4 · `OLD D8f` — نگه داشتن نور
+- **#172** · 10:04.0 · `OLD D8f` — نگه داشتن نور
   > But it could come back.
-- **#173** · 10:23.3 · `CROP←D8f` — کلوز: پیپ کنار دست
+- **#173** · 10:06.0 · `CROP←D8f` — کلوز: پیپ کنار دست
   > Blood drips from your arm. Pip creeps out of your pocket and sits by your hand.
-- **#174** · 10:29.4 · `TEXT` — باتری در حال افت
+- **#174** · 10:12.1 · `TEXT` — باتری در حال افت
   > You can't leave the light on. It would be dead in an hour, and dawn is five hours away.
-- **#175** · 10:36.7 · `EDIT←D8f` — همان قاب، نور خاموش، فقط تاریکی و دو چشم پسر
+- **#175** · 10:19.4 · `EDIT←D8f` — همان قاب، نور خاموش، فقط تاریکی و دو چشم پسر
   > So you count. Ten seconds of light. One minute of dark.
-- **#176** · 10:41.0 · `CROP←D8a` — کلوز صورت در تاریکی
+- **#176** · 10:23.7 · `CROP←D8a` — کلوز صورت در تاریکی
   > Every time the dark comes back, you listen for claws.
-- **#177** · 10:44.8 · `TEXT` — سیاهی
+- **#177** · 10:27.5 · `TEXT` — سیاهی
   > (pause)
-- **#178** · 10:48.2 · `CROP←D8f` — تایم‌لپس آبی سحر
+- **#178** · 10:30.9 · `CROP←D8f` — تایم‌لپس آبی سحر
   > When the sky turns grey, you switch it off.
-- **#179** · 10:51.7 · `TEXT` — باتری ۳٪
+- **#179** · 10:34.4 · `TEXT` — باتری ۳٪
   > 3%.
-- **#180** · 10:53.5 · `OLD D9a` — تب‌دار کنار ورودی، باند
+- **#180** · 10:36.2 · `OLD D9a` — تب‌دار کنار ورودی، باند
   > Day nine. You have a fever. The wound is hot. You wrap it in a strip torn from your t-shirt.
-- **#181** · 11:01.2 · `CROP←D9a` — ورودی باز، نگاه به آن
+- **#181** · 10:43.9 · `CROP←D9a` — ورودی باز، نگاه به آن
   > The entrance let a hunter in. Tomorrow, it has to keep the whole world out.
-- **#182** · 11:06.9 · `NEW` 🆕 — یک‌دستی سنگ می‌کشد و می‌چیند · _پیوست: شیت قهرمان_
+- **#182** · 10:49.6 · `NEW` 🆕 — یک‌دستی سنگ می‌کشد و می‌چیند · _پیوست: شیت قهرمان_
   > One-handed, you drag stones up from the river and stack them around the opening.
-- **#183** · 11:12.3 · `NEW·M` 🆕 — از داخل: سنگ صاف بزرگ را مثل در می‌کشد · _پیوست: شیت قهرمان · شیت لونه_
+- **#183** · 10:55.0 · `NEW·M` 🆕 — از داخل: سنگ صاف بزرگ را مثل در می‌کشد · _پیوست: شیت قهرمان · شیت لونه_
   > Last, a big flat stone. From inside, you can drag it across like a door, and push it aside to get out.
-- **#184** · 11:20.8 · `CROP←#183` — شکاف به پهنای کف دست، نور غروب از لای آن
+- **#184** · 11:03.5 · `CROP←#183` — شکاف به پهنای کف دست، نور غروب از لای آن
   > When it's closed, it leaves a gap a hand wide. Enough for air. Not enough for teeth.
-- **#185** · 11:27.3 · `OLD D9b` — ورودی سنگی بسته، غروب
+- **#185** · 11:10.0 · `OLD D9b` — ورودی سنگی بسته، غروب
   > The sun is going down when the door slides into place.
-- **#186** · 11:31.6 · `TEXT` — چک‌لیست: پناهگاه ✓ · آب ✓ · غذا ۱۲ ماهی ☐
+- **#186** · 11:14.2 · `TEXT` — چک‌لیست: پناهگاه ✓ · آب ✓ · غذا ۱۲ ماهی ☐
   > —
-- **#187** · 11:33.6 · `CROP←D9b` — کلوز صورت خسته، لبخند کوچک
+- **#187** · 11:16.2 · `CROP←D9b` — کلوز صورت خسته، لبخند کوچک
   > Just in time.
-- **#188** · 11:35.4 · `CROP←D9b` — ماهی‌های خشک روی سنگ کنار در
+- **#188** · 11:18.0 · `CROP←D9b` — ماهی‌های خشک روی سنگ کنار در
   > Two out of three. Twelve dried fish won't last a winter. And you're out of days.
 
 ### ۶ · The Last Normal Morning
-- **#189** · 11:41.5 · `CROP←D9b` — کنار در سنگی، گوشی قرمز در دست (باند روی ساعد)
+- **#189** · 11:24.2 · `CROP←D9b` — کنار در سنگی، گوشی قرمز در دست (باند روی ساعد)
   > You switch the phone on one more time. The message has changed.
-- **#190** · 11:46.1 · `TEXT` — کارت پیام: فردا · ۲٪
+- **#190** · 11:28.8 · `TEXT` — کارت پیام: فردا · ۲٪
   > "Impact: tomorrow." (2%)
-- **#191** · 11:47.9 · `CROP←D9b` — کلوز صورت خسته کنار در سنگی
+- **#191** · 11:30.6 · `CROP←D9b` — کلوز صورت خسته کنار در سنگی
   > You switch it off.
-- **#192** · 11:49.7 · `OLD D9c` — بیرون تونل، آسمان پرستاره
+- **#192** · 11:32.4 · `OLD D9c` — بیرون تونل، آسمان پرستاره
   > That night you slide the door aside and climb out. The sky is full of stars.
-- **#193** · 11:55.9 · `OLD D9d` — تی‌رکس آن طرف رود در شب
+- **#193** · 11:38.6 · `OLD D9d` — تی‌رکس آن طرف رود در شب
   > From across the river comes that low, familiar call. The same T. rex.
-- **#194** · 12:00.9 · `CROP←D9c` — زوم‌اوت آسمان
+- **#194** · 11:43.6 · `CROP←D9c` — زوم‌اوت آسمان
   > The last night of the dinosaurs. And only you know.
-- **#195** · 12:04.7 · `OLD D10a` — صبح کنار رود، تریسراتوپس‌ها
+- **#195** · 11:47.4 · `OLD D10a` — صبح کنار رود، تریسراتوپس‌ها
   > It isn't a strange morning. That's what makes it strange.
-- **#196** · 12:08.6 · `CROP←D10a` — کلوز تریسراتوپس‌ها
+- **#196** · 11:51.3 · `CROP←D10a` — کلوز تریسراتوپس‌ها
   > Birds are singing. Insects are buzzing. A few triceratops are drinking across the river.
-- **#197** · 12:14.0 · `CROP←D10a` — کلوز صورت پسر
+- **#197** · 11:56.6 · `CROP←D10a` — کلوز صورت پسر
   > None of them know.
-- **#198** · 12:15.8 · `CLIP D10b-light` — نور از جنوب
+- **#198** · 11:58.4 · `CLIP D10b-light` — نور از جنوب
   > Then, in the south, a light. Not like the sun.
-- **#199** · 12:19.6 · `TEXT` — سفیدی کامل
+- **#199** · 12:02.3 · `TEXT` — سفیدی کامل
   > Like someone switched the sky on by mistake.
-- **#200** · 12:22.7 · `REUSE←#45` — کتاب باز در دست لرزان
+- **#200** · 12:05.4 · `REUSE←#45` — کتاب باز در دست لرزان
   > Your book said the shaking comes within minutes. It's right.
-- **#201** · 12:26.5 · `OLD D10a` — زلزله، کنار رود
+- **#201** · 12:09.2 · `OLD D10a` — زلزله، کنار رود
   > The ground starts to move. Not like a footstep. Like the whole world.
-- **#202** · 12:31.5 · `CLIP D10c-wave` — موج
+- **#202** · 12:14.2 · `CLIP D10c-wave` — موج
   > The river pulls back. Then it comes back, the wrong way.
-- **#203** · 12:35.8 · `OLD D10c` — دیوار آب
+- **#203** · 12:18.4 · `OLD D10c` — دیوار آب
   > A wall of water runs upstream and throws fish onto the bank.
-- **#204** · 12:40.4 · `OLD D10d` — آب یک وجب زیر در سنگی
-  > It climbs to the mud line on the trees, and stops a hand below your door.
-- **#205** · 12:46.5 · `OLD D10e` — جمع کردن ماهی
+- **#204** · 12:23.1 · `OLD D10d` — آب یک وجب زیر در سنگی
+  > It climbs up the bank, and stops a hand below your door.
+- **#205** · 12:27.7 · `OLD D10e` — جمع کردن ماهی
   > When it pulls back, you run down and grab every fish you can carry. Food for the dark.
-- **#206** · 12:53.4 · `TEXT` — چک‌لیست: غذا ✓
+- **#206** · 12:34.6 · `TEXT` — چک‌لیست: غذا ✓
   > —
-- **#207** · 12:55.4 · `CROP←D10e` — مشت پر از ماهی
+- **#207** · 12:36.6 · `CROP←D10e` — مشت پر از ماهی
   > The last thing on your list. The end of the world just handed it to you.
-- **#208** · 13:01.6 · `TEXT` — کارت تانیس روی ماهی‌ها
+- **#208** · 12:42.8 · `TEXT` — کارت تانیس روی ماهی‌ها
   > This isn't imagination. In North Dakota, scientists found fossil fish with tiny glass beads from this impact stuck in their gills.
-- **#209** · 13:09.7 · `OLD D10g` — باران شیشه، دویدن
+- **#209** · 12:50.8 · `OLD D10g` — باران شیشه، دویدن
   > Then those same glass beads start falling from the sky. Small and hot, like burning hail.
-- **#210** · 13:15.8 · `OLD H2` — آسمان قرمز
+- **#210** · 12:57.0 · `OLD H2` — آسمان قرمز
   > The sky turns red.
-- **#211** · 13:17.6 · `EDIT←#183` — از داخل در سنگی را می‌کشد، پیپ در بغل
+- **#211** · 12:58.8 · `EDIT←#183` — از داخل در سنگی را می‌کشد، پیپ در بغل
   > You drag the door shut, hold Pip tight and crawl to the end of the tunnel.
-- **#212** · 13:23.8 · `CROP←H2` — جنگل در آتش
+- **#212** · 13:04.9 · `CROP←H2` — جنگل در آتش
   > Outside, the first trees catch fire.
-- **#213** · 13:26.1 · `CROP←D10i` — جنگل در آتش کامل
+- **#213** · 13:07.2 · `CROP←D10i` — جنگل در آتش کامل
   > By evening, the whole forest is burning.
-- **#214** · 13:28.8 · `OLD H1` — تونل، صورت ترسیده
+- **#214** · 13:09.9 · `OLD H1` — تونل، صورت ترسیده
   > And then, outside, footsteps. Heavy. Slow. Close.
-- **#215** · 13:31.5 · `CROP←H1` — سایه روی شکاف
+- **#215** · 13:12.6 · `CROP←H1` — سایه روی شکاف
   > Something huge collapses at your door, and its shadow covers the gap.
-- **#216** · 13:36.1 · `OLD H3` — پوزه با زخم پشت سنگ‌ها
+- **#216** · 13:17.2 · `OLD H3` — پوزه با زخم پشت سنگ‌ها
   > The T. rex. From day one. The scar across its snout.
-- **#217** · 13:40.3 · `CLIP H3-breath-v3` — نفس از شکاف
+- **#217** · 13:21.5 · `CLIP H3-breath-v3` — نفس از شکاف
   > Its huge snout is right against the stones. Its hot breath fills your tunnel.
-- **#218** · 13:45.7 · `OLD D10i` — تی‌رکس افتاده جلوی ورودی، آتش
+- **#218** · 13:26.9 · `OLD D10i` — تی‌رکس افتاده جلوی ورودی، آتش
   > It can't get in. It doesn't even try.
-- **#219** · 13:48.8 · `CROP←D10i` — کلوز تی‌رکس خسته
+- **#219** · 13:29.9 · `CROP←D10i` — کلوز تی‌رکس خسته
   > It only came for the cool soil at your door, away from the fire.
-- **#220** · 13:54.2 · `CROP←H1` — تونل، پسر و پیپ، تاریک
+- **#220** · 13:35.3 · `CROP←H1` — تونل، پسر و پیپ، تاریک
   > All night, from the other side of the stones, you hear it breathing.
-- **#221** · 13:59.2 · `CROP←H3` — نفس کم‌جان
+- **#221** · 13:40.3 · `CROP←H3` — نفس کم‌جان
   > Each breath slower.
-- **#222** · 14:01.0 · `TEXT` — سیاهی
+- **#222** · 13:42.1 · `TEXT` — سیاهی
   > (pause) Until morning. (pause)
-- **#223** · 14:06.0 · `TEXT` — سیاهی
+- **#223** · 13:47.1 · `TEXT` — سیاهی
   > Then it stops.
-- **#224** · 14:07.8 · `OLD D10j` — تی‌رکس مرده، سحر خاکستری
+- **#224** · 13:48.9 · `OLD D10j` — تی‌رکس مرده، سحر خاکستری
   > The last dinosaur you saw died at your door.
 
 ### ۷ · Stay Small
-- **#225** · 14:11.2 · `NEW·M` 🆕 — رود گل‌آلود روی جسد تی‌رکس، فقط قسمتی بیرون · _پیوست: رفرنس تی‌رکس_
+- **#225** · 13:52.4 · `NEW·M` 🆕 — رود گل‌آلود روی جسد تی‌رکس، فقط قسمتی بیرون · _پیوست: رفرنس تی‌رکس_
   > In the days after, the river rises again and buries the T. rex in thick mud.
-- **#226** · 14:17.4 · `TEXT` — گرافیک برش زمین: اسکلت در لایه‌ها
+- **#226** · 13:58.5 · `TEXT` — گرافیک برش زمین: اسکلت در لایه‌ها
   > Buried fast in mud. That's how bones become fossils.
-- **#227** · 14:20.8 · `REUSE←#17` — کتاب در دست، نور چراغ‌پیشانی
+- **#227** · 14:02.0 · `REUSE←#17` — کتاب در دست، نور چراغ‌پیشانی
   > You open your book to the cover. The museum skeleton.
-- **#228** · 14:24.7 · `EDIT←#17` — زوم به جمجمه‌ی جلد: زخم روی پوزه
+- **#228** · 14:05.8 · `EDIT←#17` — زوم به جمجمه‌ی جلد: زخم روی پوزه
   > And this time, you look closely. A long scar, healed into the bone of the snout.
-- **#229** · 14:30.8 · `NEW` 🆕 — کلوز صورت، شوک آرام · _پیوست: شیت قهرمان_
+- **#229** · 14:12.0 · `NEW` 🆕 — کلوز صورت، شوک آرام · _پیوست: شیت قهرمان_
   > (pause)
-- **#230** · 14:34.2 · `REUSE←#136` — سلفی موزه، اسکلت پشت سر
+- **#230** · 14:15.4 · `REUSE←#136` — سلفی موزه، اسکلت پشت سر
   > The same skeleton that stood behind you in that video. The one you joked in front of.
-- **#231** · 14:40.8 · `EDIT←#136` — تالار موزه، اسکلت، خالی
+- **#231** · 14:21.9 · `EDIT←#136` — تالار موزه، اسکلت، خالی
   > Sixty-six million years from now, it will stand in a museum.
-- **#232** · 14:45.0 · `REUSE←#137` — سلفی خندان
+- **#232** · 14:26.2 · `REUSE←#137` — سلفی خندان
   > And one day, you'll stand in front of it, laughing, with no idea you were here when it died.
-- **#233** · 14:52.3 · `OLD D11a` — دنیای خاکستری
+- **#233** · 14:33.5 · `OLD D11a` — دنیای خاکستری
   > Then the dark comes.
-- **#234** · 14:54.1 · `NEW` 🆕 — واید آسمان سیاه از دود
+- **#234** · 14:35.3 · `NEW` 🆕 — واید آسمان سیاه از دود
   > Soot from fires all over the world, and dust from the impact, cover the whole sky.
-- **#235** · 15:00.3 · `NEW` 🆕 — سرخس‌های پژمرده، پوشیده از خاکستر
+- **#235** · 14:41.4 · `NEW` 🆕 — سرخس‌های پژمرده، پوشیده از خاکستر
   > Sunlight can't get through. Plants can't grow. And it gets cold.
-- **#236** · 15:04.5 · `TEXT` — گرافیک: زمستان برخورد
+- **#236** · 14:45.7 · `TEXT` — گرافیک: زمستان برخورد
   > Scientists think this impact winter lasted months. Maybe years.
-- **#237** · 15:08.0 · `NEW` 🆕 — پسر با چوب سوزان از جنگل · _پیوست: شیت قهرمان_
+- **#237** · 14:49.1 · `NEW` 🆕 — پسر با چوب سوزان از جنگل · _پیوست: شیت قهرمان_
   > The world gave you one gift on its last day. Fire.
-- **#238** · 15:12.2 · `NEW` 🆕 — آتش کوچک جلوی شکاف، دود بیرون · _پیوست: شیت قهرمان · شیت لونه_
+- **#238** · 14:53.4 · `NEW` 🆕 — آتش کوچک جلوی شکاف، دود بیرون · _پیوست: شیت قهرمان · شیت لونه_
   > You keep a small fire right at the gap, never deep inside. In a closed tunnel, smoke kills quietly.
-- **#239** · 15:19.5 · `NEW` 🆕 — پیپ کنار گردن، خواب · _پیوست: شیت قهرمان · شیت پیپ_
+- **#239** · 15:00.7 · `NEW` 🆕 — پیپ کنار گردن، خواب · _پیوست: شیت قهرمان · شیت پیپ_
   > And at night, Pip sleeps against your neck. Two small bodies, keeping each other warm.
-- **#240** · 15:25.3 · `CROP←D11c` — گوشی سیاه روی خاک
+- **#240** · 15:06.4 · `CROP←D11c` — گوشی سیاه روی خاک
   > The phone won't turn on anymore.
-- **#241** · 15:27.6 · `OLD D11c` — خط‌کشی روی دیوار با سنگ
+- **#241** · 15:08.7 · `OLD D11c` — خط‌کشی روی دیوار با سنگ
   > So you scratch lines on the tunnel wall with a sharp stone.
-- **#242** · 15:32.2 · `CROP←D11c` — فهرست موجودی روی دیوار
+- **#242** · 15:13.4 · `CROP←D11c` — فهرست موجودی روی دیوار
   > Inventory. Days after the end: 40. Still dark. Dried fish: 7. Running low. Dinosaurs left: zero. Friends: one. Mouse-sized.
-- **#243** · 15:39.5 · `TEXT` — سه کارت قانون
+- **#243** · 15:20.7 · `TEXT` — سه کارت قانون
   > You repeat the rules to yourself. Stay small. Stay near water. Stay underground.
-- **#244** · 15:44.5 · `OLD D11d` — پسر و پیپ دم ورودی خاکستری
+- **#244** · 15:25.7 · `OLD D11d` — پسر و پیپ دم ورودی خاکستری
   > And a new one, that no book ever taught you.
-- **#245** · 15:48.4 · `TEXT` — کارت قانون آخر (گرم)
+- **#245** · 15:29.5 · `TEXT` — کارت قانون آخر (گرم)
   > Stay small… but don't stay alone.
-- **#246** · 15:50.7 · `OLD D2e` — پیپ جلوی سایه‌ی دایناسورها
+- **#246** · 15:31.8 · `OLD D2e` — پیپ جلوی سایه‌ی دایناسورها
   > Small animals like Pip made it out of this darkness.
-- **#247** · 15:54.5 · `TEXT` — شاخه‌های نسل (گرافیک)
+- **#247** · 15:35.7 · `TEXT` — شاخه‌های نسل (گرافیک)
   > Millions of years later, from small mammals like him, came horses, whales, apes. And people.
-- **#248** · 16:00.3 · `OLD D11-phone` — گوشی در تخت، تصویر پیپ
+- **#248** · 15:41.4 · `OLD D11-phone` — گوشی در تخت، تصویر پیپ
   > Sixty-six million years later, one of Pip's great-great-great-grandchildren is watching this video.
-- **#249** · 16:04.9 · `OLD D11f` — پرنده روی شاخه‌ی خاکستری
+- **#249** · 15:46.0 · `OLD D11f` — پرنده روی شاخه‌ی خاکستری
   > And just then, from outside the tunnel, a sound. A bird, singing.
-- **#250** · 16:09.5 · `CROP←D11c` — دست خط می‌زند
+- **#250** · 15:50.7 · `CROP←D11c` — دست خط می‌زند
   > You cross out a line on the wall, and write it again.
-- **#251** · 16:14.1 · `TEXT` — بازنویسی روی دیوار
+- **#251** · 15:55.3 · `TEXT` — بازنویسی روی دیوار
   > Dinosaurs left: zero… except the birds.
-- **#252** · 16:16.4 · `CROP←D11d` — پسر و پیپ، کارت کامنت
+- **#252** · 15:57.6 · `CROP←D11d` — پسر و پیپ، کارت کامنت
   > On day one, what would you have done first? Tell me in the comments.
-- **#253** · 16:21.8 · `CROP←D11d` — پیپ روی شانه
+- **#253** · 16:03.0 · `CROP←D11d` — پیپ روی شانه
   > And if you want to know what you and Pip did after the dark, tell me that too.
-- **#254** · 16:28.7 · `TEXT` — کارت پایانی + شعار
+- **#254** · 16:09.9 · `TEXT` — کارت پایانی + شعار
   > Stay small. Stay alive.

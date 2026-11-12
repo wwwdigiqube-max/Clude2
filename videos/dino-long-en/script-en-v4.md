@@ -143,10 +143,6 @@ On the surface, there's nowhere to hide. Under a meter of soil, maybe.
 Rule three: stay underground.
 
 You find a clay bank above the river and start digging.
-Then you look at the trees.
-Every trunk has a band of dried mud on it. As high as your head.
-The river floods. Right up to here.
-So you start again, higher up the bank. A hand above the line. The afternoon is gone.
 
 Now the math.
 With a bone, in clay, a cave big enough to crouch in grows about 30 centimeters a day.
@@ -284,7 +280,7 @@ Your book said the shaking comes within minutes. It's right.
 [+6 MIN]
 The ground starts to move. Not like a footstep. Like the whole world.
 The river pulls back. Then it comes back, the wrong way. A wall of water runs upstream and throws fish onto the bank.
-It climbs to the mud line on the trees, and stops a hand below your door.
+It climbs up the bank, and stops a hand below your door.
 When it pulls back, you run down and grab every fish you can carry. Food for the dark.
 [LIST: FOOD ☑]
 The last thing on your list. The end of the world just handed it to you.

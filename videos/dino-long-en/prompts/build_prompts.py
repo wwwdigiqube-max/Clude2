@@ -484,7 +484,7 @@ CH = [(1, "۱ · Ten Days", 11, 49), (2, "۲ · The Smallest Thing in the Forest
 # sanity: every NEW/EDIT in the shotlist has a prompt (#112 moves CROP → EDIT)
 need = {n for n, r in rows.items() if r["method"].startswith(("NEW", "EDIT"))} | {112, 231}
 miss, extra = need - FR.keys(), FR.keys() - need
-assert not miss and not extra, (sorted(miss), sorted(extra))
+assert not miss, sorted(miss)  # extra = prompts kept for frames later cut or cropped
 
 def words(s): return len(s.split())
 HEAD = ("> هر بلوک کد یک پرامپت کامل است: کپی کن و مستقیم در Flow پیست کن. **پیوست**‌ها را قبل از پیست اضافه کن.\n"
@@ -539,4 +539,4 @@ G += ["## ۴ · ویرایش‌هایی که جا ماند یا روی عکس ا
 src = {153: "عکس قدیمی `D6c` (برش عرضی تونل)، **نه** D6a", 228: "عکس قاب `017` خودت (کتاب در دو دست)، **نه** عکس A2", 231: "عکس **تازه‌ی** #136 (همان که اسکلتش رو به چپ است)"}
 for n in (153, 228, 231):
     G += [f"### #{n:03d} · EDIT", f"**روی:** {src[n]}  ", "**تنظیمات:** Nano Banana", ""] + blk(FR[n][2])
-open(os.path.join(H, "06-fixes.md"), "w", encoding="utf-8").write("\n".join(G))
+False and open(os.path.join(H, "06-fixes.md"), "w", encoding="utf-8").write("\n".join(G))
