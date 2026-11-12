@@ -13,7 +13,7 @@ const tts = () =>
   fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voice}/with-timestamps?output_format=mp3_44100_128`, {
     method: "POST",
     headers: H,
-    body: JSON.stringify({ text, model_id: model, language_code: "fa", voice_settings: { stability: 0.5, similarity_boost: 0.8, style: 0.35, use_speaker_boost: true } }),
+    body: JSON.stringify({ text, model_id: model, language_code: process.env.TTS_LANG || "fa", voice_settings: { stability: 0.5, similarity_boost: 0.8, style: 0.35, use_speaker_boost: true } }),
   });
 
 let r = await tts();
