@@ -2,7 +2,7 @@
 
 **254 قاب · حدود 16:24.0** · میانگین هر قاب 3.9 ثانیه
 
-**روش‌ها:** CROP 73 · OLD 66 · NEW 50 · TEXT 38 · CLIP 11 · EDIT 9 · REUSE 7
+**روش‌ها:** CROP 75 · OLD 65 · NEW 50 · TEXT 38 · CLIP 10 · EDIT 9 · REUSE 7
 
 > OLD = عکس آماده‌ی ویدیوی فارسی · CLIP = کلیپ آماده · CROP/EDIT ← از عکس اصلی · NEW·M = عکس مادر (بالاترین کیفیت، برش‌ها از آن) · TEXT = گرافیک تدوین
 > اَسِت‌های تازه: @book (کتاب)، @museum (تالار موزه)، @mom (مادر)، @friends (دو دوست). شیت‌های قهرمان/پیپ/تی‌رکس/رپتور/لونه آماده‌اند.
@@ -53,7 +53,7 @@
   > The air is hot and wet. No cars. No voices.
 - **#21** · 1:03.7 · `OLD s:shot01` — پسر کنار پای غول‌پیکر
   > Next to you, something rises from the ground like a tree trunk.
-- **#22** · 1:08.4 · `CLIP D1-wake-lookup` — پسر بالا را نگاه می‌کند
+- **#22** · 1:08.4 · `CROP←s:shot01` — زوم به ناخن‌های پنجه (به‌جای کلیپ)
   > It isn't a tree. It has claws.
 - **#23** · 1:11.0 · `CROP←s:shot01` — پنجه‌ها، ضربه
   > The foot lifts, slams down one step ahead,
@@ -107,7 +107,7 @@
   > On the back page, with your school pen, you write a plan.
 - **#48** · 2:33.6 · `TEXT` — چک‌لیست روز ۱ (گرافیک دست‌نویس)
   > —
-- **#49** · 2:35.6 · `CROP←#42` — کلوز صورت زیر نور چراغ‌پیشانی
+- **#49** · 2:35.6 · `CROP←#40` — کلوز صورت لای ریشه‌ها زیر نور چراغ
   > Three things. Ten days. None of them done.
 
 ### ۲ · The Smallest Thing in the Forest
@@ -397,11 +397,11 @@
   > Two out of three. Twelve dried fish won't last a winter. And you're out of days.
 
 ### ۶ · The Last Normal Morning
-- **#189** · 11:35.0 · `OLD phone-10days` — گوشی قرمز
+- **#189** · 11:35.0 · `CROP←D9b` — کنار در سنگی، گوشی قرمز در دست (باند روی ساعد)
   > You switch the phone on one more time. The message has changed.
 - **#190** · 11:39.6 · `TEXT` — کارت پیام: فردا · ۲٪
   > "Impact: tomorrow." (2%)
-- **#191** · 11:41.4 · `CROP←phone-10days` — صفحه سیاه
+- **#191** · 11:41.4 · `CROP←D9b` — کلوز صورت خسته کنار در سنگی
   > You switch it off.
 - **#192** · 11:43.2 · `OLD D9c` — بیرون تونل، آسمان پرستاره
   > That night you slide the door aside and climb out. The sky is full of stars.

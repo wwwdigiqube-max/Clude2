@@ -160,21 +160,21 @@ new(56, ["C", "BOOK", "ROOTS"], "A medium shot at eye level, with a 50mm lens.",
     "Soft golden morning light slants through the misty air from the upper right.",
     "60% mossy green, 30% golden morning haze, 10% rust-orange jacket",
     "Exactly one person and one open book whose pages show only illustrations.")
-new(59, ["C", "P", "DAY"], "A close two-shot in profile at ground level, with an 85mm lens.", [hero(pack="on the ground behind him"), PIP],
-    "He lies flat on his stomach on the moss at frame-left, chin resting on his folded black hands, his face level with Pip. Pip sits up on its hind legs at frame-right, at the mouth of a small round burrow hole between tree roots. They look straight into each other's eyes, curious and calm.",
-    "Mossy roots and fern fronds frame them, soft and out of focus.",
-    "Soft morning backlight from behind Pip outlines its fur and the edge of his white head.",
-    "60% soft mossy green, 30% warm morning light, 10% rust-orange jacket",
-    "His head at frame-left and Pip at frame-right, eye to eye on one horizontal line. Exactly one person and one Pip.")
+new(59, ["C", "P", "ROOTS"], "A low over-the-shoulder shot from just behind Pip at ground level, with an 85mm lens.", [hero(pack="on his back"), PIP],
+    "In the sharp foreground at frame-right, Pip sits up on its hind legs at the mouth of its small round burrow hole between the roots, seen from behind and a little to the side. A few steps away at frame-left he crouches low on his heels with his forearms resting on his knees, head tilted down toward Pip, studying the little animal with a quiet, serious, thoughtful look, the way a scientist studies something important.",
+    ROOTS,
+    "Soft golden morning light slants through the mist from the upper left, rimming Pip's fur.",
+    "60% mossy green, 30% golden morning light, 10% rust-orange jacket",
+    "Pip is sharp and large in the foreground; he is slightly softer behind. Exactly one person and one Pip.")
 new(61, ["C", "DAY"], "An extreme close-up insert with a 50mm lens.", [HANDS],
     "One hand holds half a sandwich of white bread with one bite taken out, its white paper wrapping peeled back; the other half, still wrapped, rests on his knee.",
     "Behind, the mossy forest floor is soft and blurred.",
     "Soft morning light from the upper right lights the bread.",
     "60% blurred mossy green, 30% white bread and paper, 10% rust-orange cuffs",
     "The sandwich is at the centre. Exactly one sandwich in two halves.")
-new(62, ["C", "P", "DAY"], "A wide shot at ground level, with a 35mm lens.", [hero(pack="on the ground behind him"), PIP],
-    "He lies on his stomach on the mossy forest floor at frame-left, propped on his elbows, watching Pip with quiet, doubtful concentration. About an arm's length away at frame-right, Pip sits up beside a low bush hung with small bright red berries and a fern with brown seed clusters, holding one red berry in its tiny pink paws and nibbling it.",
-    "Giant ferns and the mossy roots of a huge tree frame the scene.",
+new(62, ["C", "P", "ROOTS"], "A wide shot at seated eye level, with a 35mm lens.", [hero(pack="on the ground beside him"), PIP],
+    "He sits on a thick root at frame-left, elbows on his knees and chin resting on one black fist, watching Pip closely with a serious, doubtful frown. About two steps away at frame-right, Pip sits up beside a low bush hung with small bright red berries and a fern with brown seed clusters, holding one red berry in its tiny pink paws and nibbling it.",
+    ROOTS,
     "Soft golden morning light from the upper right falls across them both.",
     "60% mossy green, 30% golden morning light, 10% red berries and rust-orange jacket",
     "Both are sharp and large enough to crop: his face in the left third, Pip and the berries in the right third. Exactly one person and one Pip.")
@@ -446,6 +446,20 @@ edit(231, 136, "عکس قاب #136 (اصلی، همون که ساختی)",
      "the skeleton, its pose, the skull and every bone; the plinth, the display cases, the skylights and the hall and every object and its position; the camera angle, framing and lens; the light direction, colour and shadows; the colour grade, contrast and grain.",
      "the empty hall")
 
+
+# ======================= FIXES after review (06-fixes.md) =======================
+BONE_CHANGE = ("The long pale bone is a dinosaur shoulder blade, shaped like the bone in the second attached image: one end widens into a broad, flat, "
+               "thin paddle-shaped blade with a slightly ragged edge, and the other end narrows into one single thick rounded joint; it is as long as his arm. "
+               "It sits in exactly the same place, at the same angle and in the same grip as the old bone.")
+BONE_PRES = ("every character's head, face, hair, clothing, pose and stick-figure anatomy; the place, the clay bank, the tunnel entrance, the river, the roots and every other "
+             "object and its position; the camera angle, framing and lens; the light direction, colour and shadows; the colour grade, contrast and grain.")
+FIX = {}
+FIX["bone"] = ("Edit the first attached image. Use the second attached image only for the shape of the bone.\n\nCHANGE: " + BONE_CHANGE +
+               "\n\nPRESERVE EXACTLY: " + BONE_PRES + "\n\nOnly the shape of the bone differs. Everything else is 100% identical.")
+FIX["boneband"] = ("Edit the first attached image. Use the second attached image only for the shape of the bone.\n\nCHANGE: " + BONE_CHANGE +
+               " Also, the pale band of dried flood mud on the clay bank runs a hand below the bottom edge of the round tunnel entrance, so the whole entrance sits above the band."
+               "\n\nPRESERVE EXACTLY: " + BONE_PRES + "\n\nOnly the shape of the bone and the height of the mud band differ. Everything else is 100% identical.")
+
 # ---------- read shotlist for timing + text ----------
 rows = {}
 order = []
@@ -491,3 +505,27 @@ for k, title, a, b in CH:
 print(len(FR), "prompts")
 for n, kind, w, a in stats:
     if kind == "NEW" and not (120 <= w <= 480) or a > 3: print("check", n, kind, w, "words", a, "attachments")
+
+# ---------- 06-fixes.md ----------
+def blk(p): return ["```", p, "```", ""]
+G = ["# اصلاحیه‌ها بعد از بازبینی کامل\n",
+     "> عکس اصلاح‌شده را با همان اسم آپلود کن تا جایگزین شود. برای D5b و D6b اسم `D5b.jpg` و `D6b.jpg`.\n",
+     "## ۱ · دوباره بساز: دو قاب «روی شکم»",
+     "پرامپت تازه، کامل. پیوست‌ها زیر هر کدام.\n"]
+for n in (59, 62):
+    kind, att, p = FR[n]
+    G += [f"### #{n:03d} · NEW" + (" · M" if n == 62 else ""), f"**پیوست:** {' · '.join(att)}  ",
+          "**تنظیمات:** " + ("۱۶:۹ · بالاترین رزولوشن (4K) — مادرِ برش‌ها" if n == 62 else "۱۶:۹ · 2K"), ""] + blk(p)
+G += ["## ۲ · ویرایش استخوان (شبیه استخوان سگ شده)",
+      "**ابزار:** Nano Banana، روی **عکس اصلی** هر قاب.  ",
+      "**پیوست:** ۱) عکس همان قاب ۲) عکس `D4e` (استخوان درست)  ",
+      "**همین یک پرامپت برای همه‌ی این قاب‌ها:** 093 · 102 · 103 · 108 · 110 · 111 · 117 · 118 · 123 · 129 · و دو عکس قدیمی `D5b` و `D6b`\n"] + blk(FIX["bone"])
+G += ["## ۳ · ویرایش استخوان + خط سیل",
+      "خط سفید سیل از وسط در تونل رد شده. با همین یک ویرایش هر دو درست می‌شود.  ",
+      "**پیوست:** ۱) عکس همان قاب ۲) عکس `D4e`  ",
+      "**قاب‌ها:** 130 · 147\n"] + blk(FIX["boneband"])
+G += ["## ۴ · ویرایش‌هایی که جا ماند یا روی عکس اشتباه زده شد\n"]
+src = {153: "عکس قدیمی `D6c` (برش عرضی تونل)، **نه** D6a", 228: "عکس قاب `017` خودت (کتاب در دو دست)، **نه** عکس A2", 231: "عکس **تازه‌ی** #136 (همان که اسکلتش رو به چپ است)"}
+for n in (153, 228, 231):
+    G += [f"### #{n:03d} · EDIT", f"**روی:** {src[n]}  ", "**تنظیمات:** Nano Banana", ""] + blk(FR[n][2])
+open(os.path.join(H, "06-fixes.md"), "w", encoding="utf-8").write("\n".join(G))
