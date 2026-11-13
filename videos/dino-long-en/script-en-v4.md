@@ -329,6 +329,7 @@ You carried an ember in from the burning forest. You keep a small fire right at 
 And at night, Pip sleeps against your neck. Two small bodies, keeping each other warm.
 
 The phone won't turn on anymore.
+The pen is dry.
 So you scratch lines on the tunnel wall with a sharp stone.
 Inventory.
 Days after the end: 40. Still dark.

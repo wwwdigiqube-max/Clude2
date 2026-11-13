@@ -1915,120 +1915,120 @@
 "n": 240,
 "meth": "CROP←D11c",
 "see": "گوشی سیاه روی خاک",
-"text": "The phone won't turn on anymore.",
+"text": "The phone won't turn on anymore. The pen is dry.",
 "w0": 2222,
-"w1": 2228
+"w1": 2232
 },
 {
 "n": 241,
 "meth": "OLD D11c",
 "see": "خط‌کشی روی دیوار با سنگ",
 "text": "So you scratch lines on the tunnel wall with a sharp stone.",
-"w0": 2228,
-"w1": 2240
+"w0": 2232,
+"w1": 2244
 },
 {
 "n": 242,
 "meth": "CROP←D11c",
 "see": "فهرست موجودی روی دیوار",
 "text": "Inventory. Days after the end: 40. Still dark. Dried fish: 7. Running low. Dinosaurs left: zero. Friends: one. Mouse-sized.",
-"w0": 2240,
-"w1": 2259
+"w0": 2244,
+"w1": 2263
 },
 {
 "n": 243,
 "meth": "TEXT",
 "see": "سه کارت قانون",
 "text": "You repeat the rules to yourself. Stay small. Stay near water. Stay underground.",
-"w0": 2259,
-"w1": 2272
+"w0": 2263,
+"w1": 2276
 },
 {
 "n": 244,
 "meth": "OLD D11d",
 "see": "پسر و پیپ دم ورودی خاکستری",
 "text": "And a new one, that no book ever taught you.",
-"w0": 2272,
-"w1": 2282
+"w0": 2276,
+"w1": 2286
 },
 {
 "n": 245,
 "meth": "TEXT",
 "see": "کارت قانون آخر (گرم)",
 "text": "Stay small… but don't stay alone.",
-"w0": 2282,
-"w1": 2288
+"w0": 2286,
+"w1": 2292
 },
 {
 "n": 246,
 "meth": "OLD D2e",
 "see": "پیپ جلوی سایه‌ی دایناسورها",
 "text": "Small animals like Pip made it out of this darkness.",
-"w0": 2288,
-"w1": 2298
+"w0": 2292,
+"w1": 2302
 },
 {
 "n": 247,
 "meth": "TEXT",
 "see": "شاخه‌های نسل (گرافیک)",
 "text": "Millions of years later, from small mammals like him, came horses, whales, apes. And people.",
-"w0": 2298,
-"w1": 2313
+"w0": 2302,
+"w1": 2317
 },
 {
 "n": 248,
 "meth": "OLD D11-phone",
 "see": "گوشی در تخت، تصویر پیپ",
 "text": "Sixty-six million years later, one of Pip's great-great-great-grandchildren is watching this video.",
-"w0": 2313,
-"w1": 2325
+"w0": 2317,
+"w1": 2329
 },
 {
 "n": 249,
 "meth": "OLD D11f",
 "see": "پرنده روی شاخه‌ی خاکستری",
 "text": "And just then, from outside the tunnel, a sound. A bird, singing.",
-"w0": 2325,
-"w1": 2337
+"w0": 2329,
+"w1": 2341
 },
 {
 "n": 250,
 "meth": "CROP←D11c",
 "see": "دست خط می‌زند",
 "text": "You cross out a line on the wall, and write it again.",
-"w0": 2337,
-"w1": 2349
+"w0": 2341,
+"w1": 2353
 },
 {
 "n": 251,
 "meth": "TEXT",
 "see": "بازنویسی روی دیوار",
 "text": "Dinosaurs left: zero… except the birds.",
-"w0": 2349,
-"w1": 2355
+"w0": 2353,
+"w1": 2359
 },
 {
 "n": 252,
 "meth": "CROP←D11d",
 "see": "پسر و پیپ، کارت کامنت",
 "text": "On day one, what would you have done first? Tell me in the comments.",
-"w0": 2355,
-"w1": 2369
+"w0": 2359,
+"w1": 2373
 },
 {
 "n": 253,
 "meth": "CROP←D11d",
 "see": "پیپ روی شانه",
 "text": "And if you want to know what you and Pip did after the dark, tell me that too.",
-"w0": 2369,
-"w1": 2387
+"w0": 2373,
+"w1": 2391
 },
 {
 "n": 254,
 "meth": "TEXT",
 "see": "کارت پایانی + شعار",
 "text": "Stay small. Stay alive.",
-"w0": 2387,
-"w1": 2391
+"w0": 2391,
+"w1": 2395
 }
 ]

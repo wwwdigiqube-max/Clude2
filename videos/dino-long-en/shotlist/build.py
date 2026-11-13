@@ -266,7 +266,7 @@ f("Scientists think this impact winter lasted months. Maybe years.", "گرافی
 f("The world gave you one gift on its last day. Fire. You carried an ember in from the burning forest.", "پسر با چوب سوزان از جنگل", "NEW", C)
 f("You keep a small fire right at the gap, never deep inside. In a closed tunnel, smoke kills quietly.", "آتش کوچک جلوی شکاف، دود بیرون", "NEW", f"{C} · {BUR}")
 f("And at night, Pip sleeps against your neck. Two small bodies, keeping each other warm.", "پیپ کنار گردن، خواب", "NEW", f"{C} · {P}")
-f("The phone won't turn on anymore.", "گوشی سیاه روی خاک", "CROP←D11c")
+f("The phone won't turn on anymore. The pen is dry.", "گوشی سیاه روی خاک", "CROP←D11c")
 f("So you scratch lines on the tunnel wall with a sharp stone.", "خط‌کشی روی دیوار با سنگ", "OLD D11c")
 f("Inventory. Days after the end: 40. Still dark. Dried fish: 7. Running low. Dinosaurs left: zero. Friends: one. Mouse-sized.", "فهرست موجودی روی دیوار", "CROP←D11c")
 f("You repeat the rules to yourself. Stay small. Stay near water. Stay underground.", "سه کارت قانون", "TEXT")
