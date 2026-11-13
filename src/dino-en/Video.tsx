@@ -380,7 +380,7 @@ const ScarLine: React.FC<{ w: number; h: number; k: number; pulse: number; x1: n
   return (
     <svg width={w} height={h} style={{ position: "absolute", left: 0, top: 0, opacity: k > 0 ? 1 : 0 }}>
       <line x1={x1 * w} y1={y1 * h} x2={x1 * w + (x2 - x1) * w * k} y2={y1 * h + (y2 - y1) * h * k} stroke={`rgba(255,236,200,${0.55 + 0.35 * glow})`}
-        strokeWidth={0.006 * w} strokeLinecap="round" style={{ filter: `drop-shadow(0 0 ${0.006 * w}px rgba(255,200,120,${glow}))` }} />
+        strokeWidth={0.0042 * w} strokeLinecap="round" style={{ filter: `drop-shadow(0 0 ${0.006 * w}px rgba(255,200,120,${glow}))` }} />
     </svg>
   );
 };
