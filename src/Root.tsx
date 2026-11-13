@@ -19,6 +19,7 @@ import { ArtMotionCompositions } from "./styles/art-motion";
 import { V01, V01_FPS, V01_FRAMES, V01_LOOK } from "./v01/Video";
 import { V02, V02_FPS, V02_FRAMES } from "./v02/Video";
 import { DinoLong, DINO_FPS, DINO_FRAMES, DINO_LOOK, DINO_ALL } from "./dino/Video";
+import { DinoLongEn, DINO_EN_FPS, DINO_EN_FRAMES, DINO_EN_ALL } from "./dino-en/Video";
 
 // Every video = one <Composition>. The style demos below are the reference films / starter templates (see STYLES.md).
 // They play silent: the films’ narration, music and effects are not shipped — each style’s pipeline/ folder says how to make yours.
@@ -64,6 +65,8 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="DinoLong" component={DinoLong} durationInFrames={DINO_FRAMES} fps={DINO_FPS} width={1920} height={1080} />
       <Composition id="DinoLong-Look" component={DinoLong} durationInFrames={DINO_LOOK.length} fps={DINO_FPS} width={1920} height={1080} defaultProps={{ times: DINO_LOOK }} />
       <Composition id="DinoLong-All" component={DinoLong} durationInFrames={DINO_ALL.length} fps={DINO_FPS} width={1920} height={1080} defaultProps={{ times: DINO_ALL }} />
+      <Composition id="DinoLongEn" component={DinoLongEn} durationInFrames={DINO_EN_FRAMES} fps={DINO_EN_FPS} width={1920} height={1080} />
+      <Composition id="DinoLongEn-All" component={DinoLongEn} durationInFrames={DINO_EN_ALL.length} fps={DINO_EN_FPS} width={1920} height={1080} defaultProps={{ times: DINO_EN_ALL }} />
       <Composition id="V02" component={V02} durationInFrames={V02_FRAMES} fps={V02_FPS} width={1920} height={1080} />
     </>
   );

@@ -15,7 +15,8 @@ def load(i):
     w = f"{T}c{i}.wav"
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", f"{D}chunksA/{i:02d}.mp3", "-ac", "1", "-ar", str(SR), w])
     x = wave.open(w); return np.frombuffer(x.readframes(x.getnframes()), np.int16)
-out, sents, t = [], [], 0.0
+out, sents, words, t = [], [], [], 0.0
+HOLDS = {int(k): v for k, v in json.load(open(D + "holds.json")).items()} if os.path.exists(D + "holds.json") else {}
 def add(arr):
     global t
     out.append(arr); t += len(arr) / SR
@@ -46,12 +47,17 @@ for i, c in enumerate(items):
         else:
             cut = nxt0 = len(x) / SR; extra = 0
         seg = x[int(cut0 * SR):int(cut * SR)]
+        si = len(sents)
         sents.append({"chunk": i, "text": s_text, "start": round(t + (s_start - cut0), 3), "end": round(t + (s_end - cut0), 3)})
-        add(seg); add(sil(extra)); cut0 = nxt0
+        for m in re.finditer(r"\S+", text[a:b]):
+            ca, cb = a + m.start(), a + m.end() - 1
+            words.append({"w": m.group(), "s": round(t + st[ca] - cut0, 3), "e": round(t + en[cb] - cut0, 3), "sent": si})
+        add(seg); add(sil(extra + HOLDS.get(si, 0))); cut0 = nxt0
 y = np.concatenate(out)
 w = wave.open(T + "raw.wav", "wb"); w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(y.tobytes()); w.close()
 CH = ("highpass=f=70,equalizer=f=140:t=q:w=1:g=2.5,equalizer=f=350:t=q:w=1.2:g=-2,equalizer=f=3800:t=q:w=1.5:g=2,deesser=i=0.4,"
       "acompressor=threshold=-22dB:ratio=2:attack=12:release=180:makeup=2,aecho=0.85:0.5:28|46:0.14|0.09,loudnorm=I=-16:TP=-1.5:LRA=11")
 subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", T + "raw.wav", "-af", CH, "-ar", "48000", "-b:a", "192k", D + "vo-en.mp3"])
 json.dump(sents, open(D + "sentences.json", "w"), ensure_ascii=False, indent=0)
+json.dump({"total": round(t, 3), "words": words}, open(D + "words.json", "w"), ensure_ascii=False)
 print("sentences", len(sents), "duration", f"{int(t//60)}:{t%60:04.1f}")

@@ -1,0 +1,2034 @@
+[
+{
+"n": 1,
+"meth": "OLD H1",
+"see": "تونل، قهرمان پهلو خوابیده، پیپ در بغل، خاک می‌ریزد",
+"text": "Day ten.",
+"w0": 0,
+"w1": 2
+},
+{
+"n": 2,
+"meth": "CROP←H1",
+"see": "کلوزآپ صورت با خاک روی آن",
+"text": "The ground shakes. Dirt pours from the ceiling of your tunnel.",
+"w0": 2,
+"w1": 13
+},
+{
+"n": 3,
+"meth": "OLD H2",
+"see": "بیرون: جنگل در آتش، شب",
+"text": "Outside, the sky is on fire.",
+"w0": 13,
+"w1": 19
+},
+{
+"n": 4,
+"meth": "CLIP H3-breath-v3",
+"see": "پوزه پشت شکاف سنگی، نفس",
+"text": "And at the door, something too big to fit inside is breathing.",
+"w0": 19,
+"w1": 31
+},
+{
+"n": 5,
+"meth": "TEXT",
+"see": "سیاهی",
+"text": "(pause)",
+"w0": null,
+"w1": 31
+},
+{
+"n": 6,
+"meth": "OLD D1a",
+"see": "اتاق، شب، خواب روی تخت",
+"text": "Ten days ago, you were asleep in your own bed.",
+"w0": 31,
+"w1": 41
+},
+{
+"n": 7,
+"meth": "OLD D5a",
+"see": "آسمان پر شهاب، پیش‌بینی",
+"text": "You have 10 days before the asteroid that killed the dinosaurs.",
+"w0": 41,
+"w1": 52
+},
+{
+"n": 8,
+"meth": "OLD D1e",
+"see": "دره با گله‌های دایناسور",
+"text": "Every big animal you see will die.",
+"w0": 52,
+"w1": 59
+},
+{
+"n": 9,
+"meth": "OLD D2e",
+"see": "پیپ کوچک جلوی سایه‌ی دایناسورها",
+"text": "You won't. If you stay small.",
+"w0": 59,
+"w1": 65
+},
+{
+"n": 10,
+"meth": "TEXT",
+"see": "کارت عنوان: STAY SMALL · 10 DAYS",
+"text": "—",
+"w0": null,
+"w1": 65
+},
+{
+"n": 11,
+"meth": "CROP←D1a",
+"see": "اتاق شب، از در به داخل",
+"text": "The night before was like any other.",
+"w0": 65,
+"w1": 72
+},
+{
+"n": 12,
+"meth": "OLD D1d",
+"see": "گوشی روی تخت، مستند شهاب",
+"text": "Homework, a documentary about the dinosaurs,",
+"w0": 72,
+"w1": 78
+},
+{
+"n": 13,
+"meth": "CROP←D1a",
+"see": "گوشی کنار دستش، نور صفحه",
+"text": "your phone at 23%. \"I'll charge it in the morning.\"",
+"w0": 78,
+"w1": 88
+},
+{
+"n": 14,
+"meth": "NEW·M",
+"see": "میز کار، کوله‌ی باز رو به دوربین",
+"text": "In your backpack, ready for school:",
+"w0": 88,
+"w1": 94
+},
+{
+"n": 15,
+"meth": "CROP←#14",
+"see": "اینسرت از بالا: محتوای کوله",
+"text": "two textbooks, a sandwich, two chocolate bars, half a bottle of water.",
+"w0": 94,
+"w1": 106
+},
+{
+"n": 16,
+"meth": "CROP←#14",
+"see": "دست قهرمان کتاب را در کوله می‌گذارد",
+"text": "And a library book you wanted to read in the break tomorrow.",
+"w0": 106,
+"w1": 118
+},
+{
+"n": 17,
+"meth": "NEW·M",
+"see": "اینسرت جلد کتاب: اسکلت تی‌رکس موزه (زخم دیده نمی‌شود)",
+"text": "The Last Day of the Dinosaurs.",
+"w0": 118,
+"w1": 124
+},
+{
+"n": 18,
+"meth": "TEXT",
+"see": "سیاهی ← پلک زدن",
+"text": "In the morning, there's no ceiling.",
+"w0": 124,
+"w1": 130
+},
+{
+"n": 19,
+"meth": "OLD D1b",
+"see": "بیدار شدن زیر برگ‌های غول‌پیکر",
+"text": "There are leaves, each one bigger than your bed.",
+"w0": 130,
+"w1": 139
+},
+{
+"n": 20,
+"meth": "OLD D1c",
+"see": "سایه‌روشن جنگل، نگاه به بالا",
+"text": "The air is hot and wet. No cars. No voices.",
+"w0": 139,
+"w1": 149
+},
+{
+"n": 21,
+"meth": "OLD s:shot01",
+"see": "پسر کنار پای غول‌پیکر",
+"text": "Next to you, something rises from the ground like a tree trunk.",
+"w0": 149,
+"w1": 161
+},
+{
+"n": 22,
+"meth": "CROP←s:shot01",
+"see": "زوم به ناخن‌های پنجه (به‌جای کلیپ)",
+"text": "It isn't a tree. It has claws.",
+"w0": 161,
+"w1": 168
+},
+{
+"n": 23,
+"meth": "CROP←s:shot01",
+"see": "پنجه‌ها، ضربه",
+"text": "The foot lifts, slams down one step ahead,",
+"w0": 168,
+"w1": 176
+},
+{
+"n": 24,
+"meth": "REUSE←#21",
+"see": "واید با لرزش و خاک",
+"text": "and the ground jumps under you.",
+"w0": 176,
+"w1": 182
+},
+{
+"n": 25,
+"meth": "CROP←s:shot01",
+"see": "کلوز پسر، نفس حبس",
+"text": "You don't breathe until the footsteps fade.",
+"w0": 182,
+"w1": 189
+},
+{
+"n": 26,
+"meth": "CROP←D1b",
+"see": "کوله کنار او روی خزه‌ها",
+"text": "Your backpack is lying next to you.",
+"w0": 189,
+"w1": 196
+},
+{
+"n": 27,
+"meth": "OLD phone-10days",
+"see": "پسر و گوشی قرمز",
+"text": "Your phone is still in your pocket. No signal. No internet.",
+"w0": 196,
+"w1": 207
+},
+{
+"n": 28,
+"meth": "CROP←phone-10days",
+"see": "کلوز گوشی (کارت پیام در تدوین)",
+"text": "Just one message that wasn't there last night.",
+"w0": 207,
+"w1": 215
+},
+{
+"n": 29,
+"meth": "TEXT",
+"see": "کارت پیام + باتری ۲۳٪",
+"text": "\"Impact: 10 days. 3,000 kilometers south.\"",
+"w0": 215,
+"w1": 221
+},
+{
+"n": 30,
+"meth": "CROP←phone-10days",
+"see": "کلوز صورت ناباور",
+"text": "A prank. A dream. It has to be.",
+"w0": 221,
+"w1": 229
+},
+{
+"n": 31,
+"meth": "OLD D1e",
+"see": "واید: پسر کوچک در دره، راه می‌افتد (frame-right)",
+"text": "You switch it off at 22%, and you start walking.",
+"w0": 229,
+"w1": 239
+},
+{
+"n": 32,
+"meth": "NEW",
+"see": "پسر روی صخره، به افق خیره، آسمان خالی",
+"text": "All afternoon, you look for a road, a wire, a plane in the sky.",
+"w0": 239,
+"w1": 253
+},
+{
+"n": 33,
+"meth": "NEW",
+"see": "از پشت: پسر تنها جلوی جنگل بی‌انتها",
+"text": "Anything. There's nothing.",
+"w0": 253,
+"w1": 256
+},
+{
+"n": 34,
+"meth": "OLD trex-boy-scar",
+"see": "تی‌رکس و پسر پشت سرخس",
+"text": "In the evening, you find the owner of the foot.",
+"w0": 256,
+"w1": 266
+},
+{
+"n": 35,
+"meth": "CROP←trex-boy-scar",
+"see": "واید تی‌رکس (برچسب ۱۲ متر)",
+"text": "A T. rex. 12 meters, nose to tail,",
+"w0": 266,
+"w1": 274
+},
+{
+"n": 36,
+"meth": "OLD D1g",
+"see": "کلوزآپ پوزه و زخم",
+"text": "with a long pale scar across its snout.",
+"w0": 274,
+"w1": 282
+},
+{
+"n": 37,
+"meth": "CROP←D1g",
+"see": "زوم به چشم تی‌رکس",
+"text": "For one second, its head turns toward you.",
+"w0": 282,
+"w1": 290
+},
+{
+"n": 38,
+"meth": "CROP←trex-boy-scar",
+"see": "پسر پشت سرخس، نفس رها",
+"text": "Then it walks on.",
+"w0": 290,
+"w1": 294
+},
+{
+"n": 39,
+"meth": "NEW",
+"see": "کلوز صورت، ترس واقعی",
+"text": "It's not a dream.",
+"w0": 294,
+"w1": 298
+},
+{
+"n": 40,
+"meth": "NEW·M",
+"see": "شب، ریشه‌های غول‌پیکر، پسر لای آن‌ها (مادر)",
+"text": "That night you squeeze in between the roots of a giant tree.",
+"w0": 298,
+"w1": 310
+},
+{
+"n": 41,
+"meth": "CROP←#40",
+"see": "کلوز: زانو در بغل، چشم‌ها باز",
+"text": "You're shaking. You don't want to sleep.",
+"w0": 310,
+"w1": 317
+},
+{
+"n": 42,
+"meth": "NEW",
+"see": "نور چراغ‌پیشانی روی کوله‌ی باز",
+"text": "In the dark, you open your backpack, looking for anything that makes sense.",
+"w0": 317,
+"w1": 330
+},
+{
+"n": 43,
+"meth": "NEW",
+"see": "دست‌ها کتاب را بیرون می‌کشند",
+"text": "The library book.",
+"w0": 330,
+"w1": 333
+},
+{
+"n": 44,
+"meth": "REUSE←#17",
+"see": "جلد زیر نور چراغ‌پیشانی",
+"text": "On the cover, a T. rex skeleton in a museum. You don't look closely.",
+"w0": 333,
+"w1": 347
+},
+{
+"n": 45,
+"meth": "NEW·M",
+"see": "کتاب باز: نقاشی حیوان‌های کوچک (بدون متن)",
+"text": "Inside, chapter seven. Who Survived.",
+"w0": 347,
+"w1": 352
+},
+{
+"n": 46,
+"meth": "CROP←#45",
+"see": "سه برش از نقاشی‌های کتاب، پشت سر هم",
+"text": "Animals that were small. Animals that hid underground. Animals that lived near fresh water.",
+"w0": 352,
+"w1": 366
+},
+{
+"n": 47,
+"meth": "NEW",
+"see": "دست با خودکار روی صفحه‌ی آخر (نوشته محو)",
+"text": "On the back page, with your school pen, you write a plan.",
+"w0": 366,
+"w1": 378
+},
+{
+"n": 48,
+"meth": "TEXT",
+"see": "چک‌لیست روز ۱ (گرافیک دست‌نویس)",
+"text": "—",
+"w0": null,
+"w1": 378
+},
+{
+"n": 49,
+"meth": "CROP←#40",
+"see": "کلوز صورت لای ریشه‌ها زیر نور چراغ",
+"text": "Three things. Ten days. None of them done.",
+"w0": 378,
+"w1": 386
+},
+{
+"n": 50,
+"meth": "EDIT←#40",
+"see": "خوابیده لای ریشه‌ها، چراغ خاموش",
+"text": "You don't decide to fall asleep. Your body decides for you.",
+"w0": 386,
+"w1": 397
+},
+{
+"n": 51,
+"meth": "OLD D2a",
+"see": "پسر خم‌شده کنار سوراخ ریشه",
+"text": "In the morning, there's a small hole by the roots.",
+"w0": 397,
+"w1": 407
+},
+{
+"n": 52,
+"meth": "CLIP D2b-fandogh",
+"see": "پیپ از سوراخ بیرون می‌آید",
+"text": "A furry face pokes out. Mouse-sized. Sniffs. Disappears.",
+"w0": 407,
+"w1": 415
+},
+{
+"n": 53,
+"meth": "OLD D2b",
+"see": "پیپ و پوتین‌ها، فریز + اسم",
+"text": "You name him Pip.",
+"w0": 415,
+"w1": 419
+},
+{
+"n": 54,
+"meth": "OLD D2c",
+"see": "تی‌رکس روی لاشه",
+"text": "The T. rex needs mountains of meat every day.",
+"w0": 419,
+"w1": 428
+},
+{
+"n": 55,
+"meth": "CLIP D2b-fandogh",
+"see": "پیپ با دانه کنار سوراخ",
+"text": "Pip needs a few seeds and a hole to hide in.",
+"w0": 428,
+"w1": 439
+},
+{
+"n": 56,
+"meth": "NEW",
+"see": "کتاب باز روی زانو، صبح",
+"text": "And your book agrees.",
+"w0": 439,
+"w1": 443
+},
+{
+"n": 57,
+"meth": "TEXT",
+"see": "گرافیک «۲۵ کیلو» روی تصویر محو",
+"text": "Scientists think that after the impact, almost no land animal heavier than about 25 kilograms survived.",
+"w0": 443,
+"w1": 459
+},
+{
+"n": 58,
+"meth": "TEXT",
+"see": "گرافیک «تو: ۷۰ کیلو»",
+"text": "You weigh 70.",
+"w0": 459,
+"w1": 462
+},
+{
+"n": 59,
+"meth": "CROP←#62",
+"see": "برش از #62: پسر و پیپ (به‌جای قاب روی شکم)",
+"text": "So you'll have to think like Pip.",
+"w0": 462,
+"w1": 469
+},
+{
+"n": 60,
+"meth": "TEXT",
+"see": "کارت قانون ۱",
+"text": "Rule one: stay small.",
+"w0": 469,
+"w1": 473
+},
+{
+"n": 61,
+"meth": "NEW",
+"see": "اینسرت: نصف ساندویچ در دست",
+"text": "You eat half the sandwich. You save the rest.",
+"w0": 473,
+"w1": 482
+},
+{
+"n": 62,
+"meth": "NEW·M",
+"see": "پسر روی ریشه نشسته، پیپ را تماشا می‌کند",
+"text": "Then you watch what Pip eats.",
+"w0": 482,
+"w1": 488
+},
+{
+"n": 63,
+"meth": "CROP←#62",
+"see": "پیپ توت قرمز می‌خورد (کلوز)",
+"text": "Small red berries, seeds from one kind of fern.",
+"w0": 488,
+"w1": 497
+},
+{
+"n": 64,
+"meth": "CROP←#62",
+"see": "کلوز صورت، تردید",
+"text": "That's no guarantee. Plenty of things a mouse can eat would kill you.",
+"w0": 497,
+"w1": 510
+},
+{
+"n": 65,
+"meth": "CROP←#62",
+"see": "پیپ و پسر کنار هم",
+"text": "But he's a mammal, like you, and the sandwich won't last.",
+"w0": 510,
+"w1": 521
+},
+{
+"n": 66,
+"meth": "NEW",
+"see": "اینسرت: یک توت قرمز بین دو انگشت سیاه",
+"text": "You eat one berry. You wait. By evening, nothing has happened.",
+"w0": 521,
+"w1": 532
+},
+{
+"n": 67,
+"meth": "NEW",
+"see": "دست‌ها جیب را با توت پر می‌کنند",
+"text": "You fill your pockets.",
+"w0": 532,
+"w1": 536
+},
+{
+"n": 68,
+"meth": "NEW",
+"see": "اینسرت: بطری خالی وارونه",
+"text": "Day three. The bottle is empty.",
+"w0": 536,
+"w1": 542
+},
+{
+"n": 69,
+"meth": "NEW",
+"see": "کلوز صورت خسته، لب خشک",
+"text": "Your throat is burning.",
+"w0": 542,
+"w1": 546
+},
+{
+"n": 70,
+"meth": "OLD D3a",
+"see": "پسر به رود می‌رسد",
+"text": "You follow the sound of water to a wide, muddy river.",
+"w0": 546,
+"w1": 557
+},
+{
+"n": 71,
+"meth": "CLIP D3b-croc-eye",
+"see": "تنه‌ی شناور",
+"text": "At the edge, a log is floating.",
+"w0": 557,
+"w1": 564
+},
+{
+"n": 72,
+"meth": "CROP←D3b",
+"see": "چشم کروکودیل باز می‌شود",
+"text": "It blinks.",
+"w0": 564,
+"w1": 566
+},
+{
+"n": 73,
+"meth": "OLD D3b",
+"see": "واید کروکودیل",
+"text": "It isn't a log. It's a crocodile.",
+"w0": 566,
+"w1": 573
+},
+{
+"n": 74,
+"meth": "CROP←D3a",
+"see": "پسر عقب می‌رود (frame-left)",
+"text": "So you don't drink from the river.",
+"w0": 573,
+"w1": 580
+},
+{
+"n": 75,
+"meth": "OLD D3c",
+"see": "کندن چاله در شن",
+"text": "A few steps back from the bank, in the sand, you dig a pit and wait.",
+"w0": 580,
+"w1": 596
+},
+{
+"n": 76,
+"meth": "CROP←D3c",
+"see": "زوم به آب نشتی",
+"text": "Water seeps in through the sand. Slow. Muddy. But cleaner than the river, and far from the teeth.",
+"w0": 596,
+"w1": 614
+},
+{
+"n": 77,
+"meth": "CROP←D3c",
+"see": "اینسرت: بطری زیر آب نشتی",
+"text": "You fill the bottle.",
+"w0": 614,
+"w1": 618
+},
+{
+"n": 78,
+"meth": "OLD D3e",
+"see": "ماهی‌گیری در گودال",
+"text": "In the shallow pools, small fish are trapped.",
+"w0": 618,
+"w1": 626
+},
+{
+"n": 79,
+"meth": "NEW",
+"see": "اینسرت: سه ماهی روی سنگ داغ",
+"text": "You catch three and dry them on a hot rock.",
+"w0": 626,
+"w1": 636
+},
+{
+"n": 80,
+"meth": "NEW",
+"see": "غروب گرم روی رود، مه گرم",
+"text": "No fire needed. It's warm here, almost tropical, even at night.",
+"w0": 636,
+"w1": 647
+},
+{
+"n": 81,
+"meth": "CROP←D3e",
+"see": "ماهی‌گیری صبحگاهی",
+"text": "From now on, every morning starts at the pools.",
+"w0": 647,
+"w1": 656
+},
+{
+"n": 82,
+"meth": "TEXT",
+"see": "چک‌لیست: آب ✓ · غذا ۳ ماهی",
+"text": "—",
+"w0": null,
+"w1": 656
+},
+{
+"n": 83,
+"meth": "OLD D3d",
+"see": "لاک‌پشت و قورباغه روی تنه + برچسب‌ها",
+"text": "The book says freshwater animals, turtles, frogs, even crocodiles, made it through far better than most.",
+"w0": 656,
+"w1": 672
+},
+{
+"n": 84,
+"meth": "TEXT",
+"see": "کارت قانون ۲",
+"text": "Rule two: stay near water.",
+"w0": 672,
+"w1": 677
+},
+{
+"n": 85,
+"meth": "OLD D4a",
+"see": "گله‌ی اردک‌نوک کنار رود",
+"text": "Day four. The ground shakes again. Not one footstep. Hundreds.",
+"w0": 677,
+"w1": 687
+},
+{
+"n": 86,
+"meth": "CROP←D4a",
+"see": "گله نزدیک‌تر",
+"text": "A herd of duck-billed dinosaurs comes along the river.",
+"w0": 687,
+"w1": 696
+},
+{
+"n": 87,
+"meth": "NEW",
+"see": "پسر دست روی سینه، نگاه به دور",
+"text": "Then a deep sound rolls in from far away. You feel it in your chest more than your ears.",
+"w0": 696,
+"w1": 715
+},
+{
+"n": 88,
+"meth": "CLIP D4b-stampede",
+"see": "رم کردن گله",
+"text": "The herd panics. Trees snap.",
+"w0": 715,
+"w1": 720
+},
+{
+"n": 89,
+"meth": "OLD D4b-with-boy",
+"see": "پسر پشت تنه",
+"text": "You throw yourself behind a fallen log.",
+"w0": 720,
+"w1": 727
+},
+{
+"n": 90,
+"meth": "OLD D4d",
+"see": "لاشه‌ی اردک‌نوک، پسر کوچک",
+"text": "When the dust settles, one of them didn't get up.",
+"w0": 727,
+"w1": 737
+},
+{
+"n": 91,
+"meth": "OLD D4e",
+"see": "پسر استخوان کتف را بالا می‌گیرد",
+"text": "And it has something you need. A shoulder blade. Flat. Wide. The size of a paddle.",
+"w0": 737,
+"w1": 753
+},
+{
+"n": 92,
+"meth": "CROP←D4e",
+"see": "کلوز استخوان در دست",
+"text": "From today, your shovel is a dinosaur.",
+"w0": 753,
+"w1": 760
+},
+{
+"n": 93,
+"meth": "NEW",
+"see": "صبح کنار رود، کتاب باز روی زانو، صورت جدی",
+"text": "Day five. You read the page you've been avoiding.",
+"w0": 760,
+"w1": 769
+},
+{
+"n": 94,
+"meth": "NEW",
+"see": "صفحه‌ی کتاب: نقاشی باران سنگ‌های سوزان روی جنگل (بدون متن)",
+"text": "Within an hour of the impact, burning debris falls back through the sky, all over the world.",
+"w0": 769,
+"w1": 786
+},
+{
+"n": 95,
+"meth": "OLD D5a",
+"see": "آسمان پر شهاب، جنگل شعله‌ور",
+"text": "Scientists still argue about how hot it got. In many places, hot enough to set forests on fire.",
+"w0": 786,
+"w1": 804
+},
+{
+"n": 96,
+"meth": "CROP←D5a",
+"see": "تیلت به پایین تا خاک",
+"text": "On the surface, there's nowhere to hide. Under a meter of soil, maybe.",
+"w0": 804,
+"w1": 817
+},
+{
+"n": 97,
+"meth": "TEXT",
+"see": "کارت قانون ۳",
+"text": "Rule three: stay underground.",
+"w0": 817,
+"w1": 821
+},
+{
+"n": 98,
+"meth": "CROP←D6a",
+"see": "پسر با استخوان‌بیل کنار دیواره‌ی رسی",
+"text": "You find a clay bank above the river and start digging.",
+"w0": 821,
+"w1": 832
+},
+{
+"n": 99,
+"meth": "CUT",
+"see": "✂️ حذف شد (خط سیل از سناریو برداشته شد)",
+"text": "Then you look at the trees.",
+"w0": null,
+"w1": 832
+},
+{
+"n": 100,
+"meth": "CUT",
+"see": "✂️ حذف شد (خط سیل از سناریو برداشته شد)",
+"text": "Every trunk has a band of dried mud on it. As high as your head.",
+"w0": null,
+"w1": 832
+},
+{
+"n": 101,
+"meth": "CUT",
+"see": "✂️ حذف شد (خط سیل از سناریو برداشته شد)",
+"text": "The river floods. Right up to here.",
+"w0": null,
+"w1": 832
+},
+{
+"n": 102,
+"meth": "CUT",
+"see": "✂️ حذف شد (خط سیل از سناریو برداشته شد)",
+"text": "So you start again, higher up the bank. A hand above the line. The afternoon is gone.",
+"w0": null,
+"w1": 832
+},
+{
+"n": 103,
+"meth": "NEW",
+"see": "پسر نشسته، خودکار و کتاب، حساب می‌کند",
+"text": "Now the math.",
+"w0": 832,
+"w1": 835
+},
+{
+"n": 104,
+"meth": "TEXT",
+"see": "گرافیک: ۳۰ سانت/روز",
+"text": "With a bone, in clay, a cave big enough to crouch in grows about 30 centimeters a day.",
+"w0": 835,
+"w1": 853
+},
+{
+"n": 105,
+"meth": "OLD D6c",
+"see": "برش عرضی تونل + اندازه‌ها",
+"text": "To get a meter of soil over your head, you have to go two and a half meters in.",
+"w0": 853,
+"w1": 872
+},
+{
+"n": 106,
+"meth": "TEXT",
+"see": "گرافیک: ۸ روز کار",
+"text": "That's eight days of work.",
+"w0": 872,
+"w1": 877
+},
+{
+"n": 107,
+"meth": "TEXT",
+"see": "گرافیک: ۵ روز وقت · عقبی",
+"text": "The asteroid hits on day ten. You have five.",
+"w0": 877,
+"w1": 886
+},
+{
+"n": 108,
+"meth": "NEW",
+"see": "خوابیده در گِل کنار چاله‌ی کوچک، شب",
+"text": "You dig until it's too dark to see, then sleep in the mud by the hole.",
+"w0": 886,
+"w1": 902
+},
+{
+"n": 109,
+"meth": "OLD D6a",
+"see": "کندن در طلوع",
+"text": "Day six. Your hands are blistered. You're in as deep as your arms can reach.",
+"w0": 902,
+"w1": 917
+},
+{
+"n": 110,
+"meth": "NEW·M",
+"see": "سقف روی او می‌ریزد (لحظه‌ی ریزش)",
+"text": "Then the roof comes down on you.",
+"w0": 917,
+"w1": 924
+},
+{
+"n": 111,
+"meth": "NEW",
+"see": "بیرون خزیدن پر از خاک",
+"text": "You crawl out coughing dirt.",
+"w0": 924,
+"w1": 929
+},
+{
+"n": 112,
+"meth": "EDIT←#110",
+"see": "چاله‌ی ریخته‌شده، خالی",
+"text": "Everything you dug, gone.",
+"w0": 929,
+"w1": 933
+},
+{
+"n": 113,
+"meth": "TEXT",
+"see": "گرافیک: ۴ روز / ۸ روز کار",
+"text": "Four days left. Eight days of digging.",
+"w0": 933,
+"w1": 940
+},
+{
+"n": 114,
+"meth": "NEW·M",
+"see": "پسر نشسته در گِل، سوراخ تازه‌ی پیپ در دیواره‌ی کنار رود",
+"text": "You sit in the mud. And there, in the bank next to your ruin, a tiny new hole. Pip followed you to the river.",
+"w0": 940,
+"w1": 964
+},
+{
+"n": 115,
+"meth": "CROP←#114",
+"see": "کلوز: پیپ در دهانه‌ی سوراخ کوچکش",
+"text": "His hole is tiny. And it doesn't collapse. Because Pip doesn't dig a cave. Pip digs a tunnel exactly as wide as Pip, and one small nest at the end.",
+"w0": 964,
+"w1": 994
+},
+{
+"n": 116,
+"meth": "CROP←#114",
+"see": "کلوز صورت، فکر",
+"text": "So you stop digging a cave.",
+"w0": 994,
+"w1": 1000
+},
+{
+"n": 117,
+"meth": "NEW",
+"see": "ورودی تنگ به اندازه‌ی شانه، پسر داخل می‌خزد",
+"text": "You dig a tunnel exactly as wide as your shoulders. A quarter of the dirt. Four times as fast.",
+"w0": 1000,
+"w1": 1019
+},
+{
+"n": 118,
+"meth": "NEW",
+"see": "داخل تونل: سقف قوسی با چراغ‌پیشانی",
+"text": "And you shape the roof into an arch,",
+"w0": 1019,
+"w1": 1027
+},
+{
+"n": 119,
+"meth": "TEXT",
+"see": "گرافیک فلش وزن روی قوس",
+"text": "because an arch pushes the weight into the walls instead of down on you.",
+"w0": 1027,
+"w1": 1041
+},
+{
+"n": 120,
+"meth": "OLD D6b",
+"see": "ورودی کوچک گرد، پسر زانو زده",
+"text": "The entrance faces north, away from where the asteroid will hit. Maybe it makes no difference. It feels right.",
+"w0": 1041,
+"w1": 1060
+},
+{
+"n": 121,
+"meth": "CROP←D6b",
+"see": "پسر و پیپ کنار ورودی",
+"text": "Stay small. Even when you dig.",
+"w0": 1060,
+"w1": 1066
+},
+{
+"n": 122,
+"meth": "TEXT",
+"see": "چک‌لیست: پناهگاه ۲۵٪ · دوباره سر برنامه",
+"text": "—",
+"w0": null,
+"w1": 1066
+},
+{
+"n": 123,
+"meth": "NEW",
+"see": "شب: فقط پاهای او از دهانه‌ی تنگ بیرون است",
+"text": "By dark, the tunnel swallows you to the waist.",
+"w0": 1066,
+"w1": 1075
+},
+{
+"n": 124,
+"meth": "CROP←#123",
+"see": "کلوز پوتین‌ها بیرون تونل، شب",
+"text": "That night you sleep with your head underground and your boots outside. It's a start.",
+"w0": 1075,
+"w1": 1090
+},
+{
+"n": 125,
+"meth": "OLD D7a",
+"see": "پیپ جلوی ورودی، پسر از داخل",
+"text": "Day seven. Pip doesn't run anymore. He's waiting at the entrance in the morning.",
+"w0": 1090,
+"w1": 1104
+},
+{
+"n": 126,
+"meth": "OLD D7b",
+"see": "دست، تکه‌ی شکلات برای پیپ",
+"text": "You split your last chocolate with him, and you dig.",
+"w0": 1104,
+"w1": 1114
+},
+{
+"n": 127,
+"meth": "TEXT",
+"see": "چک‌لیست: پناهگاه ۵۰٪",
+"text": "—",
+"w0": null,
+"w1": 1114
+},
+{
+"n": 128,
+"meth": "NEW",
+"see": "اینسرت: کف دست‌های زخمی روی خاک رس",
+"text": "By noon, the blisters have burst. Your palms are raw and bleeding into the clay.",
+"w0": 1114,
+"w1": 1129
+},
+{
+"n": 129,
+"meth": "NEW",
+"see": "استخوان‌بیل روی زمین رها",
+"text": "And you know a hand that breaks today digs nothing tomorrow.",
+"w0": 1129,
+"w1": 1140
+},
+{
+"n": 130,
+"meth": "NEW·M",
+"see": "پسر به دیواره تکیه داده، خسته",
+"text": "So you stop. Even with three days left. Even if the end is coming anyway.",
+"w0": 1140,
+"w1": 1155
+},
+{
+"n": 131,
+"meth": "OLD D7c",
+"see": "واید آرام کنار رود، پسر و پیپ",
+"text": "For one afternoon, you rest.",
+"w0": 1155,
+"w1": 1160
+},
+{
+"n": 132,
+"meth": "OLD D7d",
+"see": "روی شانه: گوشی و پیپ",
+"text": "You switch the phone on. Just for a minute. The minute becomes an hour.",
+"w0": 1160,
+"w1": 1174
+},
+{
+"n": 133,
+"meth": "CROP←D1a",
+"see": "عکس روی صفحه: اتاقش",
+"text": "Photos. Your room.",
+"w0": 1174,
+"w1": 1177
+},
+{
+"n": 134,
+"meth": "NEW",
+"see": "عکس: مادر در آشپزخانه (روی صفحه‌ی گوشی)",
+"text": "Your mom in the kitchen.",
+"w0": 1177,
+"w1": 1182
+},
+{
+"n": 135,
+"meth": "NEW",
+"see": "عکس: دوستان جلوی مدرسه",
+"text": "Your friends outside school.",
+"w0": 1182,
+"w1": 1186
+},
+{
+"n": 136,
+"meth": "NEW·M",
+"see": "ویدیو: تالار موزه، اسکلت تی‌رکس (مادر)",
+"text": "Then a video, from a few months ago. A class trip to a museum.",
+"w0": 1186,
+"w1": 1200
+},
+{
+"n": 137,
+"meth": "CROP←#136",
+"see": "کلوز سلفی خندان، اسکلت پشت سر",
+"text": "You, laughing at the camera, a giant skeleton behind you.",
+"w0": 1200,
+"w1": 1210
+},
+{
+"n": 138,
+"meth": "CROP←#136",
+"see": "سلفی، دوستان می‌خندند",
+"text": "\"If they ever sent me back to the dinosaurs? I'd survive. Easy.\"",
+"w0": 1210,
+"w1": 1222
+},
+{
+"n": 139,
+"meth": "CROP←#136",
+"see": "دوستان خندان",
+"text": "Your friends laughing behind the phone.",
+"w0": 1222,
+"w1": 1228
+},
+{
+"n": 140,
+"meth": "CROP←D7d",
+"see": "صفحه‌ی گوشی در دست، تاریک‌شدن",
+"text": "(pause)",
+"w0": null,
+"w1": 1228
+},
+{
+"n": 141,
+"meth": "NEW",
+"see": "کلوز صورت، شکسته",
+"text": "Why are you here? What happened?",
+"w0": 1228,
+"w1": 1234
+},
+{
+"n": 142,
+"meth": "EDIT←#141",
+"see": "چشم‌های بسته",
+"text": "Maybe you're still asleep. Maybe this is all a dream.",
+"w0": 1234,
+"w1": 1244
+},
+{
+"n": 143,
+"meth": "REUSE←#128",
+"see": "نما از بالا: دست‌های زخمی کف‌باز",
+"text": "You look down at your hands.",
+"w0": 1244,
+"w1": 1250
+},
+{
+"n": 144,
+"meth": "CROP←#128",
+"see": "کلوز دست زخمی",
+"text": "The pain is real. It's not a dream.",
+"w0": 1250,
+"w1": 1258
+},
+{
+"n": 145,
+"meth": "CROP←D7c",
+"see": "سکوت، نمای رود",
+"text": "(pause)",
+"w0": null,
+"w1": 1258
+},
+{
+"n": 146,
+"meth": "NEW",
+"see": "کلوز صورت مصمم، اشک",
+"text": "You always said you'd survive.",
+"w0": 1258,
+"w1": 1263
+},
+{
+"n": 147,
+"meth": "NEW",
+"see": "پسر برمی‌خیزد، استخوان‌بیل در دست (frame-right)",
+"text": "Now you have to prove it.",
+"w0": 1263,
+"w1": 1269
+},
+{
+"n": 148,
+"meth": "TEXT",
+"see": "باتری ۱۱٪",
+"text": "When you switch it off, it's at 11%. Ten percent, gone on home.",
+"w0": 1269,
+"w1": 1282
+},
+{
+"n": 149,
+"meth": "CROP←D7c",
+"see": "پیپ و پسر، غروب",
+"text": "It was worth it.",
+"w0": 1282,
+"w1": 1286
+},
+{
+"n": 150,
+"meth": "OLD D7e",
+"see": "پیپ در جیب",
+"text": "That night, you fit all the way inside. You wake up, and Pip is asleep in your jacket pocket. Warm. Breathing.",
+"w0": 1286,
+"w1": 1307
+},
+{
+"n": 151,
+"meth": "CROP←D7e",
+"see": "زوم‌اوت آرام",
+"text": "Seven days in a world with no one. And now you have someone.",
+"w0": 1307,
+"w1": 1320
+},
+{
+"n": 152,
+"meth": "EDIT←D6a",
+"see": "کندن، عرق، بازو لرزان",
+"text": "Day eight. You dig until your arms shake.",
+"w0": 1320,
+"w1": 1328
+},
+{
+"n": 153,
+"meth": "EDIT←D6c",
+"see": "برش عرضی: تونل کامل با لانه‌ی ته",
+"text": "Two and a half meters. And at the very end, a nest, just big enough to sit up in.",
+"w0": 1328,
+"w1": 1347
+},
+{
+"n": 154,
+"meth": "TEXT",
+"see": "چک‌لیست: تونل ✓ · در ☐",
+"text": "—",
+"w0": null,
+"w1": 1347
+},
+{
+"n": 155,
+"meth": "OLD D6d",
+"see": "خواب در لانه‌ی ته تونل",
+"text": "A meter of soil over your head. That night, for the first time in eight days, nothing can step on you.",
+"w0": 1347,
+"w1": 1368
+},
+{
+"n": 156,
+"meth": "CROP←D6d",
+"see": "کلوز: دیوار رس و چراغ خاموش",
+"text": "(pause)",
+"w0": null,
+"w1": 1368
+},
+{
+"n": 157,
+"meth": "OLD D8a",
+"see": "ته تونل، بیدار و ترسیده",
+"text": "At midnight, you wake.",
+"w0": 1368,
+"w1": 1372
+},
+{
+"n": 158,
+"meth": "CROP←D8a",
+"see": "کلوز صورت، گوش به صدا",
+"text": "Scratching at the entrance. Then sniffing.",
+"w0": 1372,
+"w1": 1378
+},
+{
+"n": 159,
+"meth": "CROP←D8b",
+"see": "تونل تاریک رو به ورودی",
+"text": "Then something coming in.",
+"w0": 1378,
+"w1": 1382
+},
+{
+"n": 160,
+"meth": "OLD D8b",
+"see": "دو چشم زرد",
+"text": "In the dark, two yellow eyes.",
+"w0": 1382,
+"w1": 1388
+},
+{
+"n": 161,
+"meth": "CLIP D8c",
+"see": "رپتور داخل تونل",
+"text": "A feathered hunter. Fast. Only as tall as your knee.",
+"w0": 1388,
+"w1": 1398
+},
+{
+"n": 162,
+"meth": "OLD D8c",
+"see": "رپتور نزدیک",
+"text": "Not a T. rex. Small enough to fit in your tunnel.",
+"w0": 1398,
+"w1": 1409
+},
+{
+"n": 163,
+"meth": "CROP←D8c",
+"see": "کلوز رپتور",
+"text": "Small doesn't mean safe.",
+"w0": 1409,
+"w1": 1413
+},
+{
+"n": 164,
+"meth": "CROP←D8c",
+"see": "نور چراغ‌پیشانی روی رپتور",
+"text": "Your headlamp lights it up. It doesn't care.",
+"w0": 1413,
+"w1": 1421
+},
+{
+"n": 165,
+"meth": "OLD D8d",
+"see": "پنجه، فلش قرمز",
+"text": "It lunges. Claws rip across your right forearm.",
+"w0": 1421,
+"w1": 1429
+},
+{
+"n": 166,
+"meth": "CROP←D8d",
+"see": "کلوز صورت",
+"text": "No knife. No fire. No room to swing a bone.",
+"w0": 1429,
+"w1": 1439
+},
+{
+"n": 167,
+"meth": "CROP←D8e",
+"see": "گوشی در دست",
+"text": "Just one thing this world has never seen.",
+"w0": 1439,
+"w1": 1447
+},
+{
+"n": 168,
+"meth": "TEXT",
+"see": "باتری ۱۱٪",
+"text": "You switch the phone on. 11%.",
+"w0": 1447,
+"w1": 1453
+},
+{
+"n": 169,
+"meth": "CLIP D8e",
+"see": "نور در صورت رپتور",
+"text": "You hit the alarm and point the flashlight straight into its face.",
+"w0": 1453,
+"w1": 1465
+},
+{
+"n": 170,
+"meth": "OLD D8e",
+"see": "واید نور در تونل",
+"text": "A sound sixty-six million years too early fills the tunnel.",
+"w0": 1465,
+"w1": 1475
+},
+{
+"n": 171,
+"meth": "CROP←D8f",
+"see": "تونل خالی، گرد و خاک",
+"text": "It shrieks, and it's gone.",
+"w0": 1475,
+"w1": 1480
+},
+{
+"n": 172,
+"meth": "OLD D8f",
+"see": "نگه داشتن نور",
+"text": "But it could come back.",
+"w0": 1480,
+"w1": 1485
+},
+{
+"n": 173,
+"meth": "CROP←D8f",
+"see": "کلوز: پیپ کنار دست",
+"text": "Blood drips from your arm. Pip creeps out of your pocket and sits by your hand.",
+"w0": 1485,
+"w1": 1501
+},
+{
+"n": 174,
+"meth": "TEXT",
+"see": "باتری در حال افت",
+"text": "You can't leave the light on. It would be dead in an hour, and dawn is five hours away.",
+"w0": 1501,
+"w1": 1520
+},
+{
+"n": 175,
+"meth": "EDIT←D8f",
+"see": "همان قاب، نور خاموش، فقط تاریکی و دو چشم پسر",
+"text": "So you count. Ten seconds of light. One minute of dark.",
+"w0": 1520,
+"w1": 1531
+},
+{
+"n": 176,
+"meth": "CROP←D8a",
+"see": "کلوز صورت در تاریکی",
+"text": "Every time the dark comes back, you listen for claws.",
+"w0": 1531,
+"w1": 1541
+},
+{
+"n": 177,
+"meth": "TEXT",
+"see": "سیاهی",
+"text": "(pause)",
+"w0": null,
+"w1": 1541
+},
+{
+"n": 178,
+"meth": "CROP←D8f",
+"see": "تایم‌لپس آبی سحر",
+"text": "When the sky turns grey, you switch it off.",
+"w0": 1541,
+"w1": 1550
+},
+{
+"n": 179,
+"meth": "TEXT",
+"see": "باتری ۳٪",
+"text": "3%.",
+"w0": 1550,
+"w1": 1551
+},
+{
+"n": 180,
+"meth": "OLD D9a",
+"see": "تب‌دار کنار ورودی، باند",
+"text": "Day nine. You have a fever. The wound is hot. You wrap it in a strip torn from your t-shirt.",
+"w0": 1551,
+"w1": 1571
+},
+{
+"n": 181,
+"meth": "CROP←D9a",
+"see": "ورودی باز، نگاه به آن",
+"text": "The entrance let a hunter in. Tomorrow, it has to keep the whole world out.",
+"w0": 1571,
+"w1": 1586
+},
+{
+"n": 182,
+"meth": "NEW",
+"see": "یک‌دستی سنگ می‌کشد و می‌چیند",
+"text": "One-handed, you drag stones up from the river and stack them around the opening.",
+"w0": 1586,
+"w1": 1600
+},
+{
+"n": 183,
+"meth": "NEW·M",
+"see": "از داخل: سنگ صاف بزرگ را مثل در می‌کشد",
+"text": "Last, a big flat stone. From inside, you can drag it across like a door, and push it aside to get out.",
+"w0": 1600,
+"w1": 1622
+},
+{
+"n": 184,
+"meth": "CROP←#183",
+"see": "شکاف به پهنای کف دست، نور غروب از لای آن",
+"text": "When it's closed, it leaves a gap a hand wide. Enough for air. Not enough for teeth.",
+"w0": 1622,
+"w1": 1639
+},
+{
+"n": 185,
+"meth": "OLD D9b",
+"see": "ورودی سنگی بسته، غروب",
+"text": "The sun is going down when the door slides into place.",
+"w0": 1639,
+"w1": 1650
+},
+{
+"n": 186,
+"meth": "TEXT",
+"see": "چک‌لیست: پناهگاه ✓ · آب ✓ · غذا ۱۲ ماهی ☐",
+"text": "—",
+"w0": null,
+"w1": 1650
+},
+{
+"n": 187,
+"meth": "CROP←D9b",
+"see": "کلوز صورت خسته، لبخند کوچک",
+"text": "Just in time.",
+"w0": 1650,
+"w1": 1653
+},
+{
+"n": 188,
+"meth": "CROP←D9b",
+"see": "ماهی‌های خشک روی سنگ کنار در",
+"text": "Two out of three. Twelve dried fish won't last a winter. And you're out of days.",
+"w0": 1653,
+"w1": 1669
+},
+{
+"n": 189,
+"meth": "CROP←D9b",
+"see": "کنار در سنگی، گوشی قرمز در دست (باند روی ساعد)",
+"text": "You switch the phone on one more time. The message has changed.",
+"w0": 1669,
+"w1": 1681
+},
+{
+"n": 190,
+"meth": "TEXT",
+"see": "کارت پیام: فردا · ۲٪",
+"text": "\"Impact: tomorrow.\"",
+"w0": 1681,
+"w1": 1683
+},
+{
+"n": 191,
+"meth": "CROP←D9b",
+"see": "کلوز صورت خسته کنار در سنگی",
+"text": "You switch it off.",
+"w0": 1683,
+"w1": 1687
+},
+{
+"n": 192,
+"meth": "OLD D9c",
+"see": "بیرون تونل، آسمان پرستاره",
+"text": "That night you slide the door aside and climb out. The sky is full of stars.",
+"w0": 1687,
+"w1": 1703
+},
+{
+"n": 193,
+"meth": "OLD D9d",
+"see": "تی‌رکس آن طرف رود در شب",
+"text": "From across the river comes that low, familiar call. The same T. rex.",
+"w0": 1703,
+"w1": 1716
+},
+{
+"n": 194,
+"meth": "CROP←D9c",
+"see": "زوم‌اوت آسمان",
+"text": "The last night of the dinosaurs. And only you know.",
+"w0": 1716,
+"w1": 1726
+},
+{
+"n": 195,
+"meth": "OLD D10a",
+"see": "صبح کنار رود، تریسراتوپس‌ها",
+"text": "It isn't a strange morning. That's what makes it strange.",
+"w0": 1726,
+"w1": 1736
+},
+{
+"n": 196,
+"meth": "CROP←D10a",
+"see": "کلوز تریسراتوپس‌ها",
+"text": "Birds are singing. Insects are buzzing. A few triceratops are drinking across the river.",
+"w0": 1736,
+"w1": 1750
+},
+{
+"n": 197,
+"meth": "CROP←D10a",
+"see": "کلوز صورت پسر",
+"text": "None of them know.",
+"w0": 1750,
+"w1": 1754
+},
+{
+"n": 198,
+"meth": "CLIP D10b-light",
+"see": "نور از جنوب",
+"text": "Then, in the south, a light. Not like the sun.",
+"w0": 1754,
+"w1": 1764
+},
+{
+"n": 199,
+"meth": "TEXT",
+"see": "سفیدی کامل",
+"text": "Like someone switched the sky on by mistake.",
+"w0": 1764,
+"w1": 1772
+},
+{
+"n": 200,
+"meth": "REUSE←#45",
+"see": "کتاب باز در دست لرزان",
+"text": "Your book said the shaking comes within minutes. It's right.",
+"w0": 1772,
+"w1": 1782
+},
+{
+"n": 201,
+"meth": "OLD D10a",
+"see": "زلزله، کنار رود",
+"text": "The ground starts to move. Not like a footstep. Like the whole world.",
+"w0": 1782,
+"w1": 1795
+},
+{
+"n": 202,
+"meth": "CLIP D10c-wave",
+"see": "موج",
+"text": "The river pulls back. Then it comes back, the wrong way.",
+"w0": 1795,
+"w1": 1806
+},
+{
+"n": 203,
+"meth": "OLD D10c",
+"see": "دیوار آب",
+"text": "A wall of water runs upstream and throws fish onto the bank.",
+"w0": 1806,
+"w1": 1818
+},
+{
+"n": 204,
+"meth": "OLD D10d",
+"see": "آب یک وجب زیر در سنگی",
+"text": "It climbs up the bank, and stops a hand below your door.",
+"w0": 1818,
+"w1": 1830
+},
+{
+"n": 205,
+"meth": "OLD D10e",
+"see": "جمع کردن ماهی",
+"text": "When it pulls back, you run down and grab every fish you can carry. Food for the dark.",
+"w0": 1830,
+"w1": 1848
+},
+{
+"n": 206,
+"meth": "TEXT",
+"see": "چک‌لیست: غذا ✓",
+"text": "—",
+"w0": null,
+"w1": 1848
+},
+{
+"n": 207,
+"meth": "CROP←D10e",
+"see": "مشت پر از ماهی",
+"text": "The last thing on your list. The end of the world just handed it to you.",
+"w0": 1848,
+"w1": 1864
+},
+{
+"n": 208,
+"meth": "TEXT",
+"see": "کارت تانیس روی ماهی‌ها",
+"text": "This isn't imagination. In North Dakota, scientists found fossil fish with tiny glass beads from this impact stuck in their gills.",
+"w0": 1864,
+"w1": 1885
+},
+{
+"n": 209,
+"meth": "OLD D10g",
+"see": "باران شیشه، دویدن",
+"text": "Then those same glass beads start falling from the sky. Small and hot, like burning hail.",
+"w0": 1885,
+"w1": 1901
+},
+{
+"n": 210,
+"meth": "OLD H2",
+"see": "آسمان قرمز",
+"text": "The sky turns red.",
+"w0": 1901,
+"w1": 1905
+},
+{
+"n": 211,
+"meth": "EDIT←#183",
+"see": "از داخل در سنگی را می‌کشد، پیپ در بغل",
+"text": "You drag the door shut, hold Pip tight and crawl to the end of the tunnel.",
+"w0": 1905,
+"w1": 1921
+},
+{
+"n": 212,
+"meth": "CROP←H2",
+"see": "جنگل در آتش",
+"text": "Outside, the first trees catch fire.",
+"w0": 1921,
+"w1": 1927
+},
+{
+"n": 213,
+"meth": "CROP←D10i",
+"see": "جنگل در آتش کامل",
+"text": "By evening, the whole forest is burning.",
+"w0": 1927,
+"w1": 1934
+},
+{
+"n": 214,
+"meth": "OLD H1",
+"see": "تونل، صورت ترسیده",
+"text": "And then, outside, footsteps. Heavy. Slow. Close.",
+"w0": 1934,
+"w1": 1941
+},
+{
+"n": 215,
+"meth": "CROP←H1",
+"see": "سایه روی شکاف",
+"text": "Something huge collapses at your door, and its shadow covers the gap.",
+"w0": 1941,
+"w1": 1953
+},
+{
+"n": 216,
+"meth": "OLD H3",
+"see": "پوزه با زخم پشت سنگ‌ها",
+"text": "The T. rex. From day one. The scar across its snout.",
+"w0": 1953,
+"w1": 1964
+},
+{
+"n": 217,
+"meth": "CLIP H3-breath-v3",
+"see": "نفس از شکاف",
+"text": "Its huge snout is right against the stones. Its hot breath fills your tunnel.",
+"w0": 1964,
+"w1": 1978
+},
+{
+"n": 218,
+"meth": "OLD D10i",
+"see": "تی‌رکس افتاده جلوی ورودی، آتش",
+"text": "It can't get in. It doesn't even try.",
+"w0": 1978,
+"w1": 1986
+},
+{
+"n": 219,
+"meth": "CROP←D10i",
+"see": "کلوز تی‌رکس خسته",
+"text": "It only came for the cool soil at your door, away from the fire.",
+"w0": 1986,
+"w1": 2000
+},
+{
+"n": 220,
+"meth": "CROP←H1",
+"see": "تونل، پسر و پیپ، تاریک",
+"text": "All night, from the other side of the stones, you hear it breathing.",
+"w0": 2000,
+"w1": 2013
+},
+{
+"n": 221,
+"meth": "CROP←H3",
+"see": "نفس کم‌جان",
+"text": "Each breath slower.",
+"w0": 2013,
+"w1": 2016
+},
+{
+"n": 222,
+"meth": "TEXT",
+"see": "سیاهی",
+"text": "(pause) Until morning. (pause)",
+"w0": 2016,
+"w1": 2018
+},
+{
+"n": 223,
+"meth": "TEXT",
+"see": "سیاهی",
+"text": "Then it stops.",
+"w0": 2018,
+"w1": 2021
+},
+{
+"n": 224,
+"meth": "OLD D10j",
+"see": "تی‌رکس مرده، سحر خاکستری",
+"text": "The last dinosaur you saw died at your door.",
+"w0": 2021,
+"w1": 2030
+},
+{
+"n": 225,
+"meth": "NEW·M",
+"see": "رود گل‌آلود روی جسد تی‌رکس، فقط قسمتی بیرون",
+"text": "In the days after, the river rises again and buries the T. rex in thick mud.",
+"w0": 2030,
+"w1": 2046
+},
+{
+"n": 226,
+"meth": "TEXT",
+"see": "گرافیک برش زمین: اسکلت در لایه‌ها",
+"text": "Buried fast in mud. That's how bones become fossils.",
+"w0": 2046,
+"w1": 2055
+},
+{
+"n": 227,
+"meth": "REUSE←#17",
+"see": "کتاب در دست، نور چراغ‌پیشانی",
+"text": "You open your book to the cover. The museum skeleton.",
+"w0": 2055,
+"w1": 2065
+},
+{
+"n": 228,
+"meth": "EDIT←#17",
+"see": "زوم به جمجمه‌ی جلد: زخم روی پوزه",
+"text": "And this time, you look closely. A long scar, healed into the bone of the snout.",
+"w0": 2065,
+"w1": 2081
+},
+{
+"n": 229,
+"meth": "NEW",
+"see": "کلوز صورت، شوک آرام",
+"text": "(pause)",
+"w0": null,
+"w1": 2081
+},
+{
+"n": 230,
+"meth": "REUSE←#136",
+"see": "سلفی موزه، اسکلت پشت سر",
+"text": "The same skeleton that stood behind you in that video. The one you joked in front of.",
+"w0": 2081,
+"w1": 2098
+},
+{
+"n": 231,
+"meth": "EDIT←#136",
+"see": "تالار موزه، اسکلت، خالی",
+"text": "Sixty-six million years from now, it will stand in a museum.",
+"w0": 2098,
+"w1": 2109
+},
+{
+"n": 232,
+"meth": "REUSE←#137",
+"see": "سلفی خندان",
+"text": "And one day, you'll stand in front of it, laughing, with no idea you were here when it died.",
+"w0": 2109,
+"w1": 2128
+},
+{
+"n": 233,
+"meth": "OLD D11a",
+"see": "دنیای خاکستری",
+"text": "Then the dark comes.",
+"w0": 2128,
+"w1": 2132
+},
+{
+"n": 234,
+"meth": "NEW",
+"see": "واید آسمان سیاه از دود",
+"text": "Soot from fires all over the world, and dust from the impact, cover the whole sky.",
+"w0": 2132,
+"w1": 2148
+},
+{
+"n": 235,
+"meth": "NEW",
+"see": "سرخس‌های پژمرده، پوشیده از خاکستر",
+"text": "Sunlight can't get through. Plants can't grow. And it gets cold.",
+"w0": 2148,
+"w1": 2159
+},
+{
+"n": 236,
+"meth": "TEXT",
+"see": "گرافیک: زمستان برخورد",
+"text": "Scientists think this impact winter lasted months. Maybe years.",
+"w0": 2159,
+"w1": 2168
+},
+{
+"n": 237,
+"meth": "NEW",
+"see": "پسر با چوب سوزان از جنگل",
+"text": "The world gave you one gift on its last day. Fire. You carried an ember in from the burning forest.",
+"w0": 2168,
+"w1": 2188
+},
+{
+"n": 238,
+"meth": "NEW",
+"see": "آتش کوچک جلوی شکاف، دود بیرون",
+"text": "You keep a small fire right at the gap, never deep inside. In a closed tunnel, smoke kills quietly.",
+"w0": 2188,
+"w1": 2207
+},
+{
+"n": 239,
+"meth": "NEW",
+"see": "پیپ کنار گردن، خواب",
+"text": "And at night, Pip sleeps against your neck. Two small bodies, keeping each other warm.",
+"w0": 2207,
+"w1": 2222
+},
+{
+"n": 240,
+"meth": "CROP←D11c",
+"see": "گوشی سیاه روی خاک",
+"text": "The phone won't turn on anymore.",
+"w0": 2222,
+"w1": 2228
+},
+{
+"n": 241,
+"meth": "OLD D11c",
+"see": "خط‌کشی روی دیوار با سنگ",
+"text": "So you scratch lines on the tunnel wall with a sharp stone.",
+"w0": 2228,
+"w1": 2240
+},
+{
+"n": 242,
+"meth": "CROP←D11c",
+"see": "فهرست موجودی روی دیوار",
+"text": "Inventory. Days after the end: 40. Still dark. Dried fish: 7. Running low. Dinosaurs left: zero. Friends: one. Mouse-sized.",
+"w0": 2240,
+"w1": 2259
+},
+{
+"n": 243,
+"meth": "TEXT",
+"see": "سه کارت قانون",
+"text": "You repeat the rules to yourself. Stay small. Stay near water. Stay underground.",
+"w0": 2259,
+"w1": 2272
+},
+{
+"n": 244,
+"meth": "OLD D11d",
+"see": "پسر و پیپ دم ورودی خاکستری",
+"text": "And a new one, that no book ever taught you.",
+"w0": 2272,
+"w1": 2282
+},
+{
+"n": 245,
+"meth": "TEXT",
+"see": "کارت قانون آخر (گرم)",
+"text": "Stay small… but don't stay alone.",
+"w0": 2282,
+"w1": 2288
+},
+{
+"n": 246,
+"meth": "OLD D2e",
+"see": "پیپ جلوی سایه‌ی دایناسورها",
+"text": "Small animals like Pip made it out of this darkness.",
+"w0": 2288,
+"w1": 2298
+},
+{
+"n": 247,
+"meth": "TEXT",
+"see": "شاخه‌های نسل (گرافیک)",
+"text": "Millions of years later, from small mammals like him, came horses, whales, apes. And people.",
+"w0": 2298,
+"w1": 2313
+},
+{
+"n": 248,
+"meth": "OLD D11-phone",
+"see": "گوشی در تخت، تصویر پیپ",
+"text": "Sixty-six million years later, one of Pip's great-great-great-grandchildren is watching this video.",
+"w0": 2313,
+"w1": 2325
+},
+{
+"n": 249,
+"meth": "OLD D11f",
+"see": "پرنده روی شاخه‌ی خاکستری",
+"text": "And just then, from outside the tunnel, a sound. A bird, singing.",
+"w0": 2325,
+"w1": 2337
+},
+{
+"n": 250,
+"meth": "CROP←D11c",
+"see": "دست خط می‌زند",
+"text": "You cross out a line on the wall, and write it again.",
+"w0": 2337,
+"w1": 2349
+},
+{
+"n": 251,
+"meth": "TEXT",
+"see": "بازنویسی روی دیوار",
+"text": "Dinosaurs left: zero… except the birds.",
+"w0": 2349,
+"w1": 2355
+},
+{
+"n": 252,
+"meth": "CROP←D11d",
+"see": "پسر و پیپ، کارت کامنت",
+"text": "On day one, what would you have done first? Tell me in the comments.",
+"w0": 2355,
+"w1": 2369
+},
+{
+"n": 253,
+"meth": "CROP←D11d",
+"see": "پیپ روی شانه",
+"text": "And if you want to know what you and Pip did after the dark, tell me that too.",
+"w0": 2369,
+"w1": 2387
+},
+{
+"n": 254,
+"meth": "TEXT",
+"see": "کارت پایانی + شعار",
+"text": "Stay small. Stay alive.",
+"w0": 2387,
+"w1": 2391
+}
+]
