@@ -1,6 +1,7 @@
 # کانال یوتیوب کاربر (حافظه‌ی بین جلسه‌ها)
 
 - **⛔ درس‌های تولید: `research/lessons-learned.md`. قبل از هر ویدیو بخوان.** صدای کانال و تنظیماتش قفل است؛ حدود ۲۵ هزار کاراکتر ElevenLabs با تست نکردن هدر رفت.
+- **✅ نسخه‌ی انگلیسی تحویل شد (۲۰۲۶-۱۱-۱۳):** «10 Days Before the Asteroid That Killed the Dinosaurs»، ۱۷:۳۲، 1080p، صدای Ian (تنظیمات A)، بدون موزیک. نسخه‌ی گوشی: `videos/10-days-before-the-asteroid/`. زیرنویس: `videos/dino-long-en/captions-en.srt`؛ فصل‌ها: `videos/dino-long-en/chapters-en.txt`. تدوین: `videos/dino-long-en/edit/{prep,edl,audio}.py` → `src/dino-en/edl.json` → ترکیب `DinoLongEn`. قدم بعد: عنوان، تامبنیل، توضیحات، شورتس.
 - **⭐ قانون اصلی کانال: `research/channel-bible.md` (تأیید ۲۰۲۶-۱۱-۰۹).** این فایل اولویت دارد:
   - اسم: **Stay Small** (انگلیسی، کانال اصلی) و **«کوچیک بمون»** (فارسی)، دو کانال جدا.
   - فلسفه‌ی «کوچیک بمون» در هر قصه اجرا می‌شود.
