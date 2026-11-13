@@ -13,7 +13,7 @@ BEFORE = ["It isn't a tree", "It has claws", "It blinks", "It isn't a log", "It'
           "And now you have someone", "Maybe this is all a dream", "The pain is real", "Now you have to prove it", "3%."]
 def load(i):
     w = f"{T}c{i}.wav"
-    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", f"{D}chunks/{i:02d}.mp3", "-ac", "1", "-ar", str(SR), w])
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", f"{D}chunksA/{i:02d}.mp3", "-ac", "1", "-ar", str(SR), w])
     x = wave.open(w); return np.frombuffer(x.readframes(x.getnframes()), np.int16)
 out, sents, t = [], [], 0.0
 def add(arr):
@@ -26,7 +26,7 @@ for i, c in enumerate(items):
     if prev_ch is not None:
         add(sil(1.3 if c["ch"] != prev_ch else 0.85 if c["text"].startswith("Day ") else 0.55))
     prev_ch = c["ch"]
-    x = load(i); al = json.load(open(f"{D}chunks/{i:02d}.json"))["alignment"]
+    x = load(i); al = json.load(open(f"{D}chunksA/{i:02d}.json"))["alignment"]
     chars, st, en = al["characters"], al["character_start_times_seconds"], al["character_end_times_seconds"]
     text = "".join(chars)
     # sentence spans in this chunk
