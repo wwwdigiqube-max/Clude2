@@ -53,3 +53,16 @@
   - snow melted and filtered through sand and charcoal
   - "a deeper shelter?" stays open → Part 3
 - 2 audit rounds: 23 of 25 points applied.
+
+## Story-audit round 3 → v7 (three new scenes)
+- **Dad (Daniel)** helped dig up the museum T. rex in North Dakota before the hero was born. So **the dad's old dig site = the hero's riverbank**, and the ending is earned, not luck.
+- **The last duck-bill** (first weeks after the impact): the hero breaks his own "stay small" rule to offer the last green fern. It is too weak to lift its head. It dies the next morning.
+- **Coal banking** is set up in ch3 (every night, coals at the back buried under ash).
+- **Fire crisis (ch6):**
+  - snow at the door melts from the heat, the meltwater runs onto the fire, then the top freezes over the gap
+  - smoke backs up
+  - the bow drill fails (damp wood)
+  - the banked coal saves it
+- **Mom meets the old paleontologist** (NOW, day 66 missing), Daniel's colleague of 12 years. She is going back to his North Dakota site "next week".
+- **Timeline:** fish gone day 46 · grubs day 49 · carving days 52-55 · burial ~day 55 · fire night ~day 58 · Pip + mate day 64 after · dig day 76 missing (= day 66 after).
+- 3 audit rounds: 31 of 33 points applied.
