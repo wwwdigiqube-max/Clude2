@@ -112,10 +112,10 @@ Two words.
 Almost the same words you said in front of that skeleton, laughing. Except this time, they're true.
 I SURVIVED.
 
-## 5 · The River at Night
+## 5 · The River at Dawn
 
 Now it has to be buried. Deep. In mud. Where the river floods.
-That means going down to the water, in the dark.
+That means going down to the water, where the crocodile lives.
 The river is still running, grey and cold, with ice along the edges in the mornings.
 And the river has survivors of its own.
 The crocodile from day three. And beside it, a champsosaur: a long, thin snout, built for catching fish. It made it through too.
