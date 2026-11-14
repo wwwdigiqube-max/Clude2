@@ -26,3 +26,16 @@
 - The wound is a scar on the **right forearm**, no bandage (healed by day 40+).
 
 **Story-audit, round 1 (2026-11-14):** a fresh-eyes reader found 15 points; 13 applied in v3, 2 rejected (the crocodile and the sand pit are both in Part 1).
+
+## v4 additions
+- **Pip's food:** before the fire he cached seeds under the roots and has lived on those and on bugs since. He is **not** starving the way the hero is; he only gets "thinner" from the cold.
+- **Friends:** heard about it at school the first morning. First place they looked was the museum ("your dad's T. rex"). They go back every week.
+- **Plan beat (day 52 after):**
+  - Charcoal from the fire, written on the tunnel wall (the pen is dry).
+  - Lost / have / need list.
+  - Grubs dried on a flat stone by the fire.
+  - Snow and ice melted by the fire.
+  - Wall list: WINTER PLAN: food that keeps, water from ice, firewood, a deeper shelter? (the "?" sets up Part 3)
+- **Crocodile:** "maybe the same one from day three". Champsosaur beside it.
+- **Shelter line:** the tunnel was built to survive the impact, not a winter.
+- **Child imagery:** the user rejected a child flashback earlier. The dad memory is shown through **objects** (the photo on the nightstand, the posters), not a full child scene.
