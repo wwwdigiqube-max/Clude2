@@ -39,3 +39,17 @@
 - **Crocodile:** "maybe the same one from day three". Champsosaur beside it.
 - **Shelter line:** the tunnel was built to survive the impact, not a winter.
 - **Child imagery:** the user rejected a child flashback earlier. The dad memory is shown through **objects** (the photo on the nightstand, the posters), not a full child scene.
+
+## Story-audit round 2 → v5
+- Pip is **not** thinner (he has a seed stash). The stash is too small for the hero.
+- Sand pit is **upstream**, away from the crocodile pool. Fish have gone deep in the cold.
+- The bone is his **only shovel** and he buries it on purpose. **After scene 5 he has no shovel.**
+- The message is **MOM. I SURVIVED.** (three words)
+- The mud at the door is frozen. The only soft clay is at the crocodile's pool.
+- The crocodile is near-dormant in the cold: a slow drift and a lazy snap.
+- The mushroom test is called lucky, not proof (responsible for young viewers).
+- The winter plan beat is short in ch4 (charcoal list). It is **worked down in ch6**, triggered by the frozen sand pit:
+  - dried grubs
+  - snow melted and filtered through sand and charcoal
+  - "a deeper shelter?" stays open → Part 3
+- 2 audit rounds: 23 of 25 points applied.
