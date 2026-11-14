@@ -157,7 +157,7 @@ It's done. Whatever happens to you now, something of you will last.
 [NOW · DAY 66 MISSING]
 That same week, sixty-six million years later, your mom goes to the museum for the first time since you disappeared.
 She stands in front of the T. rex for a long time.
-An old woman stops next to her. Grey hair, sunburned hands, dust in the lines of her fingers.
+An old woman stops next to her. A grey braid, a sun-faded field hat, dust on her boots.
 "You're Daniel's wife," she says. "I dug with him for twelve years. We found this one together."
 She looks at the floor. "I've seen your boy's face on every lamp post. I'm so sorry."
 They talk until the museum closes.
