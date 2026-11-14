@@ -18,7 +18,7 @@ export const DINO_EN_FRAMES = Math.ceil(EDL.total * DINO_FPS);
 const W = 1920, HH = 1080;
 type Fx = { kind: string; at: number; [k: string]: any };
 type Shot = { n: number; s: number; e: number; img: string; cam: number[]; fx: Fx[]; hits: number[]; [k: string]: any };
-const SHOTS = EDL.shots as unknown as Shot[];
+export const SHOTS = EDL.shots as unknown as Shot[];
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const ease = Easing.bezier(0.45, 0, 0.55, 1);
@@ -466,12 +466,13 @@ const Layers: React.FC<{ k: number; t: number }> = ({ k, t }) => {
 };
 
 // ---------- one shot ----------
-const ShotView: React.FC<{ shot: Shot; t: number }> = ({ shot, t }) => {
+export const ShotView: React.FC<{ shot: Shot; t: number; vertical?: boolean }> = ({ shot, t, vertical }) => {
   const now = shot.s + t, d = shot.e - shot.s;
   const layers: React.ReactNode[] = [];
   shot.fx.forEach((f, i) => {
     const k = k01(now, f.at);
     const lt = now - f.at;
+    if (vertical && !["dust", "embers", "ash", "glass", "dim", "dawn", "sunsweep", "redflash", "shadow", "glow"].includes(f.kind)) return;
     switch (f.kind) {
       case "dust": case "embers": case "ash": case "glass":
         layers.push(<Particles key={i} t={now - shot.s} kind={f.kind} n={f.n} at={f.at - shot.s} />); break;
