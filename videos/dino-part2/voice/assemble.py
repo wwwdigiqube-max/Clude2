@@ -4,7 +4,7 @@ H = os.path.dirname(os.path.abspath(__file__)); os.chdir(H)
 items = json.load(open("chunks.json"))
 GAP = {"tense": 0.22, "story": 0.4, "sad": 0.6}       # between chunks
 PAUSE, PARA, TAG, CHAP = 0.9, 0.25, 0.5, 1.0           # (pause) · paragraph · [DAY ..] card · new chapter
-CH = ("highpass=f=70,equalizer=f=140:t=q:w=1:g=2.5,equalizer=f=350:t=q:w=1.2:g=-2,equalizer=f=3800:t=q:w=1.5:g=2,deesser=i=0.4,"
+CH = ("adeclick=w=40:o=75:t=1.8:b=2,highpass=f=70,equalizer=f=140:t=q:w=1:g=2.5,equalizer=f=350:t=q:w=1.2:g=-2,equalizer=f=3800:t=q:w=1.5:g=2,deesser=i=0.4,"
       "acompressor=threshold=-22dB:ratio=2:attack=12:release=180:makeup=2,aecho=0.85:0.5:28|46:0.14|0.09,loudnorm=I=-16:TP=-1.5:LRA=11")
 def dur(f): return float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f],capture_output=True,text=True).stdout)
 parts, tl, t, prev, lastch = [], [], 0.0, None, None
@@ -21,7 +21,8 @@ for i, it in enumerate(items):
 inputs, fc = [], ""
 for n, (k, v) in enumerate(parts):
     inputs += ["-i", v] if k == "f" else ["-f", "lavfi", "-t", str(v), "-i", "anullsrc=r=44100:cl=mono"]
-    fc += f"[{n}]aresample=44100,aformat=channel_layouts=mono[a{n}];"
+    fade = f",afade=t=in:d=0.012,afade=t=out:st={dur(v)-0.015:.3f}:d=0.015" if k == "f" else ""   # no clicks at chunk seams
+    fc += f"[{n}]aresample=44100,aformat=channel_layouts=mono{fade}[a{n}];"
 fc += "".join(f"[a{n}]" for n in range(len(parts))) + f"concat=n={len(parts)}:v=0:a=1,{CH}"
 open("/tmp/fc.txt", "w").write(fc)
 subprocess.run(["ffmpeg", "-loglevel", "error", "-y", *inputs, "-filter_complex_script", "/tmp/fc.txt", "-ar", "48000", "-b:a", "192k", "vo-en.mp3"], check=True)

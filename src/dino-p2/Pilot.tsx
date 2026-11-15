@@ -75,8 +75,8 @@ export const P2Pilot: React.FC = () => (
     {SHOTS.map((s, i) => <Sequence key={i} from={F(s.a)} durationInFrames={F(s.b - s.a)}><ShotView s={s} /></Sequence>)}
     <Audio src={staticFile("dino-p2/pilot-vo.mp3")} />
     {/* beds */}
-    <Audio src={sfx("river.wav")} volume={(f) => interpolate(f, [0, 20, F(16), F(20), F(31), F(33.4)], [0, 0.22, 0.22, 0.1, 0.12, 0], { extrapolateRight: "clamp" })} loop />
-    <Audio src={sfx("wind.wav")} volume={0.12} loop />
+    <Audio src={sfx("river.wav")} volume={(f) => interpolate(f, [0, 20, F(16), F(20), F(31), F(33.4)], [0, 0.07, 0.07, 0.04, 0.05, 0], { extrapolateRight: "clamp" })} loop />
+    <Audio src={sfx("wind.wav")} volume={0.06} loop />
     {/* events */}
     {S(1.2, "dig.wav", 0.35, 3)}
     {S(8.9, "water-surge.wav", 0.18, 1.6)}
