@@ -1,6 +1,6 @@
 # شات‌لیست STILLCUT · فصل ۱ قسمت ۲ (script-en-v7)
 
-**163 قاب · حدود 14:22.1** · CROP 62 · NEW 50 · OLD 19 · TEXT 18 · EDIT 9 · REUSE 5
+**168 قاب · حدود 14:48.7** · CROP 65 · NEW 51 · OLD 19 · TEXT 19 · EDIT 9 · REUSE 5
 
 > ستون **وضعیت** از دفتر وضعیت (ledger.md) می‌آید و در پرامپت‌ها خودکار به جمله تبدیل می‌شود. W=scar-R یعنی جای زخم روی ساعد **راست**، بدون باند.
 
@@ -188,163 +188,173 @@
   > You pick up a black stick and write on the tunnel wall, like you wrote in the book on night one.
 - **#87** · 7:08.5 · `CROP←#86` — کلوز دیوار: خط‌های زغالی (متن در تدوین)
   > What you lost. What you have. What you still need.
-- **#88** · 7:12.7 · `TEXT` — چک‌لیست: WINTER PLAN … A DEEPER SHELTER ?
+- **#87a** · 7:12.7 · `CROP←#86` — کلوز صورت پسر کنار دیوار، نگاه به در
+  > Grubs and fungus keep you alive. They won't make you strong. Somewhere out there, there's meat.
+- **#88** · 7:19.4 · `TEXT` — چک‌لیست: WINTER PLAN … A DEEPER SHELTER ? · MEAT ?
   > —
-- **#89** · 7:14.7 · `REUSE←#30` — عکس سپیای پدر در حفاری (همان قبلی)، زوم
+- **#89** · 7:21.4 · `REUSE←#30` — عکس سپیای پدر در حفاری (همان قبلی)، زوم
   > Your dad used to say: "Every bone is a message from someone who was here."
-- **#90** · 7:20.9 · `CROP←#86` — کلوز صورت پسر، تصمیم
+- **#90** · 7:27.6 · `CROP←#86` — کلوز صورت پسر، تصمیم
   > (pause) Maybe you can't go home. But maybe a message can.
-- **#91** · 7:26.5 · `TEXT` — گرافیک: یک استخوان روشن بین میلیون‌ها نقطه
+- **#91** · 7:33.2 · `TEXT` — گرافیک: یک استخوان روشن بین میلیون‌ها نقطه
   > Almost nothing ever becomes a fossil. One bone in many millions.
-- **#92** · 7:31.1 · `OLD en:225` — تی‌رکس زیر گِل (قسمت ۱)
+- **#92** · 7:37.8 · `OLD en:225` — تی‌رکس زیر گِل (قسمت ۱)
   > But you know how the lucky ones start: buried fast, deep in mud, like the T. rex at your door.
-- **#93** · 7:39.4 · `NEW·M` 🆕 — استخوان‌بیل کنار دیوار تونل، نور آتش · _رفرنس: @bone · @tunnel(D6d/en:238)_ · **وضعیت:** `L=fire`
+- **#93** · 7:46.1 · `NEW·M` 🆕 — استخوان‌بیل کنار دیوار تونل، نور آتش · _رفرنس: @bone · @tunnel(D6d/en:238)_ · **وضعیت:** `L=fire`
   > And you have a bone. The one you've been digging with since day four.
-- **#94** · 7:45.2 · `CROP←#93` — دست پسر روی استخوان
+- **#94** · 7:51.9 · `CROP←#93` — دست پسر روی استخوان
   > It's the only shovel you have. You'll bury it anyway.
-- **#95** · 7:49.4 · `NEW·M` 🆕 — پسر با سنگ تیز روی استخوان می‌کند، آستین بالا، جای زخم ساعد راست (مادر) · _رفرنس: @hero-winter · @bone_ · **وضعیت:** `W=scar-R(sleeve up)`
+- **#95** · 7:56.1 · `NEW·M` 🆕 — پسر با سنگ تیز روی استخوان می‌کند، آستین بالا، جای زخم ساعد راست (مادر) · _رفرنس: @hero-winter · @bone_ · **وضعیت:** `W=scar-R(sleeve up)`
   > So you take a sharp stone, and you start to write on it.
-- **#96** · 7:54.8 · `CROP←#95` — سه شب: آتش، دست‌ها، استخوان (کراس‌فید)
+- **#96** · 8:01.5 · `CROP←#95` — سه شب: آتش، دست‌ها، استخوان (کراس‌فید)
   > It takes three nights. Your fingers bleed.
-- **#97** · 7:57.8 · `CROP←#95` — کلوز ساعد راست با جای زخم
+- **#97** · 8:04.4 · `CROP←#95` — کلوز ساعد راست با جای زخم
   > Your right arm still aches where the claw went in.
-- **#98** · 8:01.9 · `CROP←#95` — کلوز حروف کنده‌شده (حروف در تدوین)
+- **#98** · 8:08.6 · `CROP←#95` — کلوز حروف کنده‌شده (حروف در تدوین)
   > You go over every letter again and again, deep enough to last forever.
-- **#99** · 8:07.3 · `OLD en:137` — فلش‌بک سلفی موزه، سپیا
+- **#99** · 8:14.0 · `OLD en:137` — فلش‌بک سلفی موزه، سپیا
   > Three words. The last two are almost what you said in front of that skeleton, laughing. Except this time, they're true.
-- **#100** · 8:16.1 · `REUSE←#93` — استخوان با حروف MOM. I SURVIVED. (حروف روی تصویر در تدوین)
+- **#100** · 8:22.8 · `REUSE←#93` — استخوان با حروف MOM. I SURVIVED. (حروف روی تصویر در تدوین)
   > MOM. I SURVIVED.
 
 ### ۵ · The River at Dawn
-- **#101** · 8:17.9 · `OLD en:238` — در سنگی از داخل، شکاف، نور سرد
+- **#101** · 8:24.6 · `OLD en:238` — در سنگی از داخل، شکاف، نور سرد
   > Now it has to be buried. Deep. In mud. Where the river floods.
-- **#102** · 8:23.3 · `CROP←D9b` — اینسرت: گِل یخ‌زده‌ی ترک‌خورده جلوی در
+- **#102** · 8:30.0 · `CROP←D9b` — اینسرت: گِل یخ‌زده‌ی ترک‌خورده جلوی در
   > The mud at your door is frozen hard as rock.
-- **#103** · 8:27.5 · `NEW·M` 🆕 — واید رود خاکستری، گودال آرام، یخ لبه‌ها (مادر) · _رفرنس: @winter-river_ · **وضعیت:** `L=blue dawn`
+- **#103** · 8:34.1 · `NEW·M` 🆕 — واید رود خاکستری، گودال آرام، یخ لبه‌ها (مادر) · _رفرنس: @winter-river_ · **وضعیت:** `L=blue dawn`
   > The only soft clay left is down at the crocodile's pool.
-- **#104** · 8:32.1 · `CROP←#103` — کلوز یخ لبه‌ی آب
+- **#104** · 8:38.7 · `CROP←#103` — کلوز یخ لبه‌ی آب
   > The river is still running, grey and cold, with ice along the edges in the mornings.
-- **#105** · 8:38.7 · `NEW` 🆕 — کروکودیل نیمه‌غرق، بی‌حرکت، برفک روی پشت · _رفرنس: en:croc(D3b) · @winter-river_ · **وضعیت:** `L=blue dawn`
+- **#105** · 8:45.4 · `NEW` 🆕 — کروکودیل نیمه‌غرق، بی‌حرکت، برفک روی پشت · _رفرنس: en:croc(D3b) · @winter-river_ · **وضعیت:** `L=blue dawn`
   > And the river has survivors of its own. A crocodile. Maybe the same one from day three.
-- **#106** · 8:45.8 · `OLD D3b` — کلوز چشم نیمه‌بسته‌ی کروکودیل
+- **#106** · 8:52.5 · `OLD D3b` — کلوز چشم نیمه‌بسته‌ی کروکودیل
   > Crocodiles made it through the end of the world.
-- **#107** · 8:49.6 · `NEW` 🆕 — کامپسوسور با پوزه‌ی باریک بلند، کنار کروکودیل · _رفرنس: @champsosaur · @winter-river_ · **وضعیت:** `L=blue dawn`
+- **#107** · 8:56.2 · `NEW` 🆕 — کامپسوسور با پوزه‌ی باریک بلند، کنار کروکودیل · _رفرنس: @champsosaur · @winter-river_ · **وضعیت:** `L=blue dawn`
   > And beside it, a champsosaur: a long, thin snout, built for catching fish. It made it through too.
-- **#108** · 8:57.1 · `TEXT` — گرافیک: دماسنج پایین، ضربان کند
+- **#108** · 9:03.7 · `TEXT` — گرافیک: دماسنج پایین، ضربان کند
   > Crocodiles are cold-blooded. In this cold, they barely move. That's how they survived: they almost stop. Almost.
-- **#109** · 9:04.1 · `NEW` 🆕 — پسر کنار در سنگی در سپیده‌دم، استخوان روی شانه · _رفرنس: @hero-winter · @bone · ref: D9b_ · **وضعیت:** `B=on his back · W=scar-R · P=in pocket`
+- **#109** · 9:10.8 · `NEW` 🆕 — پسر کنار در سنگی در سپیده‌دم، استخوان روی شانه · _رفرنس: @hero-winter · @bone · ref: D9b_ · **وضعیت:** `B=on his back · W=scar-R · P=in pocket`
   > They're slowest at dawn, before the day warms them. So you go at first light.
-- **#110** · 9:10.4 · `NEW` 🆕 — پسر از دیواره‌ی رسی پایین می‌خزد · _رفرنس: @hero-winter · @bone · @winter-river_ · **وضعیت:** `B=on back · L=blue dawn`
+- **#110** · 9:17.1 · `NEW` 🆕 — پسر از دیواره‌ی رسی پایین می‌خزد · _رفرنس: @hero-winter · @bone · @winter-river_ · **وضعیت:** `B=on back · L=blue dawn`
   > You crawl down the bank with the bone on your back.
-- **#111** · 9:15.0 · `NEW·M` 🆕 — دست پسر تا آرنج در خاک رس، استخوان پیدا نیست (مادر) · _رفرنس: @hero-winter · @winter-river_ · **وضعیت:** `W=scar-R(sleeve up) · P=on the bank behind`
+- **#111** · 9:21.6 · `NEW·M` 🆕 — دست پسر تا آرنج در خاک رس، استخوان پیدا نیست (مادر) · _رفرنس: @hero-winter · @winter-river_ · **وضعیت:** `W=scar-R(sleeve up) · P=on the bank behind`
   > At the water's edge, where the river floods every spring, you push the bone deep under the clay, as deep as your arm can reach.
-- **#112** · 9:25.4 · `CROP←#103` — حلقه‌های موج روی آب خاکستری
+- **#112** · 9:32.1 · `CROP←#103` — حلقه‌های موج روی آب خاکستری
   > Something moves in the water.
-- **#113** · 9:27.5 · `CROP←#111` — کلوز پیپ جیغ می‌کشد
+- **#113** · 9:34.1 · `CROP←#111` — کلوز پیپ جیغ می‌کشد
   > Pip squeaks. Once. Loud.
-- **#114** · 9:29.3 · `CROP←#111` — سایه‌ی کروکودیل زیر آب نزدیک دست
+- **#114** · 9:35.9 · `CROP←#111` — سایه‌ی کروکودیل زیر آب نزدیک دست
   > A dark shape drifts toward you, slow as a log.
-- **#115** · 9:33.4 · `NEW` 🆕 — آرواره‌های کروکودیل در گِل بسته می‌شوند، پسر عقب افتاده · _رفرنس: @hero-winter · en:croc(D3b)_ · **وضعیت:** `W=scar-R`
+- **#115** · 9:40.1 · `NEW` 🆕 — آرواره‌های کروکودیل در گِل بسته می‌شوند، پسر عقب افتاده · _رفرنس: @hero-winter · en:croc(D3b)_ · **وضعیت:** `W=scar-R`
   > You throw yourself backwards, and the crocodile's jaws close, lazily, where your hand just was.
-- **#116** · 9:39.7 · `CROP←#115` — کلوز پوزه‌ی کروکودیل در گِل
+- **#116** · 9:46.4 · `CROP←#115` — کلوز پوزه‌ی کروکودیل در گِل
   > (pause) Slow. But not slow enough to be safe.
-- **#117** · 9:44.4 · `NEW` 🆕 — پسر می‌دود بالای دیواره، پیپ در جیب · _رفرنس: @hero-winter · @winter-river_ · **وضعیت:** `B=gone · P=in pocket`
+- **#117** · 9:51.1 · `NEW` 🆕 — پسر می‌دود بالای دیواره، پیپ در جیب · _رفرنس: @hero-winter · @winter-river_ · **وضعیت:** `B=gone · P=in pocket`
   > The bone is under the clay. You push the last handful over it and run.
-- **#118** · 9:50.7 · `NEW` 🆕 — پسر پشت به در سنگی نشسته، می‌لرزد · _رفرنس: @hero-winter · @pip · @tunnel(D6d/en:238)_ · **وضعیت:** `no bone · no bandage · P=in lap · L=blue dawn in the gap`
+- **#118** · 9:57.3 · `NEW` 🆕 — پسر پشت به در سنگی نشسته، می‌لرزد · _رفرنس: @hero-winter · @pip · @tunnel(D6d/en:238)_ · **وضعیت:** `no bone · no bandage · P=in lap · L=blue dawn in the gap`
   > Back in the tunnel, you sit with your back against the stone door, shaking.
-- **#119** · 9:56.5 · `CROP←#118` — کلوز صورت آرام‌شده
+- **#119** · 10:03.2 · `CROP←#118` — کلوز صورت آرام‌شده
   > It's done. Whatever happens to you now, something of you will last.
-- **#120** · 10:01.5 · `CROP←#121` — کارت NOW · DAY 66 MISSING · مادر وارد تالار موزه
+- **#119a** · 10:08.2 · `CROP←#118` — کلوز دست‌های لرزان روی زانو که مشت می‌شوند
+  > But you're tired of always being the one who runs.
+- **#120** · 10:12.3 · `CROP←#121` — کارت NOW · DAY 66 MISSING · مادر وارد تالار موزه
   > That same week, sixty-six million years later, your mom goes to the museum for the first time since you disappeared.
-- **#121** · 10:09.8 · `NEW·M` 🆕 — مادر کوچک جلوی اسکلت بزرگ (مادر) · _رفرنس: @mom · @museum_
+- **#121** · 10:20.7 · `NEW·M` 🆕 — مادر کوچک جلوی اسکلت بزرگ (مادر) · _رفرنس: @mom · @museum_
   > She stands in front of the T. rex for a long time.
-- **#122** · 10:14.8 · `NEW·M` 🆕 — پیرزن دیرینه‌شناس کنار مادر (مادر) · _رفرنس: @mom · @old-woman · @museum_
+- **#122** · 10:25.7 · `NEW·M` 🆕 — پیرزن دیرینه‌شناس کنار مادر (مادر) · _رفرنس: @mom · @old-woman · @museum_
   > An old woman stops next to her. A grey braid, a sun-faded field hat, dust on her boots.
-- **#123** · 10:22.3 · `CROP←#122` — کلوز پیرزن، نگاه به اسکلت
+- **#123** · 10:33.2 · `CROP←#122` — کلوز پیرزن، نگاه به اسکلت
   > "You're Daniel's wife," she says. "I dug with him for twelve years. We found this one together."
-- **#124** · 10:29.4 · `CROP←#121` — کلوز مادر، چشم‌های خیس
+- **#124** · 10:40.3 · `CROP←#121` — کلوز مادر، چشم‌های خیس
   > She looks at the floor. "I've seen your boy's face on every lamp post. I'm so sorry."
-- **#125** · 10:36.5 · `NEW` 🆕 — دو زن روی نیمکت، تالار خالی، نور غروب · _رفرنس: @mom · @old-woman · @museum_
+- **#125** · 10:47.3 · `NEW` 🆕 — دو زن روی نیمکت، تالار خالی، نور غروب · _رفرنس: @mom · @old-woman · @museum_
   > They talk until the museum closes.
-- **#126** · 10:39.0 · `CROP←#125` — دم در موزه، شب، دو زن
+- **#126** · 10:49.8 · `CROP←#125` — دم در موزه، شب، دو زن
   > At the door, the old woman says she's going back to his old dig site in North Dakota. Next week. The last time, at her age.
-- **#127** · 10:49.8 · `CROP←#122` — کلوز پیرزن، لبخند کوچک
+- **#127** · 11:00.7 · `CROP←#122` — کلوز پیرزن، لبخند کوچک
   > "He always said that place had one more surprise in it."
 
 ### ۶ · The Night the Fire Died
-- **#128** · 10:54.4 · `CROP←#129` — تونل، یخ روی دیوار نزدیک در
+- **#128** · 11:05.3 · `CROP←#129` — تونل، یخ روی دیوار نزدیک در
   > The cold is getting worse.
-- **#129** · 10:56.5 · `NEW·M` 🆕 — پسر بیدار می‌شود، سرفه، دود پایین (مادر) · _رفرنس: @hero-winter · @tunnel(D6d/en:238)_ · **وضعیت:** `W=scar-R · L=dark smoke`
+- **#129** · 11:07.3 · `NEW·M` 🆕 — پسر بیدار می‌شود، سرفه، دود پایین (مادر) · _رفرنس: @hero-winter · @tunnel(D6d/en:238)_ · **وضعیت:** `W=scar-R · L=dark smoke`
   > One night, you wake up coughing. Snow has piled against the stone door.
-- **#130** · 11:01.9 · `NEW` 🆕 — اینسرت: آب از شکاف روی آتش می‌چکد، یخ روی شکاف · _رفرنس: @tunnel(D6d/en:238) · ref: en:238_
+- **#130** · 11:12.8 · `NEW` 🆕 — اینسرت: آب از شکاف روی آتش می‌چکد، یخ روی شکاف · _رفرنس: @tunnel(D6d/en:238) · ref: en:238_
   > The fire's heat melted the bottom of it, and the meltwater ran down through the gap, right onto the fire. Then the top froze over and sealed the gap shut.
-- **#131** · 11:14.4 · `CROP←#129` — دود خاکستری در تونل، آتش خیس
+- **#131** · 11:25.3 · `CROP←#129` — دود خاکستری در تونل، آتش خیس
   > The fire is drowned. The smoke from the wet wood has nowhere to go. It's rolling back into the tunnel, low and grey.
-- **#132** · 11:24.0 · `TEXT` — کارت هشدار کوچک: SMOKE KILLS QUIETLY
+- **#132** · 11:34.8 · `TEXT` — کارت هشدار کوچک: SMOKE KILLS QUIETLY
   > Smoke in a closed tunnel kills quietly. You've known that since the first fire.
-- **#133** · 11:29.8 · `NEW` 🆕 — دست پسر یخ شکاف را می‌شکند، هوا و نور · _رفرنس: @hero-winter · @tunnel(D6d/en:238)_ · **وضعیت:** `W=scar-R`
+- **#133** · 11:40.7 · `NEW` 🆕 — دست پسر یخ شکاف را می‌شکند، هوا و نور · _رفرنس: @hero-winter · @tunnel(D6d/en:238)_ · **وضعیت:** `W=scar-R`
   > You crawl to the door, punch through the ice in the gap with your bare hands, and breathe.
-- **#134** · 11:37.3 · `CROP←#129` — کلوز صورت در تاریکی، بخار نفس
+- **#134** · 11:48.2 · `CROP←#129` — کلوز صورت در تاریکی، بخار نفس
   > No matches. No lighter.
-- **#135** · 11:39.1 · `NEW` 🆕 — پسر با کمان و چوب، دست‌های تاول‌زده · _رفرنس: @hero-winter · @tunnel(D6d/en:238)_ · **وضعیت:** `W=scar-R`
+- **#135** · 11:50.0 · `NEW` 🆕 — پسر با کمان و چوب، دست‌های تاول‌زده · _رفرنس: @hero-winter · @tunnel(D6d/en:238)_ · **وضعیت:** `W=scar-R`
   > You try a bow drill, the way you've seen in videos, until your hands blister. The wood is too damp. Nothing.
-- **#136** · 11:47.9 · `REUSE←#78` — کپه‌ی خاکستر ته آتش
+- **#136** · 11:58.7 · `REUSE←#78` — کپه‌ی خاکستر ته آتش
   > There's one chance left: the coals you buried at the back, under the ash.
-- **#137** · 11:53.7 · `NEW·M` 🆕 — اینسرت: یک زغال قرمز کوچک ته خاکستر (مادر) · _رفرنس: @tunnel(D6d/en:238)_
+- **#137** · 12:04.6 · `NEW·M` 🆕 — اینسرت: یک زغال قرمز کوچک ته خاکستر (مادر) · _رفرنس: @tunnel(D6d/en:238)_
   > You dig into the grey pile with a stick. Wet. Black. Black. Then, at the very bottom, one tiny red eye.
-- **#138** · 12:02.5 · `CROP←#137` — کلوز لب‌ها و زغال، دود باریک
+- **#138** · 12:13.3 · `CROP←#137` — کلوز لب‌ها و زغال، دود باریک
   > You lay a pinch of dry fern fluff on it. You blow. Gently. Again.
-- **#139** · 12:08.3 · `EDIT←#137` — شعله‌ی کوچک، صورت روشن می‌شود
+- **#139** · 12:19.1 · `EDIT←#137` — شعله‌ی کوچک، صورت روشن می‌شود
   > A thread of smoke. Then a flame.
-- **#140** · 12:11.2 · `NEW` 🆕 — پسر خوابیده کنار در، پیپ کنار گردن · _رفرنس: @hero-winter · @pip · @tunnel(D6d/en:238)_ · **وضعیت:** `P=at neck · L=ember · no bandage`
+- **#140** · 12:22.1 · `NEW` 🆕 — پسر خوابیده کنار در، پیپ کنار گردن · _رفرنس: @hero-winter · @pip · @tunnel(D6d/en:238)_ · **وضعیت:** `P=at neck · L=ember · no bandage`
   > From that night on, you sleep with your head at the door, and you check the gap every time you wake.
-- **#141** · 12:20.0 · `EDIT←#55` — چاله‌ی شنی کاملاً یخ‌زده · _رفرنس: @winter-river_
+- **#141** · 12:30.8 · `EDIT←#55` — چاله‌ی شنی کاملاً یخ‌زده · _رفرنس: @winter-river_
   > One morning, the sand pit is frozen solid.
-- **#142** · 12:23.3 · `NEW` 🆕 — لاروهای خشک روی سنگ صاف کنار آتش · _رفرنس: @tunnel(D6d/en:238)_ · **وضعیت:** `L=fire`
+- **#142** · 12:34.1 · `NEW` 🆕 — لاروهای خشک روی سنگ صاف کنار آتش · _رفرنس: @tunnel(D6d/en:238)_ · **وضعیت:** `L=fire`
   > So you work down the list on the wall. You dry grubs hard on a flat stone by the fire, the way you dried fish. They'll keep for weeks.
-- **#143** · 12:35.4 · `NEW` 🆕 — آب برف از لای شن و زغال در بطری می‌چکد · _رفرنس: @hero-winter · @tunnel(D6d/en:238) · ref: Part 1 bottle_ · **وضعیت:** `W=scar-R`
+- **#143** · 12:46.2 · `NEW` 🆕 — آب برف از لای شن و زغال در بطری می‌چکد · _رفرنس: @hero-winter · @tunnel(D6d/en:238) · ref: Part 1 bottle_ · **وضعیت:** `W=scar-R`
   > You bring snow inside, melt it by the fire, and pour it through sand and charcoal, because this snow is full of ash.
-- **#144** · 12:45.0 · `CROP←#86` — دیوار زغالی: تیک‌ها
+- **#144** · 12:55.8 · `CROP←#86` — دیوار زغالی: تیک‌ها
   > One tick. Then another.
-- **#145** · 12:46.8 · `TEXT` — کلوز «A DEEPER SHELTER ?» (گرافیک)
-  > But one line on the wall still has a question mark. Your tunnel was built to survive the impact. Not a winter.
-- **#146** · 12:55.9 · `OLD D6d` — تونل از ته، کوچک و سرد
+- **#145** · 12:57.6 · `TEXT` — کلوز «A DEEPER SHELTER ?» و «MEAT ?» (گرافیک)
+  > But two lines on the wall still have question marks. Your tunnel was built to survive the impact. Not a winter.
+- **#146** · 13:06.4 · `OLD D6d` — تونل از ته، کوچک و سرد
   > You'll need somewhere deeper. Warmer. But that's a problem for another day.
+- **#146a** · 13:11.4 · `TEXT` — کلوز «MEAT ?» روی دیوار (گرافیک)
+  > The other question mark can't wait.
+- **#146b** · 13:13.9 · `NEW·M` 🆕 — پسر کنار آتش با سنگ تیز سر یک شاخه‌ی بلند را تیز می‌کند (مادر) · _رفرنس: @hero-winter · @tunnel(D6d/en:238)_ · **وضعیت:** `W=scar-R(sleeve up) · L=fire · P=beside him (Pip leaves only after this)`
+  > That night, you pick up the sharp stone you carved the bone with, and a long, straight branch, and you start to make a spear.
+- **#146c** · 13:24.3 · `CROP←#146b` — کلوز نوک نیزه جلوی شعله، صورت مصمم پشتش
+  > Tomorrow, you stop hiding. You learn to hunt.
 
 ### ۷ · Not Alone
-- **#147** · 13:00.9 · `EDIT←D9b` — دهانه‌ی تونل خالی، شب، برف · _رفرنس: @tunnel(D6d/en:238) · ref: D9b_
+- **#147** · 13:27.6 · `EDIT←D9b` — دهانه‌ی تونل خالی، شب، برف · _رفرنس: @tunnel(D6d/en:238) · ref: D9b_
   > A few days later, Pip doesn't come back at night.
-- **#148** · 13:05.1 · `CROP←#153` — پسر کنار در منتظر، آتش کوچک
+- **#148** · 13:31.8 · `CROP←#153` — پسر کنار در منتظر، آتش کوچک
   > You wait. One night. Two.
-- **#149** · 13:07.2 · `NEW·M` 🆕 — دم ورودی برفی: پیپ و یک موش دوم (مادر) · _رفرنس: @pip · @pip-mate · ref: D9b_ · **وضعیت:** `M=beside him`
+- **#149** · 13:33.9 · `NEW·M` 🆕 — دم ورودی برفی: پیپ و یک موش دوم (مادر) · _رفرنس: @pip · @pip-mate · ref: D9b_ · **وضعیت:** `M=beside him`
   > On the third morning, he's at the entrance. And he's not alone.
-- **#150** · 13:12.2 · `CROP←#149` — کلوز صورت ماده
+- **#150** · 13:38.9 · `CROP←#149` — کلوز صورت ماده
   > A second little face. Smaller. The same brown fur. The same black eyes.
-- **#151** · 13:17.6 · `CROP←#149` — دو موش کنار هم
+- **#151** · 13:44.3 · `CROP←#149` — دو موش کنار هم
   > She survived the dark too, in some other hole, under some other tree. Pip isn't the last of his kind.
-- **#152** · 13:25.9 · `CROP←#153` — کلوز صورت پسر، لبخند غمگین
+- **#152** · 13:52.6 · `CROP←#153` — کلوز صورت پسر، لبخند غمگین
   > (pause) You're happy for him. You really are.
-- **#153** · 13:30.3 · `NEW·M` 🆕 — واید تونل، پسر تنها و کوچک، آتش (مادر) · _رفرنس: @hero-winter · @tunnel(D6d/en:238)_ · **وضعیت:** `P=away`
+- **#153** · 13:56.9 · `NEW·M` 🆕 — واید تونل، پسر تنها و کوچک، آتش (مادر) · _رفرنس: @hero-winter · @tunnel(D6d/en:238)_ · **وضعیت:** `P=away`
   > But that night, the tunnel feels bigger than it ever has.
-- **#154** · 13:34.8 · `OLD D11c` — دست سنگ روی دیوار
+- **#154** · 14:01.5 · `OLD D11c` — دست سنگ روی دیوار
   > You scratch a new line on the wall. Friends: one.
-- **#155** · 13:39.0 · `TEXT` — بازنویسی دیوار (گرافیک)
+- **#155** · 14:05.7 · `TEXT` — بازنویسی دیوار (گرافیک)
   > You stop. And you add: …and one more.
 
 ### ۸ · Sixty-Six Million Years Later
-- **#156** · 13:42.3 · `OLD P8` — کارت NOW · DAY 76 MISSING · بدلندز داکوتا (مادر)
+- **#156** · 14:09.0 · `OLD P8` — کارت NOW · DAY 76 MISSING · بدلندز داکوتا (مادر)
   > North Dakota. Your dad's old dig site. A cold, bright afternoon. The last dig of the season.
-- **#157** · 13:49.4 · `NEW` 🆕 — پیرزن زانو زده، برس روی استخوان · _رفرنس: @old-woman · @dig-ND · @bone_
+- **#157** · 14:16.1 · `NEW` 🆕 — پیرزن زانو زده، برس روی استخوان · _رفرنس: @old-woman · @dig-ND · @bone_
   > The old woman from the museum kneels in the dirt and brushes the dust off the shoulder blade of a duck-billed dinosaur.
-- **#158** · 13:58.6 · `CROP←#157` — کلوز دست پیرزن ایستاده
+- **#158** · 14:25.3 · `CROP←#157` — کلوز دست پیرزن ایستاده
   > She stops.
-- **#159** · 14:00.4 · `NEW` 🆕 — کلوز استخوان فسیلی با خط‌ها · _رفرنس: @bone(fossil)_
+- **#159** · 14:27.1 · `NEW` 🆕 — کلوز استخوان فسیلی با خط‌ها · _رفرنس: @bone(fossil)_
   > There are marks on the bone. Not teeth marks. Too straight. Too deep.
-- **#160** · 14:05.8 · `CROP←#157` — برس روی سنگ
+- **#160** · 14:32.5 · `CROP←#157` — برس روی سنگ
   > She brushes again.
-- **#161** · 14:07.6 · `CROP←#159` — کلوز حروف M O M روی فسیل (حروف در تدوین)
+- **#161** · 14:34.3 · `CROP←#159` — کلوز حروف M O M روی فسیل (حروف در تدوین)
   > They're not scratches. They're letters.
-- **#162** · 14:09.7 · `CROP←#157` — صورت پیرزن، دست روی دهان
+- **#162** · 14:36.4 · `CROP←#157` — صورت پیرزن، دست روی دهان
   > (pause) If you could leave one message for 66 million years… what would you write on the bone? Tell me in the comments.
-- **#163** · 14:20.3 · `TEXT` — کارت پایانی
+- **#163** · 14:46.9 · `TEXT` — کارت پایانی
   > Stay small. Stay alive.

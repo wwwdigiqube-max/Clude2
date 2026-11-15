@@ -1,11 +1,11 @@
-# دسته‌ی D · رود در سپیده‌دم · 10 قاب
+# دسته‌ی D · رود در سپیده‌دم · 11 قاب
 
-**قاب‌ها:** p2-075, p2-103, p2-105, p2-107, p2-109, p2-110, p2-111, p2-115, p2-117, p2-118  
+**قاب‌ها:** p2-075, p2-103, p2-105, p2-107, p2-109, p2-110, p2-111, p2-115, p2-117, p2-118, p2-146b  
 **پیوست (همه با هم):** `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `P6-winter-river` (RIVER) · `D3b` (CROC) · `P5-champsosaur` (CHAMP) · `D4e` (BONE) · `P9-tunnel-sheet` (TUNNEL)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.
 
 ```
-You are making 10 still frames for a dark animated survival story, one image per frame, in the order below.
+You are making 11 still frames for a dark animated survival story, one image per frame, in the order below.
 
 ATTACHED REFERENCES (match them exactly):
 - HERO = the character sheet of a tired young man in a faded rust-orange jacket, with a large close-up of a scarred black forearm
@@ -35,7 +35,7 @@ RULES FOR EVERY FRAME:
 - His arms and hands are always thin solid black, never white or skin-coloured, even in close-ups.
 - The young man's only wound is a healed scar on his own RIGHT forearm (from HERO), never on the left, and there is no bandage unless a frame says so.
 - Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.
-- Name each image exactly with its frame code: p2-075, p2-103, p2-105, p2-107, p2-109, p2-110, p2-111, p2-115, p2-117, p2-118.
+- Name each image exactly with its frame code: p2-075, p2-103, p2-105, p2-107, p2-109, p2-110, p2-111, p2-115, p2-117, p2-118, p2-146b.
 - An EDIT frame changes only what it says, starting from the image it names.
 
 FRAME p2-075 · NEW · references: HERO, PIP, RIVER
@@ -84,7 +84,12 @@ Place: the river (RIVER), in winter. The stone-slab tunnel entrance under the bu
 Palette: 60% cold blue-grey, 30% brown mud, 10% rust-orange jacket. Exactly one person and one Pip. 
 
 FRAME p2-118 · NEW · references: HERO, PIP, TUNNEL
-A medium shot at eye level inside the tunnel, 35mm lens. He sits on the floor with his back against the closed stone slab of the door, the young man (HERO), knees pulled up, shaking, his eyes wide; mud on his hands and boots. Pip sits in his lap. He carries no bone. Both sleeves are down; no bandage. No fire.
+A medium shot at eye level inside the tunnel, 35mm lens. He sits on the floor with his back against the closed stone slab of the door, the young man (HERO), knees pulled up, shaking, his eyes wide; his muddy black hands rest on his knees, starting to clench into fists. Pip sits in his lap. He carries no bone. Both sleeves are down; no bandage. No fire.
 Place: the tunnel (TUNNEL). Only a thin stripe of cold blue dawn light comes through the hand-wide gap beside him.
 Palette: 60% blue-brown darkness, 30% cold blue stripe, 10% rust-orange jacket. His face is croppable. Exactly one person and one Pip. 
+
+FRAME p2-146b · NEW · references: HERO, PIP, TUNNEL
+A medium close-up at eye level, 50mm lens, highest resolution. He sits cross-legged by the small fire, the young man (HERO), sharpening the end of a long, straight, dry branch into a point with the sharp grey stone in his right hand; pale wood shavings fall onto the clay floor. His right jacket sleeve is pushed up to the elbow, showing the healed scar on his own right forearm exactly as in HERO, no bandage. His face is calm, hard and determined, no longer scared. Pip (PIP) sits beside his knee, watching the shavings.
+Place: the tunnel (TUNNEL). A small fire of twigs burns on the tunnel floor right at the gap of the stone door. Warm firelight from the side; the new wooden point catches the light.
+Palette: 60% warm darkness, 30% firelight orange, 10% pale fresh wood. His face, his hands with the stone and the sharpened point are each croppable; the long branch runs diagonally across the frame. Exactly one person, one branch and one Pip. 
 ```

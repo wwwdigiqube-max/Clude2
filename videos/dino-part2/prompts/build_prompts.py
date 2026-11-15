@@ -101,13 +101,15 @@ TUN, RIV, FOREST, MUSEUM, DIG, ROOM = ("Place: the tunnel (TUNNEL).", "Place: th
 DOOR_OUT = " The stone-slab tunnel entrance under the burnt tree roots is in view."
 EARLY = "Place: the same river as RIVER, but weeks earlier: no snow and no ice yet, trees freshly burnt black, grey ash on the ground, thin smoke in the air."
 NOLET = ""
+def lab(n):
+    m = re.match(r"(\d+)([a-z]?)$", str(n)); return f"{int(m.group(1)):03d}{m.group(2)}"
 B = {}   # batch -> list of (frame, text)
 def new(batch, n, refs, shot, subject, place, light, pal, comp, clean=NOLET):
-    t = (f"FRAME p2-{n:03d} · NEW · references: {', '.join(refs) if refs else 'none'}\n"
+    t = (f"FRAME p2-{lab(n)} · NEW · references: {', '.join(refs) if refs else 'none'}\n"
          f"{shot} {subject}\n{place} {light}\nPalette: {pal}. {comp} {clean}")
     B.setdefault(batch, []).append((n, re.sub(r"  +", " ", t)))
 def edit(batch, n, src, change, keep):
-    t = (f"FRAME p2-{n:03d} · EDIT of {src}\nChange only this: {change}\n"
+    t = (f"FRAME p2-{lab(n)} · EDIT of {src}\nChange only this: {change}\n"
          f"Keep exactly the same: {keep}. Everything else is 100% identical. {NOLET}")
     B.setdefault(batch, []).append((n, t))
 KEEP = "the place and every object and its position, the camera angle, framing and lens, the light direction, colour and shadows, the colour grade and grain"
@@ -275,9 +277,15 @@ new("D", 117, ["HERO", "PIP", "RIVER"], "A medium-wide shot from behind and to t
     f"He scrambles up the snowy clay bank toward the stone door, {HERO}, mud on his arms and boots; Pip's head pokes out of his jacket pocket. He carries no bone. {SLEEVES}.",
     RIV + DOOR_OUT, "Cold blue dawn light.", "60% cold blue-grey, 30% brown mud, 10% rust-orange jacket", "Exactly one person and one Pip.")
 new("D", 118, ["HERO", "PIP", "TUNNEL"], "A medium shot at eye level inside the tunnel, 35mm lens.",
-    f"He sits on the floor with his back against the closed stone slab of the door, {HERO}, knees pulled up, shaking, his eyes wide; mud on his hands and boots. Pip sits in his lap. He carries no bone. {SLEEVES}. No fire.",
+    f"He sits on the floor with his back against the closed stone slab of the door, {HERO}, knees pulled up, shaking, his eyes wide; his muddy black hands rest on his knees, starting to clench into fists. Pip sits in his lap. He carries no bone. {SLEEVES}. No fire.",
     TUN, "Only a thin stripe of cold blue dawn light comes through the hand-wide gap beside him.",
     "60% blue-brown darkness, 30% cold blue stripe, 10% rust-orange jacket", "His face is croppable. Exactly one person and one Pip.")
+
+new("D", "146b", ["HERO", "PIP", "TUNNEL"], "A medium close-up at eye level, 50mm lens, highest resolution.",
+    f"He sits cross-legged by the small fire, {HERO}, sharpening the end of a long, straight, dry branch into a point with the sharp grey stone in his right hand; pale wood shavings fall onto the clay floor. {SCAR}. His face is calm, hard and determined, no longer scared. {PIP} sits beside his knee, watching the shavings.",
+    TUN + FIRE, "Warm firelight from the side; the new wooden point catches the light.",
+    "60% warm darkness, 30% firelight orange, 10% pale fresh wood",
+    "His face, his hands with the stone and the sharpened point are each croppable; the long branch runs diagonally across the frame. Exactly one person, one branch and one Pip.")
 
 # ======================= E · home, now =======================
 new("E", 28, ["MOM"], "A medium-wide shot at eye level, 35mm lens, highest resolution.",
@@ -358,10 +366,10 @@ new("G", 149, ["PIP", "MATE", "RIVER"], "A low close shot at ground level, 85mm 
 # ---------- write batch files ----------
 rows = {}
 for line in open(SHOT, encoding="utf-8"):
-    m = re.match(r"- \*\*#(\d+)\*\* · ([\d:.]+) · `([^`]+)`.*?— (.*)", line)
-    if m: rows[int(m.group(1))] = m.group(3)
+    m = re.match(r"- \*\*#(\d+[a-z]?)\*\* · ([\d:.]+) · `([^`]+)`.*?— (.*)", line)
+    if m: rows[m.group(1)] = m.group(3)
 need = {n for n, meth in rows.items() if meth.startswith(("NEW", "EDIT"))}
-have = {n for v in B.values() for n, _ in v}
+have = {str(n) for v in B.values() for n, _ in v}
 assert need == have, (sorted(need - have), sorted(have - need))
 
 TITLE = {"A": "تونل و آتش (روز ۴۰ تا ۵۵)", "B": "شبی که آتش مرد", "C": "بیرون: هفته‌های اول، چاله‌ی شنی، جنگل مرده",
@@ -373,7 +381,7 @@ for i, k in enumerate("ABCDEFG", 1):
     for _, t in frames:
         for r in REFS:
             if re.search(r"\b" + r + r"\b", t) and r not in used: used.append(r)
-    names = ", ".join(f"p2-{n:03d}" for n, _ in frames)
+    names = ", ".join(f"p2-{lab(n)}" for n, _ in frames)
     head = (f"You are making {len(frames)} still frames for a dark animated survival story, one image per frame, in the order below.\n\n"
             "ATTACHED REFERENCES (match them exactly):\n" + "\n".join(f"- {r} = {REFS[r][0]}" for r in used) + "\n\n"
             + ("CAST AND PLACES:\n" + "\n".join(f"- {r}: {LONG[r]}" for r in used if r in LONG) + "\n\n" if any(r in LONG for r in used) else "")

@@ -9,9 +9,14 @@ H = os.path.dirname(os.path.abspath(__file__))
 HW, PIP, MATE, OLD_W, BOOK, MOM, FR, MUS, BONE, CHAMP, CROC = "@hero-winter", "@pip", "@pip-mate", "@old-woman", "@book", "@mom", "@friends", "@museum", "@bone", "@champsosaur", "en:croc(D3b)"
 TUN, RIV, FOREST, STREET, DIG = "@tunnel(D6d/en:238)", "@winter-river", "@dead-forest(D11a)", "@street", "@dig-ND"
 F, KEYS = [], {}
-def f(text, see, method, refs="", state="", key=None):
-    F.append((text, see, method, refs, state))
-    if key: KEYS[key] = len(F)
+LAB, _n, _sub = [], 0, 0
+def f(text, see, method, refs="", state="", key=None, ins=False):
+    # ins=True: frame added after numbering was locked; it gets the previous number + a letter (e.g. 108a)
+    global _n, _sub
+    if ins: _sub += 1; lab = f"{_n}{'abcdefgh'[_sub-1]}"
+    else: _n += 1; _sub = 0; lab = str(_n)
+    F.append((text, see, method, refs, state)); LAB.append(lab)
+    if key: KEYS[key] = lab
 
 # ===== 0 · Seven Fish (hook) =====
 f("Day forty-nine.", "تونل تاریک، آتش کوچک کنار شکاف در سنگی", "OLD en:238", state="L=fire")
@@ -105,7 +110,8 @@ f("So you stop waiting to wake up. What's coming is colder and longer than the i
 f("Your pen is dry. But the fire leaves charcoal.", "اینسرت: دست زغال سیاه از آتش برمی‌دارد", "CROP←#charcoal")
 f("You pick up a black stick and write on the tunnel wall, like you wrote in the book on night one.", "پسر با زغال روی دیوار می‌نویسد، پیپ پایین نگاه می‌کند (مادر)", "NEW·M", f"{HW} · {TUN} · ref: D11c wall", "W=scar-R · L=fire", key="charcoal")
 f("What you lost. What you have. What you still need.", "کلوز دیوار: خط‌های زغالی (متن در تدوین)", "CROP←#charcoal")
-f("—", "چک‌لیست: WINTER PLAN … A DEEPER SHELTER ?", "TEXT")
+f("Grubs and fungus keep you alive. They won't make you strong. Somewhere out there, there's meat.", "کلوز صورت پسر کنار دیوار، نگاه به در", "CROP←#charcoal", ins=True)
+f("—", "چک‌لیست: WINTER PLAN … A DEEPER SHELTER ? · MEAT ?", "TEXT")
 f("Your dad used to say: \"Every bone is a message from someone who was here.\"", "عکس سپیای پدر در حفاری (همان قبلی)، زوم", "REUSE←#dad-dig")
 f("(pause) Maybe you can't go home. But maybe a message can.", "کلوز صورت پسر، تصمیم", "CROP←#charcoal")
 f("Almost nothing ever becomes a fossil. One bone in many millions.", "گرافیک: یک استخوان روشن بین میلیون‌ها نقطه", "TEXT")
@@ -138,6 +144,7 @@ f("(pause) Slow. But not slow enough to be safe.", "کلوز پوزه‌ی کر�
 f("The bone is under the clay. You push the last handful over it and run.", "پسر می‌دود بالای دیواره، پیپ در جیب", "NEW", f"{HW} · {RIV}", "B=gone · P=in pocket")
 f("Back in the tunnel, you sit with your back against the stone door, shaking.", "پسر پشت به در سنگی نشسته، می‌لرزد", "NEW", f"{HW} · {PIP} · {TUN}", "no bone · no bandage · P=in lap · L=blue dawn in the gap", key="door-sit")
 f("It's done. Whatever happens to you now, something of you will last.", "کلوز صورت آرام‌شده", "CROP←#door-sit")
+f("But you're tired of always being the one who runs.", "کلوز دست‌های لرزان روی زانو که مشت می‌شوند", "CROP←#door-sit", ins=True)
 f("That same week, sixty-six million years later, your mom goes to the museum for the first time since you disappeared.", "کارت NOW · DAY 66 MISSING · مادر وارد تالار موزه", "CROP←#mom-museum")
 f("She stands in front of the T. rex for a long time.", "مادر کوچک جلوی اسکلت بزرگ (مادر)", "NEW·M", f"{MOM} · {MUS}", "", key="mom-museum")
 f("An old woman stops next to her. A grey braid, a sun-faded field hat, dust on her boots.", "پیرزن دیرینه‌شناس کنار مادر (مادر)", "NEW·M", f"{MOM} · {OLD_W} · {MUS}", "", key="two-women")
@@ -164,8 +171,11 @@ f("One morning, the sand pit is frozen solid.", "چاله‌ی شنی کاملا
 f("So you work down the list on the wall. You dry grubs hard on a flat stone by the fire, the way you dried fish. They'll keep for weeks.", "لاروهای خشک روی سنگ صاف کنار آتش", "NEW", f"{TUN}", "L=fire")
 f("You bring snow inside, melt it by the fire, and pour it through sand and charcoal, because this snow is full of ash.", "آب برف از لای شن و زغال در بطری می‌چکد", "NEW", f"{HW} · {TUN} · ref: Part 1 bottle", "W=scar-R")
 f("One tick. Then another.", "دیوار زغالی: تیک‌ها", "CROP←#charcoal")
-f("But one line on the wall still has a question mark. Your tunnel was built to survive the impact. Not a winter.", "کلوز «A DEEPER SHELTER ?» (گرافیک)", "TEXT")
+f("But two lines on the wall still have question marks. Your tunnel was built to survive the impact. Not a winter.", "کلوز «A DEEPER SHELTER ?» و «MEAT ?» (گرافیک)", "TEXT")
 f("You'll need somewhere deeper. Warmer. But that's a problem for another day.", "تونل از ته، کوچک و سرد", "OLD D6d")
+f("The other question mark can't wait.", "کلوز «MEAT ?» روی دیوار (گرافیک)", "TEXT", ins=True)
+f("That night, you pick up the sharp stone you carved the bone with, and a long, straight branch, and you start to make a spear.", "پسر کنار آتش با سنگ تیز سر یک شاخه‌ی بلند را تیز می‌کند (مادر)", "NEW·M", f"{HW} · {TUN}", "W=scar-R(sleeve up) · L=fire · P=beside him (Pip leaves only after this)", key="spear", ins=True)
+f("Tomorrow, you stop hiding. You learn to hunt.", "کلوز نوک نیزه جلوی شعله، صورت مصمم پشتش", "CROP←#spear", ins=True)
 # ===== 7 · Not Alone =====
 f("A few days later, Pip doesn't come back at night.", "دهانه‌ی تونل خالی، شب، برف", "EDIT←D9b", f"{TUN} · ref: D9b", "")
 f("You wait. One night. Two.", "پسر کنار در منتظر، آتش کوچک", "CROP←#lonely")
@@ -192,7 +202,7 @@ def dur(t):
     p = t.count("(pause)"); w = len(re.sub(r"\(pause\)", "", t).split())
     return max(1.8, w / 2.4) + 1.4 * p
 rows, t0 = [], 0.0
-for i, (text, see, meth, refs, st) in enumerate(F, 1):
+for i, (text, see, meth, refs, st) in zip(LAB, F):
     meth = re.sub(r"#([a-z0-9-]+)", lambda m: "#" + str(KEYS.get(m.group(1), "??" + m.group(1))), meth)
     d = dur(text); rows.append((i, t0, text, see, meth, refs, st)); t0 += d
 kinds = {}

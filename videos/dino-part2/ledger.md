@@ -69,3 +69,10 @@
 - **Mom meets the old paleontologist** (NOW, day 66 missing), Daniel's colleague of 12 years. She is going back to his North Dakota site "next week".
 - **Timeline:** fish gone day 46 · grubs day 49 · carving days 52-55 · burial ~day 55 · fire night ~day 58 · Pip + mate day 64 after · dig day 76 missing (= day 66 after).
 - 3 audit rounds: 31 of 33 points applied.
+
+## v7 additions (2026-11-15): the hunter seed
+- Scene 4: the wall list gets a second question mark, **MEAT ?** ("Grubs and fungus keep you alive. They won't make you strong.").
+- Scene 5: after the crocodile, shaking at the door: "tired of always being the one who runs."
+- Scene 6 (end, Pip still with him): he makes a **spear**: a long straight dry branch, sharpened with the same sharp stone he carved the bone with. "Tomorrow, you learn to hunt." → Part 3: hunting (fish under the ice, turtles and frogs asleep in the river mud: real K-Pg survivors).
+- Carried into Part 3: the spear, the sharp stone, the two question marks (shelter, meat).
+- New frames keep old numbers: #87a, #119a, #146a, #146b (spear, NEW·M), #146c.

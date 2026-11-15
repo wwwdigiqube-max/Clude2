@@ -117,7 +117,8 @@ So you stop waiting to wake up. What's coming is colder and longer than the impa
 Your pen is dry. But the fire leaves charcoal.
 You pick up a black stick and write on the tunnel wall, like you wrote in the book on night one.
 What you lost. What you have. What you still need.
-[LIST: WINTER PLAN · FOOD THAT KEEPS ☐ · WATER WHEN THE RIVER FREEZES ☐ · FIREWOOD ☐ · A DEEPER SHELTER ?]
+Grubs and fungus keep you alive. They won't make you strong. Somewhere out there, there's meat.
+[LIST: WINTER PLAN · FOOD THAT KEEPS ☐ · WATER WHEN THE RIVER FREEZES ☐ · FIREWOOD ☐ · A DEEPER SHELTER ? · MEAT ?]
 
 Your dad used to say: "Every bone is a message from someone who was here."
 (pause)
@@ -153,6 +154,7 @@ The bone is under the clay. You push the last handful over it and run.
 
 Back in the tunnel, you sit with your back against the stone door, shaking.
 It's done. Whatever happens to you now, something of you will last.
+But you're tired of always being the one who runs.
 
 [NOW · DAY 66 MISSING]
 That same week, sixty-six million years later, your mom goes to the museum for the first time since you disappeared.
@@ -183,10 +185,13 @@ One morning, the sand pit is frozen solid.
 So you work down the list on the wall. You dry grubs hard on a flat stone by the fire, the way you dried fish. They'll keep for weeks.
 You bring snow inside, melt it by the fire, and pour it through sand and charcoal, because this snow is full of ash.
 One tick. Then another.
-But one line on the wall still has a question mark.
+But two lines on the wall still have question marks.
 Your tunnel was built to survive the impact. Not a winter.
 You'll need somewhere deeper. Warmer.
 But that's a problem for another day.
+The other question mark can't wait.
+That night, you pick up the sharp stone you carved the bone with, and a long, straight branch, and you start to make a spear.
+Tomorrow, you stop hiding. You learn to hunt.
 
 ## 7 · Not Alone
 
