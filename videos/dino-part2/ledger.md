@@ -19,6 +19,7 @@
 | 7 NOW | 76 missing (= day 66 after), late autumn (street trees bare at day 50; last dig of the season) | North Dakota, the dad's old dig site | old paleontologist (dad's former colleague) finds letters on the bone | — | — | — | — | cold bright sun, long shadows |
 
 **Rules to keep:**
+- Headlamp: battery dead since Part 1 (rationed light); in Part 2 it is always off. No backpack in any Part 2 frame.
 - From Part 1: "Dinosaurs left: zero" by day 40 → in Part 2 dinosaurs appear **only in memories of the first weeks**.
 - The bone shovel is **gone after scene 5** (buried). If he digs later, it's with something else.
 - The book keeps its cover. It is **not** burned in this version.

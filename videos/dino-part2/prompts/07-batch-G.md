@@ -21,6 +21,8 @@ RULES FOR EVERY FRAME:
 - Dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the characters, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting.
 - Strict stick-figure anatomy for every person: the only white part is the round off-white head, about one third of the body height; the body under the clothes is a thin solid black stick figure with a short black stick neck; bare arms and legs are thin black lines, never skin; hands are simple solid black hands; the face has only eyes, eyebrows and a simple mouth, no nose and no ears.
 - Every character, animal, place and object must look exactly like its reference. Do not invent new characters.
+- The young man never wears a backpack. His headlamp is always switched off: its lens is dark and casts no light (the battery died weeks ago).
+- His arms and hands are always thin solid black, never white or skin-coloured, even in close-ups.
 - The young man's only wound is a healed scar on his own RIGHT forearm (from HERO), never on the left, and there is no bandage unless a frame says so.
 - Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.
 - Name each image exactly with its frame code: p2-147, p2-149.

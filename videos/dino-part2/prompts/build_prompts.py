@@ -380,6 +380,8 @@ for i, k in enumerate("ABCDEFG", 1):
             + "RULES FOR EVERY FRAME:\n"
             f"- {STYLE}\n- {ANAT}\n"
             "- Every character, animal, place and object must look exactly like its reference. Do not invent new characters.\n"
+            "- The young man never wears a backpack. His headlamp is always switched off: its lens is dark and casts no light (the battery died weeks ago).\n"
+            "- His arms and hands are always thin solid black, never white or skin-coloured, even in close-ups.\n"
             "- The young man's only wound is a healed scar on his own RIGHT forearm (from HERO), never on the left, and there is no bandage unless a frame says so.\n"
             "- Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.\n"
             f"- Name each image exactly with its frame code: {names}.\n"
