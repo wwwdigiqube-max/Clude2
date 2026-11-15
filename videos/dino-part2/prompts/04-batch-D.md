@@ -1,7 +1,7 @@
 # دسته‌ی D · رود در سپیده‌دم · 10 قاب
 
 **قاب‌ها:** p2-075, p2-103, p2-105, p2-107, p2-109, p2-110, p2-111, p2-115, p2-117, p2-118  
-**پیوست (همه با هم):** `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `P6-winter-river` (RIVER) · `D3b` (CROC) · `P5-champsosaur` (CHAMP) · `D4e` (BONE) · `قاب 238 قسمت اول` (TUNNEL)  
+**پیوست (همه با هم):** `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `P6-winter-river` (RIVER) · `D3b` (CROC) · `P5-champsosaur` (CHAMP) · `D4e` (BONE) · `P9-tunnel-sheet` (TUNNEL)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.
 
 ```
@@ -14,7 +14,7 @@ ATTACHED REFERENCES (match them exactly):
 - CROC = the image of a crocodile in a muddy river
 - CHAMP = the image of a slim long-snouted reptile lying on river ice
 - BONE = the image of a boy holding a large pale shoulder-blade bone
-- TUNNEL = the image of a young man feeding a small fire inside a clay tunnel next to a stone door
+- TUNNEL = the location sheet of a low, round clay tunnel with a stone-slab door; it sets the exact size and look of the tunnel
 
 CAST AND PLACES:
 - HERO: the young man from HERO: tired small black oval eyes with heavy lid lines and dark shadows under them, thin dark eyebrows, longer messy dark-brown hair under a dark charcoal knit beanie with a small square headlamp on a brown strap, grey ash smudges on his cheeks, an open rust-orange hooded jacket that is faded, ash-stained and frayed at the hem and cuffs, over a dark grey t-shirt with a ragged torn bottom edge, long thin black stick legs and worn dark-brown hiking boots; no backpack
@@ -23,7 +23,7 @@ CAST AND PLACES:
 - CROC: the crocodile from CROC: a big crocodile with a heavy dark olive-grey armoured back of rough bony plates, a broad snout and pale yellow eyes
 - CHAMP: the champsosaur from CHAMP: a slim, smooth, lizard-like freshwater reptile about two metres long, with a very long, very thin needle-like snout lined with tiny teeth, the back of the skull flaring wide behind small eyes set on top of the head, short sprawling webbed legs, a long flat smooth tail, olive-brown skin with a pale belly and no armour plates
 - BONE: the bone shovel from BONE: one pale dinosaur shoulder blade as long as an arm, with a broad, flat, thin paddle-shaped blade at one end that narrows into one single thick rounded end, worn and stained with dried clay
-- TUNNEL: a narrow tunnel dug into brown clay, as wide as his shoulders, with a smooth arched ceiling and thin roots poking through the walls; at the entrance end, a wall of stacked flat grey stones with one large flat stone slab as the door, leaving a vertical gap a hand wide.
+- TUNNEL: a low, narrow, round tunnel dug into brown clay, as wide as his shoulders and so low that when he sits the ceiling is just above his beanie, with a smooth arched ceiling and thin roots poking through the walls; at the entrance end, a wall of stacked flat grey stones with one large flat stone slab as the door, leaving a vertical gap a hand wide.
 
 RULES FOR EVERY FRAME:
 - Dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the characters, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting.

@@ -1,7 +1,7 @@
 # دسته‌ی B · شبی که آتش مرد · 10 قاب
 
 **قاب‌ها:** p2-129, p2-130, p2-133, p2-135, p2-137, p2-139, p2-140, p2-142, p2-143, p2-153  
-**پیوست (همه با هم):** `P1-hero-winter` (HERO) · `قاب 238 قسمت اول` (TUNNEL) · `R1-fandogh-sheet` (PIP)  
+**پیوست (همه با هم):** `P1-hero-winter` (HERO) · `P9-tunnel-sheet` (TUNNEL) · `R1-fandogh-sheet` (PIP)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.
 
 ```
@@ -9,12 +9,12 @@ You are making 10 still frames for a dark animated survival story, one image per
 
 ATTACHED REFERENCES (match them exactly):
 - HERO = the character sheet of a tired young man in a faded rust-orange jacket, with a large close-up of a scarred black forearm
-- TUNNEL = the image of a young man feeding a small fire inside a clay tunnel next to a stone door
+- TUNNEL = the location sheet of a low, round clay tunnel with a stone-slab door; it sets the exact size and look of the tunnel
 - PIP = the sheet of a tiny golden-brown mouse-like mammal in several poses
 
 CAST AND PLACES:
 - HERO: the young man from HERO: tired small black oval eyes with heavy lid lines and dark shadows under them, thin dark eyebrows, longer messy dark-brown hair under a dark charcoal knit beanie with a small square headlamp on a brown strap, grey ash smudges on his cheeks, an open rust-orange hooded jacket that is faded, ash-stained and frayed at the hem and cuffs, over a dark grey t-shirt with a ragged torn bottom edge, long thin black stick legs and worn dark-brown hiking boots; no backpack
-- TUNNEL: a narrow tunnel dug into brown clay, as wide as his shoulders, with a smooth arched ceiling and thin roots poking through the walls; at the entrance end, a wall of stacked flat grey stones with one large flat stone slab as the door, leaving a vertical gap a hand wide.
+- TUNNEL: a low, narrow, round tunnel dug into brown clay, as wide as his shoulders and so low that when he sits the ceiling is just above his beanie, with a smooth arched ceiling and thin roots poking through the walls; at the entrance end, a wall of stacked flat grey stones with one large flat stone slab as the door, leaving a vertical gap a hand wide.
 - PIP: Pip from PIP: a tiny early mammal the size of a mouse, warm golden-brown fur, cream belly, big shiny black eyes, pointed pink nose with long whiskers, round pink-lined ears, pink paws and a long thin pink tail, a little thinner than before
 
 RULES FOR EVERY FRAME:

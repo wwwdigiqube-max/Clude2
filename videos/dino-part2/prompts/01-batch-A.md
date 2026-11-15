@@ -1,21 +1,21 @@
 # دسته‌ی A · تونل و آتش (روز ۴۰ تا ۵۵) · 10 قاب
 
 **قاب‌ها:** p2-002, p2-012, p2-004, p2-053, p2-066, p2-078, p2-080, p2-086, p2-093, p2-095  
-**پیوست (همه با هم):** `قاب 238 قسمت اول` (TUNNEL) · `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `D11c` (WALL) · `D4e` (BONE)  
+**پیوست (همه با هم):** `P9-tunnel-sheet` (TUNNEL) · `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `D11c` (WALL) · `D4e` (BONE)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.
 
 ```
 You are making 10 still frames for a dark animated survival story, one image per frame, in the order below.
 
 ATTACHED REFERENCES (match them exactly):
-- TUNNEL = the image of a young man feeding a small fire inside a clay tunnel next to a stone door
+- TUNNEL = the location sheet of a low, round clay tunnel with a stone-slab door; it sets the exact size and look of the tunnel
 - HERO = the character sheet of a tired young man in a faded rust-orange jacket, with a large close-up of a scarred black forearm
 - PIP = the sheet of a tiny golden-brown mouse-like mammal in several poses
 - WALL = the image of a young man scratching tally marks on a clay tunnel wall
 - BONE = the image of a boy holding a large pale shoulder-blade bone
 
 CAST AND PLACES:
-- TUNNEL: a narrow tunnel dug into brown clay, as wide as his shoulders, with a smooth arched ceiling and thin roots poking through the walls; at the entrance end, a wall of stacked flat grey stones with one large flat stone slab as the door, leaving a vertical gap a hand wide.
+- TUNNEL: a low, narrow, round tunnel dug into brown clay, as wide as his shoulders and so low that when he sits the ceiling is just above his beanie, with a smooth arched ceiling and thin roots poking through the walls; at the entrance end, a wall of stacked flat grey stones with one large flat stone slab as the door, leaving a vertical gap a hand wide.
 - HERO: the young man from HERO: tired small black oval eyes with heavy lid lines and dark shadows under them, thin dark eyebrows, longer messy dark-brown hair under a dark charcoal knit beanie with a small square headlamp on a brown strap, grey ash smudges on his cheeks, an open rust-orange hooded jacket that is faded, ash-stained and frayed at the hem and cuffs, over a dark grey t-shirt with a ragged torn bottom edge, long thin black stick legs and worn dark-brown hiking boots; no backpack
 - PIP: Pip from PIP: a tiny early mammal the size of a mouse, warm golden-brown fur, cream belly, big shiny black eyes, pointed pink nose with long whiskers, round pink-lined ears, pink paws and a long thin pink tail, a little thinner than before
 - BONE: the bone shovel from BONE: one pale dinosaur shoulder blade as long as an arm, with a broad, flat, thin paddle-shaped blade at one end that narrows into one single thick rounded end, worn and stained with dried clay

@@ -40,7 +40,7 @@ CHAMP = ("the champsosaur from CHAMP: a slim, smooth, lizard-like freshwater rep
 DUCK = ("one duck-billed dinosaur shaped like the ones in DUCKBILL: a broad flat duck-like beak, a long heavy tail, standing on its hind legs with its front hands down, "
         "grey-brown skin; it is starving, so thin that its ribs and hip bones show under sagging skin")
 
-TUN = ("The place is the tunnel from TUNNEL: a narrow tunnel dug into brown clay, as wide as his shoulders, with a smooth arched ceiling and thin roots poking through the walls; "
+TUN = ("The place is the tunnel from TUNNEL: a low, narrow, round tunnel dug into brown clay, as wide as his shoulders and so low that when he sits the ceiling is just above his beanie, with a smooth arched ceiling and thin roots poking through the walls; "
        "at the entrance end, a wall of stacked flat grey stones with one large flat stone slab as the door, leaving a vertical gap a hand wide.")
 FIRE = " A small fire of twigs burns on the tunnel floor right at the gap of the stone door."
 RIV = ("The place is the river from RIVER: a wide, slow, cold grey river with thin white ice along both edges, a low clay bank, burnt black bare trees and fallen logs "
@@ -68,7 +68,7 @@ REFS = {  # name: (what it looks like, for the agent) , (file the user attaches)
  "CHAMP":   ("the image of a slim long-snouted reptile lying on river ice", "P5-champsosaur"),
  "RIVER":   ("the image of a cold grey river in a burnt winter forest with a stone-slab door under tree roots", "P6-winter-river"),
  "DIG":     ("the image of a fossil dig site in rocky badlands with a white string grid", "P8-dig-site"),
- "TUNNEL":  ("the image of a young man feeding a small fire inside a clay tunnel next to a stone door", "قاب 238 قسمت اول"),
+ "TUNNEL":  ("the location sheet of a low, round clay tunnel with a stone-slab door; it sets the exact size and look of the tunnel", "P9-tunnel-sheet"),
  "BONE":    ("the image of a boy holding a large pale shoulder-blade bone", "D4e"),
  "CROC":    ("the image of a crocodile in a muddy river", "D3b"),
  "DUCKBILL":("the image of a herd of duck-billed dinosaurs at a misty river", "D4a"),
