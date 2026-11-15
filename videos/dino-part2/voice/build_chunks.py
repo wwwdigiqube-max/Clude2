@@ -39,6 +39,13 @@ for block in re.split(r"\n\s*\n", src):
 # mood: a chunk takes the mood of its first sentence; carry tense through a run of short lines
 for it in items:
     if "text" in it: it["mood"] = mood(it["text"])
+# hand-picked moods (by chunk start), after listening to the test
+OVR = {"It looked at you": "sad", "He'd come home with dust": "sad", "With food in your stomach": "sad", "Your dad used to say": "sad",
+       "Your fingers bleed": "sad", "That same week, sixty-six": "sad", "\"I've seen your boy": "sad",
+       "The cold is getting worse": "tense", "You've known that since the first fire": "tense", "Then, at the very bottom": "tense"}
+for it in items:
+    for k, m in OVR.items():
+        if it.get("text", "").startswith(k): it["mood"] = m
 json.dump(items, open(os.path.join(H, "chunks.json"), "w"), ensure_ascii=False, indent=1)
 T = [i for i in items if "text" in i]
 print(len(T), "chunks", sum(len(i["text"]) for i in T), "chars")
