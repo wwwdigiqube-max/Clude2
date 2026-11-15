@@ -4,9 +4,15 @@ H = os.path.dirname(os.path.abspath(__file__)); os.chdir(H)
 items = json.load(open("chunks.json"))
 GAP = {"tense": 0.22, "story": 0.4, "sad": 0.6}       # between chunks
 PAUSE, PARA, TAG, CHAP = 0.9, 0.25, 0.5, 1.0           # (pause) · paragraph · [DAY ..] card · new chapter
+HOLD = {7: 1.6, 40: 1.2, 47: 2.2}                      # extra silence after these chunks: title card, checklists
 CH = ("adeclick=w=40:o=75:t=1.8:b=2,highpass=f=70,equalizer=f=140:t=q:w=1:g=2.5,equalizer=f=350:t=q:w=1.2:g=-2,equalizer=f=3800:t=q:w=1.5:g=2,deesser=i=0.4,"
       "acompressor=threshold=-22dB:ratio=2:attack=12:release=180:makeup=2,aecho=0.85:0.5:28|46:0.14|0.09,loudnorm=I=-16:TP=-1.5:LRA=11")
-def dur(f): return float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f],capture_output=True,text=True).stdout)
+def dur(f):
+    if f.endswith(".mp3") and f.startswith("chunks/"):  # decoded length (mp3 padding removed), cached
+        w = f.replace(".mp3", ".wav")
+        if not os.path.exists(w): subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", f, "-ac", "1", "-ar", "44100", w], check=True)
+        f = w
+    return float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f],capture_output=True,text=True).stdout)
 parts, tl, t, prev, lastch = [], [], 0.0, None, None
 for i, it in enumerate(items):
     if "pause" in it: parts.append(("s", PAUSE)); t += PAUSE; continue
@@ -15,9 +21,10 @@ for i, it in enumerate(items):
     if prev is not None:
         g = CHAP if it["ch"] != lastch else GAP[it["mood"]]
         parts.append(("s", g)); t += g
-    f = f"chunks/{i:03d}.mp3"; d = dur(f); a = json.load(open(f.replace(".mp3", ".json")))["alignment"]
+    f = f"chunks/{i:03d}.mp3"; d = dur(f); dur(f); f = f.replace(".mp3", ".wav"); a = json.load(open(f.replace(".wav", ".json")))["alignment"]
     tl.append({"i": i, "ch": it["ch"], "mood": it["mood"], "t": round(t, 3), "dur": round(d, 3), "text": it["text"], "alignment": a})
     parts.append(("f", f)); t += d; prev, lastch = it, it["ch"]
+    if i in HOLD: parts.append(("s", HOLD[i])); t += HOLD[i]
 inputs, fc = [], ""
 for n, (k, v) in enumerate(parts):
     inputs += ["-i", v] if k == "f" else ["-f", "lavfi", "-t", str(v), "-i", "anullsrc=r=44100:cl=mono"]

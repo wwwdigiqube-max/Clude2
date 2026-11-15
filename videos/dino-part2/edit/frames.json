@@ -1,0 +1,1511 @@
+[
+{
+"id": "1",
+"meth": "OLD en:238",
+"see": "تونل تاریک، آتش کوچک کنار شکاف در سنگی",
+"text": "Day forty-nine.",
+"start": 0.0,
+"unspoken": true,
+"end": 1.5
+},
+{
+"id": "2",
+"meth": "NEW",
+"see": "اینسرت: طاقچه‌ی خالی در دیوار رس، فقط استخوان ماهی",
+"text": "You ate the last fish three days ago.",
+"start": 1.5,
+"end": 3.787,
+"pause": false
+},
+{
+"id": "3",
+"meth": "CROP←#4",
+"see": "دست سیاه با سنگ تیز قارچ سفید را از دیوار می‌تراشد",
+"text": "You scrape something white off the wall of your tunnel",
+"start": 4.449,
+"end": 6.841,
+"pause": false
+},
+{
+"id": "4",
+"meth": "NEW·M",
+"see": "کلوز: قارچ سفید نرم جلوی شعله",
+"text": "and hold it up to the fire.",
+"start": 6.875,
+"end": 8.234,
+"pause": false
+},
+{
+"id": "5",
+"meth": "CROP←#4",
+"see": "کلوز صورت لاغر و خسته زیر نور آتش",
+"text": "It's soft. It smells like the forest after rain.",
+"start": 8.756,
+"end": 11.566,
+"pause": false
+},
+{
+"id": "6",
+"meth": "CROP←#4",
+"see": "پیپ بو می‌کشد و نگاه می‌کند",
+"text": "Pip sniffs it. And he's watching you.",
+"start": 12.529,
+"end": 15.165,
+"pause": false
+},
+{
+"id": "7",
+"meth": "TEXT",
+"see": "گرافیک: ۷ ماهی ← ۰",
+"text": "Nine days ago, you had seven fish.",
+"start": 16.128999999999998,
+"end": 18.393,
+"pause": false
+},
+{
+"id": "8",
+"meth": "TEXT",
+"see": "سیاهی کوتاه",
+"text": "(pause)",
+"start": 18.393,
+"end": 20.354
+},
+{
+"id": "9",
+"meth": "OLD en:239",
+"see": "از ته تونل: پسر کوچک کنار آتش، تونل بلند و تاریک",
+"text": "You have no food left. And nobody is coming.",
+"start": 20.354,
+"end": 23.094,
+"pause": false
+},
+{
+"id": "10",
+"meth": "TEXT",
+"see": "کارت عنوان: AFTER THE ASTEROID · PART 2",
+"text": "At least, not for 66 million years.",
+"start": 23.698,
+"end": 26.262999999999998,
+"pause": false
+},
+{
+"id": "11",
+"meth": "OLD D11c",
+"see": "دیوار خط‌کشی‌شده (روز ۴۰) + برچسب DAY 40 AFTER",
+"text": "Forty days since the impact. Fifty since you woke up in this world.",
+"start": 30.502,
+"end": 34.263999999999996,
+"pause": false
+},
+{
+"id": "12",
+"meth": "EDIT←#2",
+"see": "اینسرت: ۷ ماهی خشک روی طاقچه‌ی رس",
+"text": "Seven fish lie on the shelf you cut into the clay. One a day. You've done the math. Seven days.",
+"start": 34.774,
+"end": 40.754,
+"pause": false
+},
+{
+"id": "13",
+"meth": "OLD D11a",
+"see": "دنیای خاکستری بیرون",
+"text": "Outside, the sky is the colour of wet ash.",
+"start": 41.439,
+"end": 44.295,
+"pause": false
+},
+{
+"id": "14",
+"meth": "OLD en:235",
+"see": "خاکستر/برف روی سرخس‌های پژمرده",
+"text": "Some mornings, the ash is snow.",
+"start": 45.096,
+"end": 46.629,
+"pause": false
+},
+{
+"id": "15",
+"meth": "CROP←#16",
+"see": "رود دود‌آلود، جنگل سوخته، یک اردک‌نوک دور",
+"text": "You remember the first weeks after the impact. A few dinosaurs made it through the fire too.",
+"start": 47.685,
+"end": 52.492000000000004,
+"pause": false
+},
+{
+"id": "16",
+"meth": "NEW·M",
+"see": "اردک‌نوک لاغر با دنده‌های پیدا کنار رود (مادر)",
+"text": "One of them was a duck-bill. So thin you could count its ribs.",
+"start": 53.385000000000005,
+"end": 57.658,
+"pause": false
+},
+{
+"id": "17",
+"meth": "CROP←#16",
+"see": "کلوز: دهان اردک‌نوک، شاخه‌ی سوخته",
+"text": "It stood by the river every day, chewing on burnt branches.",
+"start": 58.459,
+"end": 61.652,
+"pause": false
+},
+{
+"id": "18",
+"meth": "NEW",
+"see": "دست سیاه یک سرخس سبز را از گودی خیس می‌کند (تنها رنگ سبز)",
+"text": "One morning, you found the last green fern in a wet hollow.",
+"start": 62.453,
+"end": 65.53,
+"pause": false
+},
+{
+"id": "19",
+"meth": "CROP←#20",
+"see": "از پشت: پسر کوچک با سرخس به سمت اردک‌نوک غول‌پیکر",
+"text": "You carried it to the river, broke your own rule, and walked right up to a dinosaur.",
+"start": 66.435,
+"end": 71.369,
+"pause": false
+},
+{
+"id": "20",
+"meth": "NEW·M",
+"see": "نیمرخ: پسر سرخس را بالا گرفته، پوزه‌ی اردک‌نوک نزدیک (مادر)",
+"text": "Close enough to touch. You held the fern out.",
+"start": 72.17,
+"end": 75.177,
+"pause": false
+},
+{
+"id": "21",
+"meth": "CROP←#20",
+"see": "کلوز چشم اردک‌نوک",
+"text": "It looked at you. It smelled the fern.",
+"start": 76.613,
+"end": 78.97,
+"pause": false
+},
+{
+"id": "22",
+"meth": "CROP←#20",
+"see": "کلوز صورت پسر، غم",
+"text": "It was too weak to lift its head to it.",
+"start": 79.434,
+"end": 81.501,
+"pause": false
+},
+{
+"id": "23",
+"meth": "EDIT←#16",
+"see": "اردک‌نوک افتاده در گِل، مه صبح",
+"text": "The next morning, it was lying in the mud. It didn't get up again.",
+"start": 82.04599999999999,
+"end": 86.029,
+"pause": false
+},
+{
+"id": "24",
+"meth": "OLD en:234",
+"see": "آسمان سیاه از دود",
+"text": "With no sun, nothing green grows.",
+"start": 86.168,
+"end": 88.56,
+"pause": false
+},
+{
+"id": "25",
+"meth": "TEXT",
+"see": "گرافیک: زنجیره‌ی غذا که پاره می‌شود (گیاه ← گیاه‌خوار ← شکارچی)",
+"text": "Big animals need huge amounts of food every day. For a while, the hunters ate the dead. Then the dead ran out too.",
+"start": 89.117,
+"end": 97.789,
+"pause": false
+},
+{
+"id": "26",
+"meth": "TEXT",
+"see": "کارت: NOT THE FIRE. THE HUNGER.",
+"text": "It wasn't only the fire that killed the dinosaurs. It was the hunger after it.",
+"start": 98.718,
+"end": 103.675,
+"pause": false
+},
+{
+"id": "27",
+"meth": "OLD D9b",
+"see": "در سنگی از بیرون در خاکستر",
+"text": "And the same hunger is now waiting at your door.",
+"start": 104.784,
+"end": 107.152,
+"pause": false
+},
+{
+"id": "28",
+"meth": "NEW·M",
+"see": "اتاق خواب مادر، شب، قاب عکس روی میز",
+"text": "Back home, on your mom's nightstand, there's a photo:",
+"start": 109.21,
+"end": 112.64699999999999,
+"pause": false
+},
+{
+"id": "29",
+"meth": "NEW",
+"see": "کلوز قاب عکس: پسر بچه روی شانه‌ی پدر جلوی اسکلت",
+"text": "you, five years old, on your dad's shoulders, in front of that same T. rex skeleton.",
+"start": 113.448,
+"end": 119.369,
+"pause": false
+},
+{
+"id": "30",
+"meth": "NEW",
+"see": "عکس قدیمی سپیا: پدر جوان کنار جمجمه‌ی تی‌رکس در حفاری",
+"text": "Your dad helped dig it up, in North Dakota, before you were born.",
+"start": 120.228,
+"end": 124.16399999999999,
+"pause": false
+},
+{
+"id": "31",
+"meth": "CROP←D6d",
+"see": "تونل، پسر به دیوار تکیه داده، چشم‌ها بسته",
+"text": "You haven't let yourself think about him since you got here. Tonight you do.",
+"start": 124.907,
+"end": 128.982,
+"pause": false
+},
+{
+"id": "32",
+"meth": "EDIT←D1a",
+"see": "اتاق خواب پسر، شب، پوسترهای دایناسور (بی آدم)",
+"text": "When you were small, your dad used to put you to bed under his dinosaur posters.",
+"start": 129.81799999999998,
+"end": 133.81199999999998,
+"pause": false
+},
+{
+"id": "33",
+"meth": "CROP←#30",
+"see": "دست‌های خاکی پدر یک استخون فسیل را نشان می‌دهند (بدون صورت)",
+"text": "He dug up fossils for a living. He'd come home with dust in his hair and a story about a bone.",
+"start": 134.613,
+"end": 141.425,
+"pause": false
+},
+{
+"id": "34",
+"meth": "CROP←D1a",
+"see": "کلوز پوستر اسکلت تی‌رکس روی دیوار",
+"text": "He died when you were seven. The posters stayed.",
+"start": 142.179,
+"end": 145.418,
+"pause": false
+},
+{
+"id": "35",
+"meth": "CROP←D1a",
+"see": "کلوز چراغ خواب و پوسترها",
+"text": "And every night, you lay under them and wished, just once, to see a real one.",
+"start": 145.883,
+"end": 151.038,
+"pause": false
+},
+{
+"id": "36",
+"meth": "OLD D1e",
+"see": "دره با گله‌های دایناسور (روز ۱)",
+"text": "(pause) You got your wish.",
+"start": 153.106,
+"end": 154.058,
+"pause": true
+},
+{
+"id": "37",
+"meth": "REUSE←#23",
+"see": "اردک‌نوک مرده در مه",
+"text": "You saw them. And you watched the last of them die.",
+"start": 154.441,
+"end": 157.878,
+"pause": false
+},
+{
+"id": "38",
+"meth": "TEXT",
+"see": "کارت NOW · DAY 50 MISSING روی خیابان امروز",
+"text": "Back home, sixty-six million years from now, it's day fifty.",
+"start": 160.818,
+"end": 164.591,
+"pause": false
+},
+{
+"id": "39",
+"meth": "NEW·M",
+"see": "راهرو: مادر جلوی در بسته‌ی اتاق، دست روی در",
+"text": "On the first morning, your mom knocked to wake you for school. No answer.",
+"start": 165.45000000000002,
+"end": 169.63000000000002,
+"pause": false
+},
+{
+"id": "40",
+"meth": "EDIT←#39",
+"see": "در شکسته‌ی اتاق، چارچوب ترک‌خورده",
+"text": "Your door was locked from the inside. A neighbour had to break it open.",
+"start": 170.33800000000002,
+"end": 174.262,
+"pause": false
+},
+{
+"id": "41",
+"meth": "EDIT←D1a",
+"see": "اتاق صبح، تخت خالی، پنجره‌ی بسته (همان اتاق)",
+"text": "The bed was empty. The window was shut.",
+"start": 174.97,
+"end": 177.025,
+"pause": false
+},
+{
+"id": "42",
+"meth": "CROP←P7 (wide street)",
+"see": "دو پلیس آدمکی در اتاق، مادر با دست روی دهان",
+"text": "The police still can't explain it.",
+"start": 177.15300000000002,
+"end": 178.81300000000002,
+"pause": false
+},
+{
+"id": "43",
+"meth": "OLD P7 + face overlay (edit)",
+"see": "تیر چراغ‌برق با آگهی گم‌شده (عکس قهرمان)، خیابان خاکستری",
+"text": "There's a poster on every lamp post in town. Your face. MISSING.",
+"start": 179.382,
+"end": 183.27200000000002,
+"pause": false
+},
+{
+"id": "44",
+"meth": "NEW",
+"see": "مادر در درگاه اتاق خالی پسر",
+"text": "Your mom hasn't moved a thing in your room.",
+"start": 184.20000000000002,
+"end": 186.08100000000002,
+"pause": false
+},
+{
+"id": "45",
+"meth": "NEW",
+"see": "اینسرت: شارژر به پریز، کابل روی میز",
+"text": "Your dad's dinosaur posters. The charger, still plugged into the wall.",
+"start": 186.383,
+"end": 191.01,
+"pause": false
+},
+{
+"id": "46",
+"meth": "NEW",
+"see": "دو دوست در راهروی مدرسه، با گوشی، نگران",
+"text": "Your two best friends heard it at school, the morning you didn't show up.",
+"start": 192.519,
+"end": 196.18800000000002,
+"pause": false
+},
+{
+"id": "47",
+"meth": "CROP←#49",
+"see": "دو دوست دوان وارد تالار موزه می‌شوند",
+"text": "The first place they looked was the museum.",
+"start": 197.244,
+"end": 199.288,
+"pause": false
+},
+{
+"id": "48",
+"meth": "OLD en:231",
+"see": "تالار موزه، اسکلت، نور روز",
+"text": "When something was wrong, you always went to see the T. rex. The one your dad used to take you to.",
+"start": 199.93800000000002,
+"end": 206.637,
+"pause": false
+},
+{
+"id": "49",
+"meth": "NEW·M",
+"see": "دو دوست کوچک جلوی اسکلت بزرگ، تنها",
+"text": "You weren't there.",
+"start": 207.46200000000002,
+"end": 208.274,
+"pause": false
+},
+{
+"id": "50",
+"meth": "CROP←#49",
+"see": "کلوز دو دوست، نگاه به بالا",
+"text": "They still go back, every week. They stand where you filmed your video.",
+"start": 208.46,
+"end": 212.59300000000002,
+"pause": false
+},
+{
+"id": "51",
+"meth": "OLD en:137",
+"see": "فلش‌بک: سلفی خندان قسمت ۱",
+"text": "\"I'd survive. Easy.\"",
+"start": 213.55700000000002,
+"end": 214.96200000000002,
+"pause": false
+},
+{
+"id": "52",
+"meth": "CROP←#49",
+"see": "کلوز دوست‌ها، بی‌لبخند",
+"text": "Nobody laughs anymore.",
+"start": 215.42600000000002,
+"end": 216.749,
+"pause": false
+},
+{
+"id": "53",
+"meth": "NEW·M",
+"see": "کلوز صورت لاغر، چشم‌های گود، دست‌ها جلوی آتش (مادر)",
+"text": "Back in the tunnel, the last fish is gone. One day with nothing. Then two.",
+"start": 219.457,
+"end": 224.182,
+"pause": false
+},
+{
+"id": "54",
+"meth": "CROP←#53",
+"see": "اینسرت: دست‌های سیاه لرزان جلوی آتش",
+"text": "Your hands start to shake.",
+"start": 224.774,
+"end": 226.04,
+"pause": false
+},
+{
+"id": "55",
+"meth": "NEW",
+"see": "کندن چاله در شن کنار رود خاکستری، بالادست",
+"text": "Water isn't the problem. You still dig a pit in the sand by the river, upstream, like on day three,",
+"start": 226.481,
+"end": 232.147,
+"pause": false
+},
+{
+"id": "56",
+"meth": "OLD D3c",
+"see": "کلوز آب تمیزتر در چاله",
+"text": "and the grey water seeps in clearer.",
+"start": 232.46099999999998,
+"end": 234.341,
+"pause": false
+},
+{
+"id": "57",
+"meth": "CROP←#103",
+"see": "سطح رود خاکستری با یخ نازک لبه، سایه‌ی ماهی در عمق",
+"text": "Fish are. In this cold, the fish have gone deep, where your hands can't reach.",
+"start": 235.02599999999998,
+"end": 240.111,
+"pause": false
+},
+{
+"id": "58",
+"meth": "NEW·M",
+"see": "پیپ زیر ریشه، انبار کوچک دانه",
+"text": "But Pip isn't starving. Before the fire, he hid seeds under the roots, the way small animals do.",
+"start": 241.33,
+"end": 247.866,
+"pause": false
+},
+{
+"id": "59",
+"meth": "CROP←#58",
+"see": "کلوز پیپ دانه در دست می‌جود",
+"text": "He's lived on those, and on bugs.",
+"start": 248.726,
+"end": 251.07100000000003,
+"pause": false
+},
+{
+"id": "60",
+"meth": "NEW",
+"see": "کف دست سیاه پسر با چند دانه‌ی ریز (مقیاس)",
+"text": "His stash is mouse-sized. A handful of seeds wouldn't last you an hour.",
+"start": 251.77900000000002,
+"end": 256.075,
+"pause": false
+},
+{
+"id": "61",
+"meth": "NEW",
+"see": "پسر چهار دست و پا دنبال پیپ در جنگل خاکستری (برچسب DAY 49)",
+"text": "On day forty-nine, starving, you finally follow him.",
+"start": 256.841,
+"end": 260.22,
+"pause": false
+},
+{
+"id": "62",
+"meth": "NEW·M",
+"see": "پیپ کنار تنه‌ی پوسیده، دست‌های پسر کنارش (مادر)",
+"text": "He walks past the dead plants and goes straight for a rotten log.",
+"start": 261.416,
+"end": 264.64300000000003,
+"pause": false
+},
+{
+"id": "63",
+"meth": "CROP←#62",
+"see": "کلوز: پیپ با لاروی سفید چاق در دهان",
+"text": "He digs. And he comes out with a fat white grub. Then another.",
+"start": 265.247,
+"end": 269.043,
+"pause": false
+},
+{
+"id": "64",
+"meth": "REUSE←#62",
+"see": "واید جنگل مرده، تنه‌ی پوسیده جلوی کادر",
+"text": "The forest is dead. But dead things are food, for something.",
+"start": 269.635,
+"end": 273.994,
+"pause": false
+},
+{
+"id": "65",
+"meth": "CROP←#62",
+"see": "دست‌های پسر تنه را باز می‌کنند، لارو و سوسک",
+"text": "So you dig next to Pip. Grubs. Beetles.",
+"start": 275.306,
+"end": 277.907,
+"pause": false
+},
+{
+"id": "66",
+"meth": "NEW·M",
+"see": "دیوار تونل با قارچ سفید و نارنجی، پیپ بو می‌کشد (مادر)",
+"text": "And on the tunnel walls, that soft white fungus.",
+"start": 278.394,
+"end": 280.983,
+"pause": false
+},
+{
+"id": "67",
+"meth": "CROP←#66",
+"see": "پیپ قارچ‌ها را بو می‌کشد",
+"text": "You don't know which fungus is safe. Pip sniffs every kind.",
+"start": 281.866,
+"end": 285.83599999999996,
+"pause": false
+},
+{
+"id": "68",
+"meth": "CROP←#66",
+"see": "کلوز قارچ سفید کنار قارچ نارنجی",
+"text": "He eats the white. He won't touch the orange.",
+"start": 286.452,
+"end": 289.412,
+"pause": false
+},
+{
+"id": "69",
+"meth": "TEXT",
+"see": "کارت هشدار: ⚠ ANIMALS CAN EAT WHAT KILLS YOU",
+"text": "It's a terrible rule. Animals can eat things that would kill a person. But you're out of rules.",
+"start": 289.46999999999997,
+"end": 295.043,
+"pause": false
+},
+{
+"id": "70",
+"meth": "CROP←#4",
+"see": "پسر کنار آتش منتظر، تکه‌ای قارچ در دست",
+"text": "You eat one tiny piece of the white, and you wait a whole day. Nothing happens.",
+"start": 295.751,
+"end": 300.279,
+"pause": false
+},
+{
+"id": "71",
+"meth": "TEXT",
+"see": "کارت: ONE DAY PROVES NOTHING",
+"text": "Even that proves nothing. Some deadly fungi take days to kill you. You got lucky.",
+"start": 301.05699999999996,
+"end": 307.25,
+"pause": false
+},
+{
+"id": "72",
+"meth": "CROP←#66",
+"see": "قارچ نارنجی تنها روی دیوار، تاریک",
+"text": "So the white becomes food. And the orange, you never go near.",
+"start": 307.9,
+"end": 311.894,
+"pause": false
+},
+{
+"id": "73",
+"meth": "CROP←#75",
+"see": "پسر تنه‌ی خیس را کنار در سنگی می‌کشد",
+"text": "Then you get smart. You drag wet, rotting logs right next to your door, and pile dead leaves on top.",
+"start": 313.368,
+"end": 319.951,
+"pause": false
+},
+{
+"id": "74",
+"meth": "CROP←#75",
+"see": "زیر تنه‌ی برگشته: لاروهای سفید",
+"text": "Every few days, you roll one over. There are always grubs underneath.",
+"start": 320.729,
+"end": 324.86199999999997,
+"pause": false
+},
+{
+"id": "75",
+"meth": "NEW·M",
+"see": "واید: ردیف تنه‌ها کنار در، پسر یکی را برگردانده، لاروها پیدا (مادر)",
+"text": "For the first time since the impact, you have a farm.",
+"start": 325.524,
+"end": 328.402,
+"pause": false
+},
+{
+"id": "76",
+"meth": "TEXT",
+"see": "گرافیک: گیاه تازه ✗ · چیزهای مرده ✓ (حیوان‌های کوچک)",
+"text": "Scientists think that's how so many small animals made it: everything that needed fresh plants starved, but the things that lived on the dead kept going.",
+"start": 329.436,
+"end": 338.306,
+"pause": false
+},
+{
+"id": "77",
+"meth": "TEXT",
+"see": "کارت قانون ۴",
+"text": "Rule four: eat what eats the dead.",
+"start": 339.235,
+"end": 341.51,
+"pause": false
+},
+{
+"id": "78",
+"meth": "NEW",
+"see": "اینسرت: چوب، زغال قرمز زیر خاکستر می‌رود",
+"text": "Every night, before you sleep, you bury the hot coals at the back of the fire under a thick layer of ash, so they last till morning.",
+"start": 342.654,
+"end": 349.864,
+"pause": false
+},
+{
+"id": "79",
+"meth": "TEXT",
+"see": "چک‌لیست: غذا · آب · آتش",
+"text": "—",
+"start": 349.864,
+"end": 354.156
+},
+{
+"id": "80",
+"meth": "NEW",
+"see": "پسر دراز کشیده، چشم باز، سقف تونل (برچسب DAY 52)",
+"text": "With food in your stomach, you can think again. And the thought that comes back, every night, is your mom.",
+"start": 354.156,
+"end": 360.274,
+"pause": false
+},
+{
+"id": "81",
+"meth": "EDIT←en:134",
+"see": "مادر در آشپزخانه‌ی خالی، تنها (همان آشپزخانه)",
+"text": "She doesn't know where you are. She never will.",
+"start": 361.168,
+"end": 363.781,
+"pause": false
+},
+{
+"id": "82",
+"meth": "CROP←#86",
+"see": "کلوز صورت پسر، لب‌ها، اشک",
+"text": "You can't go back. You've known it for weeks. Tonight, you say it out loud. \"I can't go back.\"",
+"start": 363.955,
+"end": 370.746,
+"pause": false
+},
+{
+"id": "83",
+"meth": "CROP←#86",
+"see": "پیپ سر بلند می‌کند",
+"text": "Pip looks up at you.",
+"start": 371.385,
+"end": 372.592,
+"pause": false
+},
+{
+"id": "84",
+"meth": "CROP←#86",
+"see": "پسر زانو زده، سایه‌اش روی دیوار تونل",
+"text": "So you stop waiting to wake up. What's coming is colder and longer than the impact. You'll need a plan.",
+"start": 373.614,
+"end": 380.267,
+"pause": false
+},
+{
+"id": "85",
+"meth": "CROP←#86",
+"see": "اینسرت: دست زغال سیاه از آتش برمی‌دارد",
+"text": "Your pen is dry. But the fire leaves charcoal.",
+"start": 380.39399999999995,
+"end": 383.541,
+"pause": false
+},
+{
+"id": "86",
+"meth": "NEW·M",
+"see": "پسر با زغال روی دیوار می‌نویسد، پیپ پایین نگاه می‌کند (مادر)",
+"text": "You pick up a black stick and write on the tunnel wall, like you wrote in the book on night one.",
+"start": 383.88899999999995,
+"end": 388.544,
+"pause": false
+},
+{
+"id": "87",
+"meth": "CROP←#86",
+"see": "کلوز دیوار: خط‌های زغالی (متن در تدوین)",
+"text": "What you lost. What you have. What you still need.",
+"start": 389.113,
+"end": 392.736,
+"pause": false
+},
+{
+"id": "87a",
+"meth": "CROP←#86",
+"see": "کلوز صورت پسر کنار دیوار، نگاه به در",
+"text": "Grubs and fungus keep you alive. They won't make you strong. Somewhere out there, there's meat.",
+"start": 393.421,
+"end": 399.33,
+"pause": false
+},
+{
+"id": "88",
+"meth": "TEXT",
+"see": "چک‌لیست: WINTER PLAN … A DEEPER SHELTER ? · MEAT ?",
+"text": "—",
+"start": 399.33,
+"end": 403.821
+},
+{
+"id": "89",
+"meth": "REUSE←#30",
+"see": "عکس سپیای پدر در حفاری (همان قبلی)، زوم",
+"text": "Your dad used to say: \"Every bone is a message from someone who was here.\"",
+"start": 403.821,
+"end": 408.25600000000003,
+"pause": false
+},
+{
+"id": "90",
+"meth": "CROP←#86",
+"see": "کلوز صورت پسر، تصمیم",
+"text": "(pause) Maybe you can't go home. But maybe a message can.",
+"start": 410.461,
+"end": 414.083,
+"pause": true
+},
+{
+"id": "91",
+"meth": "TEXT",
+"see": "گرافیک: یک استخوان روشن بین میلیون‌ها نقطه",
+"text": "Almost nothing ever becomes a fossil. One bone in many millions.",
+"start": 414.327,
+"end": 418.75100000000003,
+"pause": false
+},
+{
+"id": "92",
+"meth": "OLD en:225",
+"see": "تی‌رکس زیر گِل (قسمت ۱)",
+"text": "But you know how the lucky ones start: buried fast, deep in mud, like the T. rex at your door.",
+"start": 419.319,
+"end": 424.892,
+"pause": false
+},
+{
+"id": "93",
+"meth": "NEW·M",
+"see": "استخوان‌بیل کنار دیوار تونل، نور آتش",
+"text": "And you have a bone. The one you've been digging with since day four.",
+"start": 425.217,
+"end": 429.327,
+"pause": false
+},
+{
+"id": "94",
+"meth": "CROP←#93",
+"see": "دست پسر روی استخوان",
+"text": "It's the only shovel you have. You'll bury it anyway.",
+"start": 430.059,
+"end": 432.59000000000003,
+"pause": false
+},
+{
+"id": "95",
+"meth": "NEW·M",
+"see": "پسر با سنگ تیز روی استخوان می‌کند، آستین بالا، جای زخم ساعد راست (مادر)",
+"text": "So you take a sharp stone, and you start to write on it.",
+"start": 432.985,
+"end": 436.166,
+"pause": false
+},
+{
+"id": "96",
+"meth": "CROP←#95",
+"see": "سه شب: آتش، دست‌ها، استخوان (کراس‌فید)",
+"text": "It takes three nights. Your fingers bleed.",
+"start": 436.317,
+"end": 439.86499999999995,
+"pause": false
+},
+{
+"id": "97",
+"meth": "CROP←#95",
+"see": "کلوز دست‌های خونی روی استخوان (زخم دیده نمی‌شود، فقط در متن)",
+"text": "Your right arm still aches where the claw went in.",
+"start": 440.318,
+"end": 443.116,
+"pause": false
+},
+{
+"id": "98",
+"meth": "CROP←#95",
+"see": "کلوز حروف کنده‌شده (حروف در تدوین)",
+"text": "You go over every letter again and again, deep enough to last forever.",
+"start": 443.952,
+"end": 448.933,
+"pause": false
+},
+{
+"id": "99",
+"meth": "OLD en:137",
+"see": "فلش‌بک سلفی موزه، سپیا",
+"text": "Three words. The last two are almost what you said in front of that skeleton, laughing. Except this time, they're true.",
+"start": 450.012,
+"end": 459.19599999999997,
+"pause": false
+},
+{
+"id": "100",
+"meth": "REUSE←#93",
+"see": "استخوان با حروف MOM. I SURVIVED. (حروف روی تصویر در تدوین)",
+"text": "MOM. I SURVIVED.",
+"start": 460.35699999999997,
+"end": 462.563,
+"pause": false
+},
+{
+"id": "101",
+"meth": "OLD en:238",
+"see": "در سنگی از داخل، شکاف، نور سرد",
+"text": "Now it has to be buried. Deep. In mud. Where the river floods.",
+"start": 464.992,
+"end": 469.497,
+"pause": false
+},
+{
+"id": "102",
+"meth": "CROP←D9b",
+"see": "اینسرت: گِل یخ‌زده‌ی ترک‌خورده جلوی در",
+"text": "The mud at your door is frozen hard as rock.",
+"start": 469.973,
+"end": 472.59700000000004,
+"pause": false
+},
+{
+"id": "103",
+"meth": "NEW·M",
+"see": "واید رود خاکستری، گودال آرام، یخ لبه‌ها (مادر)",
+"text": "The only soft clay left is down at the crocodile's pool.",
+"start": 472.945,
+"end": 476.01,
+"pause": false
+},
+{
+"id": "104",
+"meth": "CROP←#103",
+"see": "کلوز یخ لبه‌ی آب",
+"text": "The river is still running, grey and cold, with ice along the edges in the mornings.",
+"start": 476.81100000000004,
+"end": 481.25800000000004,
+"pause": false
+},
+{
+"id": "105",
+"meth": "NEW",
+"see": "کروکودیل نیمه‌غرق، بی‌حرکت، برفک روی پشت",
+"text": "And the river has survivors of its own. A crocodile. Maybe the same one from day three.",
+"start": 481.94300000000004,
+"end": 487.69,
+"pause": false
+},
+{
+"id": "106",
+"meth": "OLD D3b",
+"see": "کلوز چشم نیمه‌بسته‌ی کروکودیل",
+"text": "Crocodiles made it through the end of the world.",
+"start": 488.34000000000003,
+"end": 490.85900000000004,
+"pause": false
+},
+{
+"id": "107",
+"meth": "NEW",
+"see": "کامپسوسور با پوزه‌ی باریک بلند، کنار کروکودیل",
+"text": "And beside it, a champsosaur: a long, thin snout, built for catching fish. It made it through too.",
+"start": 491.909,
+"end": 498.90999999999997,
+"pause": false
+},
+{
+"id": "108",
+"meth": "TEXT",
+"see": "گرافیک: دماسنج پایین، ضربان کند",
+"text": "Crocodiles are cold-blooded. In this cold, they barely move. That's how they survived: they almost stop. Almost.",
+"start": 499.641,
+"end": 507.64099999999996,
+"pause": false
+},
+{
+"id": "109",
+"meth": "NEW",
+"see": "پسر کنار در سنگی در سپیده‌دم، استخوان روی شانه",
+"text": "They're slowest at dawn, before the day warms them. So you go at first light.",
+"start": 508.11699999999996,
+"end": 513.341,
+"pause": false
+},
+{
+"id": "110",
+"meth": "NEW",
+"see": "پسر از دیواره‌ی رسی پایین می‌خزد",
+"text": "You crawl down the bank with the bone on your back.",
+"start": 513.91,
+"end": 516.395,
+"pause": false
+},
+{
+"id": "111",
+"meth": "NEW·M",
+"see": "دست پسر تا آرنج در خاک رس، استخوان پیدا نیست (مادر)",
+"text": "At the water's edge, where the river floods every spring, you push the bone deep under the clay, as deep as your arm can reach.",
+"start": 517.392,
+"end": 524.9150000000001,
+"pause": false
+},
+{
+"id": "112",
+"meth": "CROP←#103",
+"see": "حلقه‌های موج روی آب خاکستری",
+"text": "Something moves in the water.",
+"start": 525.7860000000001,
+"end": 527.051,
+"pause": false
+},
+{
+"id": "113",
+"meth": "CROP←#111",
+"see": "کلوز پیپ جیغ می‌کشد",
+"text": "Pip squeaks. Once. Loud.",
+"start": 527.3770000000001,
+"end": 529.7800000000001,
+"pause": false
+},
+{
+"id": "114",
+"meth": "CROP←#111",
+"see": "سایه‌ی کروکودیل زیر آب نزدیک دست",
+"text": "A dark shape drifts toward you, slow as a log.",
+"start": 530.221,
+"end": 532.5310000000001,
+"pause": false
+},
+{
+"id": "115",
+"meth": "NEW",
+"see": "آرواره‌های کروکودیل در گِل بسته می‌شوند، پسر عقب افتاده",
+"text": "You throw yourself backwards, and the crocodile's jaws close, lazily, where your hand just was.",
+"start": 532.7520000000001,
+"end": 538.4290000000001,
+"pause": false
+},
+{
+"id": "116",
+"meth": "CROP←#115",
+"see": "کلوز پوزه‌ی کروکودیل در گِل",
+"text": "(pause) Slow. But not slow enough to be safe.",
+"start": 540.246,
+"end": 543.067,
+"pause": true
+},
+{
+"id": "117",
+"meth": "NEW",
+"see": "پسر می‌دود بالای دیواره، پیپ در جیب",
+"text": "The bone is under the clay. You push the last handful over it and run.",
+"start": 543.8919999999999,
+"end": 548.466,
+"pause": false
+},
+{
+"id": "118",
+"meth": "NEW",
+"see": "پسر پشت به در سنگی نشسته، می‌لرزد",
+"text": "Back in the tunnel, you sit with your back against the stone door, shaking.",
+"start": 550.106,
+"end": 554.622,
+"pause": false
+},
+{
+"id": "119",
+"meth": "CROP←#118",
+"see": "کلوز صورت آرام‌شده",
+"text": "It's done. Whatever happens to you now, something of you will last.",
+"start": 555.365,
+"end": 560.683,
+"pause": false
+},
+{
+"id": "119a",
+"meth": "CROP←#118",
+"see": "کلوز دست‌های لرزان روی زانو که مشت می‌شوند",
+"text": "But you're tired of always being the one who runs.",
+"start": 561.333,
+"end": 563.783,
+"pause": false
+},
+{
+"id": "120",
+"meth": "CROP←#121",
+"see": "کارت NOW · DAY 66 MISSING · مادر وارد تالار موزه",
+"text": "That same week, sixty-six million years later, your mom goes to the museum for the first time since you disappeared.",
+"start": 565.805,
+"end": 572.5619999999999,
+"pause": false
+},
+{
+"id": "121",
+"meth": "NEW·M",
+"see": "مادر کوچک جلوی اسکلت بزرگ (مادر)",
+"text": "She stands in front of the T. rex for a long time.",
+"start": 573.572,
+"end": 576.649,
+"pause": false
+},
+{
+"id": "122",
+"meth": "NEW·M",
+"see": "پیرزن دیرینه‌شناس کنار مادر (مادر)",
+"text": "An old woman stops next to her. A grey braid, a sun-faded field hat, dust on her boots.",
+"start": 577.357,
+"end": 583.9749999999999,
+"pause": false
+},
+{
+"id": "123",
+"meth": "CROP←#122",
+"see": "کلوز پیرزن، نگاه به اسکلت",
+"text": "\"You're Daniel's wife,\" she says. \"I dug with him for twelve years. We found this one together.\"",
+"start": 584.915,
+"end": 591.3119999999999,
+"pause": false
+},
+{
+"id": "124",
+"meth": "CROP←#121",
+"see": "کلوز مادر، چشم‌های خیس",
+"text": "She looks at the floor. \"I've seen your boy's face on every lamp post. I'm so sorry.\"",
+"start": 592.346,
+"end": 598.414,
+"pause": false
+},
+{
+"id": "125",
+"meth": "NEW",
+"see": "دو زن روی نیمکت، تالار خالی، نور غروب",
+"text": "They talk until the museum closes.",
+"start": 599.563,
+"end": 601.781,
+"pause": false
+},
+{
+"id": "126",
+"meth": "CROP←#125",
+"see": "دم در موزه، شب، دو زن",
+"text": "At the door, the old woman says she's going back to his old dig site in North Dakota. Next week. The last time, at her age.",
+"start": 602.872,
+"end": 611.034,
+"pause": false
+},
+{
+"id": "127",
+"meth": "CROP←#122",
+"see": "کلوز پیرزن، لبخند کوچک",
+"text": "\"He always said that place had one more surprise in it.\"",
+"start": 611.928,
+"end": 615.144,
+"pause": false
+},
+{
+"id": "128",
+"meth": "CROP←#129",
+"see": "تونل، یخ روی دیوار نزدیک در",
+"text": "The cold is getting worse.",
+"start": 617.828,
+"end": 619.337,
+"pause": false
+},
+{
+"id": "129",
+"meth": "NEW·M",
+"see": "پسر بیدار می‌شود، سرفه، دود پایین (مادر)",
+"text": "One night, you wake up coughing. Snow has piled against the stone door.",
+"start": 619.929,
+"end": 624.689,
+"pause": false
+},
+{
+"id": "130",
+"meth": "NEW",
+"see": "اینسرت: آب از شکاف روی آتش می‌چکد، یخ روی شکاف",
+"text": "The fire's heat melted the bottom of it, and the meltwater ran down through the gap, right onto the fire. Then the top froze over and sealed the gap shut.",
+"start": 625.177,
+"end": 633.896,
+"pause": false
+},
+{
+"id": "131",
+"meth": "CROP←#129",
+"see": "دود خاکستری در تونل، آتش خیس",
+"text": "The fire is drowned. The smoke from the wet wood has nowhere to go. It's rolling back into the tunnel, low and grey.",
+"start": 634.43,
+"end": 641.593,
+"pause": false
+},
+{
+"id": "132",
+"meth": "TEXT",
+"see": "کارت هشدار کوچک: SMOKE KILLS QUIETLY",
+"text": "Smoke in a closed tunnel kills quietly. You've known that since the first fire.",
+"start": 642.174,
+"end": 647.143,
+"pause": false
+},
+{
+"id": "133",
+"meth": "NEW",
+"see": "دست پسر یخ شکاف را می‌شکند، هوا و نور",
+"text": "You crawl to the door, punch through the ice in the gap with your bare hands, and breathe.",
+"start": 647.596,
+"end": 652.518,
+"pause": false
+},
+{
+"id": "134",
+"meth": "CROP←#129",
+"see": "کلوز صورت در تاریکی، بخار نفس",
+"text": "No matches. No lighter.",
+"start": 653.134,
+"end": 654.713,
+"pause": false
+},
+{
+"id": "135",
+"meth": "NEW",
+"see": "پسر با کمان و چوب، دست‌های تاول‌زده",
+"text": "You try a bow drill, the way you've seen in videos, until your hands blister. The wood is too damp. Nothing.",
+"start": 655.479,
+"end": 661.504,
+"pause": false
+},
+{
+"id": "136",
+"meth": "REUSE←#78",
+"see": "کپه‌ی خاکستر ته آتش",
+"text": "There's one chance left: the coals you buried at the back, under the ash.",
+"start": 662.259,
+"end": 665.672,
+"pause": false
+},
+{
+"id": "137",
+"meth": "NEW·M",
+"see": "اینسرت: یک زغال قرمز کوچک ته خاکستر (مادر)",
+"text": "You dig into the grey pile with a stick. Wet. Black. Black. Then, at the very bottom, one tiny red eye.",
+"start": 666.345,
+"end": 673.904,
+"pause": false
+},
+{
+"id": "138",
+"meth": "CROP←#137",
+"see": "کلوز لب‌ها و زغال، دود باریک",
+"text": "You lay a pinch of dry fern fluff on it. You blow. Gently. Again.",
+"start": 674.7280000000001,
+"end": 680.0690000000001,
+"pause": false
+},
+{
+"id": "139",
+"meth": "EDIT←#137",
+"see": "شعله‌ی کوچک، صورت روشن می‌شود",
+"text": "A thread of smoke. Then a flame.",
+"start": 680.7420000000001,
+"end": 682.739,
+"pause": false
+},
+{
+"id": "140",
+"meth": "NEW",
+"see": "پسر خوابیده کنار در، پیپ کنار گردن",
+"text": "From that night on, you sleep with your head at the door, and you check the gap every time you wake.",
+"start": 683.331,
+"end": 688.033,
+"pause": false
+},
+{
+"id": "141",
+"meth": "EDIT←#55",
+"see": "چاله‌ی شنی کاملاً یخ‌زده",
+"text": "One morning, the sand pit is frozen solid.",
+"start": 689.461,
+"end": 691.934,
+"pause": false
+},
+{
+"id": "142",
+"meth": "NEW",
+"see": "لاروهای خشک روی سنگ صاف کنار آتش",
+"text": "So you work down the list on the wall. You dry grubs hard on a flat stone by the fire, the way you dried fish. They'll keep for weeks.",
+"start": 692.3870000000001,
+"end": 700.9780000000001,
+"pause": false
+},
+{
+"id": "143",
+"meth": "NEW",
+"see": "آب برف از لای شن و زغال در بطری می‌چکد",
+"text": "You bring snow inside, melt it by the fire, and pour it through sand and charcoal, because this snow is full of ash.",
+"start": 701.605,
+"end": 708.467,
+"pause": false
+},
+{
+"id": "144",
+"meth": "CROP←#86",
+"see": "دیوار زغالی: تیک‌ها",
+"text": "One tick. Then another.",
+"start": 709.175,
+"end": 711.149,
+"pause": false
+},
+{
+"id": "145",
+"meth": "TEXT",
+"see": "کلوز «A DEEPER SHELTER ?» و «MEAT ?» (گرافیک)",
+"text": "But two lines on the wall still have question marks. Your tunnel was built to survive the impact. Not a winter.",
+"start": 711.846,
+"end": 719.072,
+"pause": false
+},
+{
+"id": "146",
+"meth": "OLD D6d",
+"see": "تونل از ته، کوچک و سرد",
+"text": "You'll need somewhere deeper. Warmer. But that's a problem for another day.",
+"start": 719.768,
+"end": 724.308,
+"pause": false
+},
+{
+"id": "146a",
+"meth": "TEXT",
+"see": "کلوز «MEAT ?» روی دیوار (گرافیک)",
+"text": "The other question mark can't wait.",
+"start": 725.271,
+"end": 726.978,
+"pause": false
+},
+{
+"id": "146b",
+"meth": "NEW·M",
+"see": "پسر کنار آتش با سنگ تیز سر یک شاخه‌ی بلند را تیز می‌کند (مادر)",
+"text": "That night, you pick up the sharp stone you carved the bone with, and a long, straight branch, and you start to make a spear.",
+"start": 727.721,
+"end": 734.501,
+"pause": false
+},
+{
+"id": "146c",
+"meth": "CROP←#146b",
+"see": "کلوز نوک نیزه جلوی شعله، صورت مصمم پشتش",
+"text": "Tomorrow, you stop hiding. You learn to hunt.",
+"start": 734.884,
+"end": 737.206,
+"pause": false
+},
+{
+"id": "147",
+"meth": "EDIT←D9b",
+"see": "دهانه‌ی تونل خالی، شب، برف",
+"text": "A few days later, Pip doesn't come back at night.",
+"start": 739.612,
+"end": 742.317,
+"pause": false
+},
+{
+"id": "148",
+"meth": "CROP←#153",
+"see": "پسر کنار در منتظر، آتش کوچک",
+"text": "You wait. One night. Two.",
+"start": 742.723,
+"end": 744.616,
+"pause": false
+},
+{
+"id": "149",
+"meth": "NEW·M",
+"see": "دم ورودی برفی: پیپ و یک موش دوم (مادر)",
+"text": "On the third morning, he's at the entrance. And he's not alone.",
+"start": 746.317,
+"end": 749.73,
+"pause": false
+},
+{
+"id": "150",
+"meth": "CROP←149-close (big version)",
+"see": "کلوز صورت ماده",
+"text": "A second little face. Smaller. Pale, ash-grey fur, with a white mark on her chest. The same black eyes.",
+"start": 750.195,
+"end": 758.496,
+"pause": false
+},
+{
+"id": "151",
+"meth": "CROP←149-close (big version)",
+"see": "دو موش کنار هم",
+"text": "She survived the dark too, in some other hole, under some other tree. Pip isn't the last of his kind.",
+"start": 759.227,
+"end": 766.158,
+"pause": false
+},
+{
+"id": "152",
+"meth": "CROP←#153",
+"see": "کلوز صورت پسر، لبخند غمگین",
+"text": "(pause) You're happy for him. You really are.",
+"start": 768.343,
+"end": 770.526,
+"pause": true
+},
+{
+"id": "153",
+"meth": "NEW·M",
+"see": "واید تونل، پسر تنها و کوچک، آتش (مادر)",
+"text": "But that night, the tunnel feels bigger than it ever has.",
+"start": 771.1759999999999,
+"end": 773.9269999999999,
+"pause": false
+},
+{
+"id": "154",
+"meth": "OLD D11c",
+"see": "دست سنگ روی دیوار",
+"text": "You scratch a new line on the wall. Friends: one.",
+"start": 774.136,
+"end": 778.304,
+"pause": false
+},
+{
+"id": "155",
+"meth": "TEXT",
+"see": "بازنویسی دیوار (گرافیک)",
+"text": "You stop. And you add: …and one more.",
+"start": 778.4549999999999,
+"end": 782.3679999999999,
+"pause": false
+},
+{
+"id": "156",
+"meth": "OLD P8",
+"see": "کارت NOW · DAY 76 MISSING · بدلندز داکوتا (مادر)",
+"text": "North Dakota. Your dad's old dig site. A cold, bright afternoon. The last dig of the season.",
+"start": 785.111,
+"end": 791.404,
+"pause": false
+},
+{
+"id": "157",
+"meth": "NEW",
+"see": "پیرزن زانو زده، برس روی استخوان",
+"text": "The old woman from the museum kneels in the dirt and brushes the dust off the shoulder blade of a duck-billed dinosaur.",
+"start": 791.88,
+"end": 797.708,
+"pause": false
+},
+{
+"id": "158",
+"meth": "CROP←#157",
+"see": "کلوز دست پیرزن ایستاده",
+"text": "She stops.",
+"start": 798.358,
+"end": 798.985,
+"pause": false
+},
+{
+"id": "159",
+"meth": "NEW",
+"see": "کلوز استخوان فسیلی با خط‌ها",
+"text": "There are marks on the bone. Not teeth marks. Too straight. Too deep.",
+"start": 799.728,
+"end": 804.383,
+"pause": false
+},
+{
+"id": "160",
+"meth": "CROP←#157",
+"see": "برس روی سنگ",
+"text": "She brushes again.",
+"start": 805.068,
+"end": 806.02,
+"pause": false
+},
+{
+"id": "161",
+"meth": "CROP←#159",
+"see": "کلوز حروف M O M روی فسیل (حروف در تدوین)",
+"text": "They're not scratches. They're letters.",
+"start": 806.798,
+"end": 808.9929999999999,
+"pause": false
+},
+{
+"id": "162",
+"meth": "CROP←#157",
+"see": "صورت پیرزن، دست روی دهان",
+"text": "(pause) If you could leave one message for 66 million years… what would you write on the bone? Tell me in the comments.",
+"start": 811.21,
+"end": 818.9540000000001,
+"pause": true
+},
+{
+"id": "163",
+"meth": "TEXT",
+"see": "کارت پایانی",
+"text": "Stay small. Stay alive.",
+"start": 819.894,
+"end": 821.438,
+"pause": false
+}
+]

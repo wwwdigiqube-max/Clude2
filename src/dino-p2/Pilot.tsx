@@ -1,7 +1,7 @@
 // Part 2 edit pilot: the crocodile scene (~33 s). Layers: parallax cutouts, ash-snow particles, mood camera (tense shake + punch-ins),
 // cold grade, sound design. This is the template for the full Part 2 edit.
 import React from "react";
-import { AbsoluteFill, Audio, Img, Sequence, interpolate, random, staticFile, useCurrentFrame, useVideoConfig, Easing } from "remotion";
+import { AbsoluteFill, Audio, Img, Sequence, interpolate, random, staticFile, useCurrentFrame, Easing } from "remotion";
 
 export const P2_FPS = 30;
 const F = (s: number) => Math.round(s * P2_FPS);
