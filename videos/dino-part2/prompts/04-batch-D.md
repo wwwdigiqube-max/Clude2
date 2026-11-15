@@ -23,13 +23,14 @@ CAST AND PLACES:
 - CROC: the crocodile from CROC: a big crocodile with a heavy dark olive-grey armoured back of rough bony plates, a broad snout and pale yellow eyes
 - CHAMP: the champsosaur from CHAMP: a slim, smooth, lizard-like freshwater reptile about two metres long, with a very long, very thin needle-like snout lined with tiny teeth, the back of the skull flaring wide behind small eyes set on top of the head, short sprawling webbed legs, a long flat smooth tail, olive-brown skin with a pale belly and no armour plates
 - BONE: the bone shovel from BONE: one pale dinosaur shoulder blade as long as an arm, with a broad, flat, thin paddle-shaped blade at one end that narrows into one single thick rounded end, worn and stained with dried clay
-- TUNNEL: a low, narrow, round tunnel dug into brown clay, as wide as his shoulders and so low that when he sits the ceiling is just above his beanie, with a smooth arched ceiling and thin roots poking through the walls; at the entrance end, a wall of stacked flat grey stones with one large flat stone slab as the door, leaving a vertical gap a hand wide.
+- TUNNEL: a low, narrow, round tunnel dug into brown clay, as wide as his shoulders and so low that when he sits the ceiling is just above his beanie, with a smooth arched ceiling and thin roots poking through the walls; at the entrance end, the round opening is framed by stacked flat grey stones and closed by one single large, smooth, flat grey stone slab (one piece, not a wall of blocks), leaving a vertical gap a hand wide between the slab's edge and the stacked stones.
 
 RULES FOR EVERY FRAME:
 - Dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the characters, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting.
 - Strict stick-figure anatomy for every person: the only white part is the round off-white head, about one third of the body height; the body under the clothes is a thin solid black stick figure with a short black stick neck; bare arms and legs are thin black lines, never skin; hands are simple solid black hands; the face has only eyes, eyebrows and a simple mouth, no nose and no ears.
 - Every character, animal, place and object must look exactly like its reference. Do not invent new characters.
 - The young man never wears a backpack. His headlamp is always switched off: its lens is dark and casts no light (the battery died weeks ago).
+- The tunnel door is always one single large smooth flat stone slab set in a frame of stacked flat stones, with a hand-wide vertical gap; never a wooden door, never a wall of blocks.
 - The tunnel is low and narrow: inside it he can only sit, kneel, lie or crawl, never stand; when he sits, the clay ceiling is just above his beanie.
 - His arms and hands are always thin solid black, never white or skin-coloured, even in close-ups.
 - The young man's only wound is a healed scar on his own RIGHT forearm (from HERO), never on the left, and there is no bandage unless a frame says so.

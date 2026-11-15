@@ -22,6 +22,7 @@ RULES FOR EVERY FRAME:
 - Strict stick-figure anatomy for every person: the only white part is the round off-white head, about one third of the body height; the body under the clothes is a thin solid black stick figure with a short black stick neck; bare arms and legs are thin black lines, never skin; hands are simple solid black hands; the face has only eyes, eyebrows and a simple mouth, no nose and no ears.
 - Every character, animal, place and object must look exactly like its reference. Do not invent new characters.
 - The young man never wears a backpack. His headlamp is always switched off: its lens is dark and casts no light (the battery died weeks ago).
+- The tunnel door is always one single large smooth flat stone slab set in a frame of stacked flat stones, with a hand-wide vertical gap; never a wooden door, never a wall of blocks.
 - The tunnel is low and narrow: inside it he can only sit, kneel, lie or crawl, never stand; when he sits, the clay ceiling is just above his beanie.
 - His arms and hands are always thin solid black, never white or skin-coloured, even in close-ups.
 - The young man's only wound is a healed scar on his own RIGHT forearm (from HERO), never on the left, and there is no bandage unless a frame says so.

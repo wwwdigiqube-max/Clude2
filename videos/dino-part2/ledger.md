@@ -20,6 +20,7 @@
 
 **Rules to keep:**
 - Headlamp: battery dead since Part 1 (rationed light); in Part 2 it is always off. No backpack in any Part 2 frame.
+- Door: one single flat stone slab in a frame of stacked flat stones, hand-wide gap (outside view P6 = the same). Never wood. Older frames show blocks on both sides of the gap: tolerated in dark firelit shots.
 - Tunnel height: he can only sit, kneel, lie or crawl inside (Part 1: as wide as his shoulders; the end chamber is just big enough to sit up in).
 - From Part 1: "Dinosaurs left: zero" by day 40 → in Part 2 dinosaurs appear **only in memories of the first weeks**.
 - The bone shovel is **gone after scene 5** (buried). If he digs later, it's with something else.

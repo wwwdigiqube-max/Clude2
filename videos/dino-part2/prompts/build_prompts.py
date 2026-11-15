@@ -41,7 +41,7 @@ DUCK = ("one duck-billed dinosaur shaped like the ones in DUCKBILL: a broad flat
         "grey-brown skin; it is starving, so thin that its ribs and hip bones show under sagging skin")
 
 TUN = ("The place is the tunnel from TUNNEL: a low, narrow, round tunnel dug into brown clay, as wide as his shoulders and so low that when he sits the ceiling is just above his beanie, with a smooth arched ceiling and thin roots poking through the walls; "
-       "at the entrance end, a wall of stacked flat grey stones with one large flat stone slab as the door, leaving a vertical gap a hand wide.")
+       "at the entrance end, the round opening is framed by stacked flat grey stones and closed by one single large, smooth, flat grey stone slab (one piece, not a wall of blocks), leaving a vertical gap a hand wide between the slab's edge and the stacked stones.")
 FIRE = " A small fire of twigs burns on the tunnel floor right at the gap of the stone door."
 RIV = ("The place is the river from RIVER: a wide, slow, cold grey river with thin white ice along both edges, a low clay bank, burnt black bare trees and fallen logs "
        "dusted with grey ash-snow, and no green anywhere.")
@@ -381,6 +381,7 @@ for i, k in enumerate("ABCDEFG", 1):
             f"- {STYLE}\n- {ANAT}\n"
             "- Every character, animal, place and object must look exactly like its reference. Do not invent new characters.\n"
             "- The young man never wears a backpack. His headlamp is always switched off: its lens is dark and casts no light (the battery died weeks ago).\n"
+            "- The tunnel door is always one single large smooth flat stone slab set in a frame of stacked flat stones, with a hand-wide vertical gap; never a wooden door, never a wall of blocks.\n"
             "- The tunnel is low and narrow: inside it he can only sit, kneel, lie or crawl, never stand; when he sits, the clay ceiling is just above his beanie.\n"
             "- His arms and hands are always thin solid black, never white or skin-coloured, even in close-ups.\n"
             "- The young man's only wound is a healed scar on his own RIGHT forearm (from HERO), never on the left, and there is no bandage unless a frame says so.\n"
