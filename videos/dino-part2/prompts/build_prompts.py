@@ -21,7 +21,7 @@ SLEEVES = "Both jacket sleeves are down to his wrists; there is no bandage anywh
 BANDAGE = ("This is weeks earlier: his own right forearm is still wrapped in a dirty bandage torn from grey t-shirt cloth, and his jacket looks a little less worn")
 HANDS = "Only his hands and forearms are visible: simple solid black stick-figure hands coming out of the frayed cuffs of the faded rust-orange jacket"
 PIP = "Pip from PIP: a tiny early mammal the size of a mouse, warm golden-brown fur, cream belly, big shiny black eyes, pointed pink nose with long whiskers, round pink-lined ears, pink paws and a long thin pink tail, a little thinner than before"
-MATE = ("the female from MATE: smaller and slimmer than Pip, with slightly brighter golden fur and one clear cream-white drop-shaped patch on her chest; "
+MATE = ("the female from MATE: clearly smaller and slimmer than Pip, with pale ash-grey fur (not golden-brown), one clear white drop-shaped patch on her chest and a white tip on her tail; "
         "big shiny black eyes, pink nose, long whiskers, long thin pink tail")
 OLDW = ("the old woman from OLDW: small and wiry, fine wrinkle lines and crow's-feet, small black oval eyes, thin grey eyebrows, a calm kind half-smile, a long grey braid over "
         "her shoulder, a sun-faded olive-grey wide-brimmed canvas hat, a sand-coloured field vest with many pockets and a small brush in the chest pocket, a rolled-sleeve "
@@ -62,7 +62,7 @@ NOLET = "Clean image with blank unbranded surfaces and no lettering, letters, nu
 REFS = {  # name: (what it looks like, for the agent) , (file the user attaches)
  "HERO":    ("the character sheet of a tired young man in a faded rust-orange jacket with both sleeves torn off at mid-forearm", "P1-hero-winter"),
  "PIP":     ("the sheet of a tiny golden-brown mouse-like mammal in several poses", "R1-fandogh-sheet"),
- "MATE":    ("the sheet of a slightly smaller golden mouse-like mammal with a cream drop-shaped patch on her chest", "P2-pip-mate"),
+ "MATE":    ("the sheet of a small pale ash-grey mouse-like mammal with a white drop-shaped patch on her chest", "P2-pip-mate"),
  "OLDW":    ("the character sheet of an old woman with a grey braid and a wide-brimmed field hat", "P3-old-woman"),
  "DAD":     ("the character sheet of a smiling man with a red bandana and a beanie with a headlamp", "P4-dad"),
  "CHAMP":   ("the image of a slim long-snouted reptile lying on river ice", "P5-champsosaur"),
@@ -360,7 +360,7 @@ edit("G", 147, "the attached image RIVER",
      "it is night: dark blue night light, heavier falling snow, and a faint orange glow of a small fire leaking around the edge of the stone slab of the tunnel entrance",
      "the river, the ice, the trees, the roots, the stone entrance, the camera angle, framing and lens, the colour grade and grain")
 new("G", 149, ["PIP", "MATE", "RIVER"], "A low close shot at ground level, 85mm lens, highest resolution.",
-    f"In the snow at the foot of the stone slab of the tunnel entrance, {PIP} and {MATE} sit side by side, close together, looking toward the camera.",
+    f"In the snow at the foot of the stone slab of the tunnel entrance, {PIP} and {MATE} sit side by side, close together, looking toward the camera. Pip is clearly bigger and stockier, with golden-brown fur; she is smaller, slimmer and pale ash-grey, so the two are easy to tell apart.",
     RIV + DOOR_OUT, "Pale grey morning light; a few ash-snow flakes.",
     "60% grey snow and stone, 30% black roots, 10% golden fur", "Both animals are sharp and each face is croppable. Exactly two animals and no people.")
 

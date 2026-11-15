@@ -200,7 +200,7 @@ You wait. One night. Two.
 [DAY 64 AFTER]
 On the third morning, he's at the entrance.
 And he's not alone.
-A second little face. Smaller. The same brown fur. The same black eyes.
+A second little face. Smaller. Pale, ash-grey fur, with a white mark on her chest. The same black eyes.
 She survived the dark too, in some other hole, under some other tree.
 Pip isn't the last of his kind.
 (pause)

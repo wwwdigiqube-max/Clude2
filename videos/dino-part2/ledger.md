@@ -88,3 +88,8 @@
 - Look from Part 2 on: **both jacket sleeves torn off, ragged, at mid-forearm**; forearms and hands plain black. (Part 1 end: right sleeve torn, bandage; two more weeks of digging tore the left one too.)
 - Frames with a visible scar get one edit to remove it: 004, 053, 086, 095, 133, 143, 137, 139.
 - The "claw rips in the right sleeve" idea above is dropped.
+
+## Pip and his mate (2026-11-15)
+- Pip (male): golden-brown, cream belly, a little bigger and stockier (as in Part 1).
+- Mate (female): smaller, slimmer, **pale ash-grey fur**, **white drop on the chest**, **white tail tip**. Script line changed: "Pale, ash-grey fur, with a white mark on her chest."
+- Future pups (Part 3+): mixed, e.g. brown with a grey face.

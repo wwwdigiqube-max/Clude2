@@ -1,6 +1,6 @@
 # شات‌لیست STILLCUT · فصل ۱ قسمت ۲ (script-en-v7)
 
-**168 قاب · حدود 14:48.7** · CROP 65 · NEW 51 · OLD 19 · TEXT 19 · EDIT 9 · REUSE 5
+**168 قاب · حدود 14:51.2** · CROP 65 · NEW 51 · OLD 19 · TEXT 19 · EDIT 9 · REUSE 5
 
 > ستون **وضعیت** از دفتر وضعیت (ledger.md) می‌آید و در پرامپت‌ها خودکار به جمله تبدیل می‌شود. W=scar-R یعنی جای زخم روی ساعد **راست**، بدون باند.
 
@@ -329,32 +329,32 @@
 - **#149** · 13:33.9 · `NEW·M` 🆕 — دم ورودی برفی: پیپ و یک موش دوم (مادر) · _رفرنس: @pip · @pip-mate · ref: D9b_ · **وضعیت:** `M=beside him`
   > On the third morning, he's at the entrance. And he's not alone.
 - **#150** · 13:38.9 · `CROP←#149` — کلوز صورت ماده
-  > A second little face. Smaller. The same brown fur. The same black eyes.
-- **#151** · 13:44.3 · `CROP←#149` — دو موش کنار هم
+  > A second little face. Smaller. Pale, ash-grey fur, with a white mark on her chest. The same black eyes.
+- **#151** · 13:46.8 · `CROP←#149` — دو موش کنار هم
   > She survived the dark too, in some other hole, under some other tree. Pip isn't the last of his kind.
-- **#152** · 13:52.6 · `CROP←#153` — کلوز صورت پسر، لبخند غمگین
+- **#152** · 13:55.1 · `CROP←#153` — کلوز صورت پسر، لبخند غمگین
   > (pause) You're happy for him. You really are.
-- **#153** · 13:56.9 · `NEW·M` 🆕 — واید تونل، پسر تنها و کوچک، آتش (مادر) · _رفرنس: @hero-winter · @tunnel(D6d/en:238)_ · **وضعیت:** `P=away`
+- **#153** · 13:59.4 · `NEW·M` 🆕 — واید تونل، پسر تنها و کوچک، آتش (مادر) · _رفرنس: @hero-winter · @tunnel(D6d/en:238)_ · **وضعیت:** `P=away`
   > But that night, the tunnel feels bigger than it ever has.
-- **#154** · 14:01.5 · `OLD D11c` — دست سنگ روی دیوار
+- **#154** · 14:04.0 · `OLD D11c` — دست سنگ روی دیوار
   > You scratch a new line on the wall. Friends: one.
-- **#155** · 14:05.7 · `TEXT` — بازنویسی دیوار (گرافیک)
+- **#155** · 14:08.2 · `TEXT` — بازنویسی دیوار (گرافیک)
   > You stop. And you add: …and one more.
 
 ### ۸ · Sixty-Six Million Years Later
-- **#156** · 14:09.0 · `OLD P8` — کارت NOW · DAY 76 MISSING · بدلندز داکوتا (مادر)
+- **#156** · 14:11.5 · `OLD P8` — کارت NOW · DAY 76 MISSING · بدلندز داکوتا (مادر)
   > North Dakota. Your dad's old dig site. A cold, bright afternoon. The last dig of the season.
-- **#157** · 14:16.1 · `NEW` 🆕 — پیرزن زانو زده، برس روی استخوان · _رفرنس: @old-woman · @dig-ND · @bone_
+- **#157** · 14:18.6 · `NEW` 🆕 — پیرزن زانو زده، برس روی استخوان · _رفرنس: @old-woman · @dig-ND · @bone_
   > The old woman from the museum kneels in the dirt and brushes the dust off the shoulder blade of a duck-billed dinosaur.
-- **#158** · 14:25.3 · `CROP←#157` — کلوز دست پیرزن ایستاده
+- **#158** · 14:27.8 · `CROP←#157` — کلوز دست پیرزن ایستاده
   > She stops.
-- **#159** · 14:27.1 · `NEW` 🆕 — کلوز استخوان فسیلی با خط‌ها · _رفرنس: @bone(fossil)_
+- **#159** · 14:29.6 · `NEW` 🆕 — کلوز استخوان فسیلی با خط‌ها · _رفرنس: @bone(fossil)_
   > There are marks on the bone. Not teeth marks. Too straight. Too deep.
-- **#160** · 14:32.5 · `CROP←#157` — برس روی سنگ
+- **#160** · 14:35.0 · `CROP←#157` — برس روی سنگ
   > She brushes again.
-- **#161** · 14:34.3 · `CROP←#159` — کلوز حروف M O M روی فسیل (حروف در تدوین)
+- **#161** · 14:36.8 · `CROP←#159` — کلوز حروف M O M روی فسیل (حروف در تدوین)
   > They're not scratches. They're letters.
-- **#162** · 14:36.4 · `CROP←#157` — صورت پیرزن، دست روی دهان
+- **#162** · 14:38.9 · `CROP←#157` — صورت پیرزن، دست روی دهان
   > (pause) If you could leave one message for 66 million years… what would you write on the bone? Tell me in the comments.
-- **#163** · 14:46.9 · `TEXT` — کارت پایانی
+- **#163** · 14:49.4 · `TEXT` — کارت پایانی
   > Stay small. Stay alive.

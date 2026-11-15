@@ -10,12 +10,12 @@ You are making 2 still frames for a dark animated survival story, one image per 
 ATTACHED REFERENCES (match them exactly):
 - RIVER = the image of a cold grey river in a burnt winter forest with a stone-slab door under tree roots
 - PIP = the sheet of a tiny golden-brown mouse-like mammal in several poses
-- MATE = the sheet of a slightly smaller golden mouse-like mammal with a cream drop-shaped patch on her chest
+- MATE = the sheet of a small pale ash-grey mouse-like mammal with a white drop-shaped patch on her chest
 
 CAST AND PLACES:
 - RIVER: a wide, slow, cold grey river with thin white ice along both edges, a low clay bank, burnt black bare trees and fallen logs dusted with grey ash-snow, and no green anywhere. On the bank, under the roots of a huge burnt black tree, is the tunnel entrance: a low opening built of stacked flat grey stones, closed by one large flat grey stone slab.
 - PIP: Pip from PIP: a tiny early mammal the size of a mouse, warm golden-brown fur, cream belly, big shiny black eyes, pointed pink nose with long whiskers, round pink-lined ears, pink paws and a long thin pink tail, a little thinner than before
-- MATE: the female from MATE: smaller and slimmer than Pip, with slightly brighter golden fur and one clear cream-white drop-shaped patch on her chest; big shiny black eyes, pink nose, long whiskers, long thin pink tail
+- MATE: the female from MATE: clearly smaller and slimmer than Pip, with pale ash-grey fur (not golden-brown), one clear white drop-shaped patch on her chest and a white tip on her tail; big shiny black eyes, pink nose, long whiskers, long thin pink tail
 
 RULES FOR EVERY FRAME:
 - Dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the characters, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting.
@@ -35,7 +35,7 @@ Change only this: it is night: dark blue night light, heavier falling snow, and 
 Keep exactly the same: the river, the ice, the trees, the roots, the stone entrance, the camera angle, framing and lens, the colour grade and grain. Everything else is 100% identical. 
 
 FRAME p2-149 · NEW · references: PIP, MATE, RIVER
-A low close shot at ground level, 85mm lens, highest resolution. In the snow at the foot of the stone slab of the tunnel entrance, Pip (PIP) and Pip's female (MATE) sit side by side, close together, looking toward the camera.
+A low close shot at ground level, 85mm lens, highest resolution. In the snow at the foot of the stone slab of the tunnel entrance, Pip (PIP) and Pip's female (MATE) sit side by side, close together, looking toward the camera. Pip is clearly bigger and stockier, with golden-brown fur; she is smaller, slimmer and pale ash-grey, so the two are easy to tell apart.
 Place: the river (RIVER), in winter. The stone-slab tunnel entrance under the burnt tree roots is in view. Pale grey morning light; a few ash-snow flakes.
 Palette: 60% grey snow and stone, 30% black roots, 10% golden fur. Both animals are sharp and each face is croppable. Exactly two animals and no people. 
 ```

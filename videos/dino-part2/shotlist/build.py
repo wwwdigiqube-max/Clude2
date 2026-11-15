@@ -180,7 +180,7 @@ f("Tomorrow, you stop hiding. You learn to hunt.", "کلوز نوک نیزه ج�
 f("A few days later, Pip doesn't come back at night.", "دهانه‌ی تونل خالی، شب، برف", "EDIT←D9b", f"{TUN} · ref: D9b", "")
 f("You wait. One night. Two.", "پسر کنار در منتظر، آتش کوچک", "CROP←#lonely")
 f("On the third morning, he's at the entrance. And he's not alone.", "دم ورودی برفی: پیپ و یک موش دوم (مادر)", "NEW·M", f"{PIP} · {MATE} · ref: D9b", "M=beside him", key="mate")
-f("A second little face. Smaller. The same brown fur. The same black eyes.", "کلوز صورت ماده", "CROP←#mate")
+f("A second little face. Smaller. Pale, ash-grey fur, with a white mark on her chest. The same black eyes.", "کلوز صورت ماده", "CROP←#mate")
 f("She survived the dark too, in some other hole, under some other tree. Pip isn't the last of his kind.", "دو موش کنار هم", "CROP←#mate")
 f("(pause) You're happy for him. You really are.", "کلوز صورت پسر، لبخند غمگین", "CROP←#lonely")
 f("But that night, the tunnel feels bigger than it ever has.", "واید تونل، پسر تنها و کوچک، آتش (مادر)", "NEW·M", f"{HW} · {TUN}", "P=away", key="lonely")
