@@ -1,7 +1,7 @@
 # دسته‌ی C · بیرون: هفته‌های اول، چاله‌ی شنی، جنگل مرده · 10 قاب
 
 **قاب‌ها:** p2-016, p2-023, p2-018, p2-020, p2-055, p2-141, p2-058, p2-060, p2-061, p2-062  
-**پیوست (همه با هم):** `P6-winter-river` (RIVER) · `D4a` (DUCKBILL) · `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `D2a` (ROOTS) · `D11a` (FOREST)  
+**پیوست (همه با هم):** `P6-winter-river` (RIVER) · `D4a` (DUCKBILL) · `P1-hero-winter` (HERO) · `D9b` (BANDAGE) · `R1-fandogh-sheet` (PIP) · `D2a` (ROOTS) · `D11a` (FOREST)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.
 
 ```
@@ -11,6 +11,7 @@ ATTACHED REFERENCES (match them exactly):
 - RIVER = the image of a cold grey river in a burnt winter forest with a stone-slab door under tree roots
 - DUCKBILL = the image of a herd of duck-billed dinosaurs at a misty river
 - HERO = the character sheet of a tired young man in a faded rust-orange jacket, with a large close-up of a scarred black forearm
+- BANDAGE = the image of the young man kneeling by a stone entrance with a bandage on his forearm, looking at a phone
 - PIP = the sheet of a tiny golden-brown mouse-like mammal in several poses
 - ROOTS = the image of a huge mossy tree with big roots and a small burrow hole
 - FOREST = the image of a grey burnt dead forest
@@ -44,13 +45,13 @@ FRAME p2-023 · EDIT of image p2-016 (made above)
 Change only this: the duck-bill now lies collapsed on its side in the grey mud at the river's edge, still, eyes closed; the burnt branch lies beside its beak; the mist is lower and thicker
 Keep exactly the same: the river, the bank, the burnt trees, the camera angle, framing and lens, the colour grade and grain. Everything else is 100% identical. 
 
-FRAME p2-018 · NEW · references: HERO, RIVER
-An extreme close-up insert at ground level, 50mm lens. Only his black hands and forearms are visible, coming out of the frayed cuffs of the faded rust-orange jacket. This is weeks earlier: his own right forearm is still wrapped in a dirty bandage torn from grey t-shirt cloth. One hand pulls a single small bright green fern out of a wet hollow of dark mud, among grey ash and burnt twigs. The fern is the only green colour in the whole frame.
+FRAME p2-018 · NEW · references: HERO, BANDAGE, RIVER
+An extreme close-up insert at ground level, 50mm lens. Only his black hands and forearms are visible, coming out of the frayed cuffs of the faded rust-orange jacket. This is weeks earlier: his own right forearm is still wrapped in the dirty grey cloth bandage exactly as in BANDAGE. One hand pulls a single small bright green fern out of a wet hollow of dark mud, among grey ash and burnt twigs. The fern is the only green colour in the whole frame.
 Place: the same river as RIVER, but weeks earlier: no snow and no ice yet, trees freshly burnt black, grey ash on the ground, thin smoke in the air. Light: cold, dim, grey daylight under a sky of wet ash.
 Palette: 60% ash grey, 30% dark mud, 10% bright green fern. The fern at the centre. Exactly one fern. 
 
-FRAME p2-020 · NEW · references: HERO, RIVER, DUCKBILL
-A side-profile medium-wide shot at eye level, 35mm lens, highest resolution. He stands at frame-left, the young man (HERO), holding the small green fern out at arm's length toward the huge drooping head of one starving duck-billed dinosaur (DUCKBILL), so thin that its ribs and hip bones show under sagging grey-brown skin, which stands at frame-right with its beak almost touching the fern and its eye half closed, too weak to lift its head. This is weeks earlier: his own right forearm is still wrapped in a dirty bandage torn from grey t-shirt cloth.
+FRAME p2-020 · NEW · references: HERO, BANDAGE, RIVER, DUCKBILL
+A side-profile medium-wide shot at eye level, 35mm lens, highest resolution. He stands at frame-left, the young man (HERO), holding the small green fern out at arm's length toward the huge drooping head of one starving duck-billed dinosaur (DUCKBILL), so thin that its ribs and hip bones show under sagging grey-brown skin, which stands at frame-right with its beak almost touching the fern and its eye half closed, too weak to lift its head. This is weeks earlier: his own right forearm is still wrapped in the dirty grey cloth bandage exactly as in BANDAGE.
 Place: the same river as RIVER, but weeks earlier: no snow and no ice yet, trees freshly burnt black, grey ash on the ground, thin smoke in the air. Same place as image p2-016. Dim smoky grey light from frame-left.
 Palette: 60% ash grey, 30% grey-brown dinosaur, 10% rust-orange jacket and green fern. His face and the dinosaur's eye are each large enough to crop; he looks tiny next to the head. Exactly one person and one dinosaur. 
 

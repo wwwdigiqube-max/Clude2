@@ -70,6 +70,7 @@ REFS = {  # name: (what it looks like, for the agent) , (file the user attaches)
  "DIG":     ("the image of a fossil dig site in rocky badlands with a white string grid", "P8-dig-site"),
  "TUNNEL":  ("the location sheet of a low, round clay tunnel with a stone-slab door; it sets the exact size and look of the tunnel", "P9-tunnel-sheet"),
  "BONE":    ("the image of a boy holding a large pale shoulder-blade bone", "D4e"),
+ "BANDAGE": ("the image of the young man kneeling by a stone entrance with a bandage on his forearm, looking at a phone", "D9b"),
  "CROC":    ("the image of a crocodile in a muddy river", "D3b"),
  "DUCKBILL":("the image of a herd of duck-billed dinosaurs at a misty river", "D4a"),
  "FOREST":  ("the image of a grey burnt dead forest", "D11a"),
@@ -91,7 +92,7 @@ BONE, CROC, CHAMP = "the bone shovel (BONE)", "the crocodile (CROC)", "the champ
 DUCK = "one starving duck-billed dinosaur (DUCKBILL), so thin that its ribs and hip bones show under sagging grey-brown skin"
 SCAR = "His right jacket sleeve is pushed up to the elbow, showing the healed scar on his own right forearm exactly as in HERO, no bandage"
 SLEEVES = "Both sleeves are down; no bandage"
-BANDAGE = "This is weeks earlier: his own right forearm is still wrapped in a dirty bandage torn from grey t-shirt cloth"
+BANDAGE = "This is weeks earlier: his own right forearm is still wrapped in the dirty grey cloth bandage exactly as in BANDAGE"
 HANDS = "Only his black hands and forearms are visible, coming out of the frayed cuffs of the faded rust-orange jacket"
 LONG.update({"TUNNEL": TUN.replace("The place is the tunnel from TUNNEL: ", ""), "RIVER": RIV.replace("The place is the river from RIVER: ", "") + DOOR_OUT.replace(" from RIVER", ""),
      "FOREST": FOREST.replace("The place is the dead forest from FOREST: ", ""), "MUSEUM": MUSEUM.replace("The place is the museum hall from MUSEUM: ", ""),
@@ -213,10 +214,10 @@ new("C", 16, ["RIVER", "DUCKBILL"], "A wide shot at eye level, 35mm lens, highes
 edit("C", 23, "image p2-016 (made above)",
      "the duck-bill now lies collapsed on its side in the grey mud at the river's edge, still, eyes closed; the burnt branch lies beside its beak; the mist is lower and thicker",
      "the river, the bank, the burnt trees, the camera angle, framing and lens, the colour grade and grain")
-new("C", 18, ["HERO", "RIVER"], "An extreme close-up insert at ground level, 50mm lens.",
+new("C", 18, ["HERO", "BANDAGE", "RIVER"], "An extreme close-up insert at ground level, 50mm lens.",
     f"{HANDS}. {BANDAGE}. One hand pulls a single small bright green fern out of a wet hollow of dark mud, among grey ash and burnt twigs. The fern is the only green colour in the whole frame.",
     EARLY, STORM, "60% ash grey, 30% dark mud, 10% bright green fern", "The fern at the centre. Exactly one fern.")
-new("C", 20, ["HERO", "RIVER", "DUCKBILL"], "A side-profile medium-wide shot at eye level, 35mm lens, highest resolution.",
+new("C", 20, ["HERO", "BANDAGE", "RIVER", "DUCKBILL"], "A side-profile medium-wide shot at eye level, 35mm lens, highest resolution.",
     f"He stands at frame-left, {HERO}, holding the small green fern out at arm's length toward the huge drooping head of {DUCK}, which stands at frame-right with its beak almost touching the fern and its eye half closed, too weak to lift its head. {BANDAGE}.",
     EARLY + " Same place as image p2-016.", "Dim smoky grey light from frame-left.",
     "60% ash grey, 30% grey-brown dinosaur, 10% rust-orange jacket and green fern",
