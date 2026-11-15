@@ -51,7 +51,7 @@ Place: the tunnel (TUNNEL). Dim cold light from the gap of the stone door at fra
 Palette: 60% cold dark brown, 30% grey light, 10% rust-orange jacket. Exactly one person, one bow and one spindle. 
 
 FRAME p2-137 · NEW · references: HERO, TUNNEL
-An extreme close-up at floor level, 85mm lens, highest resolution. A stick digs into a grey heap of ash at the back of the dead fire, among wet black charcoal; at the very bottom, one tiny glowing red coal, like a small red eye. His face is very close at frame-left, low to the floor, lips pursed, about to blow; a pinch of pale dry fern fluff rests in his black fingertips beside the coal.
+An extreme close-up at floor level, 85mm lens, highest resolution. A stick digs into a grey heap of ash at the back of the dead fire, among wet black charcoal; at the very bottom, one tiny glowing red coal, like a small red eye. He kneels bent low over the ash, his face very close at frame-left, low to the floor, lips pursed, about to blow. Both legs are folded under him and hidden behind his body; only his two thin black arms are visible: his right hand holds the stick, his left hand holds a pinch of pale dry fern fluff beside the coal.
 Place: the tunnel (TUNNEL). Nearly black: the tiny red coal is the only warm light, faintly touching his lips.
 Palette: 70% black, 20% grey ash, 10% glowing red. The coal at the centre-right, his lips at frame-left, both croppable. Exactly one person. 
 

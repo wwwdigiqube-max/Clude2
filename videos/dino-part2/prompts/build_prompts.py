@@ -181,7 +181,7 @@ new("B", 135, ["HERO", "TUNNEL"], "A medium shot at eye level, 35mm lens.",
     TUN, "Dim cold light from the gap of the stone door at frame-right.",
     "60% cold dark brown, 30% grey light, 10% rust-orange jacket", "Exactly one person, one bow and one spindle.")
 new("B", 137, ["HERO", "TUNNEL"], "An extreme close-up at floor level, 85mm lens, highest resolution.",
-    "A stick digs into a grey heap of ash at the back of the dead fire, among wet black charcoal; at the very bottom, one tiny glowing red coal, like a small red eye. His face is very close at frame-left, low to the floor, lips pursed, about to blow; a pinch of pale dry fern fluff rests in his black fingertips beside the coal.",
+    "A stick digs into a grey heap of ash at the back of the dead fire, among wet black charcoal; at the very bottom, one tiny glowing red coal, like a small red eye. He kneels bent low over the ash, his face very close at frame-left, low to the floor, lips pursed, about to blow. Both legs are folded under him and hidden behind his body; only his two thin black arms are visible: his right hand holds the stick, his left hand holds a pinch of pale dry fern fluff beside the coal.",
     TUN, "Nearly black: the tiny red coal is the only warm light, faintly touching his lips.",
     "70% black, 20% grey ash, 10% glowing red", "The coal at the centre-right, his lips at frame-left, both croppable. Exactly one person.")
 edit("B", 139, "image p2-137 (made above)",
@@ -407,5 +407,27 @@ for i, k in enumerate("ABCDEFG", 1):
     fn = f"{i:02d}-batch-{k}.md"
     open(os.path.join(H, fn), "w", encoding="utf-8").write("\n".join(md))
     allfiles.append((fn, len(frames), len((head + body).split()), len(used)))
+REDO = {"B": ["129", "135", "137", "139", "153"]}
+for k, keep in REDO.items():
+    frames = [(n, t) for n, t in B[k] if str(n) in keep]
+    used = [r for r in REFS if any(re.search(r"\b" + r + r"\b", t) for _, t in frames)]
+    names = ", ".join(f"p2-{lab(n)}" for n, _ in frames)
+    head = (f"You are making {len(frames)} still frames for a dark animated survival story, one image per frame, in the order below.\n\n"
+            "ATTACHED REFERENCES (match them exactly):\n" + "\n".join(f"- {r} = {REFS[r][0]}" for r in used) + "\n\n"
+            + "CAST AND PLACES:\n" + "\n".join(f"- {r}: {LONG[r]}" for r in used if r in LONG) + "\n\n"
+            + "RULES FOR EVERY FRAME:\n"
+            f"- {STYLE}\n- {ANAT}\n"
+            "- Copy the tunnel exactly from TUNNEL: its size, clay walls and its door.\n"
+            "- The tunnel door is always one single large smooth flat stone slab set in a frame of stacked flat stones, with a hand-wide vertical gap; never a wooden door, never a wall of blocks.\n"
+            "- The tunnel is low and narrow: inside it he can only sit, kneel, lie or crawl, never stand; when he sits, the clay ceiling is just above his beanie.\n"
+            "- He never wears a backpack. His arms, legs and hands are always thin solid black and attached to his body correctly; never extra limbs.\n"
+            "- No bandage. Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.\n"
+            f"- Name each image exactly with its frame code: {names}.\n"
+            "- An EDIT frame changes only what it says, starting from the image it names.\n")
+    body = "\n\n".join(t for _, t in frames)
+    att = " · ".join(f"`{REFS[r][1]}` ({r})" for r in used)
+    md = [f"# دسته‌ی {k} · دوباره‌سازی {len(frames)} قاب\n", f"**قاب‌ها:** {names}  ", f"**پیوست (همه با هم):** {att}  ",
+          "**Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.\n", "```", head + "\n" + body, "```", ""]
+    open(os.path.join(H, f"02b-batch-{k}-redo.md"), "w", encoding="utf-8").write("\n".join(md))
 for a in allfiles: print(a)
 print("total", sum(a[1] for a in allfiles))
