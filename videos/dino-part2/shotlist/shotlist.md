@@ -180,7 +180,7 @@
   > You can't go back. You've known it for weeks. Tonight, you say it out loud. "I can't go back."
 - **#83** · 6:45.6 · `CROP←#86` — پیپ سر بلند می‌کند
   > Pip looks up at you.
-- **#84** · 6:47.7 · `CROP←#86` — پسر می‌ایستد، سایه‌اش روی دیوار تونل
+- **#84** · 6:47.7 · `CROP←#86` — پسر زانو زده، سایه‌اش روی دیوار تونل
   > So you stop waiting to wake up. What's coming is colder and longer than the impact. You'll need a plan.
 - **#85** · 6:56.0 · `CROP←#86` — اینسرت: دست زغال سیاه از آتش برمی‌دارد
   > Your pen is dry. But the fire leaves charcoal.

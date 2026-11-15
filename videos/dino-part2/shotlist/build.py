@@ -101,7 +101,7 @@ f("With food in your stomach, you can think again. And the thought that comes ba
 f("She doesn't know where you are. She never will.", "مادر در آشپزخانه‌ی خالی، تنها (همان آشپزخانه)", "EDIT←en:134")
 f("You can't go back. You've known it for weeks. Tonight, you say it out loud. \"I can't go back.\"", "کلوز صورت پسر، لب‌ها، اشک", "CROP←#charcoal")
 f("Pip looks up at you.", "پیپ سر بلند می‌کند", "CROP←#charcoal")
-f("So you stop waiting to wake up. What's coming is colder and longer than the impact. You'll need a plan.", "پسر می‌ایستد، سایه‌اش روی دیوار تونل", "CROP←#charcoal")
+f("So you stop waiting to wake up. What's coming is colder and longer than the impact. You'll need a plan.", "پسر زانو زده، سایه‌اش روی دیوار تونل", "CROP←#charcoal")
 f("Your pen is dry. But the fire leaves charcoal.", "اینسرت: دست زغال سیاه از آتش برمی‌دارد", "CROP←#charcoal")
 f("You pick up a black stick and write on the tunnel wall, like you wrote in the book on night one.", "پسر با زغال روی دیوار می‌نویسد، پیپ پایین نگاه می‌کند (مادر)", "NEW·M", f"{HW} · {TUN} · ref: D11c wall", "W=scar-R · L=fire", key="charcoal")
 f("What you lost. What you have. What you still need.", "کلوز دیوار: خط‌های زغالی (متن در تدوین)", "CROP←#charcoal")

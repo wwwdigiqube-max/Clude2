@@ -381,6 +381,7 @@ for i, k in enumerate("ABCDEFG", 1):
             f"- {STYLE}\n- {ANAT}\n"
             "- Every character, animal, place and object must look exactly like its reference. Do not invent new characters.\n"
             "- The young man never wears a backpack. His headlamp is always switched off: its lens is dark and casts no light (the battery died weeks ago).\n"
+            "- The tunnel is low and narrow: inside it he can only sit, kneel, lie or crawl, never stand; when he sits, the clay ceiling is just above his beanie.\n"
             "- His arms and hands are always thin solid black, never white or skin-coloured, even in close-ups.\n"
             "- The young man's only wound is a healed scar on his own RIGHT forearm (from HERO), never on the left, and there is no bandage unless a frame says so.\n"
             "- Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.\n"
