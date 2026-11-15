@@ -177,7 +177,7 @@ f("But that night, the tunnel feels bigger than it ever has.", "واید تون�
 f("You scratch a new line on the wall. Friends: one.", "دست سنگ روی دیوار", "OLD D11c")
 f("You stop. And you add: …and one more.", "بازنویسی دیوار (گرافیک)", "TEXT")
 # ===== 8 · Sixty-Six Million Years Later =====
-f("North Dakota. Your dad's old dig site. A hot afternoon.", "کارت NOW · DAY 76 MISSING · بدلندز داکوتا (مادر)", "NEW·M", f"{DIG}", "", key="dig")
+f("North Dakota. Your dad's old dig site. A cold, bright afternoon. The last dig of the season.", "کارت NOW · DAY 76 MISSING · بدلندز داکوتا (مادر)", "NEW·M", f"{DIG}", "", key="dig")
 f("The old woman from the museum kneels in the dirt and brushes the dust off the shoulder blade of a duck-billed dinosaur.", "پیرزن زانو زده، برس روی استخوان", "NEW", f"{OLD_W} · {DIG} · {BONE}", "", key="brush")
 f("She stops.", "کلوز دست پیرزن ایستاده", "CROP←#brush")
 f("There are marks on the bone. Not teeth marks. Too straight. Too deep.", "کلوز استخوان فسیلی با خط‌ها", "NEW", f"{BONE}(fossil)", "", key="fossil")

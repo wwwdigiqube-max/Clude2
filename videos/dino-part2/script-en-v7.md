@@ -209,7 +209,7 @@ You stop. And you add:
 ## 8 · Sixty-Six Million Years Later
 
 [NOW · DAY 76 MISSING]
-North Dakota. Your dad's old dig site. A hot afternoon.
+North Dakota. Your dad's old dig site. A cold, bright afternoon. The last dig of the season.
 The old woman from the museum kneels in the dirt and brushes the dust off the shoulder blade of a duck-billed dinosaur.
 She stops.
 There are marks on the bone. Not teeth marks. Too straight. Too deep.

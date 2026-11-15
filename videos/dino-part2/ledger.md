@@ -16,7 +16,7 @@
 | 4 | day 52 after | tunnel | carves I SURVIVED into the bone shovel with a sharp stone (3 nights) | fingers bleed | grubs | watches | same | fire |
 | 5 | ~day 55 after, **dawn** (reptiles slow in the cold) | riverbank | buries the bone deep under the clay at the water's edge; the crocodile snaps, the champsosaur is nearby | — | — | warns (squeak) | — | moon behind smoke, dark; ice at the edges |
 | 6 | day 60 after (70) | tunnel entrance | — | — | grubs | gone 2 nights, returns with a female | colder; tunnel not built for winter | grey |
-| 7 NOW | 70 missing (= day 60 after), summer | North Dakota, the dad's old dig site | old paleontologist (dad's former colleague) finds letters on the bone | — | — | — | — | hot sun |
+| 7 NOW | 76 missing (= day 66 after), late autumn (street trees bare at day 50; last dig of the season) | North Dakota, the dad's old dig site | old paleontologist (dad's former colleague) finds letters on the bone | — | — | — | — | cold bright sun, long shadows |
 
 **Rules to keep:**
 - From Part 1: "Dinosaurs left: zero" by day 40 → in Part 2 dinosaurs appear **only in memories of the first weeks**.

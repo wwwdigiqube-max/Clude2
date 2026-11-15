@@ -1,6 +1,6 @@
 # شات‌لیست STILLCUT · فصل ۱ قسمت ۲ (script-en-v7)
 
-**163 قاب · حدود 14:19.1** · CROP 62 · NEW 50 · TEXT 18 · OLD 17 · EDIT 11 · REUSE 5
+**163 قاب · حدود 14:22.1** · CROP 62 · NEW 50 · TEXT 18 · OLD 17 · EDIT 11 · REUSE 5
 
 > ستون **وضعیت** از دفتر وضعیت (ledger.md) می‌آید و در پرامپت‌ها خودکار به جمله تبدیل می‌شود. W=scar-R یعنی جای زخم روی ساعد **راست**، بدون باند.
 
@@ -333,18 +333,18 @@
 
 ### ۸ · Sixty-Six Million Years Later
 - **#156** · 13:42.3 · `NEW·M` 🆕 — کارت NOW · DAY 76 MISSING · بدلندز داکوتا (مادر) · _رفرنس: @dig-ND_
-  > North Dakota. Your dad's old dig site. A hot afternoon.
-- **#157** · 13:46.5 · `NEW` 🆕 — پیرزن زانو زده، برس روی استخوان · _رفرنس: @old-woman · @dig-ND · @bone_
+  > North Dakota. Your dad's old dig site. A cold, bright afternoon. The last dig of the season.
+- **#157** · 13:49.4 · `NEW` 🆕 — پیرزن زانو زده، برس روی استخوان · _رفرنس: @old-woman · @dig-ND · @bone_
   > The old woman from the museum kneels in the dirt and brushes the dust off the shoulder blade of a duck-billed dinosaur.
-- **#158** · 13:55.7 · `CROP←#157` — کلوز دست پیرزن ایستاده
+- **#158** · 13:58.6 · `CROP←#157` — کلوز دست پیرزن ایستاده
   > She stops.
-- **#159** · 13:57.5 · `NEW` 🆕 — کلوز استخوان فسیلی با خط‌ها · _رفرنس: @bone(fossil)_
+- **#159** · 14:00.4 · `NEW` 🆕 — کلوز استخوان فسیلی با خط‌ها · _رفرنس: @bone(fossil)_
   > There are marks on the bone. Not teeth marks. Too straight. Too deep.
-- **#160** · 14:02.9 · `CROP←#157` — برس روی سنگ
+- **#160** · 14:05.8 · `CROP←#157` — برس روی سنگ
   > She brushes again.
-- **#161** · 14:04.7 · `CROP←#159` — کلوز حروف M O M روی فسیل (حروف در تدوین)
+- **#161** · 14:07.6 · `CROP←#159` — کلوز حروف M O M روی فسیل (حروف در تدوین)
   > They're not scratches. They're letters.
-- **#162** · 14:06.8 · `CROP←#157` — صورت پیرزن، دست روی دهان
+- **#162** · 14:09.7 · `CROP←#157` — صورت پیرزن، دست روی دهان
   > (pause) If you could leave one message for 66 million years… what would you write on the bone? Tell me in the comments.
-- **#163** · 14:17.3 · `TEXT` — کارت پایانی
+- **#163** · 14:20.3 · `TEXT` — کارت پایانی
   > Stay small. Stay alive.
