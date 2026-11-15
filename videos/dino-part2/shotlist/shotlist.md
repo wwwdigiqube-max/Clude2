@@ -1,6 +1,6 @@
 # شات‌لیست STILLCUT · فصل ۱ قسمت ۲ (script-en-v7)
 
-**163 قاب · حدود 14:22.1** · CROP 62 · NEW 50 · TEXT 18 · OLD 17 · EDIT 11 · REUSE 5
+**163 قاب · حدود 14:22.1** · CROP 62 · NEW 50 · OLD 19 · TEXT 18 · EDIT 9 · REUSE 5
 
 > ستون **وضعیت** از دفتر وضعیت (ledger.md) می‌آید و در پرامپت‌ها خودکار به جمله تبدیل می‌شود. W=scar-R یعنی جای زخم روی ساعد **راست**، بدون باند.
 
@@ -42,11 +42,11 @@
   > One of them was a duck-bill. So thin you could count its ribs.
 - **#17** · 1:04.2 · `CROP←#16` — کلوز: دهان اردک‌نوک، شاخه‌ی سوخته
   > It stood by the river every day, chewing on burnt branches.
-- **#18** · 1:08.8 · `NEW` 🆕 — دست سیاه یک سرخس سبز را از گودی خیس می‌کند (تنها رنگ سبز) · _رفرنس: @hero-winter_ · **وضعیت:** `W=scar-R(sleeve down)`
+- **#18** · 1:08.8 · `NEW` 🆕 — دست سیاه یک سرخس سبز را از گودی خیس می‌کند (تنها رنگ سبز) · _رفرنس: @hero-winter_ · **وضعیت:** `W=bandage-R (first weeks: bandage still on)`
   > One morning, you found the last green fern in a wet hollow.
 - **#19** · 1:13.8 · `CROP←#20` — از پشت: پسر کوچک با سرخس به سمت اردک‌نوک غول‌پیکر
   > You carried it to the river, broke your own rule, and walked right up to a dinosaur.
-- **#20** · 1:20.8 · `NEW·M` 🆕 — نیمرخ: پسر سرخس را بالا گرفته، پوزه‌ی اردک‌نوک نزدیک (مادر) · _رفرنس: @hero-winter · @winter-river_ · **وضعیت:** `W=scar-R`
+- **#20** · 1:20.8 · `NEW·M` 🆕 — نیمرخ: پسر سرخس را بالا گرفته، پوزه‌ی اردک‌نوک نزدیک (مادر) · _رفرنس: @hero-winter · @winter-river_ · **وضعیت:** `W=bandage-R (first weeks)`
   > Close enough to touch. You held the fern out.
 - **#21** · 1:24.6 · `CROP←#20` — کلوز چشم اردک‌نوک
   > It looked at you. It smelled the fern.
@@ -92,9 +92,9 @@
   > Your door was locked from the inside. A neighbour had to break it open.
 - **#41** · 3:11.5 · `EDIT←D1a` — اتاق صبح، تخت خالی، پنجره‌ی بسته (همان اتاق)
   > The bed was empty. The window was shut.
-- **#42** · 3:14.9 · `CROP←#43` — دو پلیس آدمکی در اتاق، مادر با دست روی دهان
+- **#42** · 3:14.9 · `CROP←P7 (wide street)` — دو پلیس آدمکی در اتاق، مادر با دست روی دهان
   > The police still can't explain it.
-- **#43** · 3:17.4 · `NEW·M` 🆕 — تیر چراغ‌برق با آگهی گم‌شده (عکس قهرمان)، خیابان خاکستری · _رفرنس: @hero-winter(face) · @street_
+- **#43** · 3:17.4 · `OLD P7 + face overlay (edit)` — تیر چراغ‌برق با آگهی گم‌شده (عکس قهرمان)، خیابان خاکستری
   > There's a poster on every lamp post in town. Your face. MISSING.
 - **#44** · 3:22.4 · `NEW` 🆕 — مادر در درگاه اتاق خالی پسر · _رفرنس: @mom_
   > Your mom hasn't moved a thing in your room.
@@ -120,7 +120,7 @@
   > Back in the tunnel, the last fish is gone. One day with nothing. Then two.
 - **#54** · 4:05.7 · `CROP←#53` — اینسرت: دست‌های سیاه لرزان جلوی آتش
   > Your hands start to shake.
-- **#55** · 4:07.8 · `NEW` 🆕 — کندن چاله در شن کنار رود خاکستری، بالادست · _رفرنس: @hero-winter · @winter-river · ref: D3c_ · **وضعیت:** `K=on back · L=grey day`
+- **#55** · 4:07.8 · `NEW` 🆕 — کندن چاله در شن کنار رود خاکستری، بالادست · _رفرنس: @hero-winter · @winter-river · ref: D3c_ · **وضعیت:** `L=grey day`
   > Water isn't the problem. You still dig a pit in the sand by the river, upstream, like on day three,
 - **#56** · 4:16.1 · `OLD D3c` — کلوز آب تمیزتر در چاله
   > and the grey water seeps in clearer.
@@ -132,7 +132,7 @@
   > He's lived on those, and on bugs.
 - **#60** · 4:35.7 · `NEW` 🆕 — کف دست سیاه پسر با چند دانه‌ی ریز (مقیاس) · _رفرنس: @hero-winter_ · **وضعیت:** `W=scar-R`
   > His stash is mouse-sized. A handful of seeds wouldn't last you an hour.
-- **#61** · 4:41.1 · `NEW` 🆕 — پسر چهار دست و پا دنبال پیپ در جنگل خاکستری (برچسب DAY 49) · _رفرنس: @hero-winter · @pip · @dead-forest(D11a)_ · **وضعیت:** `K=on back · P=ahead`
+- **#61** · 4:41.1 · `NEW` 🆕 — پسر چهار دست و پا دنبال پیپ در جنگل خاکستری (برچسب DAY 49) · _رفرنس: @hero-winter · @pip · @dead-forest(D11a)_ · **وضعیت:** `P=ahead`
   > On day forty-nine, starving, you finally follow him.
 - **#62** · 4:44.4 · `NEW·M` 🆕 — پیپ کنار تنه‌ی پوسیده، دست‌های پسر کنارش (مادر) · _رفرنس: @pip · @dead-forest(D11a)_
   > He walks past the dead plants and goes straight for a rotten log.
@@ -246,11 +246,11 @@
   > A dark shape drifts toward you, slow as a log.
 - **#115** · 9:33.4 · `NEW` 🆕 — آرواره‌های کروکودیل در گِل بسته می‌شوند، پسر عقب افتاده · _رفرنس: @hero-winter · en:croc(D3b)_ · **وضعیت:** `W=scar-R`
   > You throw yourself backwards, and the crocodile's jaws close, lazily, where your hand just was.
-- **#116** · 9:39.7 · `CROP←#111` — کلوز پوزه‌ی کروکودیل در گِل
+- **#116** · 9:39.7 · `CROP←#115` — کلوز پوزه‌ی کروکودیل در گِل
   > (pause) Slow. But not slow enough to be safe.
 - **#117** · 9:44.4 · `NEW` 🆕 — پسر می‌دود بالای دیواره، پیپ در جیب · _رفرنس: @hero-winter · @winter-river_ · **وضعیت:** `B=gone · P=in pocket`
   > The bone is under the clay. You push the last handful over it and run.
-- **#118** · 9:50.7 · `EDIT←en:183` — پسر پشت به در سنگی نشسته، می‌لرزد · **وضعیت:** `no bone anymore`
+- **#118** · 9:50.7 · `NEW` 🆕 — پسر پشت به در سنگی نشسته، می‌لرزد · _رفرنس: @hero-winter · @pip · @tunnel(D6d/en:238)_ · **وضعیت:** `no bone · no bandage · P=in lap · L=blue dawn in the gap`
   > Back in the tunnel, you sit with your back against the stone door, shaking.
 - **#119** · 9:56.5 · `CROP←#118` — کلوز صورت آرام‌شده
   > It's done. Whatever happens to you now, something of you will last.
@@ -296,9 +296,9 @@
   > You lay a pinch of dry fern fluff on it. You blow. Gently. Again.
 - **#139** · 12:08.3 · `EDIT←#137` — شعله‌ی کوچک، صورت روشن می‌شود
   > A thread of smoke. Then a flame.
-- **#140** · 12:11.2 · `EDIT←en:239` — پسر خوابیده کنار در، پیپ کنار گردن · _رفرنس: @hero-winter · @pip · @tunnel(D6d/en:238)_ · **وضعیت:** `P=at neck · L=ember`
+- **#140** · 12:11.2 · `NEW` 🆕 — پسر خوابیده کنار در، پیپ کنار گردن · _رفرنس: @hero-winter · @pip · @tunnel(D6d/en:238)_ · **وضعیت:** `P=at neck · L=ember · no bandage`
   > From that night on, you sleep with your head at the door, and you check the gap every time you wake.
-- **#141** · 12:20.0 · `EDIT←D3c` — چاله‌ی شنی کاملاً یخ‌زده · _رفرنس: @winter-river_
+- **#141** · 12:20.0 · `EDIT←#55` — چاله‌ی شنی کاملاً یخ‌زده · _رفرنس: @winter-river_
   > One morning, the sand pit is frozen solid.
 - **#142** · 12:23.3 · `NEW` 🆕 — لاروهای خشک روی سنگ صاف کنار آتش · _رفرنس: @tunnel(D6d/en:238)_ · **وضعیت:** `L=fire`
   > So you work down the list on the wall. You dry grubs hard on a flat stone by the fire, the way you dried fish. They'll keep for weeks.
@@ -332,7 +332,7 @@
   > You stop. And you add: …and one more.
 
 ### ۸ · Sixty-Six Million Years Later
-- **#156** · 13:42.3 · `NEW·M` 🆕 — کارت NOW · DAY 76 MISSING · بدلندز داکوتا (مادر) · _رفرنس: @dig-ND_
+- **#156** · 13:42.3 · `OLD P8` — کارت NOW · DAY 76 MISSING · بدلندز داکوتا (مادر)
   > North Dakota. Your dad's old dig site. A cold, bright afternoon. The last dig of the season.
 - **#157** · 13:49.4 · `NEW` 🆕 — پیرزن زانو زده، برس روی استخوان · _رفرنس: @old-woman · @dig-ND · @bone_
   > The old woman from the museum kneels in the dirt and brushes the dust off the shoulder blade of a duck-billed dinosaur.
