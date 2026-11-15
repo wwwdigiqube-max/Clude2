@@ -8,7 +8,7 @@
 You are making 10 still frames for a dark animated survival story, one image per frame, in the order below.
 
 ATTACHED REFERENCES (match them exactly):
-- HERO = the character sheet of a tired young man in a faded rust-orange jacket, with a large close-up of a scarred black forearm
+- HERO = the character sheet of a tired young man in a faded rust-orange jacket with three claw rips in the right sleeve
 - TUNNEL = the location sheet of a low, round clay tunnel with a stone-slab door; it sets the exact size and look of the tunnel
 - PIP = the sheet of a tiny golden-brown mouse-like mammal in several poses
 
@@ -25,13 +25,13 @@ RULES FOR EVERY FRAME:
 - The tunnel door is always one single large smooth flat stone slab set in a frame of stacked flat stones, with a hand-wide vertical gap; never a wooden door, never a wall of blocks.
 - The tunnel is low and narrow: inside it he can only sit, kneel, lie or crawl, never stand; when he sits, the clay ceiling is just above his beanie.
 - His arms and hands are always thin solid black, never white or skin-coloured, even in close-ups.
-- The young man's only wound is a healed scar on his own RIGHT forearm (from HERO), never on the left, and there is no bandage unless a frame says so.
+- Never draw scar marks on his arms or hands: they are always plain solid black. The only sign of his old wound is the three claw rips in his RIGHT jacket sleeve (from HERO), never the left. No bandage unless a frame says so.
 - Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.
 - Name each image exactly with its frame code: p2-129, p2-130, p2-133, p2-135, p2-137, p2-139, p2-140, p2-142, p2-143, p2-153.
 - An EDIT frame changes only what it says, starting from the image it names.
 
 FRAME p2-129 · NEW · references: HERO, TUNNEL
-A medium-wide shot at floor level, 35mm lens, highest resolution. He pushes himself up on one elbow on the tunnel floor, the young man (HERO), coughing hard with one hand over his mouth, his eyes squeezed and watering. Both sleeves are down; no bandage. A low layer of thick grey smoke rolls along the ceiling. The fire at the stone door is a dark wet heap giving off thin white steam; the gap in the stone door is sealed with ice and packed snow.
+A medium-wide shot at floor level, 35mm lens, highest resolution. He pushes himself up on one elbow on the tunnel floor, the young man (HERO), coughing hard with one hand over his mouth, his eyes squeezed and watering. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage. A low layer of thick grey smoke rolls along the ceiling. The fire at the stone door is a dark wet heap giving off thin white steam; the gap in the stone door is sealed with ice and packed snow.
 Place: the tunnel (TUNNEL). Almost dark: only a dim cold blue light seeps through the ice in the gap.
 Palette: 60% blue-black darkness, 30% grey smoke, 10% rust-orange jacket. His face at frame-left, the iced gap at frame-right, both croppable; his breath shows as a little vapour. Exactly one person. 
 
@@ -41,12 +41,12 @@ Place: the tunnel (TUNNEL). The dying orange glow of the fire below meets a cold
 Palette: 60% cold blue-grey, 30% dying orange, 10% white steam. The gap and the drip at the centre. No people. 
 
 FRAME p2-133 · NEW · references: HERO, TUNNEL
-A close shot, 35mm lens. His black right fist punches through the thin sheet of ice sealing the gap of the stone door; ice shards fly, cold grey daylight and fresh air stream in, and grey smoke curls out through the gap. His right jacket sleeve is pushed up to the elbow, showing the healed scar on his own right forearm exactly as in HERO, no bandage.
+A close shot, 35mm lens. His black right fist punches through the thin sheet of ice sealing the gap of the stone door; ice shards fly, cold grey daylight and fresh air stream in, and grey smoke curls out through the gap. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage.
 Place: the tunnel (TUNNEL). A bright cold beam through the broken ice; the tunnel stays dark and smoky.
 Palette: 60% dark smoke, 30% cold grey-white light, 10% rust-orange cuff. The fist and the broken ice at the centre. Exactly one person. 
 
 FRAME p2-135 · NEW · references: HERO, TUNNEL
-A medium shot at eye level, 35mm lens. He kneels by the dead, wet fire, the young man (HERO), working a bow drill: a curved stick with a cord, spinning a straight spindle into a flat piece of wood held down under his boot. No smoke at all. His black palms show pale raw blister marks; his face is exhausted and frustrated. Both sleeves are down; no bandage.
+A medium shot at eye level, 35mm lens. He kneels by the dead, wet fire, the young man (HERO), working a bow drill: a curved stick with a cord, spinning a straight spindle into a flat piece of wood held down under his boot. No smoke at all. His black palms show pale raw blister marks; his face is exhausted and frustrated. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage.
 Place: the tunnel (TUNNEL). Dim cold light from the gap of the stone door at frame-right.
 Palette: 60% cold dark brown, 30% grey light, 10% rust-orange jacket. Exactly one person, one bow and one spindle. 
 
@@ -60,7 +60,7 @@ Change only this: a small bright flame rises from the fern fluff on the coal, an
 Keep exactly the same: his face, pose and hands, the ash heap, the stick, the place and every object and its position, the camera angle, framing and lens, the colour grade and grain. Everything else is 100% identical. 
 
 FRAME p2-140 · NEW · references: HERO, PIP, TUNNEL
-A close shot at floor level, 50mm lens. He sleeps on his side right next to the stone door, the young man (HERO), eyes closed as two simple curved lines, his head just below the hand-wide gap. Both sleeves are down; no bandage. Pip is curled up asleep against his neck inside the jacket collar. A little frost sparkles on the stones.
+A close shot at floor level, 50mm lens. He sleeps on his side right next to the stone door, the young man (HERO), eyes closed as two simple curved lines, his head just below the hand-wide gap. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage. Pip is curled up asleep against his neck inside the jacket collar. A little frost sparkles on the stones.
 Place: the tunnel (TUNNEL). A very small low fire glows on the tunnel floor right at the gap of the stone door. The low fire lights his face warm orange; a thin cold blue line of light shows in the gap.
 Palette: 60% darkness, 30% warm glow, 10% cold blue. His head, Pip and the gap at the centre. Exactly one person and one Pip. 
 
@@ -70,7 +70,7 @@ Place: the tunnel (TUNNEL). A small fire of twigs burns on the tunnel floor righ
 Palette: 60% warm darkness, 30% grey stone, 10% dried grubs. The stone fills the centre. No people. 
 
 FRAME p2-143 · NEW · references: HERO, TUNNEL
-An extreme close-up insert, 50mm lens. Only his black hands and forearms are visible, coming out of the frayed cuffs of the faded rust-orange jacket. He has cut his one clear plastic bottle in two: the top half, turned upside down as a funnel, is packed with layers of pale sand and crushed black charcoal and held over the bottom half. Grey snowmelt is poured in at the top, and clear drops fall from the neck into the bottom half. His right jacket sleeve is pushed up to the elbow, showing the healed scar on his own right forearm exactly as in HERO, no bandage.
+An extreme close-up insert, 50mm lens. Only his black hands and forearms are visible, coming out of the frayed cuffs of the faded rust-orange jacket. He has cut his one clear plastic bottle in two: the top half, turned upside down as a funnel, is packed with layers of pale sand and crushed black charcoal and held over the bottom half. Grey snowmelt is poured in at the top, and clear drops fall from the neck into the bottom half. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage.
 Place: the tunnel (TUNNEL). A small fire of twigs burns on the tunnel floor right at the gap of the stone door. Firelight from the side shines through the plastic and the water drops.
 Palette: 60% warm darkness, 30% clear plastic and water, 10% black charcoal. The bottle filter at the centre. Exactly one bottle cut in two. 
 

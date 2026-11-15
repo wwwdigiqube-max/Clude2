@@ -10,7 +10,7 @@ You are making 10 still frames for a dark animated survival story, one image per
 ATTACHED REFERENCES (match them exactly):
 - RIVER = the image of a cold grey river in a burnt winter forest with a stone-slab door under tree roots
 - DUCKBILL = the image of a herd of duck-billed dinosaurs at a misty river
-- HERO = the character sheet of a tired young man in a faded rust-orange jacket, with a large close-up of a scarred black forearm
+- HERO = the character sheet of a tired young man in a faded rust-orange jacket with three claw rips in the right sleeve
 - BANDAGE = the image of the young man kneeling by a stone entrance with a bandage on his forearm, looking at a phone
 - PIP = the sheet of a tiny golden-brown mouse-like mammal in several poses
 - ROOTS = the image of a huge mossy tree with big roots and a small burrow hole
@@ -31,7 +31,7 @@ RULES FOR EVERY FRAME:
 - The tunnel door is always one single large smooth flat stone slab set in a frame of stacked flat stones, with a hand-wide vertical gap; never a wooden door, never a wall of blocks.
 - The tunnel is low and narrow: inside it he can only sit, kneel, lie or crawl, never stand; when he sits, the clay ceiling is just above his beanie.
 - His arms and hands are always thin solid black, never white or skin-coloured, even in close-ups.
-- The young man's only wound is a healed scar on his own RIGHT forearm (from HERO), never on the left, and there is no bandage unless a frame says so.
+- Never draw scar marks on his arms or hands: they are always plain solid black. The only sign of his old wound is the three claw rips in his RIGHT jacket sleeve (from HERO), never the left. No bandage unless a frame says so.
 - Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.
 - Name each image exactly with its frame code: p2-016, p2-023, p2-018, p2-020, p2-055, p2-141, p2-058, p2-060, p2-061, p2-062.
 - An EDIT frame changes only what it says, starting from the image it names.
@@ -56,7 +56,7 @@ Place: the same river as RIVER, but weeks earlier: no snow and no ice yet, trees
 Palette: 60% ash grey, 30% grey-brown dinosaur, 10% rust-orange jacket and green fern. His face and the dinosaur's eye are each large enough to crop; he looks tiny next to the head. Exactly one person and one dinosaur. 
 
 FRAME p2-055 · NEW · references: HERO, RIVER
-A medium shot at eye level, 35mm lens. He kneels on a strip of grey sand at the river's edge, the young man (HERO), digging a small pit with his black hands; grey water seeps into the bottom of the pit. Both sleeves are down; no bandage.
+A medium shot at eye level, 35mm lens. He kneels on a strip of grey sand at the river's edge, the young man (HERO), digging a small pit with his black hands; grey water seeps into the bottom of the pit. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage.
 Place: the river (RIVER), in winter. Light: cold, dim, grey daylight under a sky of wet ash.
 Palette: 60% ash grey, 30% grey water, 10% rust-orange jacket. He and the pit at the centre. Exactly one person. 
 
@@ -70,12 +70,12 @@ The roots are burnt black, the moss is gone and grey ash covers the ground. Dim 
 Palette: 60% black roots, 30% grey ash, 10% golden fur and seeds. Pip and the seed pile at the centre, croppable. Exactly one Pip and no people. 
 
 FRAME p2-060 · NEW · references: HERO
-An extreme close-up insert from above, 50mm lens. His open black stick-figure right palm, held flat, with only six tiny seeds in it: a handful for a mouse, nothing for a person. His right jacket sleeve is pushed up to the elbow, showing the healed scar on his own right forearm exactly as in HERO, no bandage.
+An extreme close-up insert from above, 50mm lens. His open black stick-figure right palm, held flat, with only six tiny seeds in it: a handful for a mouse, nothing for a person. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage.
 Behind, grey ash on the ground, out of focus. Light: cold, dim, grey daylight under a sky of wet ash.
 Palette: 60% blurred grey, 30% black hand, 10% seeds. The palm at the centre. Exactly one hand. 
 
 FRAME p2-061 · NEW · references: HERO, PIP, FOREST
-A wide shot at ground level, 35mm lens. He crawls on his hands and knees across grey ash, the young man (HERO), following Pip (PIP), who runs ahead at frame-right toward a fallen log. His face is hungry and determined. Both sleeves are down; no bandage.
+A wide shot at ground level, 35mm lens. He crawls on his hands and knees across grey ash, the young man (HERO), following Pip (PIP), who runs ahead at frame-right toward a fallen log. His face is hungry and determined. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage.
 Place: the dead forest (FOREST). Light: cold, dim, grey daylight under a sky of wet ash.
 Palette: 60% ash grey, 30% black trunks, 10% rust-orange jacket. Exactly one person and one Pip. 
 

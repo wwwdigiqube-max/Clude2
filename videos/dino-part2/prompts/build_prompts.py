@@ -60,7 +60,7 @@ STORM = "Light: cold, dim, grey daylight under a sky of wet ash."
 NOLET = "Clean image with blank unbranded surfaces and no lettering, letters, numbers or captions anywhere. Wide 16:9 composition."
 
 REFS = {  # name: (what it looks like, for the agent) , (file the user attaches)
- "HERO":    ("the character sheet of a tired young man in a faded rust-orange jacket, with a large close-up of a scarred black forearm", "P1-hero-winter"),
+ "HERO":    ("the character sheet of a tired young man in a faded rust-orange jacket with three claw rips in the right sleeve", "P1-hero-winter"),
  "PIP":     ("the sheet of a tiny golden-brown mouse-like mammal in several poses", "R1-fandogh-sheet"),
  "MATE":    ("the sheet of a slightly smaller golden mouse-like mammal with a cream drop-shaped patch on her chest", "P2-pip-mate"),
  "OLDW":    ("the character sheet of an old woman with a grey braid and a wide-brimmed field hat", "P3-old-woman"),
@@ -90,8 +90,8 @@ HERO, PIP, MATE, OLDW, MOM = "the young man (HERO)", "Pip (PIP)", "Pip's female 
 DAD, FRA, FRB = "the father (DAD)", "the first friend (FRIEND1)", "the second friend (FRIEND2)"
 BONE, CROC, CHAMP = "the bone shovel (BONE)", "the crocodile (CROC)", "the champsosaur (CHAMP)"
 DUCK = "one starving duck-billed dinosaur (DUCKBILL), so thin that its ribs and hip bones show under sagging grey-brown skin"
-SCAR = "His right jacket sleeve is pushed up to the elbow, showing the healed scar on his own right forearm exactly as in HERO, no bandage"
-SLEEVES = "Both sleeves are down; no bandage"
+SCAR = "Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage"
+SLEEVES = SCAR
 BANDAGE = "This is weeks earlier: his own right forearm is still wrapped in the dirty grey cloth bandage exactly as in BANDAGE"
 HANDS = "Only his black hands and forearms are visible, coming out of the frayed cuffs of the faded rust-orange jacket"
 LONG.update({"TUNNEL": TUN.replace("The place is the tunnel from TUNNEL: ", ""), "RIVER": RIV.replace("The place is the river from RIVER: ", "") + DOOR_OUT.replace(" from RIVER", ""),
@@ -160,7 +160,7 @@ new("A", 95, ["HERO", "BONE", "TUNNEL"], "A medium close-up from a slightly high
     f"He sits cross-legged by the small fire, {HERO}, with {BONE} across his knees, the flat blade toward the camera. With a sharp grey stone in his right hand he carves deep grooves into the blade: plain short straight strokes, not readable letters. {SCAR}; the scar is clearly visible. His fingertips have dark red smears of blood.",
     TUN + FIRE, "Warm firelight from frame-left on his hands, the blade and his face.",
     "60% warm darkness, 30% firelight orange, 10% pale bone",
-    "His right forearm with the scar, the blade and his face are each large and sharp enough to crop on their own. Exactly one person and one bone.")
+    "His hands, the blade and his face are each large and sharp enough to crop on their own. Exactly one person and one bone.")
 
 # ======================= B · the night the fire died =======================
 new("B", 129, ["HERO", "TUNNEL"], "A medium-wide shot at floor level, 35mm lens, highest resolution.",
@@ -267,7 +267,7 @@ new("D", 110, ["HERO", "BONE", "RIVER"], "A medium-wide shot from below, 35mm le
     f"He climbs down the low snowy clay bank backwards on his hands and knees, carefully and quietly, {HERO}, the bone tied across his back. Below him, the icy edge of the grey river. {SLEEVES}.",
     RIV, "Cold blue dawn light.", "60% cold blue-grey, 30% brown clay, 10% rust-orange jacket", "Exactly one person and one bone.")
 new("D", 111, ["HERO", "PIP", "RIVER"], "A low close shot at the water's edge, 35mm lens, highest resolution.",
-    f"He kneels in the soft dark clay at the edge of the icy water, {HERO}, his right arm pushed down into the clay up to the elbow; the bone is no longer visible. {SCAR}; the scar shows just above the clay. His tense face looks toward the water. Behind him on the bank at frame-left, {PIP} stands up, alert. In the grey water at frame-right, a dark log-like shape drifts just under the surface toward his arm.",
+    f"He kneels in the soft dark clay at the edge of the icy water, {HERO}, his right arm pushed down into the clay up to the elbow; the bone is no longer visible. {SCAR}; his right sleeve is smeared with clay. His tense face looks toward the water. Behind him on the bank at frame-left, {PIP} stands up, alert. In the grey water at frame-right, a dark log-like shape drifts just under the surface toward his arm.",
     RIV, "Cold blue dawn light, mist on the water.", "60% cold blue-grey, 30% dark clay, 10% rust-orange jacket",
     "His face, Pip and the dark shape under the water are each large enough to crop. Exactly one person and one Pip.")
 new("D", 115, ["HERO", "CROC", "RIVER"], "A medium-wide action shot at ground level, 35mm lens.",
@@ -393,7 +393,7 @@ for i, k in enumerate("ABCDEFG", 1):
             "- The tunnel door is always one single large smooth flat stone slab set in a frame of stacked flat stones, with a hand-wide vertical gap; never a wooden door, never a wall of blocks.\n"
             "- The tunnel is low and narrow: inside it he can only sit, kneel, lie or crawl, never stand; when he sits, the clay ceiling is just above his beanie.\n"
             "- His arms and hands are always thin solid black, never white or skin-coloured, even in close-ups.\n"
-            "- The young man's only wound is a healed scar on his own RIGHT forearm (from HERO), never on the left, and there is no bandage unless a frame says so.\n"
+            "- Never draw scar marks on his arms or hands: they are always plain solid black. The only sign of his old wound is the three claw rips in his RIGHT jacket sleeve (from HERO), never the left. No bandage unless a frame says so.\n"
             "- Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.\n"
             f"- Name each image exactly with its frame code: {names}.\n"
             "- An EDIT frame changes only what it says, starting from the image it names.\n")

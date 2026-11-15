@@ -25,7 +25,7 @@ RULES FOR EVERY FRAME:
 - The tunnel door is always one single large smooth flat stone slab set in a frame of stacked flat stones, with a hand-wide vertical gap; never a wooden door, never a wall of blocks.
 - The tunnel is low and narrow: inside it he can only sit, kneel, lie or crawl, never stand; when he sits, the clay ceiling is just above his beanie.
 - His arms and hands are always thin solid black, never white or skin-coloured, even in close-ups.
-- The young man's only wound is a healed scar on his own RIGHT forearm (from HERO), never on the left, and there is no bandage unless a frame says so.
+- Never draw scar marks on his arms or hands: they are always plain solid black. The only sign of his old wound is the three claw rips in his RIGHT jacket sleeve (from HERO), never the left. No bandage unless a frame says so.
 - Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.
 - Name each image exactly with its frame code: p2-147, p2-149.
 - An EDIT frame changes only what it says, starting from the image it names.

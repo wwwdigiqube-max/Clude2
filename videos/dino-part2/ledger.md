@@ -76,3 +76,9 @@
 - Scene 6 (end, Pip still with him): he makes a **spear**: a long straight dry branch, sharpened with the same sharp stone he carved the bone with. "Tomorrow, you learn to hunt." → Part 3: hunting (fish under the ice, turtles and frogs asleep in the river mud: real K-Pg survivors).
 - Carried into Part 3: the spear, the sharp stone, the two question marks (shelter, meat).
 - New frames keep old numbers: #87a, #119a, #146a, #146b (spear, NEW·M), #146c.
+
+## Wound rule, simplified (2026-11-15)
+- The image AI kept drawing the pale scar on both arms. From batch C on: **no scar is drawn**. Arms and hands are plain black.
+- The only visible sign: **three claw rips in the RIGHT jacket sleeve** (P1-hero-winter v2). Sleeves always down.
+- One deliberate scar close-up stays: #95/#97 (carving the bone, "your right arm still aches where the claw went in").
+- Already-made frames with one scarred arm (004, 053, 086, 133, 143) stay. 137/139: scars removed from both arms.

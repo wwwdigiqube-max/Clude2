@@ -8,7 +8,7 @@
 You are making 5 still frames for a dark animated survival story, one image per frame, in the order below.
 
 ATTACHED REFERENCES (match them exactly):
-- HERO = the character sheet of a tired young man in a faded rust-orange jacket, with a large close-up of a scarred black forearm
+- HERO = the character sheet of a tired young man in a faded rust-orange jacket with three claw rips in the right sleeve
 - TUNNEL = the location sheet of a low, round clay tunnel with a stone-slab door; it sets the exact size and look of the tunnel
 
 CAST AND PLACES:
@@ -27,12 +27,12 @@ RULES FOR EVERY FRAME:
 - An EDIT frame changes only what it says, starting from the image it names.
 
 FRAME p2-129 · NEW · references: HERO, TUNNEL
-A medium-wide shot at floor level, 35mm lens, highest resolution. He pushes himself up on one elbow on the tunnel floor, the young man (HERO), coughing hard with one hand over his mouth, his eyes squeezed and watering. Both sleeves are down; no bandage. A low layer of thick grey smoke rolls along the ceiling. The fire at the stone door is a dark wet heap giving off thin white steam; the gap in the stone door is sealed with ice and packed snow.
+A medium-wide shot at floor level, 35mm lens, highest resolution. He pushes himself up on one elbow on the tunnel floor, the young man (HERO), coughing hard with one hand over his mouth, his eyes squeezed and watering. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage. A low layer of thick grey smoke rolls along the ceiling. The fire at the stone door is a dark wet heap giving off thin white steam; the gap in the stone door is sealed with ice and packed snow.
 Place: the tunnel (TUNNEL). Almost dark: only a dim cold blue light seeps through the ice in the gap.
 Palette: 60% blue-black darkness, 30% grey smoke, 10% rust-orange jacket. His face at frame-left, the iced gap at frame-right, both croppable; his breath shows as a little vapour. Exactly one person. 
 
 FRAME p2-135 · NEW · references: HERO, TUNNEL
-A medium shot at eye level, 35mm lens. He kneels by the dead, wet fire, the young man (HERO), working a bow drill: a curved stick with a cord, spinning a straight spindle into a flat piece of wood held down under his boot. No smoke at all. His black palms show pale raw blister marks; his face is exhausted and frustrated. Both sleeves are down; no bandage.
+A medium shot at eye level, 35mm lens. He kneels by the dead, wet fire, the young man (HERO), working a bow drill: a curved stick with a cord, spinning a straight spindle into a flat piece of wood held down under his boot. No smoke at all. His black palms show pale raw blister marks; his face is exhausted and frustrated. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage.
 Place: the tunnel (TUNNEL). Dim cold light from the gap of the stone door at frame-right.
 Palette: 60% cold dark brown, 30% grey light, 10% rust-orange jacket. Exactly one person, one bow and one spindle. 
 
