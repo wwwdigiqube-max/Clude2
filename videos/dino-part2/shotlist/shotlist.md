@@ -328,9 +328,9 @@
   > You wait. One night. Two.
 - **#149** · 13:33.9 · `NEW·M` 🆕 — دم ورودی برفی: پیپ و یک موش دوم (مادر) · _رفرنس: @pip · @pip-mate · ref: D9b_ · **وضعیت:** `M=beside him`
   > On the third morning, he's at the entrance. And he's not alone.
-- **#150** · 13:38.9 · `CROP←#149` — کلوز صورت ماده
+- **#150** · 13:38.9 · `CROP←149-close (big version)` — کلوز صورت ماده
   > A second little face. Smaller. Pale, ash-grey fur, with a white mark on her chest. The same black eyes.
-- **#151** · 13:46.8 · `CROP←#149` — دو موش کنار هم
+- **#151** · 13:46.8 · `CROP←149-close (big version)` — دو موش کنار هم
   > She survived the dark too, in some other hole, under some other tree. Pip isn't the last of his kind.
 - **#152** · 13:55.1 · `CROP←#153` — کلوز صورت پسر، لبخند غمگین
   > (pause) You're happy for him. You really are.
