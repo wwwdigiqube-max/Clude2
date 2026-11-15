@@ -208,7 +208,7 @@
   > So you take a sharp stone, and you start to write on it.
 - **#96** · 8:01.5 · `CROP←#95` — سه شب: آتش، دست‌ها، استخوان (کراس‌فید)
   > It takes three nights. Your fingers bleed.
-- **#97** · 8:04.4 · `CROP←#95` — کلوز ساعد راست با جای زخم
+- **#97** · 8:04.4 · `CROP←#95` — کلوز دست‌های خونی روی استخوان (زخم دیده نمی‌شود، فقط در متن)
   > Your right arm still aches where the claw went in.
 - **#98** · 8:08.6 · `CROP←#95` — کلوز حروف کنده‌شده (حروف در تدوین)
   > You go over every letter again and again, deep enough to last forever.

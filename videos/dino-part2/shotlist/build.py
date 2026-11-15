@@ -120,7 +120,7 @@ f("And you have a bone. The one you've been digging with since day four.", "اس
 f("It's the only shovel you have. You'll bury it anyway.", "دست پسر روی استخوان", "CROP←#bone")
 f("So you take a sharp stone, and you start to write on it.", "پسر با سنگ تیز روی استخوان می‌کند، آستین بالا، جای زخم ساعد راست (مادر)", "NEW·M", f"{HW} · {BONE}", "W=scar-R(sleeve up)", key="carve")
 f("It takes three nights. Your fingers bleed.", "سه شب: آتش، دست‌ها، استخوان (کراس‌فید)", "CROP←#carve")
-f("Your right arm still aches where the claw went in.", "کلوز ساعد راست با جای زخم", "CROP←#carve")
+f("Your right arm still aches where the claw went in.", "کلوز دست‌های خونی روی استخوان (زخم دیده نمی‌شود، فقط در متن)", "CROP←#carve")
 f("You go over every letter again and again, deep enough to last forever.", "کلوز حروف کنده‌شده (حروف در تدوین)", "CROP←#carve")
 f("Three words. The last two are almost what you said in front of that skeleton, laughing. Except this time, they're true.", "فلش‌بک سلفی موزه، سپیا", "OLD en:137")
 f("MOM. I SURVIVED.", "استخوان با حروف MOM. I SURVIVED. (حروف روی تصویر در تدوین)", "REUSE←#bone")

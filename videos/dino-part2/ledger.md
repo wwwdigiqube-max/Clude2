@@ -82,3 +82,9 @@
 - The only visible sign: **three claw rips in the RIGHT jacket sleeve** (P1-hero-winter v2). Sleeves always down.
 - One deliberate scar close-up stays: #95/#97 (carving the bone, "your right arm still aches where the claw went in").
 - Already-made frames with one scarred arm (004, 053, 086, 133, 143) stay. 137/139: scars removed from both arms.
+
+## Wound rule, final (user decision, 2026-11-15)
+- No scar is ever shown. The claw wound lives only in the narration ("your right arm still aches").
+- Look from Part 2 on: **both jacket sleeves torn off, ragged, at mid-forearm**; forearms and hands plain black. (Part 1 end: right sleeve torn, bandage; two more weeks of digging tore the left one too.)
+- Frames with a visible scar get one edit to remove it: 004, 053, 086, 095, 133, 143, 137, 139.
+- The "claw rips in the right sleeve" idea above is dropped.

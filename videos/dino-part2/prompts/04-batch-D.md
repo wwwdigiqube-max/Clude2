@@ -8,7 +8,7 @@
 You are making 11 still frames for a dark animated survival story, one image per frame, in the order below.
 
 ATTACHED REFERENCES (match them exactly):
-- HERO = the character sheet of a tired young man in a faded rust-orange jacket with three claw rips in the right sleeve
+- HERO = the character sheet of a tired young man in a faded rust-orange jacket with both sleeves torn off at mid-forearm
 - PIP = the sheet of a tiny golden-brown mouse-like mammal in several poses
 - RIVER = the image of a cold grey river in a burnt winter forest with a stone-slab door under tree roots
 - CROC = the image of a crocodile in a muddy river
@@ -17,7 +17,7 @@ ATTACHED REFERENCES (match them exactly):
 - TUNNEL = the location sheet of a low, round clay tunnel with a stone-slab door; it sets the exact size and look of the tunnel
 
 CAST AND PLACES:
-- HERO: the young man from HERO: tired small black oval eyes with heavy lid lines and dark shadows under them, thin dark eyebrows, longer messy dark-brown hair under a dark charcoal knit beanie with a small square headlamp on a brown strap, grey ash smudges on his cheeks, an open rust-orange hooded jacket that is faded, ash-stained and frayed at the hem and cuffs, over a dark grey t-shirt with a ragged torn bottom edge, long thin black stick legs and worn dark-brown hiking boots; no backpack
+- HERO: the young man from HERO: tired small black oval eyes with heavy lid lines and dark shadows under them, thin dark eyebrows, longer messy dark-brown hair under a dark charcoal knit beanie with a small square headlamp on a brown strap, grey ash smudges on his cheeks, an open rust-orange hooded jacket that is faded, ash-stained and frayed at the hem, with both sleeves torn off ragged at mid-forearm, over a dark grey t-shirt with a ragged torn bottom edge, long thin black stick legs and worn dark-brown hiking boots; no backpack
 - PIP: Pip from PIP: a tiny early mammal the size of a mouse, warm golden-brown fur, cream belly, big shiny black eyes, pointed pink nose with long whiskers, round pink-lined ears, pink paws and a long thin pink tail, a little thinner than before
 - RIVER: a wide, slow, cold grey river with thin white ice along both edges, a low clay bank, burnt black bare trees and fallen logs dusted with grey ash-snow, and no green anywhere. On the bank, under the roots of a huge burnt black tree, is the tunnel entrance: a low opening built of stacked flat grey stones, closed by one large flat grey stone slab.
 - CROC: the crocodile from CROC: a big crocodile with a heavy dark olive-grey armoured back of rough bony plates, a broad snout and pale yellow eyes
@@ -33,13 +33,13 @@ RULES FOR EVERY FRAME:
 - The tunnel door is always one single large smooth flat stone slab set in a frame of stacked flat stones, with a hand-wide vertical gap; never a wooden door, never a wall of blocks.
 - The tunnel is low and narrow: inside it he can only sit, kneel, lie or crawl, never stand; when he sits, the clay ceiling is just above his beanie.
 - His arms and hands are always thin solid black, never white or skin-coloured, even in close-ups.
-- Never draw scar marks on his arms or hands: they are always plain solid black. The only sign of his old wound is the three claw rips in his RIGHT jacket sleeve (from HERO), never the left. No bandage unless a frame says so.
+- Both of his jacket sleeves are torn off, ragged, at mid-forearm (as in HERO). His forearms and hands are always plain solid black: never draw scars or marks on them. No bandage unless a frame says so.
 - Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.
 - Name each image exactly with its frame code: p2-075, p2-103, p2-105, p2-107, p2-109, p2-110, p2-111, p2-115, p2-117, p2-118, p2-146b.
 - An EDIT frame changes only what it says, starting from the image it names.
 
 FRAME p2-075 · NEW · references: HERO, PIP, RIVER
-A wide shot at eye level, 35mm lens, highest resolution. Right next to the tunnel entrance lie three wet, rotting logs in a row, covered with dead grey leaves. He kneels beside one he has just rolled over, the young man (HERO); under it, many fat white grubs. Pip (PIP) sits on top of another log. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage.
+A wide shot at eye level, 35mm lens, highest resolution. Right next to the tunnel entrance lie three wet, rotting logs in a row, covered with dead grey leaves. He kneels beside one he has just rolled over, the young man (HERO); under it, many fat white grubs. Pip (PIP) sits on top of another log. Both jacket sleeves are torn off, ragged, at mid-forearm; below them his forearms and hands are plain solid black, with no scar marks and no bandage.
 Place: the river (RIVER), in winter. The stone-slab tunnel entrance under the burnt tree roots is in view. Light: cold, dim, grey daylight under a sky of wet ash.
 Palette: 60% ash grey, 30% dark wet wood, 10% white grubs and rust-orange jacket. The logs and the grubs fill the lower half large enough to crop. Exactly one person and one Pip. 
 
@@ -59,37 +59,37 @@ Place: the river (RIVER), in winter. Cold blue dawn light, mist.
 Palette: 60% cold blue-grey, 30% olive-brown reptile, 10% white ice. The champsosaur fills the centre-right in side view so its thin snout and wide skull read clearly. One champsosaur and one partly visible crocodile. 
 
 FRAME p2-109 · NEW · references: HERO, PIP, BONE, RIVER
-A medium shot at eye level, 35mm lens. He kneels outside the tunnel entrance at first light, the young man (HERO), the bone shovel (BONE) tied diagonally across his back with a cord, the blade above his shoulder. Pip's head peeks out of his jacket pocket. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage. His face is scared but set.
+A medium shot at eye level, 35mm lens. He kneels outside the tunnel entrance at first light, the young man (HERO), the bone shovel (BONE) tied diagonally across his back with a cord, the blade above his shoulder. Pip's head peeks out of his jacket pocket. Both jacket sleeves are torn off, ragged, at mid-forearm; below them his forearms and hands are plain solid black, with no scar marks and no bandage. His face is scared but set.
 Place: the river (RIVER), in winter. The stone-slab tunnel entrance under the burnt tree roots is in view. Cold blue dawn light; ash-snow drifting.
 Palette: 60% cold blue-grey, 30% black trees, 10% rust-orange jacket and pale bone. Exactly one person, one bone and one Pip. 
 
 FRAME p2-110 · NEW · references: HERO, BONE, RIVER
-A medium-wide shot from below, 35mm lens. He climbs down the low snowy clay bank backwards on his hands and knees, carefully and quietly, the young man (HERO), the bone tied across his back. Below him, the icy edge of the grey river. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage.
+A medium-wide shot from below, 35mm lens. He climbs down the low snowy clay bank backwards on his hands and knees, carefully and quietly, the young man (HERO), the bone tied across his back. Below him, the icy edge of the grey river. Both jacket sleeves are torn off, ragged, at mid-forearm; below them his forearms and hands are plain solid black, with no scar marks and no bandage.
 Place: the river (RIVER), in winter. Cold blue dawn light.
 Palette: 60% cold blue-grey, 30% brown clay, 10% rust-orange jacket. Exactly one person and one bone. 
 
 FRAME p2-111 · NEW · references: HERO, PIP, RIVER
-A low close shot at the water's edge, 35mm lens, highest resolution. He kneels in the soft dark clay at the edge of the icy water, the young man (HERO), his right arm pushed down into the clay up to the elbow; the bone is no longer visible. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage; his right sleeve is smeared with clay. His tense face looks toward the water. Behind him on the bank at frame-left, Pip (PIP) stands up, alert. In the grey water at frame-right, a dark log-like shape drifts just under the surface toward his arm.
+A low close shot at the water's edge, 35mm lens, highest resolution. He kneels in the soft dark clay at the edge of the icy water, the young man (HERO), his right arm pushed down into the clay up to the elbow; the bone is no longer visible. Both jacket sleeves are torn off, ragged, at mid-forearm; below them his forearms and hands are plain solid black, with no scar marks and no bandage. His tense face looks toward the water. Behind him on the bank at frame-left, Pip (PIP) stands up, alert. In the grey water at frame-right, a dark log-like shape drifts just under the surface toward his arm.
 Place: the river (RIVER), in winter. Cold blue dawn light, mist on the water.
 Palette: 60% cold blue-grey, 30% dark clay, 10% rust-orange jacket. His face, Pip and the dark shape under the water are each large enough to crop. Exactly one person and one Pip. 
 
 FRAME p2-115 · NEW · references: HERO, CROC, RIVER
-A medium-wide action shot at ground level, 35mm lens. He is thrown backwards onto the clay bank, landing on his elbows, the young man (HERO), his eyes now big round white eyes with small black pupils in fear. At frame-right, the crocodile (CROC) has lunged out of the water, and its long jaws snap shut in the mud exactly where his hand was, mud splashing. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage.
+A medium-wide action shot at ground level, 35mm lens. He is thrown backwards onto the clay bank, landing on his elbows, the young man (HERO), his eyes now big round white eyes with small black pupils in fear. At frame-right, the crocodile (CROC) has lunged out of the water, and its long jaws snap shut in the mud exactly where his hand was, mud splashing. Both jacket sleeves are torn off, ragged, at mid-forearm; below them his forearms and hands are plain solid black, with no scar marks and no bandage.
 Place: the river (RIVER), in winter. Cold blue dawn light.
 Palette: 60% cold blue-grey, 30% dark crocodile and mud, 10% rust-orange jacket. The jaws in the mud at frame-right are large enough to crop on their own. Exactly one person and one crocodile. 
 
 FRAME p2-117 · NEW · references: HERO, PIP, RIVER
-A medium-wide shot from behind and to the side, 35mm lens. He scrambles up the snowy clay bank toward the stone door, the young man (HERO), mud on his arms and boots; Pip's head pokes out of his jacket pocket. He carries no bone. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage.
+A medium-wide shot from behind and to the side, 35mm lens. He scrambles up the snowy clay bank toward the stone door, the young man (HERO), mud on his arms and boots; Pip's head pokes out of his jacket pocket. He carries no bone. Both jacket sleeves are torn off, ragged, at mid-forearm; below them his forearms and hands are plain solid black, with no scar marks and no bandage.
 Place: the river (RIVER), in winter. The stone-slab tunnel entrance under the burnt tree roots is in view. Cold blue dawn light.
 Palette: 60% cold blue-grey, 30% brown mud, 10% rust-orange jacket. Exactly one person and one Pip. 
 
 FRAME p2-118 · NEW · references: HERO, PIP, TUNNEL
-A medium shot at eye level inside the tunnel, 35mm lens. He sits on the floor with his back against the closed stone slab of the door, the young man (HERO), knees pulled up, shaking, his eyes wide; his muddy black hands rest on his knees, starting to clench into fists. Pip sits in his lap. He carries no bone. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage. No fire.
+A medium shot at eye level inside the tunnel, 35mm lens. He sits on the floor with his back against the closed stone slab of the door, the young man (HERO), knees pulled up, shaking, his eyes wide; his muddy black hands rest on his knees, starting to clench into fists. Pip sits in his lap. He carries no bone. Both jacket sleeves are torn off, ragged, at mid-forearm; below them his forearms and hands are plain solid black, with no scar marks and no bandage. No fire.
 Place: the tunnel (TUNNEL). Only a thin stripe of cold blue dawn light comes through the hand-wide gap beside him.
 Palette: 60% blue-brown darkness, 30% cold blue stripe, 10% rust-orange jacket. His face is croppable. Exactly one person and one Pip. 
 
 FRAME p2-146b · NEW · references: HERO, PIP, TUNNEL
-A medium close-up at eye level, 50mm lens, highest resolution. He sits cross-legged by the small fire, the young man (HERO), sharpening the end of a long, straight, dry branch into a point with the sharp grey stone in his right hand; pale wood shavings fall onto the clay floor. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage. His face is calm, hard and determined, no longer scared. Pip (PIP) sits beside his knee, watching the shavings.
+A medium close-up at eye level, 50mm lens, highest resolution. He sits cross-legged by the small fire, the young man (HERO), sharpening the end of a long, straight, dry branch into a point with the sharp grey stone in his right hand; pale wood shavings fall onto the clay floor. Both jacket sleeves are torn off, ragged, at mid-forearm; below them his forearms and hands are plain solid black, with no scar marks and no bandage. His face is calm, hard and determined, no longer scared. Pip (PIP) sits beside his knee, watching the shavings.
 Place: the tunnel (TUNNEL). A small fire of twigs burns on the tunnel floor right at the gap of the stone door. Warm firelight from the side; the new wooden point catches the light.
 Palette: 60% warm darkness, 30% firelight orange, 10% pale fresh wood. His face, his hands with the stone and the sharpened point are each croppable; the long branch runs diagonally across the frame. Exactly one person, one branch and one Pip. 
 ```

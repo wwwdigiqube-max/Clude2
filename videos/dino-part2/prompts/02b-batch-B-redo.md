@@ -8,11 +8,11 @@
 You are making 5 still frames for a dark animated survival story, one image per frame, in the order below.
 
 ATTACHED REFERENCES (match them exactly):
-- HERO = the character sheet of a tired young man in a faded rust-orange jacket with three claw rips in the right sleeve
+- HERO = the character sheet of a tired young man in a faded rust-orange jacket with both sleeves torn off at mid-forearm
 - TUNNEL = the location sheet of a low, round clay tunnel with a stone-slab door; it sets the exact size and look of the tunnel
 
 CAST AND PLACES:
-- HERO: the young man from HERO: tired small black oval eyes with heavy lid lines and dark shadows under them, thin dark eyebrows, longer messy dark-brown hair under a dark charcoal knit beanie with a small square headlamp on a brown strap, grey ash smudges on his cheeks, an open rust-orange hooded jacket that is faded, ash-stained and frayed at the hem and cuffs, over a dark grey t-shirt with a ragged torn bottom edge, long thin black stick legs and worn dark-brown hiking boots; no backpack
+- HERO: the young man from HERO: tired small black oval eyes with heavy lid lines and dark shadows under them, thin dark eyebrows, longer messy dark-brown hair under a dark charcoal knit beanie with a small square headlamp on a brown strap, grey ash smudges on his cheeks, an open rust-orange hooded jacket that is faded, ash-stained and frayed at the hem, with both sleeves torn off ragged at mid-forearm, over a dark grey t-shirt with a ragged torn bottom edge, long thin black stick legs and worn dark-brown hiking boots; no backpack
 - TUNNEL: a low, narrow, round tunnel dug into brown clay, as wide as his shoulders and so low that when he sits the ceiling is just above his beanie, with a smooth arched ceiling and thin roots poking through the walls; at the entrance end, the round opening is framed by stacked flat grey stones and closed by one single large, smooth, flat grey stone slab (one piece, not a wall of blocks), leaving a vertical gap a hand wide between the slab's edge and the stacked stones.
 
 RULES FOR EVERY FRAME:
@@ -27,12 +27,12 @@ RULES FOR EVERY FRAME:
 - An EDIT frame changes only what it says, starting from the image it names.
 
 FRAME p2-129 · NEW · references: HERO, TUNNEL
-A medium-wide shot at floor level, 35mm lens, highest resolution. He pushes himself up on one elbow on the tunnel floor, the young man (HERO), coughing hard with one hand over his mouth, his eyes squeezed and watering. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage. A low layer of thick grey smoke rolls along the ceiling. The fire at the stone door is a dark wet heap giving off thin white steam; the gap in the stone door is sealed with ice and packed snow.
+A medium-wide shot at floor level, 35mm lens, highest resolution. He pushes himself up on one elbow on the tunnel floor, the young man (HERO), coughing hard with one hand over his mouth, his eyes squeezed and watering. Both jacket sleeves are torn off, ragged, at mid-forearm; below them his forearms and hands are plain solid black, with no scar marks and no bandage. A low layer of thick grey smoke rolls along the ceiling. The fire at the stone door is a dark wet heap giving off thin white steam; the gap in the stone door is sealed with ice and packed snow.
 Place: the tunnel (TUNNEL). Almost dark: only a dim cold blue light seeps through the ice in the gap.
 Palette: 60% blue-black darkness, 30% grey smoke, 10% rust-orange jacket. His face at frame-left, the iced gap at frame-right, both croppable; his breath shows as a little vapour. Exactly one person. 
 
 FRAME p2-135 · NEW · references: HERO, TUNNEL
-A medium shot at eye level, 35mm lens. He kneels by the dead, wet fire, the young man (HERO), working a bow drill: a curved stick with a cord, spinning a straight spindle into a flat piece of wood held down under his boot. No smoke at all. His black palms show pale raw blister marks; his face is exhausted and frustrated. Both jacket sleeves are down to his wrists; his right sleeve has three ragged parallel claw rips over the forearm, exactly as in HERO, with plain black arm showing through; no scar marks are drawn on his black arms or hands; no bandage.
+A medium shot at eye level, 35mm lens. He kneels by the dead, wet fire, the young man (HERO), working a bow drill: a curved stick with a cord, spinning a straight spindle into a flat piece of wood held down under his boot. No smoke at all. His black palms show pale raw blister marks; his face is exhausted and frustrated. Both jacket sleeves are torn off, ragged, at mid-forearm; below them his forearms and hands are plain solid black, with no scar marks and no bandage.
 Place: the tunnel (TUNNEL). Dim cold light from the gap of the stone door at frame-right.
 Palette: 60% cold dark brown, 30% grey light, 10% rust-orange jacket. Exactly one person, one bow and one spindle. 
 
