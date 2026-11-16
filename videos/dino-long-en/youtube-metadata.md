@@ -21,6 +21,7 @@ A survival story told in second person, about the last ten days of the dinosaurs
 9:33 The Thing in the Tunnel
 12:00 The Last Normal Morning
 14:47 Stay Small
+17:28 Next Time: Part 2
 
 You wake up in the Late Cretaceous forest of Hell Creek. A message on your phone says: "Impact: 10 days. 3,000 kilometers south." Everything big is going to die. To live, you have to think like the smallest animal in the forest: stay small, stay near water, stay underground.
 
