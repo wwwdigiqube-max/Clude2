@@ -225,7 +225,7 @@ for i, k in enumerate("ABCDEFG", 1):
              f"Name each image exactly with its frame code: {names}.",
              "An EDIT frame changes only what it says, starting from the image it names."]
     if any(re.search(r"\bHERO3\b", t) for _, t in frames): rules.insert(3, "Whenever the young man appears in this batch, both of his forearms are wrapped exactly as in HERO3: dark charcoal crossed strips with tufts of fern fluff. Never bare, never a light bandage.")
-    if any(re.search(r"\bHERO\b", t) for _, t in frames): rules.insert(3, "In every frame of this batch his jacket sleeves are torn off at mid-forearm and his forearms are bare solid black. He wears no backpack unless a frame says so.")
+    if any(re.search(r"\bHERO\b", t) for _, t in frames): rules.insert(3, "In every frame of this batch his jacket sleeves are torn off at mid-forearm and his forearms are bare solid black. He wears NO BACKPACK at all (the backpack stays at the back of the tunnel), unless a frame says he is holding or packing it.")
     head = (f"You are making {len(frames)} still frames for a dark animated survival story, one image per frame, in the order below.\n\nATTACHED REFERENCES (match them exactly):\n"
             + "\n".join(f"- {r} = {REFS[r][0]}" for r in used) + "\n\n"
             + ("CAST AND PLACES:\n" + "\n".join(f"- {r}: {LONG[r]}" for r in used if r in LONG) + "\n\n" if any(r in LONG for r in used) else "")

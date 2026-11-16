@@ -28,7 +28,7 @@ RULES FOR EVERY FRAME:
 - Dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the characters, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting.
 - Strict stick-figure anatomy for every person: the only white part is the round off-white head; the body under the clothes is a thin solid black stick figure; arms, hands and legs are thin solid black lines, never white or skin-coloured; the face has only eyes, eyebrows and a simple mouth, no nose and no ears.
 - Every character, animal, place and object must look exactly like its reference. Do not invent new characters.
-- In every frame of this batch his jacket sleeves are torn off at mid-forearm and his forearms are bare solid black. He wears no backpack unless a frame says so.
+- In every frame of this batch his jacket sleeves are torn off at mid-forearm and his forearms are bare solid black. He wears NO BACKPACK at all (the backpack stays at the back of the tunnel), unless a frame says he is holding or packing it.
 - Never draw scars, wounds or a light bandage on the young man's arms.
 - His headlamp is always switched off: its lens is dark.
 - Inside the tunnel he can only sit, kneel, lie or crawl, never stand; the tunnel door is always one single flat stone slab in a frame of stacked flat stones.
