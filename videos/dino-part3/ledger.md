@@ -33,3 +33,7 @@
 | day 76–85 | "How long?" → map → stockpile + warm clothes | — |
 | day 86 | night: talks to Mom by the fire | day 96 missing: Mom's dream |
 | day 87 | leaves, follows the river east | day 97 missing: museum, the handwriting |
+
+## Story-audit round 1 (fresh-eyes reader, 15 points) → v2
+Applied (14): first *hunt* not first kill (he caught fish by hand in Part 1) · "first real food in weeks" not "first meat" · timeline tags recomputed (dream = night before leaving, day 87 after = **day 97 missing**) · the hole is a long crack he chipped, two hands wide · refraction only when looking at an angle → "deeper" (removed "closer") · the dig now has a reason: he decides to leave first, but must survive the worst cold before he can go · fire carried as tinder fungus smouldering in the turtle shell (Ötzi) · "what's left of an inland sea" + the map shows this river flowing east to the coast (no "every river runs to the sea") · Dad's line = "the sea is slow to cool" · the nightly talks to Mom are set up in §2 and §7 (the dream stays a deliberate, unexplained echo) · "you say it every night, you never know if anyone hears" · handwriting recognised by letter shapes, not by a dash · no lab dating: the bone lay under the unbroken K-Pg boundary clay, and the marks are fossilised with it · the old woman almost called Mom three times · shell water froze an arm's length from banked coals; "deeper, below the frozen layer".
+Kept on purpose (1): the dream's supernatural echo (user's idea; ambiguous, not explained).
