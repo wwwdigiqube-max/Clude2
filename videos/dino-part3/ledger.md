@@ -22,17 +22,18 @@
 7. Section 6: before leaving, **stockpile**: more fish, frozen in the ice (natural freezer); fill the backpack (dried fish, dried grubs, white fungus). Professional, step by step.
 8. **Warmth for the journey:** sleeves are torn → he must make his arms and body warm before leaving.
 
-## Timeline v2 (draft)
+## Timeline (v2)
 | Story time | Past | Present |
 |---|---|---|
-| day 66 after | cold deepens; river ices over | — |
-| day 67–69 | reads the book; chips a hole; refraction lesson | — |
-| day 70 | first fish (hook scene) | — |
-| day 71 | turtle in the mud; croc snout frozen in the ice | — |
-| day 72–75 | chimney + deeper hollow | day 80 missing: old woman in the lab |
-| day 76–85 | "How long?" → map → stockpile + warm clothes | — |
-| day 86 | night: talks to Mom by the fire | day 96 missing: Mom's dream |
-| day 87 | leaves, follows the river east | day 97 missing: museum, the handwriting |
+| day 64 after | river freezes bank to bank; croc snout in the ice; ice water | — |
+| day 65 | reads the book (turtle & frog page); "Night, Mom" | — |
+| day 70 | first fish through the crack (hook) | day 80 missing: old woman in the museum back room |
+| day 71 | turtle in the mud; rule five | — |
+| day 71 | "How long?" → map → decides to follow the river east, after the worst cold | — |
+| day 72–79 | deeper hollow + fire pit with chimney | — |
+| day 80–87 | stockpile fish (snow freezer), dried grubs, fungus; tinder-fungus fire carrier; insulated arms | — |
+| day 87 night | talks to Mom by the fire | day 97 missing: Mom's dream |
+| day 88 morning | leaves, follows the frozen river east | day 98 missing: museum, "That's his handwriting." |
 
 ## Story-audit round 1 (fresh-eyes reader, 15 points) → v2
 Applied (14): first *hunt* not first kill (he caught fish by hand in Part 1) · "first real food in weeks" not "first meat" · timeline tags recomputed (dream = night before leaving, day 87 after = **day 97 missing**) · the hole is a long crack he chipped, two hands wide · refraction only when looking at an angle → "deeper" (removed "closer") · the dig now has a reason: he decides to leave first, but must survive the worst cold before he can go · fire carried as tinder fungus smouldering in the turtle shell (Ötzi) · "what's left of an inland sea" + the map shows this river flowing east to the coast (no "every river runs to the sea") · Dad's line = "the sea is slow to cool" · the nightly talks to Mom are set up in §2 and §7 (the dream stays a deliberate, unexplained echo) · "you say it every night, you never know if anyone hears" · handwriting recognised by letter shapes, not by a dash · no lab dating: the bone lay under the unbroken K-Pg boundary clay, and the marks are fossilised with it · the old woman almost called Mom three times · shell water froze an arm's length from banked coals; "deeper, below the frozen layer".
