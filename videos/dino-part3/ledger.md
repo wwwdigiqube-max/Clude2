@@ -38,3 +38,11 @@
 ## Story-audit round 1 (fresh-eyes reader, 15 points) → v2
 Applied (14): first *hunt* not first kill (he caught fish by hand in Part 1) · "first real food in weeks" not "first meat" · timeline tags recomputed (dream = night before leaving, day 87 after = **day 97 missing**) · the hole is a long crack he chipped, two hands wide · refraction only when looking at an angle → "deeper" (removed "closer") · the dig now has a reason: he decides to leave first, but must survive the worst cold before he can go · fire carried as tinder fungus smouldering in the turtle shell (Ötzi) · "what's left of an inland sea" + the map shows this river flowing east to the coast (no "every river runs to the sea") · Dad's line = "the sea is slow to cool" · the nightly talks to Mom are set up in §2 and §7 (the dream stays a deliberate, unexplained echo) · "you say it every night, you never know if anyone hears" · handwriting recognised by letter shapes, not by a dash · no lab dating: the bone lay under the unbroken K-Pg boundary clay, and the marks are fossilised with it · the old woman almost called Mom three times · shell water froze an arm's length from banked coals; "deeper, below the frozen layer".
 Kept on purpose (1): the dream's supernatural echo (user's idea; ambiguous, not explained).
+
+## Continuity check vs Part 1 (v4) + Part 2 (v7) → v3
+- Part 1 L125: "The book says freshwater animals, turtles, frogs, even crocodiles, made it through" (day 3) → P3 no longer "discovers" that they survived; the new fact is **where they sleep in winter** (in the mud).
+- Part 1 L85 + L32: his plan/checklist is written on the **back page** of the book → he tears out the two blank pages at the **front**.
+- Part 1 L282: the impact wave came up the river "the wrong way" (Tanis seiche) → used in P3 as proof the river connects to the sea.
+- Part 1 L122: summer fish were caught by hand in shallow pools and dried on a hot rock → P3 "first time you've ever hunted" ✓.
+- Part 2 ch7: Pip returns with his mate on day 64 → the river freezes on **day 65** (not the same day).
+- Part 2: "the fish have gone deep", ice at the edges in the mornings, snow full of ash (filtered through sand and charcoal), fire at the door gap drowned by snow → all continue in P3 (full freeze, river ice for water, chimney with a stone cap).
