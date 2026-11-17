@@ -16,7 +16,7 @@ ATTACHED REFERENCES (match them exactly):
 CAST AND PLACES:
 - HERO: the young man from HERO: tired small black oval eyes, messy dark-brown hair under a dark charcoal beanie with a small headlamp whose lens is dark, a faded rust-orange hooded jacket with BOTH sleeves torn off ragged at mid-forearm, bare thin black forearms with NO scars and NO bandage, dark grey t-shirt with a torn bottom edge, thin black legs, worn brown boots; no backpack unless a frame says so
 - PIP: Pip: a tiny golden-brown mouse-sized early mammal with a cream belly, big shiny black eyes, pink nose, whiskers and a long thin pink tail
-- RIVER: the river frozen solid bank to bank, grey-white ice dusted with ash-snow, a long dark crack two hands wide over the deep pool, burnt black bare trees
+- RIVER: the river frozen solid bank to bank with NO open water anywhere, always the same width (about eight times his height), grey-white ice dusted with ash-snow, a long dark crack two hands wide over the deep pool, burnt black bare trees
 
 RULES FOR EVERY FRAME:
 - Dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the characters, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting.

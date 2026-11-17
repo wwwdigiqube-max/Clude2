@@ -1,7 +1,7 @@
 # دسته‌ی B · رود و بیرون (دست‌ها لخت) · 8 قاب
 
 **قاب‌ها:** p3-067, p3-071, p3-076, p3-093, p3-096, p3-097, p3-118, p3-044  
-**پیوست (همه با هم):** `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `p2-149-close` (MATE) · `Q4-frozen-river` (RIVER) · `P6-winter-river` (DOOR) · `Q3-turtle-sheet` (TURTLE)  
+**پیوست (همه با هم):** `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `p2-149-close` (MATE) · `Q4-frozen-river` (RIVER) · `Q4-frozen-river` (DOOR) · `Q3-turtle-sheet` (TURTLE)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.
 
 ```
@@ -12,14 +12,14 @@ ATTACHED REFERENCES (match them exactly):
 - PIP = the sheet of a tiny golden-brown mouse-like mammal
 - MATE = the image of two small mice in the snow: the smaller pale ash-grey one with a white chest patch is the mate
 - RIVER = the image of a frozen grey river with a long crack in the ice and a burnt winter forest
-- DOOR = the image of the clay riverbank with the stone-slab tunnel entrance under the roots of a burnt tree
+- DOOR = the image of the clay riverbank with the stone-slab tunnel entrance under the roots of a burnt tree, the river frozen solid
 - TURTLE = the sheet of a sleeping turtle, a shell bowl with water and a clay-sealed glowing shell
 
 CAST AND PLACES:
 - HERO: the young man from HERO: tired small black oval eyes, messy dark-brown hair under a dark charcoal beanie with a small headlamp whose lens is dark, a faded rust-orange hooded jacket with BOTH sleeves torn off ragged at mid-forearm, bare thin black forearms with NO scars and NO bandage, dark grey t-shirt with a torn bottom edge, thin black legs, worn brown boots; no backpack unless a frame says so
 - PIP: Pip: a tiny golden-brown mouse-sized early mammal with a cream belly, big shiny black eyes, pink nose, whiskers and a long thin pink tail
 - MATE: Pip's mate: smaller and slimmer than Pip, pale ash-grey fur, one white drop-shaped patch on her chest, white tail tip
-- RIVER: the river frozen solid bank to bank, grey-white ice dusted with ash-snow, a long dark crack two hands wide over the deep pool, burnt black bare trees
+- RIVER: the river frozen solid bank to bank with NO open water anywhere, always the same width (about eight times his height), grey-white ice dusted with ash-snow, a long dark crack two hands wide over the deep pool, burnt black bare trees
 
 RULES FOR EVERY FRAME:
 - Dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the characters, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting.

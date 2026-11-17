@@ -1,7 +1,7 @@
 # دسته‌ی F · خواب و خاطره‌ها · 6 قاب
 
 **قاب‌ها:** p3-143, p3-145, p3-150, p3-091, p3-122, p3-164  
-**پیوست (همه با هم):** `Q1-hero-journey` (HERO3) · `P6-winter-river` (DOOR) · `Q6-tinder-fungus` (FUNGUS) · `P4-dad` (DAD) · `A3-mom` (MOM)  
+**پیوست (همه با هم):** `Q1-hero-journey` (HERO3) · `Q4-frozen-river` (DOOR) · `Q6-tinder-fungus` (FUNGUS) · `P4-dad` (DAD) · `A3-mom` (MOM)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.
 
 ```
@@ -9,7 +9,7 @@ You are making 6 still frames for a dark animated survival story, one image per 
 
 ATTACHED REFERENCES (match them exactly):
 - HERO3 = the character sheet of the same young man ready for a journey: dark crossed wraps on both forearms, a backpack with a turtle shell, a spear
-- DOOR = the image of the clay riverbank with the stone-slab tunnel entrance under the roots of a burnt tree
+- DOOR = the image of the clay riverbank with the stone-slab tunnel entrance under the roots of a burnt tree, the river frozen solid
 - FUNGUS = the sheet of a hoof-shaped bracket fungus on a dead tree and a smouldering slice
 - DAD = the character sheet of a bearded man with a red bandana and a beanie with a headlamp
 - MOM = the character sheet of a woman in a mustard-yellow cardigan

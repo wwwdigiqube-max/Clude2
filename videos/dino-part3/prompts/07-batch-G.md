@@ -1,7 +1,7 @@
 # دسته‌ی G · شب آخر و رفتن (دست‌ها پیچیده) · 8 قاب
 
 **قاب‌ها:** p3-129, p3-131, p3-133, p3-166, p3-169, p3-176, p3-179, p3-180  
-**پیوست (همه با هم):** `Q1-hero-journey` (HERO3) · `R1-fandogh-sheet` (PIP) · `p2-149-close` (MATE) · `Q4-frozen-river` (RIVER) · `P6-winter-river` (DOOR) · `P9-tunnel-sheet` (TUNNEL) · `Q5-chamber-chimney` (CHAMBER)  
+**پیوست (همه با هم):** `Q1-hero-journey` (HERO3) · `R1-fandogh-sheet` (PIP) · `p2-149-close` (MATE) · `Q4-frozen-river` (RIVER) · `Q4-frozen-river` (DOOR) · `P9-tunnel-sheet` (TUNNEL) · `Q5-chamber-chimney` (CHAMBER)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.
 
 ```
@@ -12,7 +12,7 @@ ATTACHED REFERENCES (match them exactly):
 - PIP = the sheet of a tiny golden-brown mouse-like mammal
 - MATE = the image of two small mice in the snow: the smaller pale ash-grey one with a white chest patch is the mate
 - RIVER = the image of a frozen grey river with a long crack in the ice and a burnt winter forest
-- DOOR = the image of the clay riverbank with the stone-slab tunnel entrance under the roots of a burnt tree
+- DOOR = the image of the clay riverbank with the stone-slab tunnel entrance under the roots of a burnt tree, the river frozen solid
 - TUNNEL = the location sheet of the low round clay tunnel with the one-piece stone-slab door
 - CHAMBER = the cross-section of the tunnel end chamber with a deep hollow, a stone fire pit and a chimney with a stone cap
 
@@ -20,7 +20,7 @@ CAST AND PLACES:
 - HERO3: the young man from HERO3: same face and clothes as HERO, but both forearms wrapped from wrist to elbow in dark charcoal cloth strips crossed diagonally like boxer's wraps, with small tufts of pale fern fluff at the wrist and elbow, a little fluff at the collar; the two arms always look exactly the same
 - PIP: Pip: a tiny golden-brown mouse-sized early mammal with a cream belly, big shiny black eyes, pink nose, whiskers and a long thin pink tail
 - MATE: Pip's mate: smaller and slimmer than Pip, pale ash-grey fur, one white drop-shaped patch on her chest, white tail tip
-- RIVER: the river frozen solid bank to bank, grey-white ice dusted with ash-snow, a long dark crack two hands wide over the deep pool, burnt black bare trees
+- RIVER: the river frozen solid bank to bank with NO open water anywhere, always the same width (about eight times his height), grey-white ice dusted with ash-snow, a long dark crack two hands wide over the deep pool, burnt black bare trees
 - TUNNEL: a low, narrow, round tunnel in brown clay with thin roots; he can only sit, kneel, lie or crawl inside; the door is ONE large flat stone slab set in a frame of stacked flat stones, with a hand-wide gap
 - CHAMBER: the end chamber of the tunnel: a small round clay room, a hollow dug below its floor lined with dead fern fronds, a small fire pit ringed with stones, and a fist-wide chimney hole in the clay roof above it
 
