@@ -231,7 +231,9 @@ for i, k in enumerate("ABCDEFG", 1):
             + ("CAST AND PLACES:\n" + "\n".join(f"- {r}: {LONG[r]}" for r in used if r in LONG) + "\n\n" if any(r in LONG for r in used) else "")
             + "RULES FOR EVERY FRAME:\n" + "\n".join("- " + x for x in rules) + "\n")
     body = "\n\n".join(t for _, t in frames)
-    att = " · ".join(f"`{REFS[r][1]}` ({r})" for r in used)
+    files = {}
+    for r in used: files.setdefault(REFS[r][1], []).append(r)
+    att = " · ".join(f"`{fn}` ({'/'.join(rs)})" for fn, rs in files.items())
     md = [f"# دسته‌ی {k} · {TITLE[k]} · {len(frames)} قاب\n", f"**قاب‌ها:** {names}  ", f"**پیوست (همه با هم):** {att}  ",
           "**Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.\n", "```", head + "\n" + body, "```", ""]
     open(os.path.join(H, f"{i:02d}-batch-{k}.md"), "w", encoding="utf-8").write("\n".join(md))

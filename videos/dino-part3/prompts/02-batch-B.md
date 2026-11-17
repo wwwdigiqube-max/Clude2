@@ -1,7 +1,7 @@
 # دسته‌ی B · رود و بیرون (دست‌ها لخت) · 8 قاب
 
 **قاب‌ها:** p3-067, p3-071, p3-076, p3-093, p3-096, p3-097, p3-118, p3-044  
-**پیوست (همه با هم):** `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `p2-149-close` (MATE) · `R-river-sheet` (RIVER) · `R-river-sheet` (DOOR) · `Q3-turtle-sheet` (TURTLE)  
+**پیوست (همه با هم):** `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `p2-149-close` (MATE) · `R-river-sheet` (RIVER/DOOR) · `Q3-turtle-sheet` (TURTLE)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.
 
 ```

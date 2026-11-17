@@ -1,7 +1,7 @@
 # دسته‌ی G · شب آخر و رفتن (دست‌ها پیچیده) · 8 قاب
 
 **قاب‌ها:** p3-129, p3-131, p3-133, p3-166, p3-169, p3-176, p3-179, p3-180  
-**پیوست (همه با هم):** `Q1-hero-journey` (HERO3) · `R1-fandogh-sheet` (PIP) · `p2-149-close` (MATE) · `R-river-sheet` (RIVER) · `R-river-sheet` (DOOR) · `P9-tunnel-sheet` (TUNNEL) · `Q5-chamber-chimney` (CHAMBER)  
+**پیوست (همه با هم):** `Q1-hero-journey` (HERO3) · `R1-fandogh-sheet` (PIP) · `p2-149-close` (MATE) · `R-river-sheet` (RIVER/DOOR) · `P9-tunnel-sheet` (TUNNEL) · `Q5-chamber-chimney` (CHAMBER)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.
 
 ```
