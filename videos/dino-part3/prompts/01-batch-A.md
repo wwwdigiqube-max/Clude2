@@ -1,7 +1,7 @@
 # دسته‌ی A · روی یخ (دست‌ها لخت) · 10 قاب
 
 **قاب‌ها:** p3-001, p3-003, p3-005, p3-009, p3-010, p3-019, p3-022, p3-024, p3-025, p3-070  
-**پیوست (همه با هم):** `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `Q4-frozen-river` (RIVER) · `D3b` (CROC)  
+**پیوست (همه با هم):** `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `R-river-sheet` (RIVER) · `D3b` (CROC)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.
 
 ```
@@ -10,7 +10,7 @@ You are making 10 still frames for a dark animated survival story, one image per
 ATTACHED REFERENCES (match them exactly):
 - HERO = the character sheet of a tired young man in a faded rust-orange jacket with both sleeves torn off at mid-forearm
 - PIP = the sheet of a tiny golden-brown mouse-like mammal
-- RIVER = the image of a frozen grey river with a long crack in the ice and a burnt winter forest
+- RIVER = the location sheet of the frozen river: a wide view with the tree and the stone door, a view downstream, and a top-down plan with the crack and the crocodile's breathing hole
 - CROC = the image of a crocodile in a muddy river
 
 CAST AND PLACES:

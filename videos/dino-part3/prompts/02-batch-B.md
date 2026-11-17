@@ -1,7 +1,7 @@
 # دسته‌ی B · رود و بیرون (دست‌ها لخت) · 8 قاب
 
 **قاب‌ها:** p3-067, p3-071, p3-076, p3-093, p3-096, p3-097, p3-118, p3-044  
-**پیوست (همه با هم):** `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `p2-149-close` (MATE) · `Q4-frozen-river` (RIVER) · `Q4-frozen-river` (DOOR) · `Q3-turtle-sheet` (TURTLE)  
+**پیوست (همه با هم):** `P1-hero-winter` (HERO) · `R1-fandogh-sheet` (PIP) · `p2-149-close` (MATE) · `R-river-sheet` (RIVER) · `R-river-sheet` (DOOR) · `Q3-turtle-sheet` (TURTLE)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.
 
 ```
@@ -11,8 +11,8 @@ ATTACHED REFERENCES (match them exactly):
 - HERO = the character sheet of a tired young man in a faded rust-orange jacket with both sleeves torn off at mid-forearm
 - PIP = the sheet of a tiny golden-brown mouse-like mammal
 - MATE = the image of two small mice in the snow: the smaller pale ash-grey one with a white chest patch is the mate
-- RIVER = the image of a frozen grey river with a long crack in the ice and a burnt winter forest
-- DOOR = the image of the clay riverbank with the stone-slab tunnel entrance under the roots of a burnt tree, the river frozen solid
+- RIVER = the location sheet of the frozen river: a wide view with the tree and the stone door, a view downstream, and a top-down plan with the crack and the crocodile's breathing hole
+- DOOR = the same river sheet: the clay bank with the stone-slab tunnel entrance under the roots of the burnt tree
 - TURTLE = the sheet of a sleeping turtle, a shell bowl with water and a clay-sealed glowing shell
 
 CAST AND PLACES:

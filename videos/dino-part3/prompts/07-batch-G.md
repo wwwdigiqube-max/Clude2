@@ -1,7 +1,7 @@
 # دسته‌ی G · شب آخر و رفتن (دست‌ها پیچیده) · 8 قاب
 
 **قاب‌ها:** p3-129, p3-131, p3-133, p3-166, p3-169, p3-176, p3-179, p3-180  
-**پیوست (همه با هم):** `Q1-hero-journey` (HERO3) · `R1-fandogh-sheet` (PIP) · `p2-149-close` (MATE) · `Q4-frozen-river` (RIVER) · `Q4-frozen-river` (DOOR) · `P9-tunnel-sheet` (TUNNEL) · `Q5-chamber-chimney` (CHAMBER)  
+**پیوست (همه با هم):** `Q1-hero-journey` (HERO3) · `R1-fandogh-sheet` (PIP) · `p2-149-close` (MATE) · `R-river-sheet` (RIVER) · `R-river-sheet` (DOOR) · `P9-tunnel-sheet` (TUNNEL) · `Q5-chamber-chimney` (CHAMBER)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.
 
 ```
@@ -11,8 +11,8 @@ ATTACHED REFERENCES (match them exactly):
 - HERO3 = the character sheet of the same young man ready for a journey: dark crossed wraps on both forearms, a backpack with a turtle shell, a spear
 - PIP = the sheet of a tiny golden-brown mouse-like mammal
 - MATE = the image of two small mice in the snow: the smaller pale ash-grey one with a white chest patch is the mate
-- RIVER = the image of a frozen grey river with a long crack in the ice and a burnt winter forest
-- DOOR = the image of the clay riverbank with the stone-slab tunnel entrance under the roots of a burnt tree, the river frozen solid
+- RIVER = the location sheet of the frozen river: a wide view with the tree and the stone door, a view downstream, and a top-down plan with the crack and the crocodile's breathing hole
+- DOOR = the same river sheet: the clay bank with the stone-slab tunnel entrance under the roots of the burnt tree
 - TUNNEL = the location sheet of the low round clay tunnel with the one-piece stone-slab door
 - CHAMBER = the cross-section of the tunnel end chamber with a deep hollow, a stone fire pit and a chimney with a stone cap
 
