@@ -26,6 +26,7 @@ Part 1, "Dinosaurs Have 10 Days Left. So Do You.": [link to Part 1]
 10:17 The Night the Fire Died
 12:19 Not Alone
 13:04 66 Million Years Later
+13:39 Next Time: Part 3
 
 Some of the science behind the story:
 • After the Chicxulub impact, soot and dust blocked the sun. Plants stopped growing, and the food chain collapsed from the bottom up.
