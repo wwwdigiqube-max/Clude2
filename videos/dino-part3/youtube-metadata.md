@@ -5,9 +5,10 @@ Day 70 After the Asteroid. You Have to Learn to Hunt.
 
 (52 characters, inside the 60-character desktop cut. The same pattern as Parts 1 and 2: a day count, then what you have to do.)
 
-## Thumbnails (Test & compare: upload both)
-- `thumb/thumb-B.jpg` (main): the crocodile's snout through the ice, his boots behind it, "DAY 70". The danger reads at feed size.
-- `thumb/thumb-A.jpg`: the catch: spear overhead with the fish, "DAY 70". The payoff shot.
+## Thumbnails (Test & compare: upload all of them, YouTube picks the winner by watch time)
+- `thumb/thumb-main-hunter-day70.jpg`: **main**: the hunter with the fish, a dead T. rex skeleton behind him, "DAY 70"
+- `thumb/thumb-test-day1-day70.jpg`: test: Day 1 vs Day 70
+- `thumb/thumb-test-under-ice-day70.jpg`: test 2: lying on the ice, the crocodile under it
 
 ## Description
 ```
@@ -19,16 +20,16 @@ Part 1, "Dinosaurs Have 10 Days Left. So Do You.": [link to Part 1]
 Part 2, "The Asteroid Hit 40 Days Ago. You Have 7 Days of Food.": [link to Part 2]
 
 0:00 The Shape Under the Ice
-0:13 The Cold Comes After
-1:19 The Book
-3:02 Meanwhile
-4:08 Learn to See
-6:00 How Long?
-7:21 Go Deeper
-8:56 Get Ready
-11:16 The Dream
-12:35 The Handwriting
-13:34 Gone East
+0:14 The Cold Comes After
+1:20 The Book
+3:03 Meanwhile
+4:09 Learn to See
+6:01 How Long?
+7:22 Go Deeper
+8:57 Get Ready
+11:17 The Dream
+12:36 The Handwriting
+13:35 Gone East
 
 Some of the science behind the story:
 • After the Chicxulub impact, soot and dust blocked the sun for months to years ("impact winter"). Rivers froze and plants stopped growing.

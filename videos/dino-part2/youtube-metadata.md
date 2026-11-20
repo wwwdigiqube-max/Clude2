@@ -5,9 +5,9 @@ The Asteroid Hit 40 Days Ago. You Have 7 Days of Food.
 
 (54 characters, inside the 60-character desktop cut. On mobile the feed shows "The Asteroid Hit 40 Days Ago. You Have…": the subject survives, and the cut itself makes people curious.)
 
-## Thumbnails (Test & compare: upload both)
-- `thumb/thumb-B.jpg` (main): the crocodile snap + "DAY 40". The strongest at feed size.
-- `thumb/thumb-A.jpg`: carving the bone + "MOM. I SURVIVED" in the creator's own handwriting. The emotional one.
+## Thumbnails (Test & compare: upload all of them, YouTube picks the winner by watch time)
+- `thumb/thumb-main-day1-day40.jpg`: **main**: Day 1 (green jungle, dinosaur) vs Day 40 (cold, hungry, the last fish, Pip)
+- `thumb/thumb-test-croc-day40.jpg`: test: the crocodile snap in the mud, "DAY 40"
 
 ## Description
 ```

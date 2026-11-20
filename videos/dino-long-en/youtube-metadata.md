@@ -3,9 +3,9 @@
 ## Title
 Dinosaurs Have 10 Days Left. So Do You.
 
-## Thumbnails (Test & compare: upload both)
-- `thumb/thumb-1.jpg`: big face, scar and eye
-- `thumb/thumb-2.jpg`: cleaner, dino rim-lit
+## Thumbnails (Test & compare: upload all of them, YouTube picks the winner by watch time)
+- `thumb/thumb-main-trex-day10.jpg`: **main**: the T. rex at the door, his terrified face, "DAY 10"
+- `thumb/thumb-test-day1-day10.jpg`: test: Day 1 (green jungle) vs Day 10 (sky on fire)
 
 ## Description
 ```
