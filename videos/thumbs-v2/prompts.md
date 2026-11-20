@@ -54,3 +54,27 @@ A YouTube thumbnail image. He lies flat on his stomach on thick grey-white river
 Strict stick-figure anatomy: the only white part is the round head; hands are solid black; no nose, no ears.
 Bright, high-contrast thumbnail colours, strong light on the face, clean simple background, crisp black outlines, detailed digital painting in the same style. One person and one crocodile. No text, no letters, no logos anywhere. Wide 16:9.
 ```
+
+---
+
+# قسمت ۳: تامنیل جدید (دور دوم)
+> صحنه‌ها باید در خود ویدیو باشند. در قسمت ۳ کروکودیل حمله نمی‌کند، فقط زیر یخ است و از یک سوراخ نفس می‌کشد. هر دو پرامپت یک **نشانه‌ی دایناسور** دارند: اسکلت یک دایناسور مرده روی ساحل.
+> اسم فایل‌ها: `T5-under-ice` · `T6-behind-you` → `uploads/thumbs-v2/`
+
+## T5 · زیر یخ (پیشنهاد اصلی)
+**پیوست:** `Q1-hero-journey` · `C2-character-sheet-v2` · `p3-022`
+```
+Use the first two images as the exact identity reference for the young man (journey look: forearms wrapped in dark cloth, rust-orange jacket with torn sleeves, dark beanie with the small headlamp; use the second image only for the face and expressions), and the third image only for the frozen river and the crocodile under the ice.
+A YouTube thumbnail image. He lies flat on his stomach on clear, thick river ice in the left half of the frame, very close to the camera, his face large, about 40% of the image height, turned to the viewer: terrified, eyes wide white circles with a small black dot in each, mouth open. Right under him, seen through the clear dark ice, the huge shadowy shape of a crocodile lies still, its big eye open and looking up at him. A small round breathing hole in the ice nearby with frost around it. In the background, on the snowy riverbank, the giant dark skeleton of a dead T. rex, skull and ribs half buried in snow. Grey ash-snow falls.
+Strict stick-figure anatomy: the only white part is the round head; hands are solid black; no nose, no ears.
+Bright, high-contrast thumbnail colours, strong light on the face, the warm orange jacket against cold blue ice, clean simple background, crisp black outlines, detailed digital painting in the same style. One person and one crocodile. No text, no letters, no logos anywhere. Wide 16:9.
+```
+
+## T6 · پشت سرت
+**پیوست:** `Q1-hero-journey` · `C2-character-sheet-v2` · `p3-022`
+```
+Use the first two images as the exact identity reference for the young man (journey look: forearms wrapped in dark cloth, rust-orange jacket with torn sleeves, dark beanie with the small headlamp; use the second image only for the face and expressions), and the third image only for the crocodile snout coming out of a hole in the ice.
+A YouTube thumbnail image. Close shot: he stands on a frozen river in the left half of the frame, his face large, about 40% of the image height, grinning with pride, holding up his stone-tipped spear with a big grey fish on it. He does not see what is behind him: right behind his shoulder, in the right half of the frame, a crocodile's snout and one cold eye rise out of a small round hole in the ice, a puff of frosty breath coming from its nostrils. In the far background on the snowy bank, the giant dark skeleton of a dead T. rex, skull and ribs half buried in snow. Grey ash-snow falls.
+Strict stick-figure anatomy: the only white part is the round head; hands are solid black; no nose, no ears. Eyes: small solid black ovals.
+Bright, high-contrast thumbnail colours, strong light on the face, the warm orange jacket against cold blue ice, clean simple background, crisp black outlines, detailed digital painting in the same style. One person and one crocodile. No text, no letters, no logos anywhere. Wide 16:9.
+```
