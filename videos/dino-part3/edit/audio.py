@@ -94,7 +94,9 @@ ev("stone-slab", st("179b", .2), .8)
 ev("snow-steps", st(180, .5), .35); ev("snow-steps", st(181, .3), .35)
 
 # ---------- render with ffmpeg ----------
-inp, fc, labels = ["-i", os.path.join(H, "../voice/vo-en.mp3")], "[0]aresample=48000,aformat=channel_layouts=mono,volume=1.0[vo];", ["[vo]"]
+MUTE = os.environ.get("MUTE")  # "a,b": silence the narration between a and b (used when the cold open is replaced)
+vf = f",volume=0:enable='between(t,{MUTE})'" if MUTE else ""
+inp, fc, labels = ["-i", os.path.join(H, "../voice/vo-en.mp3")], f"[0]aresample=48000,aformat=channel_layouts=mono,volume=1.0{vf}[vo];", ["[vo]"]
 n = 1
 for sc, a, b in segs:
     for name, vol in BEDS[sc]:
@@ -112,6 +114,6 @@ for name, t, vol in EV:
     fc += f"[{n}]volume={vol},adelay={int(max(0, t) * 1000)}[b{n}];"; labels.append(f"[b{n}]"); n += 1
 fc += "".join(labels) + f"amix=inputs={len(labels)}:normalize=0:duration=longest,atrim=0:{TOTAL:.3f},loudnorm=I=-14:TP=-1.5:LRA=11[out]"
 fcp = os.path.join(ROOT, "out/p3fc.txt"); open(fcp, "w").write(fc)
-out = os.path.join(ROOT, "out/p3-mix.wav")
+out = os.path.join(ROOT, os.environ.get("OUT", "out/p3-mix.wav"))
 subprocess.run(["ffmpeg", "-loglevel", "error", "-y", *inp, "-filter_complex_script", fcp, "-map", "[out]", "-ar", "48000", "-ac", "2", out], check=True)
 print("beds", len(segs), "pad", len(merged), "events", len(EV), "->", out)

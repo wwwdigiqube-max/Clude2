@@ -4,6 +4,7 @@ import React from "react";
 import { AbsoluteFill, Freeze, Img, OffthreadVideo, interpolate, random, staticFile, useCurrentFrame, Easing } from "remotion";
 import { continueRender, delayRender } from "remotion";
 import EDL from "./edl.json";
+import HOOK from "./hook.json";
 
 // English fonts (all SIL OFL, in public/fonts)
 const FONT_NUM = "Anton", FONT_TEXT = "Oswald", FONT_HAND = "Caveat";
@@ -19,6 +20,7 @@ const W = 1920, HH = 1080;
 type Fx = { kind: string; at: number; [k: string]: any };
 type Shot = { n: number; s: number; e: number; img: string; cam: number[]; fx: Fx[]; hits: number[]; [k: string]: any };
 export const SHOTS = EDL.shots as unknown as Shot[];
+export const P3_HOOK_FRAMES = Math.round(HOOK.total * DINO_FPS);
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const ease = Easing.bezier(0.45, 0, 0.55, 1);
@@ -688,12 +690,13 @@ export const ShotView: React.FC<{ shot: Shot; t: number; vertical?: boolean }> =
   );
 };
 
-export const DinoP3: React.FC<{ times?: number[] }> = ({ times }) => {
+export const DinoP3: React.FC<{ times?: number[]; hook?: boolean }> = ({ times, hook }) => {
   const f = useCurrentFrame();
   const now = times ? times[f] : f / DINO_FPS;
-  let i = SHOTS.findIndex((s) => now >= s.s && now < s.e);
-  if (i < 0) i = now < SHOTS[0].s ? 0 : SHOTS.length - 1;
-  const shot = SHOTS[i];
+  const L = hook ? (HOOK.shots as unknown as Shot[]) : SHOTS;
+  let i = L.findIndex((s) => now >= s.s && now < s.e);
+  if (i < 0) i = now < L[0].s ? 0 : L.length - 1;
+  const shot = L[i];
   return <ShotView key={shot.n} shot={shot} t={now - shot.s} />;
 };
 
