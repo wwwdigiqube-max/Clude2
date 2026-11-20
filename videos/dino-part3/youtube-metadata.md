@@ -18,7 +18,17 @@ This is Part 3 of a stick-figure survival story about the end of the dinosaurs. 
 Part 1, "Dinosaurs Have 10 Days Left. So Do You.": [link to Part 1]
 Part 2, "The Asteroid Hit 40 Days Ago. You Have 7 Days of Food.": [link to Part 2]
 
-[CHAPTERS]
+0:00 The Shape Under the Ice
+0:45 The Cold Comes After
+1:51 The Book
+3:34 Meanwhile
+4:40 Learn to See
+6:32 How Long?
+7:53 Go Deeper
+9:28 Get Ready
+11:48 The Dream
+13:07 The Handwriting
+14:06 Gone East
 
 Some of the science behind the story:
 • After the Chicxulub impact, soot and dust blocked the sun for months to years ("impact winter"). Rivers froze and plants stopped growing.
@@ -39,7 +49,17 @@ Narration voice generated with AI (licensed voice). Illustrations made with AI i
 
 #dinosaurs #survival #stickfigure
 ```
-Replace `[CHAPTERS]` with the contents of `chapters-en.txt`.
+Replace `0:00 The Shape Under the Ice
+0:45 The Cold Comes After
+1:51 The Book
+3:34 Meanwhile
+4:40 Learn to See
+6:32 How Long?
+7:53 Go Deeper
+9:28 Get Ready
+11:48 The Dream
+13:07 The Handwriting
+14:06 Gone East` with the contents of `chapters-en.txt`.
 
 ## Tags (15)
 what happened after the asteroid hit, dinosaur extinction, chicxulub asteroid, impact winter, last dinosaurs, survive the dinosaur extinction, after the asteroid, stick figure survival, survival story, animated survival story, hell creek, spear fishing, western interior seaway, cretaceous, stay small
