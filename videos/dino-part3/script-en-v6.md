@@ -1,0 +1,255 @@
+# Season 1 · Part 3: Day 70 After the Asteroid. You Have to Learn to Hunt. (script EN v6)
+
+> v6 = v5 + section 1 tightened (about 20 s faster after the hook).
+> `[DAY n AFTER]` corner tag · `[NOW · DAY n MISSING]` present-day card (days missing = days after + 10) · `(pause)` held beat.
+
+---
+
+## 0 · The Shape Under the Ice
+
+[DAY 70 AFTER]
+You're lying on the ice, in the grey half-light of noon. The brightest hour of the day.
+In front of your face is a long crack you chipped open with a stone, two hands wide.
+Through it, something moves in the dark water.
+Slow. Grey. As long as your forearm.
+Your spear is above it. The stone tip shakes a little in your hand.
+In the first warm days, you caught fish trapped in puddles with your bare hands.
+This is different. This one can get away.
+This is the first time you've ever hunted anything.
+(pause)
+You strike.
+And you miss.
+
+## 1 · The Cold Comes After
+
+[DAY 65 AFTER]
+Five days earlier.
+The fire came first.
+Then the smoke and the dust went up, and stayed.
+Noon looks like evening.
+Scientists call it an impact winter.
+
+The snow doesn't melt, so the river runs low.
+And one morning, it stops moving.
+Frozen, bank to bank.
+Under the ice, the deep water still moves, slow and dark, east.
+That's bad news for the fish. Good news for you.
+The crocodile can't come up the bank anymore.
+Only the tip of its snout sticks up through a hole it kept open. Its heart has slowed almost to nothing.
+Alligators do this today, in frozen swamps.
+You walk around it, very wide.
+
+The ice gives you clean water too.
+Snow here is full of ash. River ice is clearer.
+And under it, the fish never left.
+In winter they crowd into the deepest pools and barely move.
+Your hands could never reach them.
+Now you have a spear.
+
+## 2 · The Book
+
+You haven't opened the book in weeks.
+It's been at the back of the nest chamber, inside your empty backpack.
+The textbooks went into the fire weeks ago. Maths first. Then history.
+After that there was nothing left to put in the bag, so you stopped carrying it.
+And when you're starving and freezing, reading feels like something from another life.
+But now you're stuck, waiting for the ice. So tonight, you take it out.
+The cover still shows the T. rex skeleton. Your dad's T. rex.
+You turn the pages by the fire.
+A tiny brown mammal among ferns.
+A burrow under tree roots.
+And the page from day three: a turtle and a frog, at the edge of a freshwater river.
+You've known since then that they make it through. Freshwater animals did better than almost anything on land.
+But you never asked where they are now.
+Under the picture, one line you skipped.
+In winter, they bury themselves in the mud at the bottom, and sleep.
+(pause)
+They're not gone. They're right under your feet.
+The river isn't just water. It's the last place with meat.
+
+You need tinder for tomorrow's fire, and the book would burn well.
+You tear out the two blank pages at the front. Not the back page. Your plan from night one is still written there.
+The rest of it is the only teacher you have.
+Before you sleep, you say good night out loud.
+"Night, Mom."
+You started the night you said "I can't go back." Now you do it every night. So you don't forget how it sounds.
+
+## 3 · Meanwhile
+
+[NOW · DAY 80 MISSING]
+Sixty-six million years later, in a back room at the museum, the old woman hasn't gone home.
+The bone from North Dakota is on her table, under a lamp.
+Her colleagues say it has to be a prank. Someone carved it, and someone buried it.
+But she dug it out herself.
+It was lying inside a thin line of clay that runs through rock all over the world: the layer the asteroid left behind. The last days of the dinosaurs.
+And the marks aren't scratched into the fossil. They turned to stone along with it.
+Three words, carved by a human hand, sixty-six million years before there were any humans.
+For one second, she thinks of the boy's mother, the woman she met in front of the T. rex.
+Then she pushes the thought away. It's impossible. And it would be cruel.
+She doesn't have an answer. So the bone stays in the back room.
+She takes one photo, close up. Then she covers the bone with a cloth and turns off the lamp.
+
+## 4 · Learn to See
+
+[DAY 70 AFTER]
+Back on the ice. You missed.
+Not because you were slow. Because the water lied to you.
+Water bends light. When you look into it at an angle, a fish is never where it looks. It's deeper.
+Spear fishers have known this for thousands of years. You learn it in one morning.
+You wait. Your fingers go numb. Pip sits at the edge of the crack, still as a stone. His mate stays in your pocket. She hates the cold.
+The grey shape drifts back.
+This time, you aim below it.
+(pause)
+The spear jerks in your hands.
+
+You carry it home inside your jacket, like something precious.
+You lay a flat stone in the fire until it's too hot to touch, pull it out, and cook the fish on top of it.
+It's the best thing you have ever eaten.
+Pip and his mate get the scraps. Small animals like them eat insects and grubs all the time. To them, fish is just a bigger grub.
+
+The next day, you go back to the bank where the book's turtle would sleep.
+Far from the crocodile's breathing hole, you dig into the soft mud under the ice, slowly, the way you buried the bone.
+Your hand finds something hard and round.
+A turtle, asleep, cold as a stone.
+Then another one, a little further along.
+You don't enjoy what comes next. But you don't waste any of it, either.
+Even the shells. One holds water. The other will hold fire.
+For the first time in weeks, you have real food. Not just enough to stay alive. Enough to get strong.
+You wipe the second question mark off the wall.
+Rule five: learn from the ones who made it.
+
+## 5 · How Long?
+
+Now you eat every day. And with food in your stomach, the big question comes back.
+How long?
+How long can you live like this? Day after day, in a hole, waiting for a sun that might not come back for years?
+You open the book again, to the first page.
+A map. North America, sixty-six million years ago.
+To the east of where you are, there's water. What's left of a huge inland sea.
+And the river runs east. The map shows it: this river flows all the way down to that coast.
+You remember something your dad said once, on a long, cold winter night.
+"The sea is slow. It takes forever to cool down. That's why winters are kinder by the water."
+(pause)
+Near the sea, the dark would be a little warmer. There would be fish. There would be things living on the shore.
+You decide.
+You're going to follow the river to the sea.
+But not tomorrow. Leave without food, and you die on the ice in three days.
+And the ice isn't ready either. It has to be thick enough to walk on, mile after mile.
+When it is, the frozen river becomes a road.
+Until then, you get ready. And you survive the wait.
+
+## 6 · Go Deeper
+
+[DAY 72 AFTER]
+The real cold comes two nights later.
+The coals you bank under the ash are still glowing in the morning. But the water in the turtle shell, an arm's length away from them, is frozen solid.
+The tunnel walls sparkle with frost.
+Your tunnel is too close to the surface.
+Deeper down, under the frozen layer, the ground stays warmer than the air. Every burrowing animal knows it.
+Pip knew it from the start.
+So you dig down, at the back of the nest chamber, with the sharp stone and your hands.
+It takes a week. When you're done, there's a hollow under the floor, just big enough to curl up in.
+
+And this time, you build the fire right. No more fire at the door, waiting for snow to drown it.
+You make a small fire pit in the chamber, and above it, you push a long stick up through the clay roof, between the tree roots, all the way to the snow. Then you work it around until the hole is as wide as your fist.
+A chimney.
+On top, where it comes out under the roots, you lean a flat stone over it like a tiny roof. Snow can't fall in, and the wind can't blow down it. The smoke slips out under the edges.
+The smoke goes up and out. The heat stays in.
+Pip and his mate move into the hollow before you do. They drag in dead fern fronds and a scrap of your t-shirt.
+You let them.
+The first question mark comes off the wall too.
+
+## 7 · Get Ready
+
+[DAY 80 AFTER]
+Now you work every day, the way you worked in the ten days before the impact.
+A new list goes up on the wall, in charcoal.
+[LIST: THE RIVER · fish for 2 weeks ☐ · water ☐ · carry the fire ☐ · warm arms ☐ · thick ice ☐ · the book ✓ · the spear ✓]
+
+Fish. Every noon, you go back to the crack in the ice. Some days you get nothing. Some days, two.
+You don't eat them all. You bury the rest in the snow outside the door. The whole world out there is a freezer.
+You dry grubs hard by the fire, the way you did before. You pick the white fungus, and only the white.
+The backpack comes out of the dark. For the first time in weeks, it's heavy.
+
+Water. You can't carry a river. But you can carry ice. The first shell is your bowl. Every night, the fire melts it.
+
+Fire. This one took you three days to solve. Then you remembered your dad, on a camping trip, kneeling by a dead tree.
+A hard fungus, shaped like a horse's hoof. "Light this, and it won't burn. It'll smoulder all day."
+People carried fire like this for thousands of years. A man who died in the Alps more than five thousand years ago still had some in his bag.
+On the dead trees by the river, you find it. You pack it into the second shell with a live coal, seal it with clay, and the next morning it's still glowing.
+
+Warmth. Ninety days of digging and crawling have torn your jacket sleeves off at the elbow. Your forearms are bare.
+You stuff dry fern fluff between your t-shirt and your jacket, the way birds fluff their feathers. Trapped air is warm air.
+Then you wrap each forearm in fluff and dark strips of t-shirt, wrist to elbow.
+It looks ridiculous. It works.
+And one morning, you stamp on the ice by the pool as hard as you can. It doesn't even crack.
+
+One by one, the boxes on the wall get a tick.
+(pause)
+The night before you leave, you sit by the fire for a long time.
+Usually you just say good night to your mom. Tonight, you say more.
+"Mom. I'm alive. I wrote you something. I don't know if it'll ever get to you."
+You never know if anyone hears.
+
+## 8 · The Dream
+
+[NOW · DAY 97 MISSING]
+That same night, sixty-six million years later, your mom can't sleep.
+She hasn't slept a whole night since you disappeared. She lies in the dark, looking at the photo on her nightstand, and goes over it again. The locked door. The empty bed. The window, shut.
+At some point after three, she finally falls asleep.
+And she dreams.
+She's standing in a forest that's grey and burnt, under a sky the colour of wet ash.
+Snow is falling, but it isn't white. It's grey.
+And by a small fire, under the roots of a huge black tree, there's a boy in a beanie.
+He's thinner. His arms are wrapped in dark strips of cloth.
+He doesn't look up. He talks to the fire, the way he used to talk to her through his bedroom door.
+"Mom. I'm alive. I wrote you something."
+She calls out. "Where are you?"
+He looks up.
+(pause)
+She wakes up with her heart pounding, and it's still dark.
+She lies there for a long time, replaying it. The snow. The fire. The beanie.
+That was his dad's beanie. He took it the week after the funeral, and never took it off.
+
+## 9 · The Handwriting
+
+The next morning, your mom is at the museum before it opens.
+She doesn't know why. She just goes where you always went.
+The old woman is there, in the back room, with a cloth over something on the table.
+Your mom tells her about the dream. She knows how it sounds. She tells her anyway.
+"He said he wrote me something."
+The old woman doesn't say anything for a long time.
+Then she pulls back the cloth.
+A bone. Sixty-six million years old. And on it, carved deep, three words.
+Your mom doesn't read them at first. She looks at the letters.
+Even cut into bone, the shapes are his. The M he's made the same way since he was five. The little dash he always puts instead of a dot.
+She's seen those letters on a thousand notes on the fridge.
+(pause)
+"That's his handwriting."
+
+[DAY 88 AFTER]
+And sixty-six million years earlier, on a cold morning, you're ready to go.
+The backpack is heavy with fish and grubs. The water shell is tied on top. The fire shell hangs from your belt, glowing a little at the edges. The book is inside your jacket, against your chest.
+Pip is in one pocket. His mate is in the other.
+But you don't go. Not yet.
+You sit down in the tunnel one last time.
+This hole in the mud is the reason you're alive.
+You dug it with a dinosaur bone, on a day when the sky was about to fall.
+It held when the ground shook. It hid you when the fire came.
+Its stone door kept a T. rex outside, breathing, all night.
+You've slept here for ninety nights. Pip has slept on your neck for most of them.
+You run your hand over the wall. The tally marks. The list. Friends: one… and one more.
+(pause)
+Then you take the charcoal, and under everything else, you write one more line.
+GONE EAST. DAY 88.
+In case you ever have to come back. In case someone else ever finds it.
+"Thank you," you say. Out loud. To a hole in the ground.
+It doesn't feel stupid.
+You crawl out, and from the outside, for the first time, you slide the stone slab across the door. So it's still here if you ever need it.
+Then you pick up your spear, walk down to the river, step onto the ice, and follow it east.
+You don't look back. If you look back, you won't go.
+(pause)
+If you had to leave your shelter and walk into the dark, what's the one thing you would take?
+Tell me in the comments.
+
+Stay small. Stay alive.

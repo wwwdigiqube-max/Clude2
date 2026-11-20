@@ -1,4 +1,4 @@
-# STILLCUT shot list · Season 1 Part 3 (script-en-v5) → shotlist.md
+# STILLCUT shot list · Season 1 Part 3 (script-en-v6) → shotlist.md
 # frame = (narration chunk, what we see [fa], method, references, STATE)
 # Methods: OLD x (existing image: p2:NNN = Part 2 frame · en:NNN = Part 1 EN frame · Dxx = Part 1 shot · a:Qn/Pn/Tn = asset) · NEW · NEW·M (mother; crops come from it)
 #          CROP←#key / CROP←x · EDIT←x (one change, from the ORIGINAL) · REUSE←#key · TEXT (graphic in the edit)
@@ -30,23 +30,23 @@ f("(pause) You strike.", "نیزه در آب فرو می‌رود، پاشیدن
 f("And you miss.", "نوک نیزه خالی در آب، موج‌ها، ماهی رفته", "EDIT←#strike")
 # ===== 1 · The Cold Comes After =====
 f("Five days earlier.", "کارت DAY 65 AFTER روی یخ", "TEXT")
-f("The fire came first. On the day of the impact, the sky burned and the forests caught fire.", "جنگل در آتش (قسمت ۱)", "OLD D10i")
-f("Then the smoke and the dust went up, high, and stayed there.", "آسمان سیاه از دود (قسمت ۱)", "OLD en:234")
-f("The sun is still up there somewhere. It just can't get through. Noon looks like evening.", "دنیای خاکستری بی‌خورشید", "OLD D11a")
-f("Scientists call it an impact winter. In some places, it may have gotten colder than any winter the dinosaurs had ever known.", "کارت IMPACT WINTER روی رود زمستانی", "TEXT")
-f("The river is lower than it's ever been. The snow doesn't melt, so nothing runs into it.", "رود کم‌آب با یخ لبه‌ها (قسمت ۲)", "OLD p2:103")
+f("The fire came first.", "جنگل در آتش (قسمت ۱)", "OLD D10i")
+f("Then the smoke and the dust went up, and stayed.", "آسمان سیاه از دود (قسمت ۱)", "OLD en:234")
+f("Noon looks like evening.", "دنیای خاکستری بی‌خورشید", "OLD D11a")
+f("Scientists call it an impact winter.", "کارت IMPACT WINTER روی رود زمستانی", "TEXT")
+f("The snow doesn't melt, so the river runs low.", "رود کم‌آب با یخ لبه‌ها (قسمت ۲)", "OLD p2:103")
 f("And one morning, it stops moving.", "کلوز سطح یخ", "CROP←a:Q4")
-f("The whole river is frozen over, bank to bank.", "واید رود یخ‌زده", "OLD a:Q4")
-f("But under the ice, it's still alive. The deep water never freezes. It still moves, slow and dark, east.", "برش زیر یخ: آب تاریک جاری، ماهی‌ها در گودال عمیق (مادر)", "NEW·M", f"{RICE}", "", key="under-ice")
-f("That's bad news for the fish. It's good news for you.", "ماهی‌ها کنار هم در عمق", "CROP←#under-ice")
+f("Frozen, bank to bank.", "واید رود یخ‌زده", "OLD a:Q4")
+f("Under the ice, the deep water still moves, slow and dark, east.", "برش زیر یخ: آب تاریک جاری، ماهی‌ها در گودال عمیق (مادر)", "NEW·M", f"{RICE}", "", key="under-ice")
+f("That's bad news for the fish. Good news for you.", "ماهی‌ها کنار هم در عمق", "CROP←#under-ice")
 f("The crocodile can't come up the bank anymore.", "ساحل یخ‌زده، خالی", "CROP←a:Q4")
-f("You find it near the deep pool. Its body is under the ice. Only the tip of its snout sticks up through a hole it kept open. It isn't dead. Its heart has slowed almost to nothing.", "کلوز پایین: نوک پوزه‌ی کروکودیل از سوراخ یخ، برفک روی سوراخ‌های بینی، چکمه‌های پسر دور در پس‌زمینه (مادر)", "NEW·M", f"{CROC} · {RICE}", "L=grey", key="croc-ice")
-f("Alligators do this today, in frozen swamps. They just wait.", "کلوز پوزه + برچسب REAL (گرافیک)", "CROP←#croc-ice")
+f("Only the tip of its snout sticks up through a hole it kept open. Its heart has slowed almost to nothing.", "کلوز پایین: نوک پوزه‌ی کروکودیل از سوراخ یخ، برفک روی سوراخ‌های بینی، چکمه‌های پسر دور در پس‌زمینه (مادر)", "NEW·M", f"{CROC} · {RICE}", "L=grey", key="croc-ice")
+f("Alligators do this today, in frozen swamps.", "کلوز پوزه + برچسب REAL (گرافیک)", "CROP←#croc-ice")
 f("You walk around it, very wide.", "از بالا: پسر کوچک قوس بزرگی دور سوراخ می‌زند", "NEW", f"{HW} · {RICE}", "A=bare · S=0")
-f("The ice gives you something else too: clean water.", "پسر با سنگ یک تکه یخ صاف می‌شکند (مادر)", "NEW·M", f"{HW} · {RICE}", "A=bare", key="ice-water")
-f("Snow here is full of ash. River ice is clearer. You break off a piece, melt it by the fire, and drink.", "کلوز تکه یخ شفاف در دست کنار برف خاکستری", "CROP←#ice-water")
-f("And under the ice, the fish didn't disappear. They were always there.", "زیر یخ، ماهی‌ها", "REUSE←#under-ice")
-f("In winter, fish crowd into the deepest pools and barely move, to save energy.", "کلوز ماهی‌های بی‌حرکت", "CROP←#under-ice")
+f("The ice gives you clean water too.", "پسر با سنگ یک تکه یخ صاف می‌شکند (مادر)", "NEW·M", f"{HW} · {RICE}", "A=bare", key="ice-water")
+f("Snow here is full of ash. River ice is clearer.", "کلوز تکه یخ شفاف در دست کنار برف خاکستری", "CROP←#ice-water")
+f("And under it, the fish never left.", "زیر یخ، ماهی‌ها", "REUSE←#under-ice")
+f("In winter they crowd into the deepest pools and barely move.", "کلوز ماهی‌های بی‌حرکت", "CROP←#under-ice")
 f("Your hands could never reach them.", "دست سیاه روی یخ", "CROP←#ice-water")
 f("Now you have a spear.", "نوک نیزه جلوی آتش (قسمت ۲)", "CROP←p2:146b")
 # ===== 2 · The Book =====
@@ -226,7 +226,7 @@ mm = lambda s: f"{int(s//60)}:{s%60:04.1f}"
 HEADS = {"You're lying on the ice": "۰ · The Shape Under the Ice", "Five days earlier.": "۱ · The Cold Comes After", "You haven't opened the book": "۲ · The Book",
          "Sixty-six million years later, in a back room": "۳ · Meanwhile", "Back on the ice.": "۴ · Learn to See", "Now you eat every day.": "۵ · How Long?",
          "The real cold comes": "۶ · Go Deeper", "Now you work every day": "۷ · Get Ready", "That same night, sixty-six": "۸ · The Dream", "The next morning, your mom": "۹ · The Handwriting"}
-out = ["# شات‌لیست STILLCUT · فصل ۱ قسمت ۳ (script-en-v5)", "",
+out = ["# شات‌لیست STILLCUT · فصل ۱ قسمت ۳ (script-en-v6)", "",
        f"**{len(rows)} قاب · حدود {mm(t0)}** · " + " · ".join(f"{k} {v}" for k, v in sorted(kinds.items(), key=lambda x: -x[1])), "",
        "> ستون **وضعیت**: A=دست‌ها (bare = آستین پاره، ساعد لخت سیاه · wrapped = نوار تیره‌ی ضربدری + پرز، از فصل ۷ و شیت Q1) · K=کوله · S=لاک‌ها · F=آتش (دم در / اجاق+دودکش از فصل ۶) · P=پیپ · M=جفتش.", ""]
 for i, a, text, see, meth, refs, st in rows:
