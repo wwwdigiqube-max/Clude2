@@ -88,8 +88,9 @@ ev("heart", st(163, .5), .35); ev("paper", st(164, .3), .35)
 # §8 leaving
 ev("lib-boom", st(166, .2), .5); ev("mice-squeaks", st(168, .5), .45)
 ev("lib-whoosh", st(171), .4); ev("dig", st(171, .4), .4); ev("stone-slab", st(173, .3), .4)
-g = by["176"]["hand"]["at"]; ev("stone-carve", g, .3); ev("stone-carve", g + 1.3, .26)
-ev("stone-slab", st(179, .6), .8)
+g = by["176"]["hand"]; seg = (g["dur"] - 0.12 * g["dur"]) / 3
+for j in range(3): ev("stone-carve", g["at"] + j * (seg + 0.06 * g["dur"]) + 0.1, .26)
+ev("stone-slab", st("179b", .2), .8)
 ev("snow-steps", st(180, .5), .35); ev("snow-steps", st(181, .3), .35)
 
 # ---------- render with ffmpeg ----------

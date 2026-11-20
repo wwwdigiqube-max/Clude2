@@ -500,7 +500,7 @@
 "see": "کلوز فسیل با خط‌ها (قسمت ۲)",
 "text": "And the marks aren't scratched into the fossil. They turned to stone along with it.",
 "start": 243.283,
-"end": 247.904,
+"end": 248.076,
 "pause": false
 },
 {
@@ -508,8 +508,8 @@
 "meth": "REUSE←p2:159",
 "see": "حروف دست‌خط روی فسیل (در تدوین)",
 "text": "Three words, carved by a human hand, sixty-six million years before there were any humans.",
-"start": 248.809,
-"end": 254.742,
+"start": 249.446,
+"end": 255.379,
 "pause": false
 },
 {
@@ -517,8 +517,8 @@
 "meth": "OLD p2:122",
 "see": "دو زن جلوی اسکلت (قسمت ۲)",
 "text": "For one second, she thinks of the boy's mother, the woman she met in front of the T. rex.",
-"start": 255.56599999999997,
-"end": 260.87199999999996,
+"start": 256.203,
+"end": 261.509,
 "pause": false
 },
 {
@@ -526,8 +526,8 @@
 "meth": "CROP←a:Q8",
 "see": "کلوز صورت پیرزن",
 "text": "Then she pushes the thought away. It's impossible. And it would be cruel.",
-"start": 261.522,
-"end": 266.294,
+"start": 262.159,
+"end": 266.931,
 "pause": false
 },
 {
@@ -535,8 +535,8 @@
 "meth": "CROP←a:Q8",
 "see": "واید اتاق",
 "text": "She doesn't have an answer. So the bone stays in the back room.",
-"start": 267.014,
-"end": 270.961,
+"start": 267.651,
+"end": 271.598,
 "pause": false
 },
 {
@@ -544,8 +544,8 @@
 "meth": "NEW·M",
 "see": "پیرزن با گوشی از استخوان عکس می‌گیرد (مادر)",
 "text": "She takes one photo, close up. Then she covers the bone with a cloth and turns off the lamp.",
-"start": 272.011,
-"end": 277.119,
+"start": 272.598,
+"end": 277.706,
 "pause": false
 },
 {
@@ -553,17 +553,17 @@
 "meth": "EDIT←#61",
 "see": "اتاق تاریک، استخوان زیر پارچه",
 "text": "(dark)",
-"start": 277.119,
+"start": 277.706,
 "unspoken": true,
-"end": 280.095
+"end": 280.682
 },
 {
 "id": "63",
 "meth": "REUSE←#1",
 "see": "پسر روی یخ",
 "text": "Back on the ice. You missed.",
-"start": 280.095,
-"end": 282.13800000000003,
+"start": 280.682,
+"end": 282.725,
 "pause": false
 },
 {
@@ -571,8 +571,8 @@
 "meth": "CROP←#3",
 "see": "ماهی زیر آب",
 "text": "Not because you were slow. Because the water lied to you.",
-"start": 283.137,
-"end": 286.237,
+"start": 283.724,
+"end": 286.824,
 "pause": false
 },
 {
@@ -580,8 +580,8 @@
 "meth": "TEXT",
 "see": "گرافیک شکست نور: چشم، سطح آب، ماهی ظاهری و ماهی واقعی پایین‌تر",
 "text": "Water bends light. When you look into it at an angle, a fish is never where it looks. It's deeper.",
-"start": 287.177,
-"end": 293.65500000000003,
+"start": 287.764,
+"end": 294.242,
 "pause": false
 },
 {
@@ -589,8 +589,8 @@
 "meth": "CROP←#1",
 "see": "کلوز صورت روی یخ",
 "text": "Spear fishers have known this for thousands of years. You learn it in one morning.",
-"start": 294.29400000000004,
-"end": 298.92600000000004,
+"start": 294.88100000000003,
+"end": 299.51300000000003,
 "pause": false
 },
 {
@@ -598,8 +598,8 @@
 "meth": "NEW·M",
 "see": "کلوز پایین: پیپ لب شکاف، پشتش سر خاکستری جفتش از جیب کاپشن (مادر)",
 "text": "You wait. Your fingers go numb. Pip sits at the edge of the crack, still as a stone. His mate stays in your pocket. She hates the cold.",
-"start": 299.53000000000003,
-"end": 309.96700000000004,
+"start": 300.117,
+"end": 310.55400000000003,
 "pause": false
 },
 {
@@ -607,8 +607,8 @@
 "meth": "REUSE←#3",
 "see": "سایه‌ی ماهی",
 "text": "The grey shape drifts back.",
-"start": 311.104,
-"end": 312.683,
+"start": 311.691,
+"end": 313.27,
 "pause": false
 },
 {
@@ -616,8 +616,8 @@
 "meth": "CROP←#5",
 "see": "نیزه بالای آب",
 "text": "This time, you aim below it.",
-"start": 313.438,
-"end": 315.156,
+"start": 314.025,
+"end": 315.743,
 "pause": false
 },
 {
@@ -625,8 +625,8 @@
 "meth": "NEW",
 "see": "نیزه با ماهی خاکستری روی نوکش بالا می‌آید، پاشیدن آب، صورت پیروز",
 "text": "(pause) The spear jerks in your hands.",
-"start": 317.101,
-"end": 319.191,
+"start": 317.687,
+"end": 319.777,
 "pause": true
 },
 {
@@ -634,8 +634,8 @@
 "meth": "NEW",
 "see": "پسر روی یخ به سمت در سنگی، دست‌ها روی کاپشن، غروب",
 "text": "You carry it home inside your jacket, like something precious.",
-"start": 320.491,
-"end": 324.067,
+"start": 321.077,
+"end": 324.653,
 "pause": false
 },
 {
@@ -643,8 +643,8 @@
 "meth": "NEW",
 "see": "اینسرت: ماهی روی سنگ صاف داغ کنار آتش در",
 "text": "You lay a flat stone in the fire until it's too hot to touch, pull it out, and cook the fish on top of it.",
-"start": 324.84499999999997,
-"end": 330.65,
+"start": 325.431,
+"end": 331.236,
 "pause": false
 },
 {
@@ -652,8 +652,8 @@
 "meth": "NEW·M",
 "see": "پسر چشم‌بسته می‌خورد، پیپ و جفتش ته‌مانده می‌خورند (مادر)",
 "text": "It's the best thing you have ever eaten.",
-"start": 331.335,
-"end": 333.691,
+"start": 331.921,
+"end": 334.277,
 "pause": false
 },
 {
@@ -661,8 +661,8 @@
 "meth": "CROP←#73",
 "see": "کلوز دو موش در حال خوردن",
 "text": "Pip and his mate get the scraps. Small animals like them eat insects and grubs all the time. To them, fish is just a bigger grub.",
-"start": 334.748,
-"end": 342.68899999999996,
+"start": 335.334,
+"end": 343.275,
 "pause": false
 },
 {
@@ -670,8 +670,8 @@
 "meth": "CROP←a:Q4",
 "see": "ساحل یخ‌زده",
 "text": "The next day, you go back to the bank where the book's turtle would sleep.",
-"start": 344.361,
-"end": 347.681,
+"start": 344.947,
+"end": 348.267,
 "pause": false
 },
 {
@@ -679,8 +679,8 @@
 "meth": "NEW·M",
 "see": "پسر لب ساحل زانو زده، با دست گِل زیر یخ شکسته را می‌کند، سوراخ پوزه دور در پس‌زمینه (مادر)",
 "text": "Far from the crocodile's breathing hole, you dig into the soft mud under the ice, slowly, the way you buried the bone.",
-"start": 348.692,
-"end": 355.878,
+"start": 349.278,
+"end": 356.464,
 "pause": false
 },
 {
@@ -688,8 +688,8 @@
 "meth": "CROP←#76",
 "see": "کلوز دست در گِل",
 "text": "Your hand finds something hard and round.",
-"start": 356.621,
-"end": 359.106,
+"start": 357.207,
+"end": 359.692,
 "pause": false
 },
 {
@@ -697,8 +697,8 @@
 "meth": "CROP←a:Q3",
 "see": "لاک‌پشت خواب",
 "text": "A turtle, asleep, cold as a stone.",
-"start": 359.61699999999996,
-"end": 362.287,
+"start": 360.203,
+"end": 362.873,
 "pause": false
 },
 {
@@ -706,8 +706,8 @@
 "meth": "CROP←#76",
 "see": "دست‌ها دوباره در گِل",
 "text": "Then another one, a little further along.",
-"start": 363.03,
-"end": 365.155,
+"start": 363.616,
+"end": 365.741,
 "pause": false
 },
 {
@@ -715,8 +715,8 @@
 "meth": "NEW",
 "see": "پسر سرپایین کنار آتش، ساکت؛ دو لاک تمیز کنارش (بی‌خشونت)",
 "text": "You don't enjoy what comes next. But you don't waste any of it, either.",
-"start": 365.956,
-"end": 370.066,
+"start": 366.54200000000003,
+"end": 370.652,
 "pause": false
 },
 {
@@ -724,8 +724,8 @@
 "meth": "CROP←a:Q3",
 "see": "کلوز دو لاک (کاسه و آتش)",
 "text": "Even the shells. One holds water. The other will hold fire.",
-"start": 370.89,
-"end": 375.527,
+"start": 371.476,
+"end": 376.11400000000003,
 "pause": false
 },
 {
@@ -733,8 +733,8 @@
 "meth": "CROP←#80",
 "see": "کلوز صورت آرام",
 "text": "For the first time in weeks, you have real food. Not just enough to stay alive. Enough to get strong.",
-"start": 376.037,
-"end": 382.33,
+"start": 376.624,
+"end": 382.91700000000003,
 "pause": false
 },
 {
@@ -742,8 +742,8 @@
 "meth": "CROP←p2:086",
 "see": "دیوار زغالی (گرافیک MEAT ? پاک می‌شود)",
 "text": "You wipe the second question mark off the wall.",
-"start": 382.957,
-"end": 385.186,
+"start": 383.54400000000004,
+"end": 385.773,
 "pause": false
 },
 {
@@ -751,8 +751,8 @@
 "meth": "TEXT",
 "see": "کارت قانون ۵",
 "text": "Rule five: learn from the ones who made it.",
-"start": 386.04499999999996,
-"end": 388.762,
+"start": 386.632,
+"end": 389.34900000000005,
 "pause": false
 },
 {
@@ -760,8 +760,8 @@
 "meth": "CROP←#73",
 "see": "پسر کنار آتش",
 "text": "Now you eat every day. And with food in your stomach, the big question comes back.",
-"start": 391.889,
-"end": 397.032,
+"start": 392.476,
+"end": 397.61899999999997,
 "pause": false
 },
 {
@@ -769,8 +769,8 @@
 "meth": "OLD p2:153",
 "see": "تونل از ته، پسر کوچک و تنها (قسمت ۲)",
 "text": "How long?",
-"start": 398.089,
-"end": 398.646,
+"start": 398.676,
+"end": 399.233,
 "pause": false
 },
 {
@@ -778,8 +778,8 @@
 "meth": "OLD a:T1",
 "see": "برش تونل در زمستان",
 "text": "How long can you live like this? Day after day, in a hole, waiting for a sun that might not come back for years?",
-"start": 399.366,
-"end": 406.39,
+"start": 399.953,
+"end": 406.977,
 "pause": false
 },
 {
@@ -787,8 +787,8 @@
 "meth": "OLD a:Q7",
 "see": "صفحه‌ی نقشه",
 "text": "You open the book again, to the first page. A map. North America, sixty-six million years ago.",
-"start": 407.446,
-"end": 414.017,
+"start": 408.033,
+"end": 414.604,
 "pause": false
 },
 {
@@ -796,8 +796,8 @@
 "meth": "CROP←a:Q7",
 "see": "کلوز دریای داخلی",
 "text": "To the east of where you are, there's water. What's left of a huge inland sea.",
-"start": 414.818,
-"end": 419.892,
+"start": 415.405,
+"end": 420.479,
 "pause": false
 },
 {
@@ -805,8 +805,8 @@
 "meth": "CROP←a:Q7",
 "see": "کلوز رود تا دریا (خط متحرک در تدوین)",
 "text": "And the river runs east. The map shows it: this river flows all the way down to that coast.",
-"start": 420.322,
-"end": 427.236,
+"start": 420.909,
+"end": 427.822,
 "pause": false
 },
 {
@@ -814,8 +814,8 @@
 "meth": "NEW·M",
 "see": "خاطره: بابا و پسر ۷ ساله کنار پنجره‌ی برفی خانه، شب (مادر)",
 "text": "You remember something your dad said once, on a long, cold winter night.",
-"start": 428.037,
-"end": 431.961,
+"start": 428.623,
+"end": 432.547,
 "pause": false
 },
 {
@@ -823,8 +823,8 @@
 "meth": "CROP←#91",
 "see": "کلوز بابا",
 "text": "\"The sea is slow. It takes forever to cool down. That's why winters are kinder by the water.\"",
-"start": 432.669,
-"end": 438.66,
+"start": 433.255,
+"end": 439.24600000000004,
 "pause": false
 },
 {
@@ -832,8 +832,8 @@
 "meth": "NEW",
 "see": "تصور: ساحل دریای خاکستری، کمی گرم‌تر، موج آرام، صدف‌ها",
 "text": "(pause) Near the sea, the dark would be a little warmer. There would be fish. There would be things living on the shore.",
-"start": 440.819,
-"end": 446.856,
+"start": 441.405,
+"end": 447.44199999999995,
 "pause": true
 },
 {
@@ -841,8 +841,8 @@
 "meth": "CROP←#36",
 "see": "کلوز صورت مصمم با کتاب",
 "text": "You decide. You're going to follow the river to the sea.",
-"start": 447.553,
-"end": 450.815,
+"start": 448.13899999999995,
+"end": 451.40099999999995,
 "pause": false
 },
 {
@@ -850,8 +850,8 @@
 "meth": "OLD a:Q4",
 "see": "رود یخ‌زده خاکستری",
 "text": "But not tomorrow. Leave without food, and you die on the ice in three days.",
-"start": 451.384,
-"end": 456.237,
+"start": 451.96999999999997,
+"end": 456.823,
 "pause": false
 },
 {
@@ -859,8 +859,8 @@
 "meth": "NEW",
 "see": "اینسرت: یخ نازک زیر یک ضربه‌ی آزمایشی ترک برمی‌دارد",
 "text": "And the ice isn't ready either. It has to be thick enough to walk on, mile after mile.",
-"start": 456.945,
-"end": 462.158,
+"start": 457.53099999999995,
+"end": 462.74399999999997,
 "pause": false
 },
 {
@@ -868,8 +868,8 @@
 "meth": "NEW·M",
 "see": "واید: رود یخ‌زده مثل جاده به سمت شرق در مه (مادر)",
 "text": "When it is, the frozen river becomes a road.",
-"start": 462.808,
-"end": 465.432,
+"start": 463.39399999999995,
+"end": 466.018,
 "pause": false
 },
 {
@@ -877,8 +877,8 @@
 "meth": "CROP←#97",
 "see": "کلوز دوردست رود",
 "text": "Until then, you get ready. And you survive the wait.",
-"start": 465.908,
-"end": 470.278,
+"start": 466.49399999999997,
+"end": 470.865,
 "pause": false
 },
 {
@@ -886,8 +886,8 @@
 "meth": "OLD p2:147",
 "see": "در تونل از بیرون، شب و برف (قسمت ۲)",
 "text": "The real cold comes two nights later.",
-"start": 472.847,
-"end": 475.065,
+"start": 473.434,
+"end": 475.65200000000004,
 "pause": false
 },
 {
@@ -895,8 +895,8 @@
 "meth": "NEW",
 "see": "اینسرت: لاک کاسه با آب یکپارچه یخ، کنار زغال‌های سرخ",
 "text": "The coals you bank under the ash are still glowing in the morning. But the water in the turtle shell, an arm's length away from them, is frozen solid.",
-"start": 475.81899999999996,
-"end": 484.469,
+"start": 476.406,
+"end": 485.05600000000004,
 "pause": false
 },
 {
@@ -904,8 +904,8 @@
 "meth": "CROP←p2:129",
 "see": "دیوار تونل با برفک (قسمت ۲)",
 "text": "The tunnel walls sparkle with frost.",
-"start": 485.11899999999997,
-"end": 487.092,
+"start": 485.706,
+"end": 487.67900000000003,
 "pause": false
 },
 {
@@ -913,8 +913,8 @@
 "meth": "OLD a:T1",
 "see": "برش تونل",
 "text": "Your tunnel is too close to the surface.",
-"start": 487.823,
-"end": 489.635,
+"start": 488.41,
+"end": 490.22200000000004,
 "pause": false
 },
 {
@@ -922,8 +922,8 @@
 "meth": "TEXT",
 "see": "گرافیک: لایه‌های خاک، یخ‌زده بالا، گرم‌تر پایین",
 "text": "Deeper down, under the frozen layer, the ground stays warmer than the air. Every burrowing animal knows it.",
-"start": 490.157,
-"end": 497.065,
+"start": 490.744,
+"end": 497.65200000000004,
 "pause": false
 },
 {
@@ -931,8 +931,8 @@
 "meth": "OLD p2:058",
 "see": "پیپ در لانه‌ی زیر ریشه (قسمت ۲)",
 "text": "Pip knew it from the start.",
-"start": 498.05199999999996,
-"end": 499.561,
+"start": 498.639,
+"end": 500.148,
 "pause": false
 },
 {
@@ -940,8 +940,8 @@
 "meth": "NEW·M",
 "see": "پسر ته اتاقک با سنگ تیز گودی می‌کند، نور آتش (مادر)",
 "text": "So you dig down, at the back of the nest chamber, with the sharp stone and your hands.",
-"start": 500.461,
-"end": 505.117,
+"start": 501.048,
+"end": 505.704,
 "pause": false
 },
 {
@@ -949,8 +949,8 @@
 "meth": "CROP←a:Q5",
 "see": "گودی آماده",
 "text": "It takes a week. When you're done, there's a hollow under the floor, just big enough to curl up in.",
-"start": 505.593,
-"end": 511.73400000000004,
+"start": 506.18,
+"end": 512.321,
 "pause": false
 },
 {
@@ -958,8 +958,8 @@
 "meth": "OLD p2:130",
 "see": "آب روی آتش دم در می‌چکد (قسمت ۲)",
 "text": "And this time, you build the fire right. No more fire at the door, waiting for snow to drown it.",
-"start": 512.582,
-"end": 518.933,
+"start": 513.169,
+"end": 519.52,
 "pause": false
 },
 {
@@ -967,8 +967,8 @@
 "meth": "NEW",
 "see": "پسر چوب بلندی را بالای حلقه‌ی سنگی به سقف فرو می‌کند",
 "text": "You make a small fire pit in the chamber, and above it, you push a long stick up through the clay roof, between the tree roots, all the way to the snow. Then you work it around until the hole is as wide as your fist.",
-"start": 519.838,
-"end": 533.213,
+"start": 520.425,
+"end": 533.8,
 "pause": false
 },
 {
@@ -976,8 +976,8 @@
 "meth": "OLD a:Q5",
 "see": "برش اتاقک با دودکش",
 "text": "A chimney.",
-"start": 533.782,
-"end": 534.444,
+"start": 534.369,
+"end": 535.031,
 "pause": false
 },
 {
@@ -985,8 +985,8 @@
 "meth": "CROP←a:Q5",
 "see": "کلوز سنگ کلاهک و دود روی برف",
 "text": "On top, where it comes out under the roots, you lean a flat stone over it like a tiny roof. Snow can't fall in, and the wind can't blow down it. The smoke slips out under the edges.",
-"start": 535.21,
-"end": 548.66,
+"start": 535.797,
+"end": 549.246,
 "pause": false
 },
 {
@@ -994,8 +994,8 @@
 "meth": "NEW",
 "see": "داخل اتاقک: آتش در اجاق، دود به سوراخ سقف می‌رود، نور گرم",
 "text": "The smoke goes up and out. The heat stays in.",
-"start": 549.5649999999999,
-"end": 552.781,
+"start": 550.151,
+"end": 553.367,
 "pause": false
 },
 {
@@ -1003,8 +1003,8 @@
 "meth": "NEW·M",
 "see": "پیپ و جفتش سرخس خشک و تکه‌ای پارچه‌ی خاکستری را به گودی می‌کشند (مادر)",
 "text": "Pip and his mate move into the hollow before you do. They drag in dead fern fronds and a scrap of your t-shirt.",
-"start": 553.745,
-"end": 560.119,
+"start": 554.331,
+"end": 560.705,
 "pause": false
 },
 {
@@ -1012,8 +1012,8 @@
 "meth": "CROP←#112",
 "see": "دو موش در لانه",
 "text": "You let them.",
-"start": 560.827,
-"end": 561.477,
+"start": 561.413,
+"end": 562.063,
 "pause": false
 },
 {
@@ -1021,8 +1021,8 @@
 "meth": "CROP←p2:086",
 "see": "دیوار زغالی (گرافیک ? پاک می‌شود)",
 "text": "The first question mark comes off the wall too.",
-"start": 562.383,
-"end": 564.67,
+"start": 562.969,
+"end": 565.256,
 "pause": false
 },
 {
@@ -1030,8 +1030,8 @@
 "meth": "OLD p2:086",
 "see": "پسر روی دیوار می‌نویسد (قسمت ۲)",
 "text": "Now you work every day, the way you worked in the ten days before the impact.",
-"start": 567.645,
-"end": 571.941,
+"start": 568.231,
+"end": 572.527,
 "pause": false
 },
 {
@@ -1039,8 +1039,8 @@
 "meth": "TEXT",
 "see": "چک‌لیست THE RIVER",
 "text": "A new list goes up on the wall, in charcoal.",
-"start": 572.649,
-"end": 575.342,
+"start": 573.235,
+"end": 575.928,
 "pause": false
 },
 {
@@ -1048,8 +1048,8 @@
 "meth": "REUSE←#70",
 "see": "نیزه با ماهی",
 "text": "Fish. Every noon, you go back to the crack in the ice. Some days you get nothing. Some days, two.",
-"start": 578.982,
-"end": 586.482,
+"start": 579.569,
+"end": 587.069,
 "pause": false
 },
 {
@@ -1057,8 +1057,8 @@
 "meth": "NEW",
 "see": "پسر ماهی‌ها را کنار در سنگی در برف چال می‌کند",
 "text": "You don't eat them all. You bury the rest in the snow outside the door. The whole world out there is a freezer.",
-"start": 587.1669999999999,
-"end": 593.901,
+"start": 587.7539999999999,
+"end": 594.4879999999999,
 "pause": false
 },
 {
@@ -1066,8 +1066,8 @@
 "meth": "OLD p2:142",
 "see": "لاروهای خشک (قسمت ۲)",
 "text": "You dry grubs hard by the fire, the way you did before. You pick the white fungus, and only the white.",
-"start": 594.377,
-"end": 600.867,
+"start": 594.9639999999999,
+"end": 601.454,
 "pause": false
 },
 {
@@ -1075,8 +1075,8 @@
 "meth": "NEW·M",
 "see": "پسر کوله را با بسته‌های ماهی و لارو پر می‌کند، کنار اجاق (مادر)",
 "text": "The backpack comes out of the dark. For the first time in weeks, it's heavy.",
-"start": 601.7139999999999,
-"end": 605.813,
+"start": 602.3009999999999,
+"end": 606.4,
 "pause": false
 },
 {
@@ -1084,8 +1084,8 @@
 "meth": "CROP←a:Q3",
 "see": "لاک کاسه",
 "text": "Water. You can't carry a river. But you can carry ice. The first shell is your bowl. Every night, the fire melts it.",
-"start": 607.264,
-"end": 616.25,
+"start": 607.851,
+"end": 616.837,
 "pause": false
 },
 {
@@ -1093,8 +1093,8 @@
 "meth": "NEW·M",
 "see": "خاطره: بابا کنار درخت مرده با قارچ سمی‌شکل زانو زده، پسر کوچک نگاه می‌کند (مادر)",
 "text": "Fire. This one took you three days to solve. Then you remembered your dad, on a camping trip, kneeling by a dead tree.",
-"start": 617.481,
-"end": 625.689,
+"start": 618.067,
+"end": 626.275,
 "pause": false
 },
 {
@@ -1102,8 +1102,8 @@
 "meth": "CROP←#122",
 "see": "کلوز دست بابا و قارچ",
 "text": "A hard fungus, shaped like a horse's hoof. \"Light this, and it won't burn. It'll smoulder all day.\"",
-"start": 625.956,
-"end": 631.808,
+"start": 626.542,
+"end": 632.394,
 "pause": false
 },
 {
@@ -1111,8 +1111,8 @@
 "meth": "TEXT",
 "see": "کارت: ÖTZI · 5,300 YEARS AGO روی قارچ",
 "text": "People carried fire like this for thousands of years. A man who died in the Alps more than five thousand years ago still had some in his bag.",
-"start": 632.7139999999999,
-"end": 640.783,
+"start": 633.3,
+"end": 641.369,
 "pause": false
 },
 {
@@ -1120,8 +1120,8 @@
 "meth": "OLD a:Q6",
 "see": "قارچ روی درخت سوخته",
 "text": "On the dead trees by the river, you find it. You pack it into the second shell with a live coal, seal it with clay, and the next morning it's still glowing.",
-"start": 641.41,
-"end": 651.445,
+"start": 641.996,
+"end": 652.032,
 "pause": false
 },
 {
@@ -1129,17 +1129,17 @@
 "meth": "CROP←a:Q3",
 "see": "لاک آتش با گِل و نور نارنجی",
 "text": "(insert)",
-"start": 651.445,
+"start": 652.032,
 "unspoken": true,
-"end": 652.803
+"end": 653.39
 },
 {
 "id": "127",
 "meth": "NEW",
 "see": "کلوز ساعدهای لخت سیاه از آستین پاره، برفک",
 "text": "Warmth. Ninety days of digging and crawling have torn your jacket sleeves off at the elbow. Your forearms are bare.",
-"start": 652.803,
-"end": 660.117,
+"start": 653.39,
+"end": 660.704,
 "pause": false
 },
 {
@@ -1147,8 +1147,8 @@
 "meth": "NEW",
 "see": "اینسرت: دست‌ها پرز سرخس را زیر کاپشن می‌چپانند",
 "text": "You stuff dry fern fluff between your t-shirt and your jacket, the way birds fluff their feathers. Trapped air is warm air.",
-"start": 660.524,
-"end": 668.43,
+"start": 661.111,
+"end": 669.0169999999999,
 "pause": false
 },
 {
@@ -1156,8 +1156,8 @@
 "meth": "NEW·M",
 "see": "پسر ساعد را با نوار تیره‌ی ضربدری می‌پیچد (مادر)",
 "text": "Then you wrap each forearm in fluff and dark strips of t-shirt, wrist to elbow.",
-"start": 668.941,
-"end": 673.434,
+"start": 669.528,
+"end": 674.021,
 "pause": false
 },
 {
@@ -1165,8 +1165,8 @@
 "meth": "CROP←a:Q1",
 "see": "قهرمان آماده (شیت)",
 "text": "It looks ridiculous. It works.",
-"start": 673.701,
-"end": 675.663,
+"start": 674.288,
+"end": 676.25,
 "pause": false
 },
 {
@@ -1174,8 +1174,8 @@
 "meth": "NEW",
 "see": "چکمه محکم روی یخ کلفت می‌کوبد، ترکی نیست",
 "text": "And one morning, you stamp on the ice by the pool as hard as you can. It doesn't even crack.",
-"start": 676.348,
-"end": 682.031,
+"start": 676.935,
+"end": 682.6179999999999,
 "pause": false
 },
 {
@@ -1183,8 +1183,8 @@
 "meth": "TEXT",
 "see": "چک‌لیست تیک می‌خورد",
 "text": "One by one, the boxes on the wall get a tick.",
-"start": 683.575,
-"end": 685.932,
+"start": 684.162,
+"end": 686.519,
 "pause": false
 },
 {
@@ -1192,8 +1192,8 @@
 "meth": "NEW·M",
 "see": "پسر با ساعدهای پیچیده کنار اجاق، کوله‌ی پر کنارش، پیپ و جفتش خواب در گودی (مادر)",
 "text": "(pause) The night before you leave, you sit by the fire for a long time.",
-"start": 687.954,
-"end": 691.553,
+"start": 688.541,
+"end": 692.1400000000001,
 "pause": true
 },
 {
@@ -1201,8 +1201,8 @@
 "meth": "CROP←#133",
 "see": "کلوز صورت",
 "text": "Usually you just say good night to your mom. Tonight, you say more.",
-"start": 692.2959999999999,
-"end": 696.8359999999999,
+"start": 692.883,
+"end": 697.423,
 "pause": false
 },
 {
@@ -1210,8 +1210,8 @@
 "meth": "CROP←#133",
 "see": "کلوز نزدیک صورت، اشک",
 "text": "\"Mom. I'm alive. I wrote you something. I don't know if it'll ever get to you.\"",
-"start": 697.6479999999999,
-"end": 702.467,
+"start": 698.235,
+"end": 703.0540000000001,
 "pause": false
 },
 {
@@ -1219,8 +1219,8 @@
 "meth": "CROP←#133",
 "see": "دود از دودکش",
 "text": "You never know if anyone hears.",
-"start": 703.28,
-"end": 704.9399999999999,
+"start": 703.8670000000001,
+"end": 705.527,
 "pause": false
 },
 {
@@ -1228,8 +1228,8 @@
 "meth": "OLD p2:028",
 "see": "کارت NOW · DAY 97 MISSING · مادر روی تخت شب (قسمت ۲)",
 "text": "That same night, sixty-six million years later, your mom can't sleep.",
-"start": 707.555,
-"end": 711.9899999999999,
+"start": 708.142,
+"end": 712.577,
 "pause": false
 },
 {
@@ -1237,8 +1237,8 @@
 "meth": "OLD p2:029",
 "see": "قاب عکس روی میز (قسمت ۲)",
 "text": "She hasn't slept a whole night since you disappeared. She lies in the dark, looking at the photo on her nightstand, and goes over it again.",
-"start": 713.093,
-"end": 721.3359999999999,
+"start": 713.6800000000001,
+"end": 721.923,
 "pause": false
 },
 {
@@ -1246,8 +1246,8 @@
 "meth": "OLD p2:040",
 "see": "در شکسته (قسمت ۲)",
 "text": "The locked door.",
-"start": 721.9739999999999,
-"end": 722.9029999999999,
+"start": 722.561,
+"end": 723.49,
 "pause": false
 },
 {
@@ -1255,8 +1255,8 @@
 "meth": "OLD p2:041",
 "see": "تخت خالی (قسمت ۲)",
 "text": "The empty bed. The window, shut.",
-"start": 723.054,
-"end": 725.411,
+"start": 723.6410000000001,
+"end": 725.998,
 "pause": false
 },
 {
@@ -1264,8 +1264,8 @@
 "meth": "EDIT←p2:028",
 "see": "مادر خوابیده روی تخت، چراغ روشن",
 "text": "At some point after three, she finally falls asleep.",
-"start": 726.3399999999999,
-"end": 729.6719999999999,
+"start": 726.927,
+"end": 730.259,
 "pause": false
 },
 {
@@ -1273,8 +1273,8 @@
 "meth": "TEXT",
 "see": "انتقال: برف خاکستری روی سیاهی",
 "text": "And she dreams.",
-"start": 730.415,
-"end": 731.309,
+"start": 731.0020000000001,
+"end": 731.8960000000001,
 "pause": false
 },
 {
@@ -1282,8 +1282,8 @@
 "meth": "NEW·M",
 "see": "خواب: مادر با ژاکت خردلی در جنگل سوخته‌ی خاکستری، برف خاکستری، مه رؤیایی (مادر)",
 "text": "She's standing in a forest that's grey and burnt, under a sky the colour of wet ash.",
-"start": 732.4119999999999,
-"end": 737.9259999999999,
+"start": 732.999,
+"end": 738.513,
 "pause": false
 },
 {
@@ -1291,8 +1291,8 @@
 "meth": "CROP←#143",
 "see": "کلوز دانه‌های برف خاکستری روی موهای مادر",
 "text": "Snow is falling, but it isn't white. It's grey.",
-"start": 739.409,
-"end": 743.02,
+"start": 739.996,
+"end": 743.607,
 "pause": false
 },
 {
@@ -1300,8 +1300,8 @@
 "meth": "NEW·M",
 "see": "خواب: پسر کنار آتش کوچک زیر ریشه‌ها، دم در سنگی، از دور، مه (مادر)",
 "text": "And by a small fire, under the roots of a huge black tree, there's a boy in a beanie.",
-"start": 743.623,
-"end": 749.231,
+"start": 744.21,
+"end": 749.818,
 "pause": false
 },
 {
@@ -1309,8 +1309,8 @@
 "meth": "CROP←#145",
 "see": "کلوز ساعدهای پیچیده",
 "text": "He's thinner. His arms are wrapped in dark strips of cloth.",
-"start": 749.846,
-"end": 753.898,
+"start": 750.433,
+"end": 754.485,
 "pause": false
 },
 {
@@ -1318,8 +1318,8 @@
 "meth": "CROP←#145",
 "see": "پسر رو به آتش",
 "text": "He doesn't look up. He talks to the fire, the way he used to talk to her through his bedroom door.",
-"start": 754.664,
-"end": 759.9929999999999,
+"start": 755.251,
+"end": 760.5799999999999,
 "pause": false
 },
 {
@@ -1327,8 +1327,8 @@
 "meth": "CROP←#145",
 "see": "کلوز صورت پسر",
 "text": "\"Mom. I'm alive. I wrote you something.\"",
-"start": 760.748,
-"end": 763.418,
+"start": 761.335,
+"end": 764.005,
 "pause": false
 },
 {
@@ -1336,8 +1336,8 @@
 "meth": "CROP←#143",
 "see": "کلوز مادر، دست دراز کرده",
 "text": "She calls out. \"Where are you?\"",
-"start": 764.312,
-"end": 766.379,
+"start": 764.899,
+"end": 766.966,
 "pause": false
 },
 {
@@ -1345,8 +1345,8 @@
 "meth": "NEW",
 "see": "کلوز صورت پسر رو به دوربین، نور آتش، مه",
 "text": "He looks up.",
-"start": 767.04,
-"end": 767.76,
+"start": 767.627,
+"end": 768.347,
 "pause": false
 },
 {
@@ -1354,8 +1354,8 @@
 "meth": "NEW",
 "see": "مادر یکباره در تخت تاریک می‌نشیند، نفس‌نفس",
 "text": "(pause) She wakes up with her heart pounding, and it's still dark.",
-"start": 769.841,
-"end": 772.743,
+"start": 770.428,
+"end": 773.33,
 "pause": true
 },
 {
@@ -1363,8 +1363,8 @@
 "meth": "CROP←#151",
 "see": "کلوز صورت مادر",
 "text": "She lies there for a long time, replaying it. The snow. The fire. The beanie.",
-"start": 773.545,
-"end": 779.779,
+"start": 774.132,
+"end": 780.366,
 "pause": false
 },
 {
@@ -1372,8 +1372,8 @@
 "meth": "CROP←p2:029",
 "see": "کلوز کلاه بابا در قاب عکس (قسمت ۲)",
 "text": "That was his dad's beanie. He took it the week after the funeral, and never took it off.",
-"start": 779.907,
-"end": 784.958,
+"start": 780.494,
+"end": 785.545,
 "pause": false
 },
 {
@@ -1381,8 +1381,8 @@
 "meth": "NEW",
 "see": "مادر تنها پشت درهای بسته‌ی موزه، صبح خاکستری، بخار نفس",
 "text": "The next morning, your mom is at the museum before it opens.",
-"start": 787.316,
-"end": 790.462,
+"start": 787.903,
+"end": 791.049,
 "pause": false
 },
 {
@@ -1390,8 +1390,8 @@
 "meth": "OLD p2:121",
 "see": "مادر جلوی اسکلت (قسمت ۲)",
 "text": "She doesn't know why. She just goes where you always went.",
-"start": 791.171,
-"end": 794.572,
+"start": 791.758,
+"end": 795.159,
 "pause": false
 },
 {
@@ -1399,8 +1399,8 @@
 "meth": "NEW·M",
 "see": "اتاق پشتی: پیرزن پشت میز، استخوان زیر پارچه، مادر در درگاه (مادر)",
 "text": "The old woman is there, in the back room, with a cloth over something on the table.",
-"start": 795.582,
-"end": 800.214,
+"start": 796.169,
+"end": 800.801,
 "pause": false
 },
 {
@@ -1408,8 +1408,8 @@
 "meth": "CROP←#156",
 "see": "کلوز مادر در حال حرف زدن",
 "text": "Your mom tells her about the dream. She knows how it sounds. She tells her anyway.",
-"start": 801.143,
-"end": 806.437,
+"start": 801.73,
+"end": 807.024,
 "pause": false
 },
 {
@@ -1417,8 +1417,8 @@
 "meth": "CROP←#156",
 "see": "کلوز چشم‌های مادر",
 "text": "\"He said he wrote me something.\"",
-"start": 807.4010000000001,
-"end": 809.224,
+"start": 807.988,
+"end": 809.811,
 "pause": false
 },
 {
@@ -1426,8 +1426,8 @@
 "meth": "CROP←#156",
 "see": "کلوز صورت پیرزن",
 "text": "The old woman doesn't say anything for a long time.",
-"start": 810.211,
-"end": 813.02,
+"start": 810.798,
+"end": 813.607,
 "pause": false
 },
 {
@@ -1435,8 +1435,8 @@
 "meth": "NEW",
 "see": "دست‌ها پارچه را از روی فسیل کنار می‌زنند",
 "text": "Then she pulls back the cloth.",
-"start": 813.682,
-"end": 815.2610000000001,
+"start": 814.269,
+"end": 815.8480000000001,
 "pause": false
 },
 {
@@ -1444,8 +1444,8 @@
 "meth": "OLD p2:159",
 "see": "فسیل با حروف دست‌خط (در تدوین)",
 "text": "A bone. Sixty-six million years old. And on it, carved deep, three words.",
-"start": 815.644,
-"end": 821.829,
+"start": 816.231,
+"end": 822.4159999999999,
 "pause": false
 },
 {
@@ -1453,8 +1453,8 @@
 "meth": "NEW",
 "see": "کلوز صورت مادر زیر نور چراغ، چشم‌های خیس",
 "text": "Your mom doesn't read them at first. She looks at the letters.",
-"start": 822.932,
-"end": 826.299,
+"start": 823.519,
+"end": 826.886,
 "pause": false
 },
 {
@@ -1462,8 +1462,8 @@
 "meth": "REUSE←p2:159",
 "see": "زوم روی M و خط تیره (دست‌خط در تدوین)",
 "text": "Even cut into bone, the shapes are his. The M he's made the same way since he was five. The little dash he always puts instead of a dot.",
-"start": 827.0649999999999,
-"end": 836.132,
+"start": 827.6519999999999,
+"end": 836.7189999999999,
 "pause": false
 },
 {
@@ -1471,8 +1471,8 @@
 "meth": "NEW",
 "see": "خاطره: در یخچال با یادداشت‌های کوچک (دست‌خط در تدوین)",
 "text": "She's seen those letters on a thousand notes on the fridge.",
-"start": 837.108,
-"end": 839.9409999999999,
+"start": 837.6949999999999,
+"end": 840.5279999999999,
 "pause": false
 },
 {
@@ -1480,8 +1480,8 @@
 "meth": "CROP←#162",
 "see": "کلوز مادر",
 "text": "(pause) \"That's his handwriting.\"",
-"start": 842.37,
-"end": 843.577,
+"start": 842.9559999999999,
+"end": 844.1629999999999,
 "pause": true
 },
 {
@@ -1489,8 +1489,8 @@
 "meth": "NEW·M",
 "see": "کارت DAY 88 · پسر کامل مجهز در اتاقک (مادر)",
 "text": "And sixty-six million years earlier, on a cold morning, you're ready to go.",
-"start": 845.937,
-"end": 851.08,
+"start": 846.524,
+"end": 851.667,
 "pause": false
 },
 {
@@ -1498,8 +1498,8 @@
 "meth": "CROP←#166",
 "see": "کلوز کوله و لاک آتش",
 "text": "The backpack is heavy with fish and grubs. The water shell is tied on top. The fire shell hangs from your belt, glowing a little at the edges. The book is inside your jacket, against your chest.",
-"start": 852.485,
-"end": 866.6610000000001,
+"start": 853.072,
+"end": 867.248,
 "pause": false
 },
 {
@@ -1507,8 +1507,8 @@
 "meth": "CROP←#166",
 "see": "کلوز دو جیب با دو موش",
 "text": "Pip is in one pocket. His mate is in the other.",
-"start": 867.265,
-"end": 870.597,
+"start": 867.852,
+"end": 871.184,
 "pause": false
 },
 {
@@ -1516,8 +1516,8 @@
 "meth": "NEW·M",
 "see": "پسر مجهز در تونل کنار دیوار خط‌ها نشسته (مادر)",
 "text": "But you don't go. Not yet. You sit down in the tunnel one last time.",
-"start": 871.398,
-"end": 876.077,
+"start": 871.985,
+"end": 876.664,
 "pause": false
 },
 {
@@ -1525,8 +1525,8 @@
 "meth": "OLD a:T1",
 "see": "برش تونل",
 "text": "This hole in the mud is the reason you're alive.",
-"start": 877.373,
-"end": 880.0550000000001,
+"start": 877.96,
+"end": 880.642,
 "pause": false
 },
 {
@@ -1534,8 +1534,8 @@
 "meth": "OLD en:117",
 "see": "فلش‌بک: کندن تونل با استخوان (قسمت ۱)",
 "text": "You dug it with a dinosaur bone, on a day when the sky was about to fall.",
-"start": 880.926,
-"end": 885.442,
+"start": 881.513,
+"end": 886.029,
 "pause": false
 },
 {
@@ -1543,8 +1543,8 @@
 "meth": "OLD en:211",
 "see": "فلش‌بک: نور سرخ از شکاف (قسمت ۱)",
 "text": "It held when the ground shook. It hid you when the fire came.",
-"start": 885.767,
-"end": 889.784,
+"start": 886.354,
+"end": 890.371,
 "pause": false
 },
 {
@@ -1552,8 +1552,8 @@
 "meth": "OLD en:183",
 "see": "فلش‌بک: در سنگی (قسمت ۱)",
 "text": "Its stone door kept a T. rex outside, breathing, all night.",
-"start": 890.4110000000001,
-"end": 894.7650000000001,
+"start": 890.998,
+"end": 895.3520000000001,
 "pause": false
 },
 {
@@ -1561,8 +1561,8 @@
 "meth": "OLD en:239",
 "see": "فلش‌بک: خواب، پیپ کنار گردن (قسمت ۱)",
 "text": "You've slept here for ninety nights. Pip has slept on your neck for most of them.",
-"start": 895.508,
-"end": 900.013,
+"start": 896.095,
+"end": 900.6,
 "pause": false
 },
 {
@@ -1570,8 +1570,8 @@
 "meth": "CROP←#169",
 "see": "دست پیچیده روی خط‌های دیوار",
 "text": "You run your hand over the wall. The tally marks. The list. Friends: one… and one more.",
-"start": 900.663,
-"end": 907.791,
+"start": 901.25,
+"end": 908.378,
 "pause": false
 },
 {
@@ -1579,8 +1579,8 @@
 "meth": "NEW",
 "see": "کلوز: دست با ساعد پیچیده با زغال زیر خط‌ها می‌نویسد (متن در تدوین)",
 "text": "(pause) Then you take the charcoal, and under everything else, you write one more line. GONE EAST. DAY 88.",
-"start": 910.266,
-"end": 917.197,
+"start": 910.853,
+"end": 917.784,
 "pause": true
 },
 {
@@ -1588,8 +1588,8 @@
 "meth": "CROP←#176",
 "see": "کلوز دیوار",
 "text": "In case you ever have to come back. In case someone else ever finds it.",
-"start": 918.0559999999999,
-"end": 922.259,
+"start": 918.6429999999999,
+"end": 922.846,
 "pause": false
 },
 {
@@ -1597,8 +1597,8 @@
 "meth": "CROP←#169",
 "see": "کلوز صورت",
 "text": "\"Thank you,\" you say. Out loud. To a hole in the ground. It doesn't feel stupid.",
-"start": 923.327,
-"end": 928.2149999999999,
+"start": 923.914,
+"end": 928.8019999999999,
 "pause": false
 },
 {
@@ -1606,8 +1606,8 @@
 "meth": "NEW·M",
 "see": "بیرون: پسر مجهز تخته‌سنگ را از بیرون جلوی در می‌کشد، برف (مادر)",
 "text": "You crawl out, and from the outside, for the first time, you slide the stone slab across the door. So it's still here if you ever need it.",
-"start": 928.818,
-"end": 937.015,
+"start": 929.405,
+"end": 937.602,
 "pause": false
 },
 {
@@ -1615,8 +1615,8 @@
 "meth": "NEW·M",
 "see": "واید: آدمک کوچک مجهز روی رود یخ‌زده به سمت شرق، درخت و در پشت سر (مادر)",
 "text": "Then you pick up your spear, walk down to the river, step onto the ice, and follow it east.",
-"start": 938.53,
-"end": 944.7529999999999,
+"start": 939.117,
+"end": 945.3399999999999,
 "pause": false
 },
 {
@@ -1624,8 +1624,8 @@
 "meth": "CROP←#180",
 "see": "از پشت، نزدیک‌تر",
 "text": "You don't look back. If you look back, you won't go.",
-"start": 945.4839999999999,
-"end": 949.223,
+"start": 946.0709999999999,
+"end": 949.81,
 "pause": false
 },
 {
@@ -1633,8 +1633,8 @@
 "meth": "REUSE←#180",
 "see": "واید رود و آدمک دور",
 "text": "(pause) If you had to leave your shelter and walk into the dark, what's the one thing you would take? Tell me in the comments.",
-"start": 951.394,
-"end": 957.745,
+"start": 951.981,
+"end": 958.332,
 "pause": true
 },
 {
@@ -1642,8 +1642,8 @@
 "meth": "TEXT",
 "see": "کارت پایانی",
 "text": "Stay small. Stay alive.",
-"start": 958.685,
-"end": 960.218,
+"start": 959.272,
+"end": 960.8050000000001,
 "pause": false
 }
 ]

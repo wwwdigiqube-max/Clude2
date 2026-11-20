@@ -9,6 +9,22 @@ TAIL = 6.0
 MOM_INK = dict(ink="dino-p2/human/mom-i-survived-ink.png", ar="1138 / 226")
 GONE_INK = dict(ink="dino-p3/human/gone-east-day88-ink.png", ar="654 / 714")
 
+def word(phrase, after=0.0):
+    for x in TL:
+        txt = "".join(x["alignment"]["characters"]); j = txt.find(phrase)
+        if j >= 0 and x["t"] + x["alignment"]["character_start_times_seconds"][j] >= after:
+            return x["t"] + x["alignment"]["character_start_times_seconds"][j]
+    raise SystemExit("word not found: " + phrase)
+
+GONE_LINES = [[0.0, 0.30, 0.03, 0.95], [0.30, 0.60, 0.02, 0.61], [0.60, 1.0, 0.06, 0.97]]
+GONE_HAND = dict(x=.76, y=.68, ww=.2, rot=-4, color="rgba(18,14,10,.88)", lines=GONE_LINES,
+                 mover=dict(fg="cut:fg-176h.png", tip=[.662, .539]), **GONE_INK)
+# the river on the book map (image coordinates), traced west -> east to the inland sea
+RIVER = [[.175 + px / 2576, .455 + py / 1438] for px, py in [(0, 200), (25, 140), (65, 128), (105, 137), (160, 148), (200, 112), (230, 70),
+         (270, 50), (310, 55), (350, 62), (390, 48), (440, 40), (480, 55), (520, 57), (545, 46), (560, 62), (566, 95), (580, 124), (620, 135),
+         (655, 126), (676, 105), (668, 65), (690, 36), (740, 32), (800, 32), (850, 46), (872, 82), (884, 124), (920, 150), (955, 172),
+         (975, 200), (995, 236)]]
+
 def mood_at(t):
     for x in TL:
         if x["t"] - 0.6 <= t <= x["t"] + x["dur"]: return x["mood"]
@@ -22,7 +38,7 @@ Q4, Q3, Q5, Q7, Q8, Q6, Q1, T1 = "a:Q4-frozen-river.jpeg", "a:Q3-turtle-sheet.jp
 p(1, "p:001", par="001", fx=["snow"], tr="fade"); p(2, "p:001", .3, .82, 2.4, fx=["snow"])
 p(3, "p:003", .5, .55, 1.1); p(4, "p:003", .5, .62, 1.8); p(5, "p:005", .45, .6, 1.15, fx=["snow"])
 p(6, "e:079", grade="memory"); p(7, "p:003", .48, .6, 1.5); p(8, "p:001", .47, .52, 2.8, fx=["snow"])
-p(9, "p:009", fx=["snow"], hits=[0.2], punch=True); p(10, "p:010", fx=["snow"], card=("title", "AFTER THE ASTEROID · PART 3"), cardat=0.9)
+p(9, "k:009", clip=(0.0, 1.0), fx=["snow"], hits=[0.2], punch=True); p(10, "k:009", clip=(1.0, 7.9), fx=["snow"], card=("title", "AFTER THE ASTEROID · PART 3"), cardat=0.9)
 # 1 · The Cold Comes After
 p(11, Q4, .5, .5, 1.05, fx=["snow"], card=("bigcard", "FIVE DAYS EARLIER", None)); p(12, "D10i"); p(13, "e:234", fx=["ash"]); p(14, "D11a", fx=["ash"])
 p(15, Q4, .5, .5, 1.1, fx=["snow"], card=("bigcard", "IMPACT WINTER", "the sun is up there. it just can't get through.")); p(16, "q:103", fx=["snow"])
@@ -35,28 +51,28 @@ p(31, "p:031", fx=["flicker"], tr="fade"); p(32, "p:031", .66, .72, 2.4, fx=["fl
 p(35, "q:053", fx=["flicker"]); p(36, "p:036", par="036", fx=["flicker"]); p(37, "e:017"); p(38, "p:036", .62, .6, 2.2, fx=["flicker"])
 p(39, "e:045"); p(40, "e:045", .84, .72, 2.6); p(41, "p:036", .72, .38, 2.6, fx=["flicker"]); p(42, "p:036", .7, .4, 2.9, fx=["flicker"])
 p(43, "p:043"); p(44, "p:044"); p(45, Q4, fx=["snow"]); p(46, "p:036", .62, .62, 1.8, fx=["flicker"]); p(47, "p:047", fx=["flicker"])
-p(48, "p:047", .45, .5, 1.4); p(49, "q:080", fx=["flicker"]); p(50, "q:080", .42, .45, 2.4)
+p(48, "p:047", .45, .5, 1.4); p(49, "q:080", fx=["flicker"]); p(50, "q:080", .42, .45, 2.4, then=[(3.6, "q:080", .55, .62, 1.9, {})])
 # 3 · Meanwhile
-p(51, Q8, tr="fade"); p(52, Q8, .63, .6, 2.2); p(53, "p:053"); p(54, "q:157"); p(55, "p:055")
+p(51, Q8, tr="fade"); p(52, Q8, .63, .6, 2.2); p(53, "p:053"); p(54, "q:157"); p(55, "p:055", then=[(4.6, "p:055", .5, .48, 2.6, {})])
 p(56, "q:159", .5, .45, 1.2); p(57, "q:159", .47, .4, 1.6, hand=dict(x=.47, y=.4, ww=.5, rot=-14, at=0.2, dur=1.4, color="rgba(28,18,10,.85)", **MOM_INK))
 p(58, "q:122", grade="memory"); p(59, Q8, .38, .35, 2.8); p(60, Q8, .5, .5, 1.05); p(61, "p:061"); p(62, "p:062")
 # 4 · Learn to See
 p(63, "p:001", .5, .55, 1.15, fx=["snow"], tr="fade"); p(64, "p:003", .5, .6, 1.6)
 p(65, "p:003", .5, .55, 1.1, card=("bigcard", "WATER BENDS LIGHT", "the fish is deeper than it looks"))
-p(66, "p:001", .47, .52, 2.4, fx=["snow"]); p(67, "p:067", fx=["snow"]); p(68, "p:003", .5, .62, 1.4); p(69, "p:005", .38, .7, 2.0, fx=["snow"])
-p(70, "p:070", par="070", fx=["snow"], hits=[0.25]); p(71, "p:071", fx=["snow"]); p(72, "p:072", fx=["flicker"]); p(73, "p:073", par="073", fx=["flicker"])
+p(66, "p:001", .47, .52, 2.4, fx=["snow"]); p(67, "p:067", fx=["snow"], then=[(3.4, "p:067", .38, .82, 2.4, dict(fx=["snow"])), (7.4, "p:067", .35, .4, 2.2, dict(fx=["snow"]))]); p(68, "p:003", .5, .62, 1.4); p(69, "p:005", .38, .7, 2.0, fx=["snow"])
+p(70, "k:070", clip=(0.3, 7.9), fx=["snow"], hits=[0.25]); p(71, "p:071", fx=["snow"]); p(72, "p:072", fx=["flicker"]); p(73, "p:073", par="073", fx=["flicker"])
 p(74, "p:073", .76, .8, 2.4, fx=["flicker"]); p(75, Q4, .25, .65, 1.6, fx=["snow"]); p(76, "p:076", fx=["snow"]); p(77, "p:076", .72, .78, 2.6, fx=["snow"])
 p(78, Q3, .3, .75, 2.4); p(79, "p:076", .7, .76, 2.0, fx=["snow"]); p(80, "p:080", fx=["flicker"]); p(81, Q3, .58, .72, 2.0)
 p(82, "p:080", .32, .45, 2.6, fx=["flicker"]); p(83, "q:086", .82, .35, 2.0, fx=["flicker"], rewrite=("MEAT ?", "FOUND ✓"))
 p(84, "p:070", .5, .5, 1.1, card=("rule", "RULE 5: LEARN FROM THE ONES WHO MADE IT", None, True))
 # 5 · How Long?
-p(85, "p:073", .68, .4, 2.2, fx=["flicker"], tr="fade"); p(86, "q:153"); p(87, T1); p(88, Q7); p(89, Q7, .55, .45, 1.8); p(90, Q7, .35, .55, 1.6)
+p(85, "p:073", .68, .4, 2.2, fx=["flicker"], tr="fade"); p(86, "q:153"); p(87, T1); p(88, Q7); p(89, Q7, .55, .45, 1.8); p(90, Q7, .37, .55, 1.6, route=dict(pts=RIVER, at=0.6, dur=4.2))
 p(91, "p:091", grade="memory"); p(92, "p:091", .38, .25, 2.6, grade="memory"); p(93, "p:093"); p(94, "p:036", .72, .38, 2.4, fx=["flicker"])
 p(95, Q4, fx=["snow"]); p(96, "p:096", fx=["snow"]); p(97, "p:097", fx=["snow"]); p(98, "p:097", .55, .32, 2.2, fx=["snow"])
 # 6 · Go Deeper
 p(99, "q:147", fx=["snow"], tr="fade"); p(100, "p:100"); p(101, "q:129", .88, .4, 2.0, grade="colder"); p(102, T1)
 p(103, T1, .5, .5, 1.1, card=("bigcard", "DEEPER = WARMER", "below the frozen layer, the ground holds its heat")); p(104, "q:058")
-p(105, "p:105", fx=["flicker"]); p(106, Q5, .25, .82, 2.2); p(107, "q:130"); p(108, "p:108", fx=["flicker"]); p(109, "p:111"); p(110, "p:111", .55, .12, 2.4)
+p(105, "p:105", fx=["flicker"]); p(106, Q5, .25, .82, 2.2); p(107, "q:130"); p(108, "p:108", fx=["flicker"], then=[(4.6, "p:108", .5, .2, 2.0, dict(fx=["flicker"])), (9.6, "p:108", .47, .38, 2.4, dict(fx=["flicker"]))]); p(109, "p:111"); p(110, "p:111", .55, .12, 2.4, then=[(7.0, "p:111", .5, .45, 1.1, dict(fx=["flicker"]))])
 p(111, Q5, .38, .75, 1.6, fx=["flicker"]); p(112, "p:112", fx=["flicker"]); p(113, "p:112", .5, .6, 1.6, fx=["flicker"])
 p(114, "q:086", .82, .35, 2.0, fx=["flicker"], rewrite=("A DEEPER SHELTER ?", "DONE ✓"))
 # 7 · Get Ready
@@ -73,17 +89,18 @@ p(133, "p:133", par="133", fx=["flicker"]); p(134, "p:133", .57, .43, 2.8, fx=["
 p(137, "q:028", tr="fade"); p(138, "q:029"); p(139, "q:040"); p(140, "q:041"); p(141, "p:141"); p(142, "black", fx=["snow"])
 p(143, "p:143", fx=["snow", "haze"]); p(144, "p:143", .37, .42, 2.6, fx=["snow", "haze"]); p(145, "p:145", fx=["snow", "haze"]); p(146, "p:145", .32, .62, 2.6, fx=["snow", "haze"])
 p(147, "p:145", .32, .62, 3.2, fx=["snow", "haze"]); p(148, "p:150", .5, .45, 1.15, fx=["snow", "haze"]); p(149, "p:143", .35, .45, 2.2, fx=["snow", "haze"])
-p(150, "p:150", fx=["snow", "haze"], punch=True); p(151, "p:151", hits=[0.1]); p(152, "p:151", .53, .35, 2.4); p(153, "q:029", .64, .38, 2.6, grade="memory")
+p(150, "p:150", fx=["snow", "haze"], punch=True); p(151, "k:151", clip=(0.0, 3.2), hits=[0.1]); p(152, "p:151", .53, .35, 2.4); p(153, "q:029", .64, .38, 2.6, grade="memory")
 # 9 · The Handwriting
 p(154, "p:154", tr="fade"); p(155, "q:121"); p(156, "p:156"); p(157, "p:156", .82, .37, 2.6); p(158, "p:156", .82, .35, 3.4); p(159, "p:156", .29, .35, 2.6)
 p(160, "p:160"); p(161, "q:159", .5, .45, 1.2, hand=dict(x=.47, y=.4, ww=.5, rot=-14, at=0.1, dur=1.6, color="rgba(28,18,10,.85)", **MOM_INK)); p(162, "p:162")
 p(163, "q:159", .32, .4, 2.6, hand=dict(x=.47, y=.4, ww=.5, rot=-14, at=-9, dur=0.1, color="rgba(28,18,10,.85)", **MOM_INK)); p(164, "p:164", grade="memory")
 p(165, "p:162", .5, .45, 1.5)
-p(166, "p:166", par="166", day="DAY 88", tr="fade"); p(167, "p:166", .44, .65, 2.2); p(168, "p:166", .47, .55, 2.8); p(169, "p:169", par="169")
+p(166, "p:166", par="166", day="DAY 88", tr="fade"); p(167, "p:166", .4, .45, 2.2, then=[(4.6, "p:166", .37, .72, 2.6, {}), (9.6, "p:166", .56, .3, 2.0, {})]); p(168, "p:166", .47, .55, 2.8); p(169, "p:169", par="169")
 p(170, T1); p(171, "e:117", grade="memory"); p(172, "e:211", grade="memory"); p(173, "e:183", grade="memory"); p(174, "e:239", grade="memory")
-p(175, "p:169", .6, .4, 2.2); p(176, "p:176", hand=dict(x=.76, y=.68, ww=.2, rot=-4, at=1.2, dur=2.4, color="rgba(18,14,10,.88)", **GONE_INK))
-p(177, "p:176", .7, .62, 1.7, hand=dict(x=.76, y=.68, ww=.2, rot=-4, at=-9, dur=0.1, color="rgba(18,14,10,.88)", **GONE_INK))
-p(178, "p:169", .42, .35, 2.6); p(179, "p:179", par="179", fx=["snow"]); p(180, "p:180", fx=["snow"]); p(181, "p:180", .67, .48, 2.6, fx=["snow"])
+p(175, "p:169", .6, .4, 2.2); p(176, "cut:bg-176h.jpg", .68, .6, 1.45, hand=dict(GONE_HAND, at=1.0, dur=4.9))
+p(177, "cut:bg-176h.jpg", .62, .55, 1.12, hand={k: v for k, v in dict(GONE_HAND, at=-9, dur=0.1).items() if k != "mover"})
+p(178, "p:169", .42, .35, 2.6); p(179, "p:179", par="179", fx=["snow"], then=[(word("slide the stone", 900) - 0.25, "k:179", .5, .5, 1.0, dict(clip=(0.0, 3.0), fx=["snow"]))])
+p(180, "k:180", clip=(0.0, 7.9), fx=["snow"]); p(181, "p:180", .67, .48, 2.6, fx=["snow"])
 p(182, "p:180", .6, .5, 1.05, fx=["snow"], cta=True); p(183, "p:180", .6, .5, 1.2, fx=["snow"], endcard=True)
 
 # ---------- build ----------
@@ -93,11 +110,19 @@ for tg in TAGS:
     if t.startswith(("DAY", "NOW")): tags[tg["t"]] = t.replace(" AFTER", "").replace("NOW · ", "NOW · ")
 Q = "IF YOU HAD TO LEAVE, WHAT WOULD YOU TAKE?"
 shots = []
+segs = []
 for k, r in enumerate(R):
     d = P[r["id"]]
     s = R[k]["start"] - (0.12 if k else R[0]["start"])
     e = (R[k + 1]["start"] - 0.12) if k + 1 < len(R) else R[-1]["end"] + TAIL
     if k == 0: s = 0.0
+    th = d.get("then", [])
+    if not th: segs.append((r, d, s, e)); continue
+    cuts = [s] + [(s + o if o < 100 else o) for o, *_ in th] + [e]
+    segs.append((r, d, cuts[0], cuts[1]))
+    for j, (o, img, x, y, z, kw) in enumerate(th):
+        segs.append((dict(r, id=r["id"] + "bcdefg"[j], start=cuts[j + 1]), dict(img=img, f=(x, y, z), **kw), cuts[j + 1], cuts[j + 2]))
+for k, (r, d, s, e) in enumerate(segs):
     mood = mood_at(r["start"] + 0.2)
     x, y, z = d["f"]
     dz = {"tense": 0.14, "story": 0.07, "sad": 0.045}[mood]
@@ -105,6 +130,8 @@ for k, r in enumerate(R):
     else: cam = [z, x, y, z + dz, x + (0.02 if k % 3 == 0 else -0.015 if k % 3 == 1 else 0), y]
     sh = dict(n=k, id=r["id"], s=round(s, 3), e=round(e, 3), img=d["img"], cam=[round(v, 4) for v in cam], fx=[], hits=[])
     for h in d.get("hits", []): sh["hits"].append(round(s + h, 3))
+    if d.get("clip"): sh["in"] = list(d["clip"])
+    if d.get("route"): sh["route"] = dict(d["route"], at=round(s + d["route"]["at"], 3))
     for key in ("grade", "tr", "punch"):
         if d.get(key): sh[key] = d[key]
     if d.get("par"): sh["par"] = dict(bg=f"cut:bg-{d['par']}.jpg", fg=f"cut:fg-{d['par']}.png", amt=1.6 if mood != "sad" else 0.9)

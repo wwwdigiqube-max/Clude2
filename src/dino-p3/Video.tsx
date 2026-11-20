@@ -30,6 +30,7 @@ const src = (img: string) =>
   : img.startsWith("b:") ? staticFile(`dino-p2/assets/${img.slice(2)}`)
   : img.startsWith("e:") ? staticFile(`dino-en/frames/${img.slice(2)}.jpg`)
   : img.startsWith("c:") ? staticFile(`dino-p2/clips/clip-${img.slice(2)}.mp4`)
+  : img.startsWith("k:") ? staticFile(`dino-p3/clips/clip-${img.slice(2)}.mp4`)
   : img.startsWith("a:") ? staticFile(`dino-p3/assets/${img.slice(2)}`)
   : img.startsWith("cut:") ? staticFile(`dino-p3/cut/${img.slice(4)}`)
   : staticFile(`dino/shots/${img}.jpg`);
@@ -65,7 +66,18 @@ const Camera: React.FC<{ shot: Shot; t: number; children: React.ReactNode }> = (
       {children}
       {screen && <PhoneScreen w={w} h={h} lines={screen.lines} />}
       {shot.scar && <ScarLine w={w} h={h} k={k01(now, shot.scar.at, 1.4)} pulse={now - shot.scar.at} {...shot.scar} />}
+      {shot.route && <Route w={w} h={h} k={k01(now, shot.route.at, shot.route.dur)} pts={shot.route.pts} />}
       {shot.hand && <Hand w={w} h={h} k={k01(now, shot.hand.at, shot.hand.dur ?? 1.6)} {...shot.hand} />}
+      {shot.hand?.mover && (() => {
+        const kk = k01(now, shot.hand.at, shot.hand.dur ?? 1.6);
+        const [px, py] = penAt(kk, shot.hand, w, h); const [tx, ty] = shot.hand.mover.tip;
+        const writing = kk > 0 && kk < 1 ? 1 : 0;
+        const wig = writing * (Math.sin(now * 31) * 2.5 + Math.sin(now * 13) * 1.5);
+        // when the line is done, the hand lifts away so the words can be read
+        const lift = ease(k01(now, shot.hand.at + (shot.hand.dur ?? 1.6) + 0.2, 0.9));
+        return <Img src={src(shot.hand.mover.fg)} style={{ position: "absolute", left: 0, top: 0, width: "100%", height: "100%", objectFit: "cover",
+          opacity: 1 - lift, transform: `translate(${px - tx * w + wig - lift * 0.14 * w}px, ${py - ty * h + wig * 0.6 + lift * 0.3 * h}px)` }} />;
+      })()}
       {shot.poster && <img src={staticFile("dino-p2/cut/missing-poster.png")} style={{ position: "absolute", left: shot.poster.x * w, top: shot.poster.y * h,
         width: shot.poster.w * w, transform: `translate(-50%,-50%) rotate(${shot.poster.rot ?? 0}deg)`, boxShadow: "0 4px 10px rgba(0,0,0,.4)" }} />}
     </div>
@@ -101,7 +113,7 @@ const Picture: React.FC<{ shot: Shot; t: number }> = ({ shot, t }) => {
   if (shot.img === "black") return null;
   const style: React.CSSProperties = { width: "100%", height: "100%", objectFit: "cover",
     filter: [shot.grade && GRADE[shot.grade], shot.dimImg && `brightness(${shot.dimImg})`].filter(Boolean).join(" ") || undefined };
-  if (shot.img.startsWith("c:")) {
+  if (shot.img.startsWith("c:") || shot.img.startsWith("k:")) {
     const [a, b] = shot.in ?? [0, 7.8];
     const need = shot.e - shot.s, have = b - a;
     const rate = Math.max(0.6, Math.min(1, have / need));
@@ -134,14 +146,65 @@ const Picture: React.FC<{ shot: Shot; t: number }> = ({ shot, t }) => {
 };
 
 // the user's own handwriting, carved into bone / fossil (wipe reveal left to right), image coordinates 0..1
-const Hand: React.FC<{ w: number; h: number; k: number; x: number; y: number; ww: number; rot?: number; color?: string; ink?: string; ar?: string }> = ({ w, h, k, x, y, ww, rot, color, ink, ar }) => (
-  <div style={{ position: "absolute", left: x * w, top: y * h, width: ww * w, transform: `translate(-50%,-50%) rotate(${rot ?? 0}deg)`,
-    clipPath: `inset(0 ${(1 - k) * 100}% 0 0)` }}>
-    <div style={{ width: "100%", aspectRatio: ar ?? "1138 / 226", backgroundColor: color ?? "rgba(52,32,18,.88)",
-      WebkitMaskImage: `url(${staticFile(ink ?? "dino-p2/human/mom-i-survived-ink.png")})`, maskImage: `url(${staticFile(ink ?? "dino-p2/human/mom-i-survived-ink.png")})`,
-      WebkitMaskSize: "100% 100%", maskSize: "100% 100%", filter: "drop-shadow(0 1px 0 rgba(255,240,210,.35))" }} />
-  </div>
-);
+type Line = [number, number, number, number]; // y0, y1, x0, x1 inside the ink box (0..1)
+const GAP = 0.06;
+// progress of each written line, and the pen point inside the ink box (0..1), for overall progress k
+const writeState = (k: number, lines: Line[]) => {
+  const n = lines.length, seg = (1 - GAP * (n - 1)) / n;
+  const prog = lines.map((_, i) => Math.min(1, Math.max(0, (k - i * (seg + GAP)) / seg)));
+  const at = (i: number, q: number): [number, number] => [lines[i][2] + q * (lines[i][3] - lines[i][2]), lines[i][0] + 0.55 * (lines[i][1] - lines[i][0])];
+  let pen = at(0, 0);
+  for (let i = 0; i < n; i++) {
+    const a = i * (seg + GAP);
+    if (k >= a) pen = at(i, prog[i]);
+    if (i + 1 < n && k > a + seg && k < a + seg + GAP) {
+      const u = ease((k - a - seg) / GAP), p0 = at(i, 1), p1 = at(i + 1, 0);
+      pen = [p0[0] + (p1[0] - p0[0]) * u, p0[1] + (p1[1] - p0[1]) * u - Math.sin(u * Math.PI) * 0.06];
+    }
+  }
+  return { prog, pen };
+};
+const arNum = (ar?: string) => { const [a, b] = (ar ?? "1138 / 226").split("/").map(Number); return a / b; };
+// pen point in camera-box pixels (the ink box is centred on x,y and rotated by rot)
+const penAt = (k: number, hd: any, w: number, h: number): [number, number] => {
+  const { pen } = writeState(k, hd.lines);
+  const bw = hd.ww * w, bh = bw / arNum(hd.ar), r = ((hd.rot ?? 0) * Math.PI) / 180;
+  const dx = (pen[0] - 0.5) * bw, dy = (pen[1] - 0.5) * bh;
+  return [hd.x * w + dx * Math.cos(r) - dy * Math.sin(r), hd.y * h + dx * Math.sin(r) + dy * Math.cos(r)];
+};
+const Hand: React.FC<{ w: number; h: number; k: number; x: number; y: number; ww: number; rot?: number; color?: string; ink?: string; ar?: string; lines?: Line[] }> = ({ w, h, k, x, y, ww, rot, color, ink, ar, lines }) => {
+  const url = `url(${staticFile(ink ?? "dino-p2/human/mom-i-survived-ink.png")})`;
+  const layer = (clip: string, key?: number) => (
+    <div key={key} style={{ position: "absolute", inset: 0, clipPath: clip, backgroundColor: color ?? "rgba(52,32,18,.88)",
+      WebkitMaskImage: url, maskImage: url, WebkitMaskSize: "100% 100%", maskSize: "100% 100%", filter: "drop-shadow(0 1px 0 rgba(255,240,210,.35))" }} />
+  );
+  const prog = lines ? writeState(k, lines).prog : [];
+  return (
+    <div style={{ position: "absolute", left: x * w, top: y * h, width: ww * w, transform: `translate(-50%,-50%) rotate(${rot ?? 0}deg)` }}>
+      <div style={{ position: "relative", width: "100%", aspectRatio: ar ?? "1138 / 226" }}>
+        {lines
+          ? lines.map((L, i) => layer(`inset(${L[0] * 100}% ${(1 - (L[2] + prog[i] * (L[3] - L[2]))) * 100}% ${(1 - L[1]) * 100}% 0)`, i))
+          : layer(`inset(0 ${(1 - k) * 100}% 0 0)`)}
+      </div>
+    </div>
+  );
+};
+
+// a glowing line drawn along a path in image coordinates (e.g. the river on the book map)
+const Route: React.FC<{ w: number; h: number; k: number; pts: number[][] }> = ({ w, h, k, pts }) => {
+  const P = pts.map(([x, y]) => [x * w, y * h]);
+  let d = `M ${P[0][0]} ${P[0][1]}`;
+  for (let i = 0; i < P.length - 1; i++) { // Catmull-Rom -> cubic Bezier
+    const p0 = P[Math.max(0, i - 1)], p1 = P[i], p2 = P[i + 1], p3 = P[Math.min(P.length - 1, i + 2)];
+    d += ` C ${p1[0] + (p2[0] - p0[0]) / 6} ${p1[1] + (p2[1] - p0[1]) / 6} ${p2[0] - (p3[0] - p1[0]) / 6} ${p2[1] - (p3[1] - p1[1]) / 6} ${p2[0]} ${p2[1]}`;
+  }
+  return (
+    <svg width={w} height={h} style={{ position: "absolute", left: 0, top: 0, overflow: "visible", filter: "drop-shadow(0 0 6px rgba(150,230,255,.9))" }}>
+      <path d={d} pathLength={1} fill="none" stroke="rgba(205,245,255,.95)" strokeWidth={w * 0.0032} strokeLinecap="round" strokeLinejoin="round"
+        strokeDasharray="1 1" strokeDashoffset={1 - k} />
+    </svg>
+  );
+};
 
 // ---------- particles ----------
 const Particles: React.FC<{ t: number; kind: string; n?: number; at?: number }> = ({ t, kind, n, at = 0 }) => {
