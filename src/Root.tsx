@@ -23,6 +23,7 @@ import { DinoLongEn, DINO_EN_FPS, DINO_EN_FRAMES, DINO_EN_ALL } from "./dino-en/
 import { DinoShort, SHORTS, SHORT_FPS } from "./dino-en/Short";
 import { P2Pilot, P2_FPS, P2_PILOT_FRAMES } from "./dino-p2/Pilot";
 import { DinoP2, P2_FPS_V, P2_FRAMES, P2_ALL } from "./dino-p2/Video";
+import { DinoP3, P3_FPS_V, P3_FRAMES, P3_ALL } from "./dino-p3/Video";
 
 // Every video = one <Composition>. The style demos below are the reference films / starter templates (see STYLES.md).
 // They play silent: the films’ narration, music and effects are not shipped — each style’s pipeline/ folder says how to make yours.
@@ -77,6 +78,8 @@ export const RemotionRoot: React.FC = () => {
           <Composition id="P2-Pilot" component={P2Pilot} durationInFrames={P2_PILOT_FRAMES} fps={P2_FPS} width={1920} height={1080} />
           <Composition id="DinoP2" component={DinoP2} durationInFrames={P2_FRAMES} fps={P2_FPS_V} width={1920} height={1080} />
       <Composition id="DinoP2-All" component={DinoP2} durationInFrames={P2_ALL.length} fps={P2_FPS_V} width={1920} height={1080} defaultProps={{ times: P2_ALL }} />
+          <Composition id="DinoP3" component={DinoP3} durationInFrames={P3_FRAMES} fps={P3_FPS_V} width={1920} height={1080} />
+      <Composition id="DinoP3-All" component={DinoP3} durationInFrames={P3_ALL.length} fps={P3_FPS_V} width={1920} height={1080} defaultProps={{ times: P3_ALL }} />
     </>
   );
 };
