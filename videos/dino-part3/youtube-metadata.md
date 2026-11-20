@@ -19,16 +19,16 @@ Part 1, "Dinosaurs Have 10 Days Left. So Do You.": [link to Part 1]
 Part 2, "The Asteroid Hit 40 Days Ago. You Have 7 Days of Food.": [link to Part 2]
 
 0:00 The Shape Under the Ice
-0:45 The Cold Comes After
-1:51 The Book
-3:34 Meanwhile
-4:40 Learn to See
-6:32 How Long?
-7:53 Go Deeper
-9:28 Get Ready
-11:48 The Dream
-13:07 The Handwriting
-14:06 Gone East
+0:13 The Cold Comes After
+1:19 The Book
+3:02 Meanwhile
+4:08 Learn to See
+6:00 How Long?
+7:21 Go Deeper
+8:56 Get Ready
+11:16 The Dream
+12:35 The Handwriting
+13:34 Gone East
 
 Some of the science behind the story:
 • After the Chicxulub impact, soot and dust blocked the sun for months to years ("impact winter"). Rivers froze and plants stopped growing.
