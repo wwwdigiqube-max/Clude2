@@ -25,6 +25,9 @@ RIVER = [[.175 + px / 2576, .455 + py / 1438] for px, py in [(0, 200), (25, 140)
          (655, 126), (676, 105), (668, 65), (690, 36), (740, 32), (800, 32), (850, 46), (872, 82), (884, 124), (920, 150), (955, 172),
          (975, 200), (995, 236)]]
 
+B001 = dict(x=.487, y=.63, dx=1.0, dy=-.35)   # breath from the mouth, image coordinates
+B067 = dict(x=.43, y=.265, dx=.5, dy=-.6)
+
 def mood_at(t):
     for x in TL:
         if x["t"] - 0.6 <= t <= x["t"] + x["dur"]: return x["mood"]
@@ -35,16 +38,16 @@ def p(i, img, x=0.5, y=0.5, z=1.0, **kw): P[str(i)] = dict(img=img, f=(x, y, z),
 Q4, Q3, Q5, Q7, Q8, Q6, Q1, T1 = "a:Q4-frozen-river.jpeg", "a:Q3-turtle-sheet.jpeg", "a:Q5-chamber-chimney.jpeg", "a:Q7-book-map.jpeg", "a:Q8-museum-backroom.jpeg", "a:Q6-tinder-fungus.jpeg", "a:Q1-hero-journey.jpeg", "b:T1-tunnel-section.jpg"
 
 # 0 · The Shape Under the Ice
-p(1, "p:001", par="001", fx=["snow"], tr="fade"); p(2, "p:001", .3, .82, 2.4, fx=["snow"])
+p(1, "p:001", par="001", fx=["snow"], tr="fade", breath=B001); p(2, "p:001", .3, .82, 2.4, fx=["snow"])
 p(3, "p:003", .5, .55, 1.1); p(4, "p:003", .5, .62, 1.8); p(5, "p:005", .45, .6, 1.15, fx=["snow"])
-p(6, "e:079", grade="memory"); p(7, "p:003", .48, .6, 1.5); p(8, "p:001", .47, .52, 2.8, fx=["snow"])
-p(9, "k:009", clip=(0.0, 1.0), fx=["snow"], hits=[0.2], punch=True); p(10, "k:009", clip=(1.0, 7.9), fx=["snow"], card=("title", "AFTER THE ASTEROID · PART 3"), cardat=0.9)
+p(6, "e:079", grade="memory"); p(7, "p:003", .48, .6, 1.5); p(8, "p:001", .47, .52, 2.8, fx=["snow"], breath=B001)
+p(9, "k:009", clip=(0.0, 1.0), fx=["snow"], hits=[0.2], punch=True); p(10, "k:009", clip=(1.0, 2.3), fx=["snow"], then=[(1.3, "p:010", .5, .5, 1.0, dict(fx=["snow"], card=("title", "AFTER THE ASTEROID · PART 3"), cardat=0.4))])
 # 1 · The Cold Comes After
 p(11, Q4, .5, .5, 1.05, fx=["snow"], card=("bigcard", "FIVE DAYS EARLIER", None)); p(12, "D10i"); p(13, "e:234", fx=["ash"]); p(14, "D11a", fx=["ash"])
 p(15, Q4, .5, .5, 1.1, fx=["snow"], card=("bigcard", "IMPACT WINTER", "the sun is up there. it just can't get through.")); p(16, "q:103", fx=["snow"])
 p(17, Q4, .4, .75, 1.8, fx=["snow"]); p(18, Q4, fx=["snow"]); p(19, "p:019", .5, .6, 1.05); p(20, "p:019", .5, .82, 2.0)
 p(21, Q4, .25, .6, 1.6, fx=["snow"]); p(22, "p:022", fx=["snow"]); p(23, "p:022", .5, .5, 2.0, card=("bigcard", "REAL", "alligators do this today, in frozen swamps"))
-p(24, "p:024", fx=["snow"]); p(25, "p:025", fx=["snow"]); p(26, "p:025", .62, .75, 2.4, fx=["snow"]); p(27, "p:019", .5, .7, 1.3)
+p(24, "p:024", fx=["snow"]); p(25, "p:025", fx=["snow"], breath=dict(x=.66, y=.52, dx=.4, dy=-.5)); p(26, "p:025", .62, .75, 2.4, fx=["snow"]); p(27, "p:019", .5, .7, 1.3)
 p(28, "p:019", .5, .82, 2.4); p(29, "p:025", .6, .72, 2.0, fx=["snow"]); p(30, "q:146b", .43, .65, 2.4, fx=["flicker"])
 # 2 · The Book
 p(31, "p:031", fx=["flicker"], tr="fade"); p(32, "p:031", .66, .72, 2.4, fx=["flicker"]); p(33, "p:033", fx=["flicker"]); p(34, "p:031", .5, .55, 1.25)
@@ -57,18 +60,18 @@ p(51, Q8, tr="fade"); p(52, Q8, .63, .6, 2.2); p(53, "p:053"); p(54, "q:157"); p
 p(56, "q:159", .5, .45, 1.2); p(57, "q:159", .47, .4, 1.6, hand=dict(x=.47, y=.4, ww=.5, rot=-14, at=0.2, dur=1.4, color="rgba(28,18,10,.85)", **MOM_INK))
 p(58, "q:122", grade="memory"); p(59, Q8, .38, .35, 2.8); p(60, Q8, .5, .5, 1.05); p(61, "p:061"); p(62, "p:062")
 # 4 · Learn to See
-p(63, "p:001", .5, .55, 1.15, fx=["snow"], tr="fade"); p(64, "p:003", .5, .6, 1.6)
+p(63, "p:001", .5, .55, 1.15, fx=["snow"], tr="fade", breath=B001); p(64, "p:003", .5, .6, 1.6)
 p(65, "p:003", .5, .55, 1.1, card=("bigcard", "WATER BENDS LIGHT", "the fish is deeper than it looks"))
-p(66, "p:001", .47, .52, 2.4, fx=["snow"]); p(67, "p:067", fx=["snow"], then=[(3.4, "p:067", .38, .82, 2.4, dict(fx=["snow"])), (7.4, "p:067", .35, .4, 2.2, dict(fx=["snow"]))]); p(68, "p:003", .5, .62, 1.4); p(69, "p:005", .38, .7, 2.0, fx=["snow"])
+p(66, "p:001", .47, .52, 2.4, fx=["snow"], breath=B001); p(67, "p:067", fx=["snow"], breath=B067, then=[(3.4, "p:067", .38, .82, 2.4, dict(fx=["snow"])), (7.4, "p:067", .35, .4, 2.2, dict(fx=["snow"], breath=B067))]); p(68, "p:003", .5, .62, 1.4); p(69, "p:005", .38, .7, 2.0, fx=["snow"])
 p(70, "k:070", clip=(0.3, 7.9), fx=["snow"], hits=[0.25]); p(71, "p:071", fx=["snow"]); p(72, "p:072", fx=["flicker"]); p(73, "p:073", par="073", fx=["flicker"])
-p(74, "p:073", .76, .8, 2.4, fx=["flicker"]); p(75, Q4, .25, .65, 1.6, fx=["snow"]); p(76, "p:076", fx=["snow"]); p(77, "p:076", .72, .78, 2.6, fx=["snow"])
+p(74, "p:073", .76, .8, 2.4, fx=["flicker"]); p(75, Q4, .25, .65, 1.6, fx=["snow"]); p(76, "p:076", fx=["snow"], breath=dict(x=.54, y=.435, dx=.7, dy=-.3)); p(77, "p:076", .72, .78, 2.6, fx=["snow"])
 p(78, Q3, .3, .75, 2.4); p(79, "p:076", .7, .76, 2.0, fx=["snow"]); p(80, "p:080", fx=["flicker"]); p(81, Q3, .58, .72, 2.0)
 p(82, "p:080", .32, .45, 2.6, fx=["flicker"]); p(83, "q:086", .82, .35, 2.0, fx=["flicker"], rewrite=("MEAT ?", "FOUND ✓"))
 p(84, "p:070", .5, .5, 1.1, card=("rule", "RULE 5: LEARN FROM THE ONES WHO MADE IT", None, True))
 # 5 · How Long?
 p(85, "p:073", .68, .4, 2.2, fx=["flicker"], tr="fade"); p(86, "q:153"); p(87, T1); p(88, Q7); p(89, Q7, .55, .45, 1.8); p(90, Q7, .37, .55, 1.6, route=dict(pts=RIVER, at=0.6, dur=4.2))
 p(91, "p:091", grade="memory"); p(92, "p:091", .38, .25, 2.6, grade="memory"); p(93, "p:093"); p(94, "p:036", .72, .38, 2.4, fx=["flicker"])
-p(95, Q4, fx=["snow"]); p(96, "p:096", fx=["snow"]); p(97, "p:097", fx=["snow"]); p(98, "p:097", .55, .32, 2.2, fx=["snow"])
+p(95, Q4, fx=["snow"]); p(96, "cut:bg-096c.jpg", fx=["snow"], reveal=dict(img="p:096", cx=.47, cy=.73, at=0.45, dur=0.7, r=0.75), hits=[0.45]); p(97, "p:097", fx=["snow"]); p(98, "p:097", .55, .32, 2.2, fx=["snow"])
 # 6 · Go Deeper
 p(99, "q:147", fx=["snow"], tr="fade"); p(100, "p:100"); p(101, "q:129", .88, .4, 2.0, grade="colder"); p(102, T1)
 p(103, T1, .5, .5, 1.1, card=("bigcard", "DEEPER = WARMER", "below the frozen layer, the ground holds its heat")); p(104, "q:058")
@@ -82,7 +85,7 @@ p(117, "p:070", .55, .4, 1.6, fx=["snow"]); p(118, "p:118", fx=["snow"]); p(119,
 p(121, Q3, .5, .7, 2.2); p(122, "p:122", grade="memory"); p(123, "p:122", .5, .35, 2.2, grade="memory")
 p(124, Q6, .5, .5, 1.1, card=("bigcard", "ÖTZI · 5,300 YEARS AGO", "he still carried fire in a fungus like this")); p(125, Q6); p(126, Q3, .68, .72, 2.2)
 p(127, "p:127"); p(128, "p:128", fx=["flicker"]); p(129, "p:129", fx=["flicker"]); p(130, Q1, .34, .5, 1.45)
-p(131, "p:131", fx=["snow"], hits=[0.3])
+p(131, "p:131", fx=["snow"], hits=[0.3], puff=dict(x=.55, y=.86, at=0.3))
 p(132, "q:086", .6, .45, 1.15, checklist=("THE RIVER", [("fish for 2 weeks", "tick"), ("water", "tick"), ("carry the fire", "tick"), ("warm arms", "tick"), ("thick ice", "tick"), ("the book", "tick"), ("the spear", "tick")]))
 p(133, "p:133", par="133", fx=["flicker"]); p(134, "p:133", .57, .43, 2.8, fx=["flicker"]); p(135, "p:133", .57, .42, 3.6, fx=["flicker"]); p(136, "p:133", .5, .2, 2.0, fx=["flicker"])
 # 8 · The Dream
@@ -131,6 +134,9 @@ for k, (r, d, s, e) in enumerate(segs):
     sh = dict(n=k, id=r["id"], s=round(s, 3), e=round(e, 3), img=d["img"], cam=[round(v, 4) for v in cam], fx=[], hits=[])
     for h in d.get("hits", []): sh["hits"].append(round(s + h, 3))
     if d.get("clip"): sh["in"] = list(d["clip"])
+    if d.get("breath"): sh["breath"] = d["breath"]
+    if d.get("puff"): sh["puff"] = dict(d["puff"], at=round(s + d["puff"]["at"], 3))
+    if d.get("reveal"): sh["reveal"] = dict(d["reveal"], at=round(s + d["reveal"]["at"], 3))
     if d.get("route"): sh["route"] = dict(d["route"], at=round(s + d["route"]["at"], 3))
     for key in ("grade", "tr", "punch"):
         if d.get(key): sh[key] = d[key]

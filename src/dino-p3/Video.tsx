@@ -66,6 +66,13 @@ const Camera: React.FC<{ shot: Shot; t: number; children: React.ReactNode }> = (
       {children}
       {screen && <PhoneScreen w={w} h={h} lines={screen.lines} />}
       {shot.scar && <ScarLine w={w} h={h} k={k01(now, shot.scar.at, 1.4)} pulse={now - shot.scar.at} {...shot.scar} />}
+      {shot.reveal && (() => { // the cracked picture spreads out from the impact point over a crack-free base
+        const q = ease(k01(now, shot.reveal.at, shot.reveal.dur)), R = q * shot.reveal.r * 100;
+        const m = `radial-gradient(ellipse at ${shot.reveal.cx * 100}% ${shot.reveal.cy * 100}%, #000 ${R}%, transparent ${R + 4}%)`;
+        return q > 0 ? <Img src={src(shot.reveal.img)} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", WebkitMaskImage: m, maskImage: m }} /> : null;
+      })()}
+      {shot.breath && <Breath w={w} h={h} now={now} s={shot.s} {...shot.breath} />}
+      {shot.puff && <Puff w={w} h={h} now={now} {...shot.puff} />}
       {shot.route && <Route w={w} h={h} k={k01(now, shot.route.at, shot.route.dur)} pts={shot.route.pts} />}
       {shot.hand && <Hand w={w} h={h} k={k01(now, shot.hand.at, shot.hand.dur ?? 1.6)} {...shot.hand} />}
       {shot.hand?.mover && (() => {
@@ -188,6 +195,33 @@ const Hand: React.FC<{ w: number; h: number; k: number; x: number; y: number; ww
       </div>
     </div>
   );
+};
+
+// breath vapour in the cold: a soft puff from the mouth every few seconds (image coordinates)
+const Breath: React.FC<{ w: number; h: number; now: number; s: number; x: number; y: number; dx: number; dy: number; size?: number; period?: number }> =
+  ({ w, h, now, s, x, y, dx, dy, size = 0.042, period = 2.9 }) => {
+  const t = now - s - 0.4; if (t < 0) return null;
+  const n = Math.floor(t / period), u = (t - n * period) / 1.7; // each puff lives 1.7 s
+  if (u > 1) return null;
+  const j = random(`br${s}${n}`) * 0.4 + 0.8;
+  return (<>{[0, 1].map((i) => {
+    const v = Math.max(0, u - i * 0.12), op = Math.sin(Math.min(1, v) * Math.PI) * (i ? 0.42 : 0.62);
+    const r = size * w * j * (0.5 + v * 1.6);
+    return <div key={i} style={{ position: "absolute", left: x * w + dx * w * 0.08 * v - r, top: y * h + dy * w * 0.08 * v - r * 0.7,
+      width: 2 * r, height: 1.4 * r, borderRadius: "50%", opacity: op, filter: `blur(${r * 0.25}px)`,
+      background: "radial-gradient(ellipse, rgba(240,245,250,.95) 0%, rgba(230,238,245,.55) 45%, rgba(230,238,245,0) 72%)" }} />;
+  })}</>);
+};
+// a burst of powder snow kicked up at an impact point (no crack)
+const Puff: React.FC<{ w: number; h: number; now: number; x: number; y: number; at: number }> = ({ w, h, now, x, y, at }) => {
+  const t = now - at; if (t < 0 || t > 1.4) return null;
+  return (<>{Array.from({ length: 14 }, (_, i) => {
+    const a = (random(`pf${i}`) - 0.5) * Math.PI * 0.9, sp = 0.05 + random(`ps${i}`) * 0.09, side = i % 2 ? 1 : -1;
+    const px = x * w + side * Math.cos(a) * sp * w * Math.min(1, t * 2.5), py = y * h - Math.abs(Math.sin(a)) * sp * h * 1.2 * Math.min(1, t * 3) + t * t * 0.05 * h;
+    const r = (0.006 + random(`pr${i}`) * 0.012) * w * (1 + t);
+    return <div key={i} style={{ position: "absolute", left: px - r, top: py - r, width: 2 * r, height: 2 * r, borderRadius: "50%",
+      opacity: Math.max(0, 0.8 - t * 0.6), filter: `blur(${r * 0.35}px)`, background: "rgba(235,240,245,.9)" }} />;
+  })}</>);
 };
 
 // a glowing line drawn along a path in image coordinates (e.g. the river on the book map)
