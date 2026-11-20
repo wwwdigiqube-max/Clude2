@@ -7,7 +7,7 @@ TL = [x for x in json.load(open(os.path.join(H, "../voice/timeline.json"))) if "
 TAGS = [x for x in json.load(open(os.path.join(H, "../voice/timeline.json"))) if "tag" in x]
 TAIL = 6.0
 MOM_INK = dict(ink="dino-p2/human/mom-i-survived-ink.png", ar="1138 / 226")
-GONE_INK = dict(ink="dino-p3/human/gone-day88-ink.png", ar="654 / 520")
+GONE_INK = dict(ink="dino-p3/human/gone-east-day88-ink.png", ar="654 / 714")
 
 def mood_at(t):
     for x in TL:
@@ -81,8 +81,8 @@ p(163, "q:159", .32, .4, 2.6, hand=dict(x=.47, y=.4, ww=.5, rot=-14, at=-9, dur=
 p(165, "p:162", .5, .45, 1.5)
 p(166, "p:166", par="166", day="DAY 88", tr="fade"); p(167, "p:166", .44, .65, 2.2); p(168, "p:166", .47, .55, 2.8); p(169, "p:169", par="169")
 p(170, T1); p(171, "e:117", grade="memory"); p(172, "e:211", grade="memory"); p(173, "e:183", grade="memory"); p(174, "e:239", grade="memory")
-p(175, "p:169", .6, .4, 2.2); p(176, "p:176", hand=dict(x=.76, y=.64, ww=.22, rot=-4, at=1.2, dur=2.4, color="rgba(18,14,10,.88)", **GONE_INK))
-p(177, "p:176", .7, .58, 1.8, hand=dict(x=.76, y=.64, ww=.22, rot=-4, at=-9, dur=0.1, color="rgba(18,14,10,.88)", **GONE_INK))
+p(175, "p:169", .6, .4, 2.2); p(176, "p:176", hand=dict(x=.76, y=.68, ww=.2, rot=-4, at=1.2, dur=2.4, color="rgba(18,14,10,.88)", **GONE_INK))
+p(177, "p:176", .7, .62, 1.7, hand=dict(x=.76, y=.68, ww=.2, rot=-4, at=-9, dur=0.1, color="rgba(18,14,10,.88)", **GONE_INK))
 p(178, "p:169", .42, .35, 2.6); p(179, "p:179", par="179", fx=["snow"]); p(180, "p:180", fx=["snow"]); p(181, "p:180", .67, .48, 2.6, fx=["snow"])
 p(182, "p:180", .6, .5, 1.05, fx=["snow"], cta=True); p(183, "p:180", .6, .5, 1.2, fx=["snow"], endcard=True)
 
