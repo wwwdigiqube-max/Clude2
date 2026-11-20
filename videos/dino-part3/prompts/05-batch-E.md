@@ -25,6 +25,7 @@ RULES FOR EVERY FRAME:
 - Every character, animal, place and object must look exactly like its reference. Do not invent new characters.
 - Never draw scars, wounds or a light bandage on the young man's arms.
 - His headlamp is always switched off: its lens is dark.
+- EYES: every stick-figure person has only two kinds of eyes. Normally: small solid black ovals with no white, no iris and no pupil (lids and brows show the mood). Only in a moment of fear or shock: big round white eyes with one small black dot. Never realistic human eyes with a coloured iris, never cartoon eyes with highlights.
 - Inside the tunnel he can only sit, kneel, lie or crawl, never stand; the tunnel door is always one single flat stone slab in a frame of stacked flat stones.
 - Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.
 - Name each image exactly with its frame code: p3-053, p3-055, p3-061, p3-062, p3-141, p3-151, p3-154, p3-156, p3-160, p3-162.

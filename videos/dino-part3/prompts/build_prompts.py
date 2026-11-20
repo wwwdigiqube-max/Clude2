@@ -220,6 +220,7 @@ for i, k in enumerate("ABCDEFG", 1):
              "Every character, animal, place and object must look exactly like its reference. Do not invent new characters.",
              "Never draw scars, wounds or a light bandage on the young man's arms.",
              "His headlamp is always switched off: its lens is dark.",
+             "EYES: every stick-figure person has only two kinds of eyes. Normally: small solid black ovals with no white, no iris and no pupil (lids and brows show the mood). Only in a moment of fear or shock: big round white eyes with one small black dot. Never realistic human eyes with a coloured iris, never cartoon eyes with highlights.",
              "Inside the tunnel he can only sit, kneel, lie or crawl, never stand; the tunnel door is always one single flat stone slab in a frame of stacked flat stones.",
              "Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.",
              f"Name each image exactly with its frame code: {names}.",

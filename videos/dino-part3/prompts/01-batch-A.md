@@ -25,6 +25,7 @@ RULES FOR EVERY FRAME:
 - In every frame of this batch his jacket sleeves are torn off at mid-forearm and his forearms are bare solid black. He wears NO BACKPACK at all (the backpack stays at the back of the tunnel), unless a frame says he is holding or packing it.
 - Never draw scars, wounds or a light bandage on the young man's arms.
 - His headlamp is always switched off: its lens is dark.
+- EYES: every stick-figure person has only two kinds of eyes. Normally: small solid black ovals with no white, no iris and no pupil (lids and brows show the mood). Only in a moment of fear or shock: big round white eyes with one small black dot. Never realistic human eyes with a coloured iris, never cartoon eyes with highlights.
 - Inside the tunnel he can only sit, kneel, lie or crawl, never stand; the tunnel door is always one single flat stone slab in a frame of stacked flat stones.
 - Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.
 - Name each image exactly with its frame code: p3-001, p3-003, p3-005, p3-009, p3-010, p3-019, p3-022, p3-024, p3-025, p3-070.
