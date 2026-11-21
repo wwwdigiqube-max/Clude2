@@ -24,7 +24,9 @@ RULES FOR EVERY FRAME:
 - Every dead dinosaur is half-skeletal exactly like its reference: the front half (head, neck, front legs) has frozen grey skin; from the hips back only old, dry, grey-brown bones. No blood, no red flesh, no gore.
 - Whenever the young man appears, both forearms are wrapped exactly as in HERO3: dark charcoal crossed strips with tufts of fern fluff. Never bare, never a light bandage, never scars.
 - His headlamp is always switched off: its lens is dark.
-- Every place on his journey is new and open: there is NO tunnel, NO stone door, NO stacked stones and NO huge tree with roots anywhere in his frames.
+- Every place on his journey is new and open: there is NO tunnel, NO stone door, NO stacked stones and NO huge tree with roots anywhere in his frames. Inside the snow den the roof is the flat underside of the grey rock shelf and packed snow, never roots.
+- The fire shell is always a brown turtle shell closed with a rounded lump of dried grey clay, tied with a cord, a thin orange glow at the clay edge. Never an orange ball, a canteen or a gourd. It smoulders; it has no tall flame.
+- In close-ups of his hands, never draw a dark silhouette face or a nose; if any part of his head is in frame, it is the round off-white head.
 - EYES: every stick-figure person has only two kinds of eyes. Normally: small solid black ovals with no white, no iris and no pupil (lids and brows show the mood). Only in a moment of fear or shock: big round white eyes with one small black dot. Never realistic human eyes, never cartoon eyes with highlights.
 - Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.
 - Name each image exactly with its frame code: p4-088, p4-089, p4-092, p4-095, p4-096, p4-098, p4-100.

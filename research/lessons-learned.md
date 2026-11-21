@@ -133,3 +133,10 @@
 - پیوستِ «سبک» اگه نشونه‌ی یه مکان قدیمی رو داشته باشه (تونل، در سنگی، درخت بزرگ)، مدل همون رو توی مکان تازه هم می‌کشه. قسمت ۴: تریسراتوپس و دریا هر دو با در تونل و درخت ساخته شدن.
 - قانون: برای هر مکان تازه‌ی مسیر یه **شیت مکان** بساز. **مرجع سبک** یه عکس تمیز و بی‌نشونه باشه (اینجا `U4`). توی پرامپت صریح بگو: «no tunnel, no stone door, no stacked stones, no huge tree with roots».
 - لاشه‌ی دایناسور بعد از ماه‌ها: **نیمه‌اسکلت** (نصف جلو پوست یخ‌زده، نصف عقب استخون)، بی‌خون. کاربر «کامل و سالم» رو اغراق دونست.
+
+## Part 4 · batch A frame audit (lessons)
+- The model drew **tree roots in the snow-den roof** even with "no huge tree with roots" in the rules. Now the rule says what the roof IS: the underside of the rock shelf and packed snow.
+- **Fire shell drawn as an orange ball / canteen** at the hip when it was small in frame. Rule now describes it exactly (brown turtle shell, grey clay lump, cord, thin glow) and forbids ball/canteen/gourd. For fixes, attach a single cropped fire-shell image (`uploads/dino-part4/edit-refs/fire-shell.jpg`), not the 3-object Q3 sheet.
+- **Close-up of hands produced a black silhouette face with a nose** at the frame edge. New rule: no silhouette face in hand close-ups.
+- **The book map was re-invented** (fantasy map with readable words) instead of copying Q7. For inserts of an existing asset, Edit the asset itself instead of generating new.
+- Mate came out **white without the chest drop** again when she was small; hands came out **white and bony** once. Both are in RULES; check them first in every audit.
