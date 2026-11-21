@@ -7,20 +7,20 @@
 - **Gone:** bone shovel (buried, Part 2) · pen (dry) · phone (dead) · headlamp (dead, frozen glass) · the tunnel (door slab closed from outside, "GONE EAST. DAY 88" in charcoal on the wall).
 - **Body:** thin; both sleeves torn at mid-forearm; forearms wrapped wrist to elbow (dark cloth + fern fluff); no scar.
 - **Pip** + **mate** (ash-grey, white chest drop): one in each jacket pocket.
-- **Present:** Mom knows the handwriting; the old woman holds the bone in the back room; the museum T. rex = the scarred T. rex that died at the tunnel door (Part 1) and was buried in river mud.
+- **Present:** Mom knows the handwriting (Part 3 §9, after telling the old woman the dream that morning); the old woman holds the bone in the back room; the museum T. rex = the scarred T. rex that died at the tunnel door (Part 1), buried in river mud, **dug up 30 years ago by Dad (Daniel) and the old woman together** at Dad's old dig site in **North Dakota** (Part 2); Mom knows it is Daniel's rex (photo: the boy at five on Dad's shoulders in front of it). The bone was buried at the crocodile's pool below the tunnel (Part 2) → found **fifty steps** from the rex quarry. The friends visit the museum every week and stand where he filmed the class-trip video (Part 2).
 
 ## Timeline (v4)
 | Past (after) | Present (missing) | Where | What |
 |---|---|---|---|
 | 88 morning–dusk | — | frozen river → bank | leaves; rule 6; Edmontosaurus (beetles); Triceratops (frozen whole); runs; rock shelf + snow den; wood; fire at den mouth; inventory; ice sings at night (hook) |
-| — | 98 night | museum back room | Mom tells the old woman the dream; fossil burrows |
-| — | 99 | museum | friends + class-trip video; scarred T. rex; old woman dug it 30 yrs ago, 2 km from the bone; drive that evening |
+| — | 98 night | museum back room | Dad's field map: rex quarry + bone 50 steps apart; "Was there a tree?"; fossil burrows (dream NOT retold) |
+| — | 99 | museum | friends' weekly visit; Mom asks for the class-trip video; drive through the night to North Dakota |
 | 89 | — | narrows | dark ice (test with spear butt); detour through the forest; frozen herd; first live bird; stops early |
 | 91 | — | river, east wind | fire shell nearly dies; saved with arm fluff |
-| — | 100 | badlands | T. rex post, bone square; Mom sees the stone roots from her dream |
+| — | 100 | ND badlands (winter) | rex post at the foot of the root cliff; bone square 50 steps on; Mom sees the stone roots |
 | 93–103 | — | river widening | food clock; mate's belly rounder; last fish day 101; beetles 102; salt smell 103 |
 | 104 | — | the sea | open, steaming water; fern; "Night, Mom" |
-| — | 114 | badlands cliff | after two weeks: a flat straight edge under the stone roots ("like a door") |
+| — | 114 (Saturday) | same cliff | two weeks in a motel; no digging without a permit; a warm wind thaws and washes the cliff; a flat straight edge under the roots |
 
 ## Food clock (checked)
 Plan: ½ fish at noon every day + 1 whole fish every second night (from night 88).
@@ -31,11 +31,13 @@ Plan: ½ fish at noon every day + 1 whole fish every second night (from night 88
 | 92 | … | 8½ |
 | 94 | … | 6½ |
 | 96 | … | **4½** ✓ narration |
-| 98 | … | **2½** ✓ narration; from here grubs at noon |
-| 100 | 1 | 1½ |
-| 101 | last 1½ | 0 ✓ "the last fish" |
-| 102 | beetles | — |
-| 103 | nothing counted | — |
+| 98 | ½ + 1 | 2½ |
+| 99 | grubs at noon (from here) | 2½ |
+| 100 | 1 at night | **1½** ✓ card |
+| 101 | grubs; the sum; turns back, then on | 1½ |
+| 102 | beetles at noon, 1 at night | ½ |
+| 103 | the last ½ | 0 |
+| 104 | the sea: clams | — |
 
 ## Facts used (all real)
 - Snow caves can be ~20 °C warmer than outside air (REAL card).
@@ -60,3 +62,6 @@ Plan: ½ fish at noon every day + 1 whole fish every second night (from night 88
 ## Open for the user
 - Length: about **2,550 words ≈ 16.5–17 min**. Part 3 is 15:36. Possible trims if wanted: the night routine in section 2, section 5.
 - Fresh-eyes reader (station 1b): waiting for approval.
+
+## Audit round 2 (fresh-eyes 2 + continuity vs Parts 1–3) — applied
+Dream not retold (Part 3 §9) · rex dug by Dad + the old woman, ND, bone 50 steps away, rex post at the root cliff · friends' weekly museum visit · Dad's exact line (Part 3 §5): "The sea is slow. It takes forever to cool down. That's why winters are kinder by the water." · tunnel food "just enough" (Part 2 grub log, Part 3 fishing) · "out here, nothing was left to eat the dead" (Part 2: the dead ran out near the tunnel) · water from river ice (ashy snow, Parts 2–3) · ice test with the spear only (Part 3 stamped) · packed for two weeks (Part 3 list) · winter at the site (Part 2: last dig of the season) · last green fern months ago (Part 2 §1) · "months, maybe years" (Part 1) · clay lid · "Night, Mom" every night · first bird since the dark (Part 1 ending: birds sang) · spear-testing at the sea.
