@@ -128,7 +128,7 @@ new("C", 48, ["HERO3", "DEN_OUT", "SHELLS", "PIP", "MATE"], "A medium shot at gr
     "Kneeling just outside the den mouth (DEN_OUT), he has lifted the clay lid of the fire shell and blows gently on a pinch of pale fern fluff with glowing fungus in it, laid in a small nest of black twigs; a first small flame. His backpack lies beside him. Pip (PIP) and his mate (MATE) peek out of his jacket pockets toward his collar.",
     "Place: the mouth of DEN_OUT.", "Dark; the small flame lights his face.", "His face, the flame and the two animals are each croppable. One person, two animals.")
 new("C", 53, ["SHELLS", "DEN_OUT"], "An extreme close-up insert, 50mm lens.",
-    "A frozen grey fish, stiff as wood, lies on a flat stone pushed into the coals of the small fire; beside the fire stands the water shell (the open shell bowl from SHELLS) full of clear chunks of river ice starting to melt.",
+    "Two pieces of fish cook side by side on a flat stone pushed into the coals of the small fire: a whole grey fish, still frosted and stiff as wood, and a half fish for tomorrow, its skin already browning; beside the fire stands the water shell (the open shell bowl from SHELLS) full of clear chunks of river ice starting to melt.",
     "Place: the fire outside DEN_OUT.", "Warm firelight against blue night snow.", "The fish and the water shell are each croppable. No people.")
 new("C", 55, ["HERO3", "SHELLS"], "An extreme close-up insert, 50mm lens.",
     "His black hands, forearms in the dark crossed wraps, place one glowing red coal and a fresh slice of tinder fungus into the fire shell; its lid of dried grey clay rests on his knee, ready to close.",

@@ -42,7 +42,7 @@ So before the light goes, you need a roof. Whatever you find. Wherever you are.
 [RULE 6: BE UNDER A ROOF BEFORE DARK]
 
 ## 2 · The Ones Who Didn't Make It
-At midday, half a fish, thawed soft from riding under your jacket all morning. Half. That's the plan.
+At midday, half a fish, cooked on last night's fire and kept soft under your jacket all morning. Half. That's the plan.
 Then something dark lies across the ice ahead.
 Near the tunnel, the hunters ate the dead until the dead ran out. Out here, only small things have been eating them, a little at a time.
 A duck-billed dinosaur, as long as a bus. It died at the water's edge in the first weeks of the dark, and when the river froze, the ice closed around it. From the hips back, small things have picked it down to the bones.
@@ -82,7 +82,7 @@ You made it. Just.
 Before you sleep, you count. Every night, from now on.
 [LIST: THE JOURNEY · frozen fish: 13½ · dried grubs: two handfuls · white fungus: a few pieces · beetles: one pouch · water: 1 shell · fire: alive · feet: sore]
 Fourteen fish when you left. Half a fish a day on the move, a whole one every second night. Tonight is a whole one.
-It's frozen as hard as wood. You thaw it on a stone hot from the fire, the way you cooked your first catch. River ice melts in the water shell beside it. River ice is cleaner than the ashy snow. And you never chew ice. It steals your heat.
+It's frozen as hard as wood. You thaw it on a stone hot from the fire, the way you cooked your first catch. Tomorrow's half cooks beside it. River ice melts in the water shell beside it. River ice is cleaner than the ashy snow. And you never chew ice. It steals your heat.
 A fresh piece of fungus and a glowing coal go into the fire shell. Tomorrow's fire, packed.
 Then your boots come off. You rub your feet until they hurt. Hurting is good. Numb is bad.
 And the last thing, every night: "Night, Mom."

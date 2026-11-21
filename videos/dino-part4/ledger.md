@@ -68,3 +68,6 @@ Dream not retold (Part 3 §9) · rex dug by Dad + the old woman, ND, bone 50 ste
 
 ## Final round (fresh-eyes 3 + continuity 3) — applied → script-*-FINAL.md (v9), ~17.9 min narration
 Turnaround: going back = 13 days on 1½ fish ("you wouldn't make it halfway") · "under your roof before the last light goes" · "first open water since the river froze" (river froze ~day 65, Part 3) · one line on why he left in §1 · rex quarry on the pale stripe right below the roots; the dig stopped at a wall of stones; the cliff has worn back 30 years · the old woman doesn't know about a tree · "never chew ice" · bone on the pale stripe (Part 3 §3) · Dad said it once (Part 3 §5) · fish are frozen, not dried (Part 3 §7 snow freezer) · beetles in a cloth pouch (pockets = mice) · white fungus in the list · friends after school · "until the dead ran out" (Part 2 §1) · Pip's mate in the hook and at the sea.
+
+## Frame audit batch A (user note) — applied
+The noon half fish is **cooked the night before** (raw fish was a plot hole): §2 midday line and §3 "Tomorrow's half cooks beside it." Frames p4-024 (cooked look) and p4-053 (two pieces on the stone).

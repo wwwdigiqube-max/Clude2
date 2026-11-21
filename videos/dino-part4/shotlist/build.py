@@ -47,7 +47,7 @@ f("Out here, the night is what kills you. The cold drops, the wind rises, and yo
 f("So before the light goes, you need a roof. Whatever you find. Wherever you are.", "کلوز برف روونِ روی یخ", "CROP←#dusk-wind")
 f("Rule six: be under a roof before dark.", "کارت RULE 6: BE UNDER A ROOF BEFORE DARK", "TEXT")
 # ===== 2 · The Ones Who Didn't Make It =====
-f("At midday, half a fish, thawed soft from riding under your jacket all morning. Half. That's the plan.", "در حال راه رفتن نصف ماهی رو از زیر کاپشن درمیاره و گاز می‌زنه", "NEW", f"{H3} · {ROAD}", J + " · L=grey noon", key="eat-walk")
+f("At midday, half a fish, cooked on last night's fire and kept soft under your jacket all morning. Half. That's the plan.", "در حال راه رفتن نصف ماهی رو از زیر کاپشن درمیاره و گاز می‌زنه", "NEW", f"{H3} · {ROAD}", J + " · L=grey noon", key="eat-walk")
 f("Then something dark lies across the ice ahead.", "واید: آدمک کوچیک روی یخ، جلوتر لاشه‌ی تیره‌ی نوک‌اردکی (مادر)", "NEW·M", f"{H3} · {DUCK}", J + " · L=grey noon", key="duck-wide")
 f("Near the tunnel, the hunters ate the dead until the dead ran out. Out here, only small things have been eating them, a little at a time.", "لاشه‌ی نوک‌اردکی، نصف استخون", "OLD a4:U4")
 f("A duck-billed dinosaur, as long as a bus. It died at the water's edge in the first weeks of the dark, and when the river froze, the ice closed around it. From the hips back, small things have picked it down to the bones.", "کلوز دنده‌ها و دم استخونی روی یخ", "CROP←a4:U4")
@@ -76,7 +76,7 @@ f("Pip and his mate crawl into your collar.", "کلوز موش‌ها که تو�
 f("The last grey light goes out. You made it. Just.", "لونه از بیرون، شب", "REUSE←a4:U1")
 f("Before you sleep, you count. Every night, from now on.", "لیست وضعیت روی صفحه: THE JOURNEY (ماهی ۱۳½ · لارو · قارچ · سوسک · آب · آتیش · پاها)", "TEXT")
 f("Fourteen fish when you left. Half a fish a day on the move, a whole one every second night. Tonight is a whole one.", "کلوز پسر کنار آتیش", "CROP←#den-fire")
-f("It's frozen as hard as wood. You thaw it on a stone hot from the fire, the way you cooked your first catch.", "کلوز: ماهی یخ‌زده روی سنگ صاف داغ توی آتیش کوچیک، لاک آب با یخ کنارش", "NEW", f"{SHELL}", "WS=by the fire · L=firelight", key="thaw")
+f("It's frozen as hard as wood. You thaw it on a stone hot from the fire, the way you cooked your first catch. Tomorrow's half cooks beside it.", "کلوز: ماهی یخ‌زده روی سنگ صاف داغ توی آتیش کوچیک، لاک آب با یخ کنارش", "NEW", f"{SHELL}", "WS=by the fire · L=firelight", key="thaw")
 f("River ice melts in the water shell beside it. River ice is cleaner than the ashy snow. And you never chew ice. It steals your heat.", "کلوز لاک آب و یخ در حال آب شدن", "CROP←#thaw")
 f("A fresh piece of fungus and a glowing coal go into the fire shell. Tomorrow's fire, packed.", "کلوز: دست‌ها زغال سرخ و قارچ رو توی لاک می‌ذارن، درِ گِلی", "NEW", f"{H3} · {SHELL} · {FUNG}", "A=wrapped · FS=in hands", key="refill")
 f("Then your boots come off. You rub your feet until they hurt. Hurting is good. Numb is bad.", "داخل لونه: پوتین‌ها کنارش، پاهاش رو مالش می‌ده", "NEW", f"{DEN_I} · {H3}", "H=bare feet, boots beside · K=in den · L=firelight from outside", key="feet")

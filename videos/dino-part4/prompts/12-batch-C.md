@@ -43,7 +43,7 @@ Place: the mouth of DEN_OUT. Dark; the small flame lights his face.
 His face, the flame and the two animals are each croppable. One person, two animals.
 
 FRAME p4-053 · NEW · references: SHELLS, DEN_OUT
-An extreme close-up insert, 50mm lens. A frozen grey fish, stiff as wood, lies on a flat stone pushed into the coals of the small fire; beside the fire stands the water shell (the open shell bowl from SHELLS) full of clear chunks of river ice starting to melt.
+An extreme close-up insert, 50mm lens. Two pieces of fish cook side by side on a flat stone pushed into the coals of the small fire: a whole grey fish, still frosted and stiff as wood, and a half fish for tomorrow, its skin already browning; beside the fire stands the water shell (the open shell bowl from SHELLS) full of clear chunks of river ice starting to melt.
 Place: the fire outside DEN_OUT. Warm firelight against blue night snow.
 The fish and the water shell are each croppable. No people.
 
