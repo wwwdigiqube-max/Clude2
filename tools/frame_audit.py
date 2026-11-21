@@ -27,14 +27,14 @@ for f in ("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", os.path.join(ROOT, 
 def font(n): return ImageFont.truetype(FONT, n) if FONT else ImageFont.load_default()
 
 # where reference tokens live (first match wins)
-SEARCH = ["uploads/dino-part3/assets", "uploads/dino-part2/assets", "uploads/dino-long/refs", "uploads/dino-long/shots",
+SEARCH = ["uploads/dino-part4/assets", "uploads/dino-part3/assets", "uploads/dino-part2/assets", "uploads/dino-long/refs", "uploads/dino-long/shots",
           "uploads/dino-long-en/assets", "uploads/dino-part2/frames", "uploads/dino-long-en/frames", "uploads/dino-part3/frames"]
 
 def find_ref(tok):
     tok = tok.strip()
-    m = re.match(r"(p2|p3|en):([\w-]+)", tok)
+    m = re.match(r"(p2|p3|p4|en):([\w-]+)", tok)
     if m:
-        d = {"p2": "uploads/dino-part2/frames/p2-", "p3": "uploads/dino-part3/frames/p3-", "en": "uploads/dino-long-en/frames/"}[m.group(1)]
+        d = {"p2": "uploads/dino-part2/frames/p2-", "p3": "uploads/dino-part3/frames/p3-", "p4": "uploads/dino-part4/frames/p4-", "en": "uploads/dino-long-en/frames/"}[m.group(1)]
         for ext in (".jpg", ".jpeg", ".png"):
             p = os.path.join(ROOT, d + m.group(2) + ext)
             if os.path.exists(p): return p
@@ -52,7 +52,7 @@ def ref_tokens(refs):
         part = part.strip()
         m = re.search(r"\(([^)]+)\)", part)
         t = m.group(1) if m else re.sub(r"^(@|a:|ref:\s*)", "", part).split(" ")[0]
-        t = t.replace("a:", "")
+        t = t.replace("a4:", "").replace("a:", "")
         if t and t not in toks: toks.append(t)
     return toks
 
