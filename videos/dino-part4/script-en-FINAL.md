@@ -44,8 +44,8 @@ So before the light goes, you need a roof. Whatever you find. Wherever you are.
 ## 2 · The Ones Who Didn't Make It
 At midday, half a fish, thawed soft from riding under your jacket all morning. Half. That's the plan.
 Then something dark lies across the ice ahead.
-Near the tunnel, the hunters ate the dead until the dead ran out. Out here, nothing was left to eat them.
-A duck-billed dinosaur, as long as a bus. It died at the water's edge in the first weeks of the dark, and when the river froze, the ice closed around it.
+Near the tunnel, the hunters ate the dead until the dead ran out. Out here, only small things have been eating them, a little at a time.
+A duck-billed dinosaur, as long as a bus. It died at the water's edge in the first weeks of the dark, and when the river froze, the ice closed around it. From the hips back, small things have picked it down to the bones.
 Your stomach says: meat. A whole mountain of it.
 But it died long before the ice came. Even in this cold, you can smell it. And out here, one fever is the end.
 Rule four says: eat what eats the dead. Not the dead.
@@ -56,7 +56,7 @@ Pip is right behind her. Nobody had to teach them rule four.
 You fill a cloth pouch with beetles, for later.
 
 In the afternoon, from the snow on the bank, a huge head looks down at you.
-Three horns. A bony frill. A Triceratops, frozen whole where it fell, frost in the corner of its eye.
+Three horns. A bony frill. A Triceratops, frozen where it fell, frost in the corner of its eye. The front half whole. The back half bare ribs and bone.
 You climb up and put your hand on the horn above its eye. It's taller than you.
 "Every big animal you see will die." You've known that since the first day.
 Knowing it is different from seeing it.
@@ -139,7 +139,7 @@ You don't breathe. You step back, one slow foot at a time, until the ice under y
 
 So you leave the river and go around the narrows, through the dead forest. Fallen trunks, ash up to your knees.
 And there, in a hollow between the trees, a whole herd of duck-billed dinosaurs. No wounds. They just lay down together, out of the wind, and never got up.
-Now they're long humps of grey snow. A tail here, a flat beak there, frozen hard.
+Now they're long humps of grey snow. A flat beak here, a frozen foot there. Where small things have been eating, the ribs show.
 You walk through them without speaking.
 
 Then something moves on one of the skulls.
@@ -179,7 +179,7 @@ Sixty-six million years later, a car stops at the end of a frozen dirt track, in
 Grey hills under old snow, cut into stripes by wind and rain. In one of those stripes, a thin pale line runs through the rock: the layer the asteroid left behind.
 The old woman walks ahead, the way she's walked these hills for forty years.
 "Wind and rain peel these hills back a little every year," she says. "Everything that was buried here comes back out, one storm at a time. That's how we find anything."
-Halfway up a low cliff, right on the pale stripe, she stops at a white post with a number on it. "The rex," she says. "Your dad found it. We dug until we hit a wall of stones, and stopped. The cliff came out further then. The rain has taken it back."
+At the foot of a low cliff, below the pale stripe, she stops at a white post with a number on it. "The rex," she says. "Your dad found it. We dug until we hit a wall of stones, and stopped. The cliff came out further then. The rain has taken it back."
 Fifty steps along the same pale stripe, a small square of earth with string around it. "The bone."
 Your mom isn't listening.
 She's standing back at the white post, looking up.
