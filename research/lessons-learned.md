@@ -140,3 +140,11 @@
 - **Close-up of hands produced a black silhouette face with a nose** at the frame edge. New rule: no silhouette face in hand close-ups.
 - **The book map was re-invented** (fantasy map with readable words) instead of copying Q7. For inserts of an existing asset, Edit the asset itself instead of generating new.
 - Mate came out **white without the chest drop** again when she was small; hands came out **white and bony** once. Both are in RULES; check them first in every audit.
+
+## Part 4 · batch B frame audit (lessons)
+- **EDIT of an attached asset inside an Agent batch fails**: the Agent painted a new place (green pines, open water) instead of editing U1. Asset edits now go in a separate "manual, no Agent" section of each batch file.
+- **Pip and mate became weasels** in a close-up on the carcass. Rule: tiny mouse-sized, round mouse bodies, round ears, thin pink tails; never weasel/ferret.
+- **Four arms and claw fingers** in a hands close-up (beetles). Rule: exactly two arms, simple black stick hands, no claws.
+- **Fire shell drawn as a metal kettle/clay jar; water shell as a rolled blanket.** Both now named and forbidden in RULES.
+- **Faces drift younger/rounder and angry** in big close-ups. Use a single-panel face crop of Q1 (`edit-refs/hero-front.jpg`) for face fixes.
+- Single-panel crops for edits live in `uploads/dino-part4/edit-refs/` (hero-front, hero-arm, pip-side, mate, fire-shell).

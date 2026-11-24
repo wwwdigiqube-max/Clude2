@@ -25,6 +25,8 @@ RULES FOR EVERY FRAME:
 - Every place on his journey is new and open: there is NO tunnel, NO stone door, NO stacked stones and NO huge tree with roots anywhere in his frames. Inside the snow den the roof is the flat underside of the grey rock shelf and packed snow, never roots.
 - The fire shell is always a brown turtle shell closed with a rounded lump of dried grey clay, tied with a cord, a thin orange glow at the clay edge. Never an orange ball, a canteen or a gourd. It smoulders; it has no tall flame.
 - In close-ups of his hands, never draw a dark silhouette face or a nose; if any part of his head is in frame, it is the round off-white head.
+- He has exactly two arms and two hands. Hands are simple solid black stick-figure hands with normal fingers, never claws, never long spidery fingers.
+- The fire shell is never a metal pot, kettle or clay jar. The water shell on top of his backpack is an empty turtle shell, never a rolled blanket.
 - EYES: every stick-figure person has only two kinds of eyes. Normally: small solid black ovals with no white, no iris and no pupil (lids and brows show the mood). Only in a moment of fear or shock: big round white eyes with one small black dot. Never realistic human eyes, never cartoon eyes with highlights.
 - Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.
 - Name each image exactly with its frame code: p4-104, p4-106, p4-108, p4-109, p4-110, p4-114, p4-116, p4-117, p4-139, p4-140.

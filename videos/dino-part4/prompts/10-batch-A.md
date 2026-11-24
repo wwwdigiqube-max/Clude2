@@ -28,12 +28,14 @@ RULES FOR EVERY FRAME:
 - Dark gritty animated survival story style for teens and adults, detailed digital painting, clean black outlines on the characters, realistic painterly background with depth, muted desaturated colours, dramatic cinematic lighting.
 - Strict stick-figure anatomy for every person: the only white part is the round off-white head; the body under the clothes is a thin solid black stick figure; arms, hands, legs and bare feet are thin solid black, never white or skin-coloured; the face has only eyes, eyebrows and a simple mouth, no nose and no ears.
 - Every character, animal, place and object must look exactly like its reference. Do not invent new characters.
-- Pip is golden-brown; his mate is smaller and ash-grey with a white drop on her chest. Never swap their colours.
+- Pip is golden-brown; his mate is smaller and ash-grey with a white drop on her chest. Never swap their colours. Both are TINY mouse-sized animals with round mouse bodies, round ears and thin pink tails, exactly like PIP; never long weasel or ferret bodies.
 - Whenever the young man appears, both forearms are wrapped exactly as in HERO3: dark charcoal crossed strips with tufts of fern fluff. Never bare, never a light bandage, never scars.
 - His headlamp is always switched off: its lens is dark.
 - Every place on his journey is new and open: there is NO tunnel, NO stone door, NO stacked stones and NO huge tree with roots anywhere in his frames. Inside the snow den the roof is the flat underside of the grey rock shelf and packed snow, never roots.
 - The fire shell is always a brown turtle shell closed with a rounded lump of dried grey clay, tied with a cord, a thin orange glow at the clay edge. Never an orange ball, a canteen or a gourd. It smoulders; it has no tall flame.
 - In close-ups of his hands, never draw a dark silhouette face or a nose; if any part of his head is in frame, it is the round off-white head.
+- He has exactly two arms and two hands. Hands are simple solid black stick-figure hands with normal fingers, never claws, never long spidery fingers.
+- The fire shell is never a metal pot, kettle or clay jar. The water shell on top of his backpack is an empty turtle shell, never a rolled blanket.
 - EYES: every stick-figure person has only two kinds of eyes. Normally: small solid black ovals with no white, no iris and no pupil (lids and brows show the mood). Only in a moment of fear or shock: big round white eyes with one small black dot. Never realistic human eyes, never cartoon eyes with highlights.
 - Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.
 - Name each image exactly with its frame code: p4-001, p4-002, p4-003, p4-010, p4-012, p4-013, p4-017, p4-021, p4-024, p4-060.

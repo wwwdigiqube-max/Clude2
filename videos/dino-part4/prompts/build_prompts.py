@@ -303,7 +303,9 @@ TITLE = {"A": "روز ۸۸: شب لونه و روز اول جاده", "B": "رو
          "E": "روز ۹۱: آتیش تقریباً می‌میره · روز ۹۴: پاشنه", "F": "روزهای ۹۷ تا ۱۰۱: رود پهن", "G": "روز ۱۰۴: دریا",
          "H": "زمان حال: اتاق پشتی، موزه، سفر شبانه", "I": "زمان حال: صخره‌ی بدلندز در زمستون"}
 for i, k in enumerate("ABCDEFGHI"):
-    frames = B[k]
+    allf = B[k]
+    manual = [(n, t) for n, t in allf if "EDIT of the attached image" in t]   # asset edits: done by hand, not in Agent
+    frames = [(n, t) for n, t in allf if (n, t) not in manual]
     used = [r for r in REFS if any(re.search(r"\b" + r + r"\b", t) for _, t in frames)]
     names = ", ".join(f"p4-{lab(n)}" for n, _ in frames)
     rules = [STYLE, ANAT,
@@ -317,9 +319,11 @@ for i, k in enumerate("ABCDEFGHI"):
                       "His headlamp is always switched off: its lens is dark.",
                       "Every place on his journey is new and open: there is NO tunnel, NO stone door, NO stacked stones and NO huge tree with roots anywhere in his frames. Inside the snow den the roof is the flat underside of the grey rock shelf and packed snow, never roots.",
                       "The fire shell is always a brown turtle shell closed with a rounded lump of dried grey clay, tied with a cord, a thin orange glow at the clay edge. Never an orange ball, a canteen or a gourd. It smoulders; it has no tall flame.",
-                      "In close-ups of his hands, never draw a dark silhouette face or a nose; if any part of his head is in frame, it is the round off-white head."]
+                      "In close-ups of his hands, never draw a dark silhouette face or a nose; if any part of his head is in frame, it is the round off-white head.",
+                      "He has exactly two arms and two hands. Hands are simple solid black stick-figure hands with normal fingers, never claws, never long spidery fingers.",
+                      "The fire shell is never a metal pot, kettle or clay jar. The water shell on top of his backpack is an empty turtle shell, never a rolled blanket."]
     if "MATE" in used or "PIP" in used:
-        rules.insert(3, "Pip is golden-brown; his mate is smaller and ash-grey with a white drop on her chest. Never swap their colours.")
+        rules.insert(3, "Pip is golden-brown; his mate is smaller and ash-grey with a white drop on her chest. Never swap their colours. Both are TINY mouse-sized animals with round mouse bodies, round ears and thin pink tails, exactly like PIP; never long weasel or ferret bodies.")
     if any(r in used for r in ("DUCK", "TRI", "HERD")):
         rules.insert(3, "Every dead dinosaur is half-skeletal exactly like its reference: the front half (head, neck, front legs) has frozen grey skin; from the hips back only old, dry, grey-brown bones. No blood, no red flesh, no gore.")
     if k in "HI":
@@ -335,5 +339,9 @@ for i, k in enumerate("ABCDEFGHI"):
     md = [f"# دسته‌ی {k} · {TITLE[k]} · {len(frames)} قاب\n", f"**قاب‌ها:** {names}  ", f"**پیوست (همه با هم، {len(files)} عکس):** {att}  ",
           "**Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.  ",
           "**آپلود:** https://github.com/wwwdigiqube-max/Clude2/upload/main/uploads/dino-part4/frames\n", "```", head + "\n" + body, "```", ""]
+    for n, t in manual:
+        ref = re.search(r"EDIT of the attached image (\w+)", t).group(1)
+        md += [f"## جدا، دستی (بدون Agent) · p4-{lab(n)} · Edit روی `{REFS[ref][1]}`", f"**پیوست:** فقط `{REFS[ref][1]}`", "```",
+               t.replace(f"FRAME p4-{lab(n)} · EDIT of the attached image {ref}\n", "Edit the attached image.\n") + "\nNo people. No lettering anywhere.", "```", ""]
     open(os.path.join(H, f"{10 + i:02d}-batch-{k}.md"), "w", encoding="utf-8").write("\n".join(md))
     print(k, len(frames), "frames,", len((head + body).split()), "words,", len(files), "files:", " ".join(files))

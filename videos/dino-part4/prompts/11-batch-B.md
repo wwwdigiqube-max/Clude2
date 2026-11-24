@@ -1,12 +1,12 @@
-# دسته‌ی B · روز ۸۸: لاشه‌ها، دویدن، تخته‌سنگ · 10 قاب
+# دسته‌ی B · روز ۸۸: لاشه‌ها، دویدن، تخته‌سنگ · 9 قاب
 
-**قاب‌ها:** p4-025, p4-028, p4-031, p4-034, p4-037, p4-040, p4-043, p4-044, p4-045, p4-046  
+**قاب‌ها:** p4-025, p4-028, p4-031, p4-034, p4-037, p4-040, p4-043, p4-045, p4-046  
 **پیوست (همه با هم، 7 عکس):** `Q1-hero-journey` (HERO3) · `R1-fandogh-sheet` (PIP) · `U2-den-inside` (MATE) · `U1-den-outside` (DEN_OUT) · `L1-road-east` (ROAD) · `U4-duckbill-ice` (DUCK) · `U3-triceratops` (TRI)  
 **Flow:** حالت **Agent** روشن، ۱۶:۹، بالاترین کیفیت. کل بلوک زیر را یک‌جا پیست کن.  
 **آپلود:** https://github.com/wwwdigiqube-max/Clude2/upload/main/uploads/dino-part4/frames
 
 ```
-You are making 10 still frames for a dark animated survival story, one image per frame, in the order below.
+You are making 9 still frames for a dark animated survival story, one image per frame, in the order below.
 
 ATTACHED REFERENCES (match them exactly):
 - HERO3 = the character sheet of the young man ready for the journey: dark crossed wraps on both forearms, a backpack with a turtle shell on top, a clay-sealed shell at the hip, a spear
@@ -28,15 +28,17 @@ RULES FOR EVERY FRAME:
 - Strict stick-figure anatomy for every person: the only white part is the round off-white head; the body under the clothes is a thin solid black stick figure; arms, hands, legs and bare feet are thin solid black, never white or skin-coloured; the face has only eyes, eyebrows and a simple mouth, no nose and no ears.
 - Every character, animal, place and object must look exactly like its reference. Do not invent new characters.
 - Every dead dinosaur is half-skeletal exactly like its reference: the front half (head, neck, front legs) has frozen grey skin; from the hips back only old, dry, grey-brown bones. No blood, no red flesh, no gore.
-- Pip is golden-brown; his mate is smaller and ash-grey with a white drop on her chest. Never swap their colours.
+- Pip is golden-brown; his mate is smaller and ash-grey with a white drop on her chest. Never swap their colours. Both are TINY mouse-sized animals with round mouse bodies, round ears and thin pink tails, exactly like PIP; never long weasel or ferret bodies.
 - Whenever the young man appears, both forearms are wrapped exactly as in HERO3: dark charcoal crossed strips with tufts of fern fluff. Never bare, never a light bandage, never scars.
 - His headlamp is always switched off: its lens is dark.
 - Every place on his journey is new and open: there is NO tunnel, NO stone door, NO stacked stones and NO huge tree with roots anywhere in his frames. Inside the snow den the roof is the flat underside of the grey rock shelf and packed snow, never roots.
 - The fire shell is always a brown turtle shell closed with a rounded lump of dried grey clay, tied with a cord, a thin orange glow at the clay edge. Never an orange ball, a canteen or a gourd. It smoulders; it has no tall flame.
 - In close-ups of his hands, never draw a dark silhouette face or a nose; if any part of his head is in frame, it is the round off-white head.
+- He has exactly two arms and two hands. Hands are simple solid black stick-figure hands with normal fingers, never claws, never long spidery fingers.
+- The fire shell is never a metal pot, kettle or clay jar. The water shell on top of his backpack is an empty turtle shell, never a rolled blanket.
 - EYES: every stick-figure person has only two kinds of eyes. Normally: small solid black ovals with no white, no iris and no pupil (lids and brows show the mood). Only in a moment of fear or shock: big round white eyes with one small black dot. Never realistic human eyes, never cartoon eyes with highlights.
 - Wide 16:9, highest quality. No lettering, numbers, captions, logos or watermarks in any image.
-- Name each image exactly with its frame code: p4-025, p4-028, p4-031, p4-034, p4-037, p4-040, p4-043, p4-044, p4-045, p4-046.
+- Name each image exactly with its frame code: p4-025, p4-028, p4-031, p4-034, p4-037, p4-040, p4-043, p4-045, p4-046.
 - An EDIT frame changes only what it says, starting from the image it names.
 
 FRAME p4-025 · NEW · references: HERO3, DUCK
@@ -74,10 +76,6 @@ A medium action shot at ice level, 35mm lens. He runs along the frozen river, sl
 Place: the river from ROAD. Cold blue dusk, hard wind.
 One person, motion and urgency.
 
-FRAME p4-044 · EDIT of the attached image DEN_OUT
-Change only this: there is NO den yet: the snowdrift behind the rock shelf is smooth and untouched, no den mouth, no air hole, no fire, no stone, no branches, no footprints. Dusk is a little darker
-Keep exactly the same: the rock shelf, the bank, the river, the forest, the camera angle, framing and style. Everything else is 100% identical.
-
 FRAME p4-045 · NEW · references: HERO3, DEN_OUT
 A medium shot from the side, 35mm lens, highest resolution. Kneeling at the side of the deep snowdrift right under the rock shelf (DEN_OUT), he digs into the snow with both black hands and the spear, throwing snow behind him; a dark half-dug hole. No fire yet. Full gear as in HERO3: backpack with the water shell on top, the clay-lidded fire shell at his hip, the spear.
 Place: DEN_OUT, before the den exists. Dusk.
@@ -87,4 +85,13 @@ FRAME p4-046 · NEW · references: HERO3, DEN_OUT
 A wide shot, 35mm lens. He drags a bundle of dead black branches down the bank from the burnt forest above toward the rock shelf and the fresh den mouth (DEN_OUT). Full gear as in HERO3: backpack with the water shell on top, the clay-lidded fire shell at his hip, the spear.
 Place: DEN_OUT. The last grey minutes of light.
 One person.
+```
+
+## جدا، دستی (بدون Agent) · p4-044 · Edit روی `U1-den-outside`
+**پیوست:** فقط `U1-den-outside`
+```
+Edit the attached image.
+Change only this: there is NO den yet: the snowdrift behind the rock shelf is smooth and untouched, no den mouth, no air hole, no fire, no stone, no branches, no footprints. Dusk is a little darker
+Keep exactly the same: the rock shelf, the bank, the river, the forest, the camera angle, framing and style. Everything else is 100% identical.
+No people. No lettering anywhere.
 ```
